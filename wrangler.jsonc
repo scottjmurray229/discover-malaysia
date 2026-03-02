@@ -1,0 +1,23 @@
+{
+	"main": "dist/_worker.js/index.js",
+	"name": "discover-malaysia",
+  "compatibility_date": "2026-02-04",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./dist"
+	},
+	"observability": {
+    "enabled": true
+  },
+"d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "discover-malaysia-db",
+      "database_id": "PLACEHOLDER"
+    }
+  ]
+}

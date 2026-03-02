@@ -1,0 +1,403 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import scottImg from '../../images/scott-murray.jpg';
+---
+
+<BaseLayout
+  title="About — Scott Murray | Discover Malaysia"
+  description="Scott Murray — travel writer and the brain behind Discover Malaysia. Healthcare IT professional by day, Malaysia travel obsessive by every other waking moment. Based in San Diego, CA."
+>
+
+<!-- HERO -->
+<section class="about-hero">
+  <div class="about-hero-gradient-overlay"></div>
+  <div class="hero-grid"></div>
+  <div class="about-hero-inner">
+    <div class="hero-eyebrow">About Discover Malaysia</div>
+    <h1>One American's Obsession With <em>Malaysia</em></h1>
+    <p class="hero-intro">I'm Scott — a healthcare IT professional from San Diego who got deeply into Malaysia travel the way most people get into something: one good trip that showed me how much more there was to see. The food in George Town was the entry point. The Kinabatangan River at dawn was the hook. Mulu's bat exodus at dusk was the thing I couldn't explain to people until I'd built a site around explaining it.</p>
+    <div class="hero-line"></div>
+  </div>
+</section>
+
+<!-- PERSONAL LETTER -->
+<section class="letter-section reveal">
+  <div class="letter-block">
+    <div class="letter-attr">Scott <span class="attr-role">· American · San Diego, CA · Travel Writer</span></div>
+    <p class="letter-text">Travel has always been my escape from the rat race — and honestly, I enjoy the <strong>planning</strong> almost as much as being there. Researching destinations, mapping routes, finding that one hawker stall that justifies an entire trip. Malaysia caught me off guard with how much it has going on simultaneously — world-class food culture in Penang and Ipoh, colonial heritage in George Town and Malacca, the best accessible wildlife in Southeast Asia in Borneo, caves that reset your sense of scale at Mulu, dive sites that rival Thailand at a fraction of the cost.<br><br>I've traveled from KL and Penang through the Cameron Highlands and down to Malacca, then into Sabah and Sarawak — the Kinabatangan River, Sepilok, Bako National Park, and eventually Mulu. Every price on this site is what I actually paid. Every restaurant recommendation is somewhere I sat down and ate. Every hotel comparison reflects what I found when I was booking with real money.<br><br><strong>I'm not a travel blogger.</strong> I work in healthcare IT. But Malaysia kept pulling me back, and I eventually built the resource I wished had existed when I started &mdash; honest prices in MYR and USD, transport logistics that actually work, and an AI trip planner trained on real Malaysia knowledge rather than recycled content. This is the site I wanted in 2003. It just took 20 years and a lot of char kway teow to figure out how to build it.</p>
+  </div>
+</section>
+
+<!-- STATS SECTION -->
+<section class="stats-section">
+  <div class="stats-inner">
+    <div class="stat-card reveal">
+      <div class="stat-num">15</div>
+      <div class="stat-label">Malaysia destinations covered</div>
+    </div>
+    <div class="stat-card reveal">
+      <div class="stat-num">2</div>
+      <div class="stat-label">Borneo states (Sabah + Sarawak)</div>
+    </div>
+    <div class="stat-card reveal">
+      <div class="stat-num">40+</div>
+      <div class="stat-label">Countries traveled</div>
+    </div>
+    <div class="stat-card reveal">
+      <div class="stat-num">0</div>
+      <div class="stat-label">Sponsored posts, ever</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILE CARD -->
+<section class="profile-section">
+  <div class="profile-inner">
+    <div class="profile-card reveal">
+      <div class="profile-banner scott"><div class="profile-banner-bg"></div></div>
+      <Image src={scottImg} alt="Scott Murray" class="profile-avatar" width={96} height={96} format="webp" loading="lazy" />
+      <div class="profile-body">
+        <div class="profile-name">Scott Murray</div>
+        <div class="profile-role">Founder · Writer · Videographer</div>
+        <p class="profile-bio">Healthcare IT professional by day, Malaysia travel obsessive by every other waking moment. Based in San Diego, CA. Got hooked on Malaysia's food-heritage-wildlife combination and built the guide I wished existed. 40+ countries traveled but Malaysia occupies a disproportionate amount of mental space.</p>
+        <div class="profile-stats">
+          <div class="profile-stat"><div class="profile-stat-num">15</div><div class="profile-stat-label">Destinations</div></div>
+          <div class="profile-stat"><div class="profile-stat-num">Both</div><div class="profile-stat-label">Coasts covered</div></div>
+          <div class="profile-stat"><div class="profile-stat-num">40+</div><div class="profile-stat-label">Countries</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR PROMISE -->
+<section class="promise-section">
+  <div class="promise-inner">
+    <div class="section-eyebrow">Our Promise</div>
+    <h2 class="section-title">What You'll Never Find Here</h2>
+    <p class="promise-text">I built this site because I got tired of Malaysia travel content that's secretly a press trip recap or a sponsored hotel review dressed up as honest advice. Discover Malaysia exists because I wanted the resource I wished I had when I was planning my first serious Malaysia trip — real local knowledge, honest prices, and content from someone who's actually been there.</p>
+    <div class="zero-grid">
+      <div class="zero-card reveal"><div class="zero-num coral">0</div><div class="zero-label">Sponsored posts<br><em>ever</em></div></div>
+      <div class="zero-card reveal"><div class="zero-num teal">0</div><div class="zero-label">Press trips or<br>free hotel stays</div></div>
+      <div class="zero-card reveal"><div class="zero-num gold">15</div><div class="zero-label">Malaysia destinations<br>personally visited</div></div>
+      <div class="zero-card reveal"><div class="zero-num white-num">100%</div><div class="zero-label">Real prices in<br>MYR & USD</div></div>
+    </div>
+    <div class="promise-quote">If I recommend it, I've been there. If I list a price, I've paid it. If I tell you to skip something, I've wasted my own money there first.</div>
+  </div>
+</section>
+
+<!-- WHAT WE'RE BUILDING -->
+<section class="vision-section">
+  <div class="vision-inner">
+    <div class="vision-content">
+      <div class="section-eyebrow">What We're Building</div>
+      <h2 class="section-title">More Than a Travel Blog</h2>
+      <p class="vision-text">Discover Malaysia isn't a collection of "Top 10" listicles. It's a living resource built on real experience and technology that actually helps you plan a better trip.</p>
+      <ul class="vision-list">
+        <li><span class="v-icon">🎥</span> Video guides for select destinations — see the caves, jungle, and hawker centres before you book</li>
+        <li><span class="v-icon">🤖</span> An AI trip planner that builds custom itineraries with real prices, not hallucinated estimates</li>
+        <li><span class="v-icon">💰</span> Every price listed in both MYR and USD, updated regularly based on what I actually pay</li>
+        <li><span class="v-icon">🗺️</span> Coverage of all 15 destinations from KL to Mulu — west coast and east coast, peninsula and Borneo</li>
+      </ul>
+      <div class="btn-row">
+        <a href="/plan/" class="btn-primary">✦ Try the AI Trip Planner</a>
+        <a href="/destinations/" class="btn-outline">Browse All Destinations</a>
+      </div>
+    </div>
+    <div class="vision-features">
+      <a href="/destinations/" class="v-feature reveal"><div class="v-feature-icon">🏝️</div><div class="v-feature-title">Destination Guides</div><div class="v-feature-desc">Deep dives into 15 Malaysia destinations — from KL street food to Mulu caves and the Kinabatangan wildlife corridor.</div></a>
+      <div class="v-feature reveal"><div class="v-feature-icon">📹</div><div class="v-feature-title">Video Content</div><div class="v-feature-desc">Real footage from Malaysia's destinations — hawker centres, jungle trails, and the bat exodus at Deer Cave.</div></div>
+      <a href="/plan/" class="v-feature reveal"><div class="v-feature-icon">🗺️</div><div class="v-feature-title">AI Trip Planner</div><div class="v-feature-desc">Describe your ideal Malaysia trip and get a day-by-day itinerary built on real knowledge of the country.</div></a>
+      <div class="v-feature reveal"><div class="v-feature-icon">📧</div><div class="v-feature-title">Free Guides</div><div class="v-feature-desc">Downloadable PDF guides for every destination and pillar topic — take them offline for your trip.</div></div>
+    </div>
+  </div>
+</section>
+
+</BaseLayout>
+
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const ro = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  .about-hero {
+    padding: 160px 24px 100px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: linear-gradient(165deg, #0D2818 0%, #1B4332 30%, #2D6A4F 55%, #1B4332 75%, #0D2818 100%);
+  }
+  .about-hero-gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+    z-index: 0;
+  }
+  .hero-grid {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .about-hero-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  .hero-eyebrow {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #D4AC0D;
+    margin-bottom: 24px;
+    opacity: 0;
+    animation: heroUp 1s cubic-bezier(0.16,1,0.3,1) forwards 0.2s;
+  }
+  .about-hero h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(2.2rem, 5.5vw, 3.8rem);
+    color: white;
+    line-height: 1.1;
+    margin-bottom: 28px;
+    opacity: 0;
+    animation: heroUp 1s cubic-bezier(0.16,1,0.3,1) forwards 0.4s;
+  }
+  .about-hero h1 em { color: #D4AC0D; font-style: italic; }
+  .hero-intro {
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.85;
+    font-weight: 300;
+    max-width: 620px;
+    margin: 0 auto;
+    opacity: 0;
+    animation: heroUp 1s cubic-bezier(0.16,1,0.3,1) forwards 0.6s;
+  }
+  .hero-line {
+    width: 1px;
+    height: 56px;
+    margin: 48px auto 0;
+    background: linear-gradient(to bottom, rgba(212,172,13,0.5), transparent);
+    opacity: 0;
+    animation: heroUp 1s cubic-bezier(0.16,1,0.3,1) forwards 0.9s;
+  }
+  @keyframes heroUp {
+    from { opacity: 0; transform: translateY(28px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .letter-section {
+    padding: 80px 24px 64px;
+    max-width: var(--content-lg);
+    margin: 0 auto;
+  }
+  .letter-block {
+    position: relative;
+    padding-left: 32px;
+    border-left: 2px solid #EBE4D8;
+    margin-bottom: 52px;
+    transition: border-color 0.5s ease;
+  }
+  .letter-block:hover { border-left-color: #1B4332; }
+  .letter-block:last-child { margin-bottom: 0; }
+  .letter-attr {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #1B4332;
+    margin-bottom: 14px;
+  }
+  .letter-attr .attr-role { color: #718096; font-weight: 400; letter-spacing: 0.05em; }
+  .letter-text {
+    font-size: 1.02rem;
+    line-height: 2;
+    color: var(--color-deep-night);
+    font-weight: 300;
+  }
+  .letter-text strong { font-weight: 600; }
+
+  .stats-section {
+    padding: 60px 24px;
+    background: #F5F0E8;
+  }
+  .stats-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .stat-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border: 1px solid #EBE4D8;
+  }
+  .stat-num {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    color: #1B4332;
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 0.78rem;
+    color: #718096;
+    line-height: 1.4;
+  }
+
+  .profile-section {
+    padding: 80px 24px;
+    background: white;
+  }
+  .profile-inner {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .profile-card {
+    background: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(26,35,50,0.08);
+    border: 1px solid #EBE4D8;
+  }
+  .profile-banner { height: 200px; position: relative; overflow: hidden; }
+  .profile-banner-bg { position: absolute; inset: 0; transition: transform 0.8s ease; }
+  .profile-card:hover .profile-banner-bg { transform: scale(1.08); }
+  .profile-banner.scott {
+    background: linear-gradient(135deg, #0D2818 0%, #1B4332 40%, #2D6A4F 70%, #40916C 100%);
+  }
+  .profile-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: -48px auto 0;
+    position: relative;
+    z-index: 2;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    display: block;
+  }
+  .profile-body { padding: 20px 32px 32px; text-align: center; }
+  .profile-name { font-family: var(--font-serif); font-size: 1.5rem; color: var(--color-deep-night); margin-bottom: 4px; }
+  .profile-role { font-size: 0.76rem; color: #718096; font-weight: 400; margin-bottom: 20px; }
+  .profile-bio { font-size: 0.86rem; color: var(--color-slate); line-height: 1.85; font-weight: 300; text-align: left; margin-bottom: 24px; }
+  .profile-stats { display: flex; justify-content: center; gap: 32px; padding-top: 20px; border-top: 1px solid #F5F0E8; }
+  .profile-stat { text-align: center; }
+  .profile-stat-num { font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-deep-night); }
+  .profile-stat-label { font-size: 0.63rem; color: #718096; font-weight: 400; margin-top: 2px; }
+
+  .section-eyebrow {
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1B4332;
+    margin-bottom: 12px;
+  }
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    color: var(--color-deep-night);
+    line-height: 1.15;
+  }
+
+  .promise-section {
+    padding: 100px 24px;
+    background: var(--color-deep-night);
+    position: relative;
+    overflow: hidden;
+  }
+  .promise-inner {
+    max-width: var(--content-lg);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .promise-inner .section-eyebrow { color: #D4AC0D; }
+  .promise-inner .section-title { color: white; margin-bottom: 32px; }
+  .promise-text { font-size: 1.02rem; color: rgba(255,255,255,0.65); line-height: 1.95; font-weight: 300; margin-bottom: 56px; }
+  .zero-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 56px; }
+  .zero-card {
+    background: rgba(255,255,255,0.035);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 28px 16px;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+  }
+  .zero-card:hover { background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.12); transform: translateY(-5px); }
+  .zero-num { font-family: var(--font-serif); font-size: 2.8rem; line-height: 1; margin-bottom: 8px; }
+  .zero-num.coral { color: #E8654A; }
+  .zero-num.teal { color: #40916C; }
+  .zero-num.gold { color: #D4AC0D; }
+  .zero-num.white-num { color: white; }
+  .zero-label { font-size: 0.76rem; color: rgba(255,255,255,0.45); line-height: 1.5; font-weight: 300; }
+  .promise-quote {
+    font-family: var(--font-serif);
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+    font-style: italic;
+    color: rgba(255,255,255,0.82);
+    line-height: 1.55;
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .vision-section { padding: 100px 24px; background: white; }
+  .vision-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+  .vision-content .section-eyebrow { text-align: left; }
+  .vision-content .section-title { text-align: left; margin-bottom: 20px; }
+  .vision-text { font-size: 0.93rem; color: var(--color-slate); line-height: 1.9; font-weight: 300; margin-bottom: 24px; }
+  .vision-list { list-style: none; display: flex; flex-direction: column; gap: 14px; margin-bottom: 32px; }
+  .vision-list li { display: flex; align-items: flex-start; gap: 12px; font-size: 0.88rem; color: var(--color-slate); font-weight: 400; line-height: 1.65; }
+  .vision-list li .v-icon { flex-shrink: 0; margin-top: 2px; font-size: 1rem; }
+  .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1B4332; color: white; padding: 14px 32px; border-radius: 9999px; font-weight: 600; font-size: 0.93rem; text-decoration: none; transition: all 0.4s cubic-bezier(0.4,0,0.2,1); }
+  .btn-primary:hover { background: #0D2818; transform: translateY(-2px); box-shadow: 0 8px 32px rgba(27,67,50,0.25); }
+  .btn-outline { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: #1B4332; padding: 14px 32px; border-radius: 9999px; font-weight: 600; font-size: 0.93rem; text-decoration: none; transition: all 0.4s cubic-bezier(0.4,0,0.2,1); border: 2px solid #1B4332; }
+  .btn-outline:hover { background: #1B4332; color: white; transform: translateY(-2px); }
+  .btn-row { display: flex; gap: 16px; flex-wrap: wrap; }
+  .vision-features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .v-feature { background: #F5F0E8; border-radius: 16px; padding: 24px; transition: all 0.4s cubic-bezier(0.4,0,0.2,1); border: 1px solid transparent; text-decoration: none; color: inherit; display: block; }
+  .v-feature:hover { transform: translateY(-4px); box-shadow: 0 4px 24px rgba(26,35,50,0.08); border-color: #EBE4D8; }
+  .v-feature-icon { font-size: 1.5rem; margin-bottom: 10px; }
+  .v-feature-title { font-family: var(--font-serif); font-size: 1rem; color: var(--color-deep-night); margin-bottom: 6px; }
+  .v-feature-desc { font-size: 0.76rem; color: var(--color-slate); line-height: 1.65; font-weight: 300; }
+
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.8s cubic-bezier(0.16,1,0.3,1), transform 0.8s cubic-bezier(0.16,1,0.3,1); }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  @media (max-width: 900px) {
+    .stats-inner { grid-template-columns: repeat(2, 1fr); }
+    .vision-inner { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 768px) {
+    .zero-grid { grid-template-columns: 1fr 1fr; }
+    .btn-row { justify-content: center; }
+    .vision-features { grid-template-columns: 1fr; }
+    .about-hero { padding: 130px 24px 80px; }
+  }
+</style>

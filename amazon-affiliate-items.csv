@@ -1,0 +1,145 @@
+#,Category,Item Name,Amazon Link,Thailand,Cambodia,Laos,Vietnam,Japan,Baja,San Diego,California,Hawaii,Alaska,Utah,Colorado,Arizona,Nevada,Midwest,Texas,Florida,New England,New York,Colombia,Brazil,DR,Puerto Rico,Amsterdam,Greece,Italy,Eastern Europe,Germany
+1,Surfing,"Surf changing poncho / robe",,,,,,,x,x,x,x,,,,,,,,,,,,x,,x,,,,,
+2,Surfing,"Surf ear plugs (SurfEars)",,,,,,,,,x,x,,,,,,,,,,,,,,x,,,,,
+3,Surfing,"Wetsuit 3/2mm (cold water)",,,,,,,,,x,,x,x,,,,,,,x,,,,,,,,,,
+4,Surfing,"Zinc oxide face sunscreen stick",,,,,,,x,x,x,x,,x,x,,,,,,,,,,,,,,,,
+5,Surfing,"Surf wax",,,,,,,x,x,x,x,,,,,,,,,,,,,,x,,,,,
+6,Diving,"Dive computer watch (Suunto/Garmin)",,x,,,,,,,,x,,,,,,,,x,,,,,x,,,x,,,
+7,Diving,"Dive torch / underwater light",,,,,,,,,,x,,,,,,,,x,,,,,,,,,,,
+8,Diving,"Mesh dive gear bag",,x,,,,,,,,x,,,,,,,,x,,,,,x,,,x,,,
+9,Diving,"GoPro dome port (half-water shots)",,,,x,,,,,,x,,,,,,,,x,,,,x,x,,,,,,
+10,Diving,"Mask defog spray",,x,,,,,,,,x,,,,,,,,x,,,,,x,x,,x,,,
+11,Kayaking,"Paddle gloves (neoprene)",,,,,,,,,,,x,,,,,x,,,,,,,,,,,,,
+12,Kayaking,"Dry bag phone lanyard",,,,,,,,,,x,x,,,,,,,x,,,,,,x,,,,,
+13,Kayaking,"Inflatable travel SUP",,,,,,,,x,,x,,,,,,,,x,,,,,,,,,,,
+14,Fishing,"Compact travel fishing rod (telescopic)",,,,,,,x,,,,x,,x,,,x,x,x,,,,,,,,,,,
+15,Fishing,"Small tackle travel organizer",,,,,,,x,,,,x,,,,,,,,,,,,,,,,,,
+16,Fishing,"Fishing sun gloves (fingerless UPF)",,,,,,,x,,,,x,,,,,,,,,,,,,,,,,,
+17,Skiing,"Ski socks (Smartwool PhD)",,,,,,x,,,x,,,x,x,,,,,,x,,,,,,,,x,,x
+18,Skiing,"Ski goggles",,,,,,x,,,x,,,x,x,,,,,,x,,,,,,,,x,,x
+19,Skiing,"Balaclava / ski mask",,,,,,x,,,,,,,x,,,,,,x,,,,,,,,,,
+20,Skiing,"Ski gloves (waterproof insulated)",,,,,,,,,,,,,x,,,,,,x,,,,,,,,,,
+21,Skiing,"Helmet liner (thin beanie)",,,,,,x,,,x,,,x,x,,,,,,x,,,,,,,,x,,x
+22,Skiing,"Ski / snowboard lock",,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,
+23,Skiing,"Wrist guards (snowboarding)",,,,,,,,,,,,,x,,,,,,,,,,,,,,,,
+24,Skiing,"Boot dryer (portable USB)",,,,,,,,,,,,,x,,,,,,,,,,,,,,,,
+25,Winter,"Snowshoes (MSR or similar)",,,,,,,,,,,x,,,,,,,,,,,,,,,,,,
+26,Winter,"Microspikes / ice cleats",,,,,,,,,,,x,,x,,,,,,x,,,,,,,,,,
+27,Winter,"Gaiters (snow/mud)",,,,,,,,,,,x,,,,,,,,,,,,,,,,,,
+28,Cycling,"Padded cycling shorts",,,x,,,,,,,,,,,,,,,,x,,,,,,x,,x,,x
+29,Cycling,"Bike phone mount",,,,,,,,,,,,,,,,,,,,,,,,,x,,,,x
+30,Cycling,"Compact bike lock (folding)",,,,,,,,,,,,,,,,,,,,,,,,,x,,,,x
+31,Cycling,"Rear bike light (USB rechargeable)",,,,,,,,,,,,,,,,,,,,,,,,,x,,,,
+32,Cycling,"Cycling sunglasses (interchangeable lens)",,,,,,,,,,,,,,,,,,,x,,,,,,x,,x,,x
+33,Mountain Biking,"Mountain biking gloves (full finger)",,,,,,,,,x,,,x,x,x,,,,,,,,,,,,,,,
+34,Mountain Biking,"Knee pads (MTB-specific)",,,,,,,,,x,,,x,x,x,,,,,,,,,,,,,,,
+35,Mountain Biking,"Hydration pack (Camelbak)",,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,
+36,Camping,"Travel hammock (with straps)",,,,x,,,x,,,,,,,,,x,x,,,,x,,,,,,,,
+37,Camping,"Solar / rechargeable lantern",,,,,,,x,,,,x,,,,,,,,,,,,,,,,,,
+38,Camping,"Compact camp stove (Jetboil/MSR)",,,,,,,,,,,x,,,,,x,,,,,,,,,,,,,
+39,Camping,"Sleeping bag liner (silk/fleece)",,,,,,,,,,,,,,,,,,,,,x,,,,,,,x,
+40,Camping,"Multi-tool (Leatherman)",,,,,,,x,,x,,x,x,x,,,,,,,,,,,,,,,,
+41,Camping,"Fire starter cubes (waterproof)",,,,,,,x,,,,x,x,x,,,,,,,,,,,,,,,,
+42,Camping,"Compact folding camp chair",,,,,,,x,,x,,x,x,x,x,x,x,x,,,,,,,,,,,,
+43,Camping,"Packable camp pillow",,,,,,,,,,,x,x,x,,,,,,,,,,,,,,,,
+44,Rock Climbing,"Climbing shoes (travel pair)",,x,,,,,,,x,,,x,,,,,,,,,,,,,,,,,
+45,Rock Climbing,"Chalk bag + chalk ball",,,,,,,,,x,,,x,,,,,,,,,,,,,,,,,
+46,Canyoneering,"Canyoneering gloves",,,,,,,,,,,,x,,,,,,,,,,,x,,,,x,,
+47,Canyoneering,"Climbing helmet (lightweight)",,,,,,,,,,,,x,,,,,,,,,,,,,,,x,,
+48,Road Trips,"Car phone mount (dashboard/vent)",,,,,,,x,,x,,,x,,x,x,x,x,,x,,,,,,,,,,
+49,Road Trips,"Car charger (dual USB-C fast charge)",,,,,,,x,,x,,,x,,x,x,x,x,,x,,,,,,,,,,
+50,Road Trips,"Collapsible cooler bag",,,,,,,x,x,x,,,,,,,x,x,x,,,,,,,,,,,
+51,Road Trips,"Lumbar support cushion",,,,,,,x,,x,,,,,x,,,x,,x,,,,,,,,,,
+52,Road Trips,"Dash cam",,,,,x,,x,,x,,,,,x,,,,,,,,,,,,,,,
+53,Road Trips,"Windshield sun shade",,,,,,,x,,,,x,x,,x,x,,x,x,,,,,,,,,,,
+54,Road Trips,"Roadside emergency kit",,,,,,,x,,,,,x,,x,x,,x,,,,,,,,,,,,
+55,Wildlife,"Compact binoculars (10x42)",,,,,,,x,,x,x,x,,x,,,x,x,x,x,,x,,x,,,,,,
+56,Wildlife,"Bear spray (with holster)",,,,,,,,,x,,x,,x,,,,,,,,,,,,,,,,
+57,Wildlife,"Bug head net (mosquito mesh)",,,,,,,,,,,x,,,,,x,,x,,,x,x,,,,,,,
+58,Wildlife,"Bird field guide (regional book)",,,,,,,,,,,x,,,,,,x,x,,,x,,,,,,,,
+59,Photography,"GoPro Hero (action camera)",,x,,x,x,,x,x,,x,x,,x,,,,x,x,,,x,x,x,x,,x,,,
+60,Photography,"Compact travel tripod",,,,,,x,,,x,,,x,,x,x,,,,x,x,,,,,x,x,x,x,x
+61,Photography,"Drone (DJI Mini under 250g)",,,,,,,,,x,x,,x,,x,x,,,,,,,,,,,x,x,,
+62,Photography,"Phone lens kit (wide angle + macro)",,,,,x,,,,,,,,,,,,,,,x,,,,,,,x,,
+63,Photography,"Camera rain cover",,,,,x,,,,,,x,,,,,,,,x,,x,,,,,,,,
+64,Photography,"ND filter set (waterfalls/long exposure)",,,,,,,,,,,,x,,x,,,,,,,,,,,,,,,
+65,Photography,"Memory card case",,,,,,x,,,,,x,x,,x,,,,,,,,,,,,x,x,,
+66,Stargazing,"Red LED headlamp (night vision)",,,,,,,,,x,x,x,x,x,x,x,,,,,,,,,,,,,,
+67,Stargazing,"Stargazing phone mount",,,,,,,,,,x,,x,,x,,,,,,,,,,,,,,,
+68,Beach,"Sand-free beach towel",,x,x,,,,x,x,,x,,,,,,,x,x,,,,x,x,x,,x,,,
+69,Beach,"Pop-up beach sun shade / tent",,,,,,,,x,,x,,,,,,,,x,,,,,x,,,,,,
+70,Beach,"Waterproof Bluetooth speaker",,,,,,,x,x,,,,,,,x,,x,x,,,,x,x,x,,x,,,
+71,Beach,"Beach bag (mesh / sand drains)",,,,,,,x,x,,x,,,,,,,,x,,,,,x,x,,x,,,
+72,Beach,"Floating waterproof phone case",,,,x,,,,,,,,,,,,,x,x,,,,x,x,,,,,,
+73,Cultural,"Lightweight scarf / sarong (multi-use)",,x,x,x,x,,,,,,,,,,,,,,,,,,,,,,,,
+74,Cultural,"Travel slippers / indoor shoes",,,,,,x,,,,,,,,,,,,,,,,,,,,,,,
+75,Cultural,"Travel chopsticks / utensil set",,x,,x,x,x,,,,,,,,,,,,,,,,,,,,,,,
+76,Cultural,"Coin purse (cash-heavy countries)",,,,,,x,,,,,,,,,,,,,,,,,,,,,,,
+77,Urban,"Comfortable walking shoes (urban)",,,x,,,x,,x,,,,,,,x,x,,x,x,x,x,x,,x,x,x,x,x,x
+78,Urban,"Anti-theft crossbody bag (slash-proof)",,x,,,x,,,,,,,,,,,,,,,x,x,x,,,x,x,x,x,
+79,Urban,"RFID-blocking wallet / passport holder",,,,,,,,,,,,,,,,,,,,x,x,x,,,x,x,x,x,
+80,Urban,"Portable power bank (20000mAh)",,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+81,Urban,"Compact travel umbrella",,,,,x,x,,,,,,,,,,x,,,x,x,x,,,,x,,x,x,x
+82,Urban,"Noise-canceling headphones",,,,,,x,,,,,,,,,,x,,,,x,,,,,x,,,x,x
+83,Cold Weather,"Merino wool base layer top",,,,,,x,,,,,x,,x,,,,,,x,,,,,,,,,x,x
+84,Cold Weather,"Merino wool base layer bottoms",,,,,,,,,,,x,,x,,,,,,x,,,,,,,,,,
+85,Cold Weather,"Packable down jacket",,,,,x,x,,,x,,x,,x,,,x,,,x,x,x,,,,,,x,x,x
+86,Cold Weather,"Fleece quarter-zip mid-layer",,,,,,,,,,,x,,x,,,,,,x,,,,,,,,,x,x
+87,Cold Weather,"Waterproof hardshell jacket",,,,,,,,,,,x,,x,,,,,,x,,,,,,x,,,x,
+88,Cold Weather,"Touchscreen thermal gloves",,,,,,x,,,,,x,,x,,,,,,x,x,,,,,,,,x,x
+89,Cold Weather,"Wool beanie",,,,,,x,,,,,x,,x,,,,,,x,x,,,,,,,,x,x
+90,Cold Weather,"Neck gaiter / buff",,,x,,x,,,,,,x,,x,,,,,,,,,,,,,,,,
+91,Cold Weather,"Hand/toe warmers (HotHands)",,,,,,x,,,,,x,,x,,,,,,x,,,,,,,,,x,x
+92,Hiking,"Waterproof hiking boots",,,,,x,x,,,x,x,x,x,x,x,,,,,x,,x,,x,x,,x,x,x,x
+93,Hiking,"Collapsible trekking poles",,,,,,x,,,x,,x,x,x,x,,,,,x,,x,,,,,,x,x,x
+94,Hiking,"Hiking daypack (20-30L)",,,,,x,,,,x,x,x,x,x,x,,,x,,x,,x,,x,,,x,x,x,x
+95,Hiking,"Hydration bladder (3L)",,,,,,,,,x,,x,x,x,x,x,,x,,,,,,,,,,,,
+96,Hiking,"Wool hiking socks",,,,,x,x,,,,,x,x,x,,,,,,x,,x,,,,,x,x,x,x
+97,Hiking,"Headlamp (Black Diamond / Petzl)",,,x,x,x,x,,,,x,x,x,x,x,,,,,,,x,,,x,,,,,
+98,Hiking,"Moleskin / blister prevention kit",,,,,,,,,,,,,x,x,,,,,,,,,,,,,,,
+99,Hiking,"Portable water filter (Sawyer/LifeStraw)",,,x,x,,,,,,,x,,,,,x,,,,,x,,,,,,,,
+100,Hiking,"Trail gaiters (ankle)",,,,,,,,,,,,x,,x,,,,,,,,,,,,,,,
+101,Desert,"Wide-brim sun hat (outdoor style)",,,x,,,,x,,x,,,x,,x,x,,x,,,,,,,,,x,,,
+102,Desert,"UPF 50+ long-sleeve sun shirt",,,x,,,,x,x,,x,,x,,x,x,,x,,,,,x,,,,x,,,
+103,Desert,"Insulated water bottle (32oz)",,,x,,,,x,,x,x,,x,,x,x,,x,,,,,,x,,,x,,,
+104,Desert,"Cooling towel",,x,x,,,,,,,,,,,x,x,,x,x,,,,,x,,,,,,
+105,Desert,"Snake gaiters (ankle protection)",,,,,,,,,,,,x,,x,,,x,,,,,,,,,,,,
+106,Security,"Money belt (hidden under clothes)",,,,,,,,,,,,,,,,,,,,,x,x,,,,,x,x,
+107,Security,"Portable door lock",,,,,,,,,,,,,,,,,,,,,,x,,,,,,x,
+108,Security,"Door stop alarm",,,,,,,,,,,,,,,,,,,,,x,x,,,,,,x,
+109,Security,"AirTag / luggage tracker",,x,,,x,x,,,,,,,,,,,,,,,x,x,,,x,x,x,x,x
+110,Security,"TSA-approved luggage lock",,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+111,Health,"Motion sickness bands (Sea-Band)",,x,,,x,,x,,,x,x,,,,,,,x,x,,x,,x,,,x,x,,
+112,Health,"Melatonin (jet lag)",,x,,,,x,,,,,,,,,,,,,,,,x,,,x,x,x,x,x
+113,Health,"Probiotics (travel gut health)",,x,x,,x,,,,,,,,,,,,,,,,x,x,,,,,,,
+114,Health,"Picaridin insect repellent",,x,x,x,x,,,,,,,,,,,,,,,,x,x,,,,,,,
+115,Health,"Altitude supplement",,,,,,,,,,,,,x,,,,,,,,x,,,,,,,,
+116,Health,"Activated charcoal tablets",,x,x,,x,,,,,,,,,,,,,,,,x,x,,,,,,,
+117,Health,"Mineral sunscreen face stick (zinc)",,,,,,,x,,x,x,,x,x,,,,,,,,,,,,,,,,
+118,Comfort,"Compression socks (long-haul flights)",,x,,,,x,,,,,x,,,,,,,,,x,,x,,,,,x,,
+119,Comfort,"Sleep mask (contoured blackout)",,,,,,x,,,,,,,,,,,,,,x,,,,,,,,x,
+120,Comfort,"Ear plugs (sleeping)",,,,,,,,,,,,,,,,,,,,x,,,,,,,,x,
+121,Comfort,"Inflatable foot rest (airplane)",,x,,,,x,,,,,,,,,,,,,,,,x,,,x,x,x,x,x
+122,Comfort,"Packable duffel / weekender bag",,,,,,x,,,,,,,,,,,,,,x,,,,,,,,,
+123,Electronics,"Universal travel adapter (USB-C)",,x,x,x,x,x,,,,,,,,,,,,,,,x,x,,,x,x,x,x,x
+124,Electronics,"GaN multi-port USB-C charger",,x,x,x,x,x,,,,,,,,,,,,,,,x,x,,,x,x,x,x,x
+125,Electronics,"Cable organizer pouch",,x,x,x,x,x,,,,,,,,,,,,,,,x,x,,,x,x,x,x,x
+126,Electronics,"Kindle / e-reader",,,,,,x,,,,,,,,,,x,,,x,x,,,x,,x,x,x,x,x
+127,Electronics,"Transit card holder / neck lanyard",,,,,,x,,,,,,,,,,,,,,,,,,,x,,x,x,x
+128,Rain,"Rain pants (lightweight packable)",,,,,,,,,,x,x,x,,,,,,,,,x,x,,x,,,,,
+129,Rain,"Waterproof backpack cover",,,,,x,,,,,,x,,,,,,,,,,x,x,,x,,,,,
+130,Rain,"Quick-dry travel pants (convertible)",,,,x,,,,,,,,,,,,,,,,,x,,,,,,,,
+131,Laundry,"Travel laundry detergent sheets",,x,,x,,,,,,,,,,,,,,,,,,,,,,,,,
+132,Laundry,"Portable clothesline (with clips)",,x,x,x,x,x,,,,,,,,,,,,,,,,,,,,,,,
+133,Yoga,"Travel yoga mat (foldable)",,x,,,,,,,,,,,,,,,,,,,,,,,,,,,
+134,Fitness,"Resistance bands (travel set)",,x,,,,,,,,x,,,,,,,,,,,,,,,,,,,
+135,Family,"Kid carrier backpack (hiking)",,,,,,,,,,x,x,x,x,x,,,,x,,,,,,,,,,,
+136,Family,"Kids volume-limited headphones",,,,,,,,,,,,,,,,,,x,,,,,,,,,,,
+137,Family,"Portable travel high chair",,,,,,,,,,,,,,,,,,x,,,,,,,,,,,
+138,Family,"Baby-safe mineral sunscreen",,,,,,,,x,,x,,,,,,,,x,,,,,x,,,,,,
+139,Hot Springs,"Quick-dry small towel (onsen-size)",,,,,,x,,,,,,,x,,,,,,,,,,,,,,,x,x
+140,Hot Springs,"Waterproof valuables pouch",,,,,,x,,,,,,,x,,,,,,,,,,,,,,,x,x
+141,Food,"Collapsible silicone food containers",,x,,,x,x,,,,,,,,,,,,,,,,,,,,,,,
+142,Food,"Insulated wine tumbler (stemless)",,,,,,,x,,x,,,,,,,,,,,,,,,x,,x,x,,x
+143,Sun,"Polarized sunglasses (glacier/water grade)",,,,,,,x,,x,x,x,x,x,x,x,,,,,,,,,,,x,,,
+144,Sun,"SPF lip balm (dry/high altitude)",,,,,,,,,,,x,x,x,x,,,,,,,,,,,,,,,

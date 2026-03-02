@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (entry) => {
+  return entry.id.startsWith('tl/');
+});
+
+// Sort by pubDate descending
+allPosts.sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+
+const breadcrumbs = [
+  { name: 'Home', url: '/tl/' },
+  { name: 'Blog', url: '/tl/blog/' },
+];
+---
+<BaseLayout title="Blog" description="Mga artikulo tungkol sa paglalakbay sa Pilipinas." locale="tl">
+  <div class="container-content section-padding">
+    <Breadcrumb items={breadcrumbs} />
+
+    <h1 style="margin-bottom: var(--space-4);">Blog</h1>
+    <p style="color: var(--color-slate); margin-bottom: var(--space-10); max-width: var(--content-prose);">
+      Mga kwento, gabay, at mahahalagang tip para sa iyong paglalakbay sa Pilipinas.
+    </p>
+
+    {allPosts.length > 0 ? (
+      <div style="display: grid; gap: var(--space-6); max-width: var(--content-prose);">
+        {allPosts.map(post => (
+          <a
+            href={`/tl/blog/${(post.slug || post.id).replace(/^tl\//, '')}/`}
+            style="display: block; padding: var(--space-5); background: white; border-radius: 16px; text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: box-shadow 0.2s ease;"
+          >
+            <h2 style="font-size: var(--text-h3); color: var(--color-heading); margin-bottom: var(--space-2);">{post.data.title}</h2>
+            <p style="color: var(--color-slate); font-size: var(--text-caption); margin: 0;">
+              {new Date(post.data.pubDate).toLocaleDateString('tl-PH', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
+              {post.data.readingTime && ` · ${post.data.readingTime} minutong pagbasa`}
+            </p>
+            {post.data.description && <p style="color: var(--color-body); margin-top: var(--space-2);">{post.data.description}</p>}
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div style="text-align: center; padding: var(--space-16) 0; color: var(--color-slate);">
+        <p>Wala pang mga pagsasalin ng blog. Malapit nang dumating!</p>
+        <a href="/blog/" style="display: inline-block; margin-top: var(--space-4);">Tingnan ang mga artikulo sa English</a>
+      </div>
+    )}
+  </div>
+</BaseLayout>

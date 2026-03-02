@@ -1,0 +1,113 @@
+---
+/**
+ * LanguageSwitcher.astro
+ * Toggles between English and Filipino (Tagalog) versions of the current page.
+ * Detects locale from URL path (/tl/ prefix = Tagalog, otherwise English).
+ */
+const currentPath = Astro.url.pathname;
+const isTagalog = currentPath.startsWith('/tl/');
+
+// Build the alternate language URL
+const enPath = isTagalog ? currentPath.replace(/^\/tl\//, '/') : currentPath;
+const tlPath = isTagalog ? currentPath : `/tl${currentPath}`;
+
+const currentLocale = isTagalog ? 'tl' : 'en';
+---
+
+<div class="lang-switcher" role="navigation" aria-label="Language selection">
+  <a
+    href={enPath}
+    class:list={['lang-switcher-link', { 'lang-switcher-link--active': currentLocale === 'en' }]}
+    aria-current={currentLocale === 'en' ? 'true' : undefined}
+    hreflang="en"
+  >
+    EN
+  </a>
+  <span class="lang-switcher-divider" aria-hidden="true">|</span>
+  <a
+    href={tlPath}
+    class:list={['lang-switcher-link', { 'lang-switcher-link--active': currentLocale === 'tl' }]}
+    aria-current={currentLocale === 'tl' ? 'true' : undefined}
+    hreflang="tl"
+  >
+    TL
+  </a>
+</div>
+
+<style>
+  .lang-switcher {
+    display: none;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    font-weight: var(--weight-medium);
+    letter-spacing: 0.04em;
+  }
+
+  /* Only show on desktop where full nav links are visible */
+  @media (min-width: 1024px) {
+    .lang-switcher {
+      display: inline-flex;
+    }
+  }
+
+  .lang-switcher-link {
+    text-decoration: none;
+    padding: 3px 6px;
+    border-radius: 4px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+  }
+
+  /* Default state: inherit from parent (FloatingNav controls color via its own styles) */
+  .lang-switcher-link {
+    color: inherit;
+    opacity: 0.6;
+  }
+
+  .lang-switcher-link:hover {
+    opacity: 1;
+  }
+
+  .lang-switcher-link--active {
+    opacity: 1;
+    font-weight: var(--weight-semibold);
+    background: rgba(13, 115, 119, 0.1);
+    color: var(--color-ocean-teal);
+  }
+
+  /* When inside transparent nav (before scroll) */
+  :global(.desktop-nav:not(.desktop-nav--solid)) .lang-switcher-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  :global(.desktop-nav:not(.desktop-nav--solid)) .lang-switcher-link:hover {
+    color: white;
+  }
+
+  :global(.desktop-nav:not(.desktop-nav--solid)) .lang-switcher-link--active {
+    color: white;
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  /* When inside solid nav (after scroll) */
+  :global(.desktop-nav--solid) .lang-switcher-link {
+    color: var(--color-slate);
+  }
+
+  :global(.desktop-nav--solid) .lang-switcher-link:hover {
+    color: var(--color-ocean-teal);
+  }
+
+  :global(.desktop-nav--solid) .lang-switcher-link--active {
+    color: var(--color-ocean-teal);
+    background: rgba(13, 115, 119, 0.08);
+  }
+
+  .lang-switcher-divider {
+    color: inherit;
+    opacity: 0.3;
+    font-weight: var(--weight-regular);
+    user-select: none;
+  }
+</style>

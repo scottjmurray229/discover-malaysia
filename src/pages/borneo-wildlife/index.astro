@@ -1,0 +1,278 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const pageTitle = 'Borneo Wildlife Guide — Orangutans, Proboscis Monkeys & More';
+const pageDescription = 'See wild orangutans, proboscis monkeys, and pygmy elephants in Borneo. Your complete guide to Malaysian Borneo wildlife — Sandakan, Kinabatangan, Mulu, and beyond.';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Borneo Wildlife', url: '/borneo-wildlife/' },
+];
+
+const wildlifeSpots = [
+  {
+    name: 'Sepilok Orangutan Rehabilitation Centre',
+    location: 'Sandakan, Sabah',
+    slug: 'sandakan',
+    highlight: 'Semi-wild orangutans at feeding platforms twice daily. The most accessible orangutan encounter in Malaysia.',
+    bestTime: 'Morning feeding at 10am for best light and activity',
+    cost: 'RM30 entrance fee',
+    icon: '🦧',
+  },
+  {
+    name: 'Kinabatangan River',
+    location: 'Sandakan District, Sabah',
+    slug: 'sandakan',
+    highlight: 'The finest wildlife corridor in Borneo — proboscis monkeys, pygmy elephants, saltwater crocodiles, and wild orangutans all in one river cruise.',
+    bestTime: 'Dawn and dusk river cruises (6am & 6pm)',
+    cost: 'RM150-250/person for a 2-day river lodge package',
+    icon: '🐊',
+  },
+  {
+    name: 'Semenggoh Wildlife Centre',
+    location: 'Kuching, Sarawak',
+    slug: 'kuching',
+    highlight: 'Sarawak\'s answer to Sepilok — semi-wild orangutans who return from the jungle for supplementary feeding. Smaller crowds than Sepilok.',
+    bestTime: 'Morning or afternoon feeding sessions (check current schedule)',
+    cost: 'RM10 entrance fee',
+    icon: '🦧',
+  },
+  {
+    name: 'Bako National Park',
+    location: 'Kuching, Sarawak',
+    slug: 'kuching',
+    highlight: 'The most biodiverse park per square kilometer in Malaysia. Proboscis monkeys in the mangroves, bearded pigs on the beach, carnivorous pitcher plants everywhere.',
+    bestTime: 'Early morning hike before heat builds',
+    cost: 'RM20 entrance fee + RM2 camera fee',
+    icon: '🐒',
+  },
+  {
+    name: 'Mount Kinabalu & Kinabalu Park',
+    location: 'Kota Kinabalu, Sabah',
+    slug: 'kota-kinabalu',
+    highlight: 'Southeast Asia\'s highest peak (4,095m). The park protects 4,500+ plant species including the world\'s largest flower, Rafflesia, and remarkable endemic birds.',
+    bestTime: 'Dawn summit (requires overnight stay in mountain hostel)',
+    cost: 'RM200 park fee + RM100+ guide (summit requires permit, book months ahead)',
+    icon: '🏔️',
+  },
+  {
+    name: 'Mulu National Park',
+    location: 'Sarawak',
+    slug: 'mulu',
+    highlight: 'UNESCO World Heritage caves with the world\'s largest cave passage. The bat exodus at dusk — millions of wrinkle-lipped bats spiraling out — is one of the great wildlife spectacles on earth.',
+    bestTime: 'Sunset at Deer Cave for the bat exodus (5:30-7pm)',
+    cost: 'RM30-100/cave tour depending on route',
+    icon: '🦇',
+  },
+];
+
+const faqItems = [
+  {
+    question: 'Where is the best place to see orangutans in Malaysia?',
+    answer: 'Sepilok Orangutan Rehabilitation Centre near Sandakan in Sabah is the most accessible. For wild sightings, the Kinabatangan River gives the best chance of seeing free-ranging orangutans in natural forest. In Sarawak, Semenggoh Wildlife Centre near Kuching offers similar rehabilitation centre experiences with smaller crowds.',
+  },
+  {
+    question: 'What wildlife can I see in Borneo Malaysia?',
+    answer: 'Malaysian Borneo hosts some of the world\'s most remarkable wildlife: Bornean orangutans (critically endangered), proboscis monkeys (endemic to Borneo), Bornean pygmy elephants (world\'s smallest), saltwater crocodiles, sun bears, clouded leopards, bearded pigs, hornbills, and over 600 bird species. The Kinabatangan River basin offers the best chance to see multiple large mammals in one trip.',
+  },
+  {
+    question: 'How many days do I need to see Borneo wildlife?',
+    answer: 'Minimum 3-4 days to see orangutans at Sepilok and cruise the Kinabatangan River for proboscis monkeys and pygmy elephants. Five to seven days allows time for Sandakan, Kinabatangan, and a day trip or overnight in the forest. For a comprehensive Borneo trip including Mulu caves and Sarawak, allow 7-10 days.',
+  },
+  {
+    question: 'Is Borneo wildlife tourism ethical?',
+    answer: 'Choose wildlife experiences carefully. Sepilok and Semenggoh are legitimate rehabilitation centers — animals that can survive in the wild are released, and feeding is supplementary for animals still learning forest skills. The Kinabatangan River wildlife lodges are mostly ethical eco-tourism operations. Avoid any attraction offering orangutan selfies, riding on wildlife, or keeping animals as performers.',
+  },
+  {
+    question: 'What is the best time to visit Borneo for wildlife?',
+    answer: 'March to October is the drier period and generally best for wildlife viewing in Malaysian Borneo. The Kinabatangan River sees the most wildlife congregation in dry season when forest water sources shrink and animals cluster near the river. Mulu caves are accessible year-round. Sepilok and Semenggoh operate year-round with feeding sessions regardless of season.',
+  },
+];
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="homepage"
+  breadcrumbs={breadcrumbs}
+  faqItems={faqItems}
+>
+  <section class="pillar-hero">
+    <div class="container-content pillar-hero-inner">
+      <p class="pillar-eyebrow">Wildlife Guide</p>
+      <h1 class="pillar-title">Borneo Wildlife</h1>
+      <p class="pillar-subtitle">Orangutans, proboscis monkeys, pygmy elephants, and a bat exodus like nothing else on earth — Malaysian Borneo delivers wildlife encounters that change you.</p>
+    </div>
+  </section>
+
+  <section class="container-content section-padding">
+    <div class="pillar-intro">
+      <p>Borneo is one of the last places on earth where you can watch wild orangutans swing through primary rainforest, drift silently past proboscis monkeys along a jungle river at dawn, and hear the sound of a million bats spiraling into the dusk sky. Malaysian Borneo — the states of Sabah and Sarawak — protects some of the most biodiverse land on earth, and the wildlife tourism infrastructure here is excellent without being overwhelming.</p>
+      <p>I've organized this guide by destination and experience, from the most accessible encounters at rehabilitation centers to the deeper jungle expeditions for serious wildlife travelers. Everything here I've either done personally or verified with trusted operators.</p>
+    </div>
+
+    <h2 class="pillar-section-title">Best Wildlife Destinations in Malaysian Borneo</h2>
+
+    <div class="wildlife-grid">
+      {wildlifeSpots.map((spot) => (
+        <div class="wildlife-card">
+          <div class="wildlife-card-header">
+            <span class="wildlife-icon">{spot.icon}</span>
+            <div>
+              <h3 class="wildlife-name">{spot.name}</h3>
+              <p class="wildlife-location">{spot.location}</p>
+            </div>
+          </div>
+          <p class="wildlife-highlight">{spot.highlight}</p>
+          <div class="wildlife-meta">
+            <span class="wildlife-meta-item">Best time: {spot.bestTime}</span>
+            <span class="wildlife-meta-item">Cost: {spot.cost}</span>
+          </div>
+          <a href={`/destinations/${spot.slug}/`} class="wildlife-link">Full destination guide</a>
+        </div>
+      ))}
+    </div>
+
+    <div class="pillar-section">
+      <h2>Planning Your Borneo Wildlife Trip</h2>
+      <p>The most efficient wildlife itinerary in Malaysian Borneo combines Kota Kinabalu as a gateway with 2-3 days on the Kinabatangan River and a half-day at Sepilok Orangutan Rehabilitation Centre. Flying into KK and out of Sandakan (or vice versa) eliminates backtracking.</p>
+      <p>For Sarawak wildlife, base in Kuching and combine Semenggoh Wildlife Centre with a night or two at Bako National Park. The two Borneo states are connected by short flights (1.5 hours KK to Kuching) — doing both in one trip is very doable.</p>
+      <p>Mulu National Park requires a separate flight (via Miri) and is best added as a dedicated side trip of 2-3 days. The cave tours are extraordinary — no other destination in Malaysia comes close for this kind of geological spectacle.</p>
+    </div>
+
+    <EmailCapture
+      leadMagnet="Get the Free Borneo Wildlife Planning Guide"
+      description="Everything you need to plan a Borneo wildlife trip — lodges, timing, ethical operators, and day-by-day itineraries."
+      bullets={[
+        'Best Kinabatangan River lodges at every budget level',
+        'Orangutan encounter calendar — when to go for peak sightings',
+        'Ethical wildlife tourism checklist — what to do and what to avoid',
+        'Sample 5-day and 7-day Borneo wildlife itineraries with prices',
+      ]}
+      guideTag="pillar-borneo-wildlife"
+    />
+
+    <FAQ items={faqItems} />
+  </section>
+</BaseLayout>
+
+<style>
+  .pillar-hero {
+    background: linear-gradient(135deg, #1B4332 0%, #2D6A4F 50%, #40916C 100%);
+    color: white;
+    padding: 80px 0 60px;
+  }
+  .pillar-hero-inner { text-align: center; }
+  .pillar-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.75;
+    margin-bottom: 12px;
+  }
+  .pillar-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 20px;
+    line-height: 1.1;
+  }
+  .pillar-subtitle {
+    font-size: 1.125rem;
+    opacity: 0.9;
+    max-width: 65ch;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  .pillar-intro {
+    max-width: 75ch;
+    margin: 0 auto var(--space-12);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-slate);
+  }
+  .pillar-intro p { margin-bottom: 1em; }
+  .pillar-section-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.75rem;
+    margin-bottom: var(--space-8);
+    color: var(--color-deep-night);
+  }
+  .wildlife-grid {
+    display: grid;
+    gap: var(--space-6);
+    grid-template-columns: 1fr;
+    margin-bottom: var(--space-12);
+  }
+  @media (min-width: 768px) {
+    .wildlife-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .wildlife-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #EBE4D8;
+  }
+  .wildlife-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .wildlife-icon { font-size: 2rem; line-height: 1; }
+  .wildlife-name {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--color-deep-night);
+    margin: 0 0 4px;
+  }
+  .wildlife-location {
+    font-size: 13px;
+    color: #1B4332;
+    font-weight: 600;
+    margin: 0;
+  }
+  .wildlife-highlight {
+    font-size: 0.9375rem;
+    color: var(--color-slate);
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  .wildlife-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+  .wildlife-meta-item {
+    font-size: 12px;
+    color: #64748B;
+  }
+  .wildlife-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1B4332;
+    text-decoration: none;
+  }
+  .wildlife-link:hover { text-decoration: underline; }
+  .pillar-section {
+    max-width: 75ch;
+    margin: 0 auto var(--space-12);
+  }
+  .pillar-section h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: var(--space-4);
+    color: var(--color-deep-night);
+  }
+  .pillar-section p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-slate);
+    margin-bottom: 1em;
+  }
+</style>

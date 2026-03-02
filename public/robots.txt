@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://discovermalaysia.info/sitemap-index.xml

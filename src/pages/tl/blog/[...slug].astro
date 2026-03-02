@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import BlogLayout from '../../../layouts/BlogLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', (entry) => {
+    // Only include entries from the tl/ subdirectory
+    return entry.id.startsWith('tl/');
+  });
+  return posts.map((post) => ({
+    // Strip the "tl/" prefix from slug for the URL
+    params: { slug: (post.slug || post.id).replace(/^tl\//, '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<BlogLayout frontmatter={post.data} locale="tl">
+  <Content />
+</BlogLayout>

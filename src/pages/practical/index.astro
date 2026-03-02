@@ -1,0 +1,818 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Travel Tips', url: '/practical/' },
+];
+
+const pageTitle = 'Malaysia Travel Tips — Visa, Money, Transport & Safety Guide 2026';
+const pageDescription = 'Everything you need before your first (or tenth) trip to Malaysia — visa rules, ATMs, SIM cards, transport, safety, packing, and cultural etiquette.';
+
+interface TopicSection {
+  id: string;
+  icon: string;
+  title: string;
+  gradient: string;
+  video?: string;
+  items: { label: string; text: string }[];
+}
+
+const topics: TopicSection[] = [
+  {
+    id: 'visa',
+    icon: '🛂',
+    title: 'Visa & Entry Requirements',
+    gradient: 'linear-gradient(135deg, #1565C0 0%, #42A5F5 100%)',
+    video: '/videos/pillar/practical-break-visa.mp4',
+    items: [
+      { label: '90-Day Visa-Free', text: 'Citizens of most Western countries (USA, UK, Canada, Australia, EU, Japan, South Korea, and 60+ others) can enter Malaysia visa-free for up to 90 days. You just need a passport valid for at least 6 months and a return or onward ticket. No application needed — stamp on arrival.' },
+      { label: 'Arrival Card (MDAC)', text: 'Malaysia uses the Malaysia Digital Arrival Card (MDAC) — complete it online at imigresen.gov.my within 3 days of arrival. It\'s free and takes about 3 minutes. You\'ll get a QR code to scan at immigration.' },
+      { label: 'Borneo Entry (Sabah & Sarawak)', text: 'Sabah and Sarawak are semi-autonomous states with their own immigration. If you fly KL → Kota Kinabalu or KL → Kuching, you go through immigration again — your passport gets a new stamp. This does NOT use days from your peninsular visa. Each Borneo state gives you a fresh 90-day allowance.' },
+      { label: 'Documents to Carry', text: 'Lock your passport in your hotel safe when exploring — carry a photocopy on your phone. Hotels require your passport at check-in, but after that it stays secure. Carry it on the day you cross state lines (Borneo entry) or land at a new airport.' },
+      { label: 'Global Entry (US Citizens)', text: 'Get Global Entry before your trip — $120 for 5 years. The KL Sentral and KLIA immigration halls can back up when multiple long-haul flights land simultaneously. Global Entry gets you through US re-entry in minutes instead of an hour-plus after a 20+ hour Malaysia trip.' },
+    ],
+  },
+  {
+    id: 'money',
+    icon: '💰',
+    title: 'Money & ATMs',
+    gradient: 'linear-gradient(135deg, #2E7D32 0%, #66BB6A 100%)',
+    video: '/videos/pillar/practical-break-money.mp4',
+    items: [
+      { label: 'ATM Strategy', text: 'Use bank ATMs at Maybank, CIMB, or Public Bank — widely available in cities and airports. Withdrawal fees run RM8–12 ($2–3 USD) per transaction; withdraw larger amounts to minimize fees. I use a Fidelity Cash Management card which reimburses ATM fees globally — worth having for Malaysia trips.' },
+      { label: 'Split Your Cards', text: 'Always bring two or three ATM/credit cards. Carry one out with you and keep backups locked in your hotel safe. Malaysia is very safe but wallets do get lost and cards get eaten by machines — especially in remote areas like Mulu where there are no ATMs at all. Load up on cash before heading into the jungle.' },
+      { label: 'Cash Is Still King in Borneo', text: 'KL, Penang, and Malacca are highly cashless — contactless payments, GrabPay, and credit cards work everywhere. But in Taman Negara, Mulu, Kinabatangan River lodges, and outer islands, cash is the only option. Always carry RM500–1,000 before leaving civilization.' },
+      { label: 'Daily Budget Ranges', text: 'Backpacker: RM80–150/day ($17–32 USD) — hostels, hawker stalls, public transport. Mid-range: RM300–600/day ($64–128 USD) — hotels, restaurants, some tours. Luxury: RM600+/day ($128+ USD) — resorts, fine dining, private wildlife tours.' },
+      { label: 'Currency Exchange', text: 'Exchange at licensed money changers in shopping malls (Berjaya Times Square, Pavilion) for the best rates — consistently better than banks. Airport counters are poor. Mid-range rate: USD 1 = approximately RM4.70 (varies).' },
+    ],
+  },
+  {
+    id: 'transport',
+    icon: '✈️',
+    title: 'Getting Around',
+    gradient: 'linear-gradient(135deg, #E65100 0%, #FF9800 100%)',
+    video: '/videos/pillar/practical-break-transport.mp4',
+    items: [
+      { label: 'Domestic Flights', text: 'AirAsia dominates Malaysian domestic routes from KL (KLIA2) — fares start at RM80–150 ($17–32 USD) for Peninsular routes, RM150–300 ($32–64 USD) to Borneo. MASwings connects Kota Kinabalu to Sandakan, Miri to Mulu, and remote Sarawak towns — book ahead as these smaller routes fill up.' },
+      { label: 'ETS Train (Peninsular)', text: 'KTM ETS (Electric Train Service) connects KL Sentral to Ipoh (2 hrs, RM60–80), Penang/Butterworth (4.5 hrs, RM80–110), and points south to JB (3.5 hrs, RM60). Comfortable, reliable, and cheaper than flying for peninsular travel. Book at ktmb.com.my — seats sell out on weekends.' },
+      { label: 'Grab (Ride-Hailing)', text: 'Grab is the dominant ride-hailing app across Malaysia. Works in KL, Penang, Malacca, Ipoh, KK, and Kuching. Download the app and link your credit card before arrival — metered fares, no haggling, air-conditioned cars. Essential for KL where taxis sometimes quote inflated prices to tourists.' },
+      { label: 'Ferries & Speedboats', text: 'Langkawi ferries run from Penang (2.5 hrs, RM70) and Kuala Perlis (1.5 hrs, RM25). Perhentian Islands speedboats depart from Kuala Besut (30 min, RM70 return). Tioman ferries from Mersing (1.5–2 hrs). Buy tickets same-day at the jetty — no advance booking needed for most routes.' },
+      { label: 'Bus Network', text: 'TBS (Terminal Bersepadu Selatan) in KL is the main hub for long-distance buses — air-conditioned coaches to Penang (5 hrs, RM35–50), Malacca (2 hrs, RM15), JB (4 hrs, RM30), and more. Booking through platforms like BusOnlineTicket.com is easiest.' },
+      { label: 'Renting a Car', text: 'Malaysia drives on the left. Car rental is cheap (RM80–150/day) and the highway network is excellent with well-marked tolls. The North-South Expressway from JB to Penang is superb. International driving permit required. Grab is usually easier in cities — car rental shines for Cameron Highlands, Taman Negara access roads, and Sarawak road trips.' },
+    ],
+  },
+  {
+    id: 'connectivity',
+    icon: '📱',
+    title: 'SIM Cards & Connectivity',
+    gradient: 'linear-gradient(135deg, #6A1B9A 0%, #AB47BC 100%)',
+    video: '/videos/pillar/practical-break-connectivity.mp4',
+    items: [
+      { label: 'Get a Local SIM or eSIM', text: 'Malaysia has excellent 4G coverage. Celcom, Maxis, and Digi offer tourist SIMs at KLIA/KLIA2 arrival halls — RM30–60 ($6–13 USD) for 10–30GB of data for 7–30 days. If your phone supports eSIM, grab a Airalo eSIM before you fly — seamless activation on arrival.' },
+      { label: 'Carrier Roaming', text: 'T-Mobile includes Malaysia in its international data plan (128 kbps free, or full speed on Magenta Max). Google Fi works well. AT&T International Day Pass ($10/day) works if you need to call home. WhatsApp is the universal communication app in Malaysia — install it before you go.' },
+      { label: 'Coverage in Borneo', text: '4G is solid in Kota Kinabalu and Kuching city centres. Coverage drops off quickly in the interior — Kinabatangan River lodges, Mulu National Park, and Danum Valley have limited to no cell signal. Download offline maps (Maps.me or Google Maps offline) and important documents before entering remote areas.' },
+      { label: 'WiFi Reliability', text: 'City hotels, cafes, and hostels in KL, Penang, and Malacca have reliable 20–100 Mbps WiFi. Mid-range and budget accommodation in Borneo can be slower. Your local SIM data is the backup — and for Mulu, the answer to everything offline is "download it in Miri before the flight."' },
+    ],
+  },
+  {
+    id: 'safety',
+    icon: '🏥',
+    title: 'Safety & Health',
+    gradient: 'linear-gradient(135deg, #C62828 0%, #EF5350 100%)',
+    video: '/videos/pillar/practical-break-safety.mp4',
+    items: [
+      { label: 'Travel Insurance', text: 'Non-negotiable for Malaysia — especially if you\'re doing Borneo, Mount Kinabalu, or Taman Negara. Medical evacuation from remote areas is expensive. I use <a href="https://safetywing.com/?referenceID=24858745&utm_source=24858745&utm_medium=Ambassador" target="_blank" rel="noopener sponsored">SafetyWing</a> — affordable, covers nomads and short-trippers alike, and you can sign up after leaving home. Make sure your policy includes trekking altitude for Kinabalu (4,095m).' },
+      { label: 'Tap Water', text: 'Don\'t drink tap water in Malaysia. Bottled water costs RM1.50–3 ($0.30–0.65 USD) and is available at every convenience store and 7-Eleven. Ice at proper restaurants is filtered. In jungle lodges and remote camps, use treated water only.' },
+      { label: 'Dengue & Mosquitoes', text: 'Dengue is a year-round risk in Malaysia, especially in forested and semi-rural areas. Use DEET-based repellent (30–40%), wear long sleeves at dusk, and choose accommodation with screens or air conditioning. Malaria prophylaxis is recommended for Sabah interior and remote Sarawak — consult your doctor before your trip.' },
+      { label: 'Monsoon Seasons', text: 'Two monsoon windows affect Malaysian travel: Northeast Monsoon (Nov–Feb) closes east coast islands (Perhentians, Tioman) and can bring heavy rains to KL. Southwest Monsoon (May–Sep) is milder but affects west Sarawak. The "wrong" time to visit specific destinations can mean closed resorts and rough seas — always check before booking islands.' },
+      { label: 'General Safety', text: 'Malaysia is one of Southeast Asia\'s safest countries for tourists. Petty theft is the main risk in crowded areas (Bukit Bintang, Central Market in KL). Use Grab rather than street taxis. Keep valuables in a hotel safe. Solo female travelers generally report feeling safe throughout Malaysia.' },
+    ],
+  },
+  {
+    id: 'packing',
+    icon: '🎒',
+    title: 'Packing Essentials',
+    gradient: 'linear-gradient(135deg, #1B4332 0%, #52B788 100%)',
+    video: '/videos/pillar/practical-break-packing.mp4',
+    items: [
+      { label: '📋 Interactive Packing Checklist', text: 'Use our <a href="/packing-list/">interactive Malaysia packing checklist</a> before you travel — 60+ items organized by scenario (KL, islands, jungle, Borneo). Check off what you have, see what you\'re missing.' },
+      { label: 'Type G Adapter (Mandatory)', text: 'Malaysia uses Type G plugs — the British 3-pin system. This is DIFFERENT from US, EU, and Australian plugs. Bring a <a href="https://www.amazon.com/dp/B0CXD881LN?tag=discovermy-20" target="_blank" rel="nofollow sponsored">universal travel adapter</a>. 240V electricity — your phone chargers and laptops are dual-voltage and fine; heating appliances are not.' },
+      { label: 'Reef-Safe Sunscreen', text: 'Marine parks in Malaysia (Perhentians, Tioman) increasingly require reef-safe sunscreen. Bring your own — it\'s expensive and limited locally. Use <a href="https://www.amazon.com/dp/B07PKWHTR1?tag=discovermy-20" target="_blank" rel="nofollow sponsored">reef-safe SPF 50+</a>; equatorial UV is brutal.' },
+      { label: 'Leech Socks (Jungle Only)', text: 'If you\'re doing Taman Negara, Danum Valley, or Borneo jungle treks, bring <a href="https://www.amazon.com/s?k=leech+socks&tag=discovermy-20" target="_blank" rel="nofollow sponsored">leech socks</a> (knee-high fine-mesh gaiters). Leeches are harmless but annoying — the socks stop them reaching skin. Tuck your pants inside, wear closed shoes.' },
+      { label: 'Lightweight Rain Jacket', text: 'Afternoon showers happen everywhere in Malaysia. A <a href="https://www.amazon.com/dp/B0CLR8QXKW?tag=discovermy-20" target="_blank" rel="nofollow sponsored">packable rain jacket</a> beats an umbrella for jungle treks and street food exploration. Essential Nov–Feb in KL.' },
+      { label: 'Layers for Cameron Highlands', text: 'Cameron Highlands sits at 1,500m+ — daytime is 20–25°C (68–77°F) but evenings drop to 10–15°C (50–59°F). Pack a fleece or light insulating layer. If you\'re also doing Borneo lowlands the same trip, the contrast is dramatic — a packable down jacket handles both.' },
+      { label: 'Mosquito Repellent', text: 'DEET 40%+ repellent is essential for jungle and river areas. Bring it from home — the local stuff is weaker. Pack <a href="https://www.amazon.com/dp/B004H89KFC?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Sawyer Picaridin</a> for non-DEET option, or <a href="https://www.amazon.com/dp/B001AJ6YRW?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Ben\'s MAX with 30% DEET</a> for maximum jungle protection.' },
+      { label: 'Dry Bag & Waterproofing', text: 'Essential for island hopping, speedboat transfers, and river lodges. An <a href="https://www.amazon.com/dp/B0BKQGXYQ9?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Osprey ultralight dry bag</a> (10–20L) protects your phone, wallet, and camera. The speedboat to Perhentians regularly splashes passengers.' },
+      { label: 'Comfortable Walking Shoes', text: 'KL\'s sidewalks, Malacca\'s heritage lanes, and Penang\'s street art routes all demand decent footwear. <a href="https://www.amazon.com/dp/B002Y25BSS?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Keen Newport sandals</a> or <a href="https://www.amazon.com/dp/B097755RHH?tag=discovermy-20" target="_blank" rel="nofollow sponsored">closed-toe Crocs</a> work for most of Malaysia. Bring dedicated trail shoes if you\'re doing Kinabalu or Mossy Forest on Gunung Brinchang.' },
+      { label: 'GaN Charger', text: 'One <a href="https://www.amazon.com/dp/B09C5RG6KV?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Anker 735 GaN 65W charger</a> replaces your laptop brick, phone charger, and camera charger. Dual-voltage (240V compatible). Essential when you\'re managing phone, GoPro, and camera at a remote river lodge with one outlet.' },
+    ],
+  },
+  {
+    id: 'culture',
+    icon: '🇲🇾',
+    title: 'Language & Cultural Etiquette',
+    gradient: 'linear-gradient(135deg, #1B4332 0%, #D4AC0D 100%)',
+    video: '/videos/pillar/practical-break-culture.mp4',
+    items: [
+      { label: 'Basic Malay', text: '"Terima kasih" (thank you), "Selamat pagi/petang/malam" (good morning/afternoon/evening), "Berapa harga?" (how much?), "Di mana?" (where?), "Air" (water, pronounced "eye-yur"), "Makanan" (food). Even basic attempts earn genuine appreciation from locals.' },
+      { label: 'Multicultural Malaysia', text: 'Malaysia is approximately 69% Malay-Muslim, 23% Chinese (Buddhist/Christian), and 7% Indian (Hindu/Sikh), plus Dayak, Kadazan, and other indigenous groups in Borneo. Each community has its own customs, cuisine, and religious observances. English is widely spoken — you\'ll have almost no communication problems in tourist areas.' },
+      { label: 'Mosque Dress Code', text: 'Remove shoes before entering mosques. Women must cover hair, shoulders, and legs — some mosques provide robes at the entrance. Men should cover knees. The National Mosque in KL and Kapitan Keling Mosque in Penang are the most-visited and provide coverings at no cost.' },
+      { label: 'Hindu Temple Visits', text: 'Remove shoes before entering Hindu temples. Batu Caves and the Sri Mahamariamman Temple in KL are active places of worship — dress modestly, don\'t touch statues or offerings, and be respectful during prayer times. The priest may offer a tilak (forehead mark) — it\'s polite to accept.' },
+      { label: 'Ramadan Awareness', text: 'During Ramadan (dates shift annually), Muslims fast from dawn to sunset. Eating and drinking in public near mosques during daylight is considered disrespectful. Restaurants still operate (many are closed daytime, open at iftar/sunset). The Ramadan bazaars at dusk are one of the best food experiences in Malaysia — don\'t miss them.' },
+      { label: 'Tipping Norms', text: 'Tipping is not expected in Malaysia — service charge (10%) is usually added to restaurant bills. Round up with taxi and Grab drivers if they\'re helpful. Tour guides appreciate RM20–50 per person for good service. No tipping expected at hawker stalls or kopitiams.' },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  schemaData={{ title: pageTitle, description: pageDescription }}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="prac-hero">
+    <video class="prac-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/practical-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="prac-hero-gradient"></div>
+    <div class="prac-hero-noise"></div>
+    <div class="prac-hero-content">
+      <h1 class="prac-hero-title">Malaysia Travel Essentials</h1>
+      <p class="prac-hero-subtitle">Visa rules, ATM strategy, transport cheat sheets, SIM cards, safety tips, packing lists, and the cultural etiquette that turns a good Malaysia trip into a great one.</p>
+      <div class="prac-hero-meta">
+        <div class="prac-hero-meta-item">
+          <span class="prac-hero-meta-label">Topics</span>
+          <span class="prac-hero-meta-value">7</span>
+        </div>
+        <div class="prac-hero-meta-item">
+          <span class="prac-hero-meta-label">Updated</span>
+          <span class="prac-hero-meta-value">Feb 2026</span>
+        </div>
+        <div class="prac-hero-meta-item">
+          <span class="prac-hero-meta-label">Trips</span>
+          <span class="prac-hero-meta-value">25+</span>
+        </div>
+      </div>
+    </div>
+    <div class="prac-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="prac-personal reveal">
+    <div class="container-content">
+      <blockquote class="prac-personal-quote">
+        <p>I've made most of these mistakes at least once — from running out of cash before Mulu (no ATMs) to booking a Perhentian trip in November during monsoon season. After multiple Malaysia trips, I've figured out the practical side so you don't have to learn the hard way. This is the cheat sheet I wish someone had handed me on my first trip.</p>
+        <cite>— Scott Murray</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Quick Nav -->
+  <section class="prac-quicknav reveal">
+    <div class="container-content">
+      <div class="prac-quicknav-grid">
+        {topics.map((t) => (
+          <a href={`#${t.id}`} class="prac-quicknav-chip">
+            <span class="prac-quicknav-icon">{t.icon}</span>
+            <span class="prac-quicknav-label">{t.title.split(' ').slice(0, 2).join(' ')}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Topic Sections -->
+  {topics.map((topic) => (
+    <section class="prac-topic reveal" id={topic.id}>
+      <div class="container-content">
+        <div class="prac-topic-header" style={`background: ${topic.gradient};`}>
+          {topic.video && (
+            <video class="prac-topic-video" autoplay muted loop playsinline preload="none">
+              <source src={topic.video} type="video/mp4" />
+            </video>
+          )}
+          <div class="prac-topic-header-inner">
+            <span class="prac-topic-icon">{topic.icon}</span>
+            <h2 class="prac-topic-title">{topic.title}</h2>
+            <span class="prac-topic-count">{topic.items.length} tips</span>
+          </div>
+        </div>
+
+        <div class="prac-tip-grid">
+          {topic.items.map((item) => (
+            <div class="prac-tip-card">
+              <h3 class="prac-tip-label">{item.label}</h3>
+              <p class="prac-tip-text" set:html={item.text} />
+            </div>
+          ))}
+        </div>
+
+        {topic.id === 'transport' && (
+          <div class="prac-transport-widget">
+            <h3 class="prac-transport-widget-title">Search Routes & Book Transport</h3>
+            <p class="prac-transport-widget-desc">Compare ferries, buses, trains, and domestic flights between Malaysia destinations.</p>
+            <div class="prac-transport-widget-inner">
+              <script src="//cdn0.trainbusferry.com/tools/form/en/?id=15062413&domain=12go.asia" data-one2go="15062413" data-color="blue" data-language="en" data-width="250" data-height="320" data-border="1" data-radius="8" data-caption="Find Transport in Malaysia" data-sub_id="discovermy" data-domain="12go.asia"></script>
+            </div>
+            <div class="prac-transport-widget-powered">Powered by <a href="https://12go.asia/?z=15062413&sub_id=discovermy" target="_blank" rel="noopener sponsored">12Go Asia</a></div>
+          </div>
+        )}
+      </div>
+    </section>
+  ))}
+
+  <!-- Affiliate Disclosure -->
+  <div class="container-content reveal" style="padding-bottom: 0;">
+    <p class="prac-affiliate-disclosure">Some links on this page are affiliate links — I earn a small commission if you purchase through them, at no extra cost to you. I only recommend gear I personally use on my Malaysia trips. <a href="/legal/affiliate-disclosure/">Full disclosure</a>.</p>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="prac-cta-section reveal">
+    <div class="container-content">
+      <div class="prac-cta-card">
+        <h2 class="prac-cta-heading">Plan Your Malaysia Trip</h2>
+        <p class="prac-cta-text">Tell our AI planner your dates, budget, and interests — it builds a custom day-by-day Malaysia itinerary with transport, hotels, and activities.</p>
+        <a href="/plan/" class="prac-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "Do I need a visa to visit Malaysia?", answer: "Most Western passport holders (USA, UK, Canada, Australia, EU, Japan, South Korea, and 60+ others) get 90 days visa-free on arrival. No application needed — just a valid passport (6+ months validity) and a return ticket. Complete the Malaysia Digital Arrival Card (MDAC) online at imigresen.gov.my within 3 days before arrival." },
+    { question: "Is Malaysia safe for tourists?", answer: "Malaysia is one of Southeast Asia's safest countries for tourists. The main risk is petty theft in crowded areas (Bukit Bintang in KL, Jonker Street in Malacca). Use Grab instead of street taxis, keep valuables in hotel safes, and use common sense. Solo female travelers consistently rate Malaysia as safe and comfortable." },
+    { question: "How much money do I need per day in Malaysia?", answer: "Budget: RM80-150/day ($17-32 USD) covers hostels, hawker stalls, and public transport. Mid-range: RM300-600/day ($64-128 USD) for comfortable hotels, restaurants, and some tours. Luxury: RM600+/day ($128+ USD) for resorts and private wildlife experiences in Borneo. Malaysia is extremely affordable for the quality of food and accommodation you get." },
+    { question: "What currency does Malaysia use?", answer: "Malaysian Ringgit (RM or MYR). Exchange rate is approximately RM4.70 per USD (verify current rate before travel). Use ATMs at major banks (Maybank, CIMB, Public Bank) for the best rates. Cash is essential for hawker stalls, remote areas, and Borneo jungle lodges — carry RM500-1,000 when leaving major cities." },
+    { question: "What is the best way to get around Malaysia?", answer: "For Peninsular Malaysia: KTM ETS trains (KL to Penang/Ipoh), buses (TBS terminal in KL), and Grab. For Borneo: domestic flights on AirAsia and MASwings — there's no train system and roads don't connect all areas. Between Peninsula and Borneo: fly (KL to Kota Kinabalu from RM150, KL to Kuching from RM130). Within cities: Grab is the most convenient and affordable." },
+    { question: "Do I need special permits for Borneo and national parks?", answer: "Sabah and Sarawak have their own immigration — you'll get a new stamp when you arrive from Peninsular Malaysia (this doesn't use days from your peninsular allowance). National parks require entry permits: Taman Negara (RM1 permit + RM5 camera), Mulu National Park (RM10 permit + park fees), Kinabalu summit (RM1,200-1,500+ total including guide and hut). Book Kinabalu permits 3-6 months ahead — they sell out." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Malaysia Travel Essentials Guide"
+      description="A printable PDF covering everything in this guide — plus offline maps, emergency contacts, and a packing checklist."
+      bullets={[
+        'Sabah & Sarawak entry rules and permit requirements',
+        'ATM strategy and daily budget planner by travel style',
+        'Printable Malay phrase card for markets and transport',
+        'Packing checklist for KL, islands, jungle, and Borneo',
+      ]}
+      guideTag="pillar-practical"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="prac-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="prac-crosslinks-heading">Explore More</h3>
+      <div class="prac-crosslinks-grid">
+        <a href="/snorkeling-philippines/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127754;</span>
+          <span class="prac-crosslink-label">Snorkeling Guide</span>
+          <span class="prac-crosslink-desc">14 destinations ranked by what you'll see in the water</span>
+        </a>
+        <a href="/festivals/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127914;</span>
+          <span class="prac-crosslink-label">Festival Calendar</span>
+          <span class="prac-crosslink-desc">32 festivals across 29 destinations, month by month</span>
+        </a>
+        <a href="/cuisine/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127860;</span>
+          <span class="prac-crosslink-label">Food & Cuisine</span>
+          <span class="prac-crosslink-desc">35 dishes by region with where to find the best version</span>
+        </a>
+        <a href="/history/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127963;</span>
+          <span class="prac-crosslink-label">WWII Heritage</span>
+          <span class="prac-crosslink-desc">The sites, stories, and memorials across the islands</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Practical travel gradient (no video)
+     ================================================================ */
+  .prac-hero {
+    position: relative;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .prac-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .prac-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .prac-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .prac-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .prac-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .prac-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .prac-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .prac-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .prac-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .prac-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .prac-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: pracBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes pracBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     PERSONAL INTRO
+     ================================================================ */
+  .prac-personal {
+    padding-block: var(--space-8);
+  }
+
+  .prac-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid var(--color-ocean-teal);
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .prac-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .prac-personal-quote cite {
+    font-size: var(--text-caption);
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+
+  /* ================================================================
+     QUICK NAV — Jump-to chips
+     ================================================================ */
+  .prac-quicknav {
+    padding: 0 0 var(--space-6);
+  }
+
+  .prac-quicknav-grid {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .prac-quicknav-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: var(--weight-medium);
+    color: var(--color-slate);
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+
+  .prac-quicknav-chip:hover {
+    background: var(--color-sky);
+    color: var(--color-ocean-teal);
+    transform: translateY(-2px);
+  }
+
+  .prac-quicknav-icon {
+    font-size: 1rem;
+  }
+
+  .prac-quicknav-label {
+    white-space: nowrap;
+  }
+
+  /* ================================================================
+     TOPIC SECTION
+     ================================================================ */
+  .prac-topic {
+    padding: var(--space-4) 0 var(--space-6);
+    scroll-margin-top: 80px;
+  }
+
+  .prac-topic-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-5) var(--space-6);
+    margin-bottom: var(--space-5);
+    overflow: hidden;
+  }
+
+  .prac-topic-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.35;
+  }
+
+  .prac-topic-header-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .prac-topic-icon {
+    font-size: 1.6rem;
+  }
+
+  .prac-topic-title {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0;
+    line-height: 1.2;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .prac-topic-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  /* ================================================================
+     TIP CARDS
+     ================================================================ */
+  .prac-tip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (max-width: 768px) {
+    .prac-tip-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .prac-tip-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    padding: var(--space-5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .prac-tip-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .prac-tip-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-2);
+    line-height: 1.3;
+  }
+
+  .prac-tip-text {
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .prac-tip-text :global(a) {
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-semibold);
+    text-decoration: underline;
+    text-decoration-color: rgba(13, 115, 119, 0.3);
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+
+  .prac-tip-text :global(a:hover) {
+    text-decoration-color: var(--color-ocean-teal);
+  }
+
+  /* ================================================================
+     12GO TRANSPORT WIDGET
+     ================================================================ */
+  .prac-transport-widget {
+    text-align: center;
+    margin-top: var(--space-6);
+    padding: var(--space-6);
+    background: var(--color-sky);
+    border-radius: 16px;
+  }
+
+  .prac-transport-widget-title {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-1);
+  }
+
+  .prac-transport-widget-desc {
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    margin: 0 0 var(--space-4);
+  }
+
+  .prac-transport-widget-inner {
+    display: inline-block;
+    max-width: 282px;
+  }
+
+  .prac-transport-widget-powered {
+    font-size: 0.7rem;
+    color: var(--color-slate);
+    margin-top: var(--space-2);
+  }
+
+  .prac-transport-widget-powered a {
+    color: var(--color-ocean-teal);
+    text-decoration: underline;
+  }
+
+  /* ================================================================
+     AFFILIATE DISCLOSURE
+     ================================================================ */
+  .prac-affiliate-disclosure {
+    font-size: 0.75rem;
+    color: var(--color-slate);
+    line-height: 1.5;
+    text-align: center;
+    padding: var(--space-4) var(--space-6);
+    background: var(--color-sky);
+    border-radius: 10px;
+    margin-bottom: var(--space-4);
+  }
+
+  .prac-affiliate-disclosure a {
+    color: var(--color-ocean-teal);
+    text-decoration: underline;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .prac-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .prac-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .prac-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .prac-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .prac-cta-button {
+    display: inline-block;
+    background: var(--color-warm-coral);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .prac-cta-button:hover {
+    background: #d4553b;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .prac-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .prac-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .prac-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .prac-crosslinks-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .prac-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .prac-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .prac-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .prac-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .prac-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .prac-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE
+     ================================================================ */
+  @media (max-width: 640px) {
+    .prac-hero {
+      min-height: 50vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .prac-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .prac-scroll-hint {
+      display: none;
+    }
+
+    .prac-topic-header {
+      padding: var(--space-4) var(--space-4);
+    }
+  }
+</style>

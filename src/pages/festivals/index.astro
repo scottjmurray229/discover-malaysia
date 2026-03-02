@@ -1,0 +1,480 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Festival Calendar', url: '/festivals/' },
+];
+
+const pageTitle = 'Malaysia Festival Calendar 2026';
+const pageDescription = 'Thaipusam\'s kavadi processions, Penang\'s Chinese New Year, Sabah\'s Kaamatan harvest festival, and the Rainforest World Music Festival — Malaysia\'s festival year is one of the most diverse in Southeast Asia.';
+
+const festivals = [
+  {
+    month: 'Jan',
+    monthIndex: 0,
+    name: 'Thaipusam',
+    destination: 'Kuala Lumpur & Penang',
+    slug: 'kuala-lumpur',
+    description: 'One of the most extraordinary Hindu festivals outside India. Hundreds of thousands of devotees carry kavadi (elaborate frameworks attached to their bodies with hooks and skewers) to fulfill vows to Lord Murugan. At Batu Caves in KL, the 272-step climb to the main cave is the focal point. Penang\'s version at Waterfall Hilltop Temple is smaller and more accessible.',
+  },
+  {
+    month: 'Jan',
+    monthIndex: 0,
+    name: 'Chinese New Year',
+    destination: 'Penang, KL, Malacca',
+    slug: 'penang',
+    description: 'Malaysia\'s most visible annual celebration. Penang\'s George Town transforms with red lanterns, lion dances through the clan house district, and Khoo Kongsi clan rituals. KL\'s Chinatown and Petaling Street close to traffic for a week. Malacca\'s Jonker Street doubles in size. Most Chinese restaurants close for 2-3 days but the street celebrations are extraordinary.',
+  },
+  {
+    month: 'Feb',
+    monthIndex: 1,
+    name: 'Chap Goh Meh',
+    destination: 'Penang',
+    slug: 'penang',
+    description: 'The 15th and final night of Chinese New Year. In Penang, thousands of people gather along the Esplanade to throw mandarin oranges into the sea (a tradition for unmarried women seeking a good partner). The waterfront celebrations include lantern lighting and fireworks over the Penang Strait.',
+  },
+  {
+    month: 'Feb',
+    monthIndex: 1,
+    name: 'Federal Territory Day',
+    destination: 'Kuala Lumpur',
+    slug: 'kuala-lumpur',
+    description: 'KL\'s founding anniversary (February 1) celebrated with military parades, cultural performances, and fireworks at Dataran Merdeka (Independence Square). The parade involves all branches of the Malaysian armed forces and state contingents. Free public event.',
+  },
+  {
+    month: 'Mar',
+    monthIndex: 2,
+    name: 'Wesak Day',
+    destination: 'Nationwide',
+    slug: 'penang',
+    description: 'The holiest day in the Buddhist calendar — celebrating the birth, enlightenment, and death of Buddha. Candlelit processions through the streets of Penang\'s George Town are among the most beautiful. Kek Lok Si Temple in Penang becomes the focal point for the most atmospheric celebrations.',
+  },
+  {
+    month: 'Apr',
+    monthIndex: 3,
+    name: 'Pesta Regatta Lepa',
+    destination: 'Semporna, Sabah',
+    slug: 'sandakan',
+    description: 'The Bajau sea gypsies\' annual boat festival at Semporna in Sabah\'s east coast. Elaborately decorated Lepa (traditional houseboats) parade in a sea procession — one of the most visually distinctive festivals in Malaysian Borneo. Semporna is the gateway to Sipadan diving.',
+  },
+  {
+    month: 'May',
+    monthIndex: 4,
+    name: 'Kaamatan (Harvest Festival)',
+    destination: 'Sabah statewide',
+    slug: 'kota-kinabalu',
+    description: 'The most important festival in Sabah\'s cultural calendar. The Kadazan-Dusun harvest celebration runs throughout May with the state-level grand finale on May 30-31 at the KDCA in Penampang (near KK). Traditional rice wine (tapai and lihing), kulintangan gong music, and the Unduk Ngadau harvest queen pageant. The most authentic indigenous festival in Malaysian Borneo.',
+  },
+  {
+    month: 'May',
+    monthIndex: 4,
+    name: 'Sabah Fest',
+    destination: 'Kota Kinabalu',
+    slug: 'kota-kinabalu',
+    description: 'Week-long cultural festival at KK\'s cultural complex in late May, overlapping with Kaamatan. Features indigenous dances from Sabah\'s 30+ ethnic groups, traditional music performances, handicraft exhibitions, and traditional boat racing on the waterfront.',
+  },
+  {
+    month: 'May',
+    monthIndex: 4,
+    name: 'Wesak Day / Buddha\'s Birthday',
+    destination: 'Penang, KL',
+    slug: 'penang',
+    description: 'Candlelit processions through George Town mark Wesak in Penang. Buddhist temples throughout Malaysia hold prayer ceremonies, release of captive animals (merit-making), and feeding of the poor. Kek Lok Si in Penang is particularly spectacular at night during Wesak celebrations.',
+  },
+  {
+    month: 'Jun',
+    monthIndex: 5,
+    name: 'Gawai Dayak',
+    destination: 'Sarawak statewide',
+    slug: 'kuching',
+    description: 'The most important festival for Sarawak\'s Iban, Bidayuh, and other Dayak communities — a harvest festival celebrated on June 1-2 statewide. Longhouses open for visitors, traditional music and dance, communal tuak (rice wine) hospitality. Kuching celebrates with parades around Padang Merdeka. The most culturally significant event in the Sarawak festival calendar.',
+  },
+  {
+    month: 'Jun',
+    monthIndex: 5,
+    name: 'Penang International Food Festival',
+    destination: 'Penang',
+    slug: 'penang',
+    description: 'Month-long celebration of Penang\'s hawker food culture with cooking demonstrations, street food competitions, and pop-up heritage restaurants. The best time to eat obsessively in Penang — special menus, rare regional dishes, and food tours not available the rest of the year.',
+  },
+  {
+    month: 'Jul',
+    monthIndex: 6,
+    name: 'Rainforest World Music Festival',
+    destination: 'Sarawak Cultural Village, Kuching',
+    slug: 'kuching',
+    description: 'One of the best music festivals in Asia — three days of world music held at the Sarawak Cultural Village (45 minutes from Kuching). Traditional Bornean instruments alongside international acts. Day and weekend passes available (RM60-180). Book accommodation in Kuching well in advance. Widely regarded as the finest outdoor festival in Southeast Asia.',
+  },
+  {
+    month: 'Jul',
+    monthIndex: 6,
+    name: 'George Town Festival',
+    destination: 'George Town, Penang',
+    slug: 'george-town',
+    description: 'Month-long arts and culture festival filling George Town\'s UNESCO heritage zone with performances, heritage building installations, film screenings, art exhibitions, and food events. The best single month to be in George Town if cultural programming matters to your trip.',
+  },
+  {
+    month: 'Aug',
+    monthIndex: 7,
+    name: 'National Day (Hari Merdeka)',
+    destination: 'Nationwide / Malacca',
+    slug: 'malacca',
+    description: 'Malaysia\'s Independence Day on August 31. The main national parade is in Kuala Lumpur at Dataran Merdeka, but Malacca — where independence was declared in 1957 — holds particular significance. Flag-raising ceremonies, cultural performances, and street celebrations throughout the historic core.',
+  },
+  {
+    month: 'Sep',
+    monthIndex: 8,
+    name: 'Malaysia Day',
+    destination: 'Nationwide',
+    slug: 'kuala-lumpur',
+    description: 'September 16 marks the formation of the Malaysian federation in 1963 when Sabah and Sarawak joined Malaya. A public holiday celebrated with cultural performances and events nationwide. Sabah and Sarawak hold particularly meaningful local celebrations.',
+  },
+  {
+    month: 'Sep',
+    monthIndex: 8,
+    name: 'Mid-Autumn / Mooncake Festival',
+    destination: 'KL, Penang',
+    slug: 'kuala-lumpur',
+    description: 'The 15th day of the 8th lunar month. Chinese communities across Malaysia celebrate with mooncake gifting, lantern displays, and family gatherings. Penang\'s George Town and KL\'s Chinatown have the most atmospheric public celebrations, with lantern-lit streets and lion dances.',
+  },
+  {
+    month: 'Oct',
+    monthIndex: 9,
+    name: 'Hornbill Festival',
+    destination: 'Kuching, Sarawak',
+    slug: 'kuching',
+    description: 'Sarawak\'s major indigenous cultural festival at Kuching\'s cultural complex. Showcases the traditional dances, music, costumes, and crafts of Sarawak\'s 27 indigenous ethnic groups. The hornbill — Sarawak\'s state bird — symbolizes strength and longevity in Dayak culture.',
+  },
+  {
+    month: 'Oct',
+    monthIndex: 9,
+    name: 'Penang International Food Festival',
+    destination: 'Penang',
+    slug: 'penang',
+    description: 'If the June dates fall to October in some years, the PIFF remains Malaysia\'s premier food event — a month of hawker competitions, special menus, and food tourism events celebrating Penang\'s UNESCO-recognized hawker food culture.',
+  },
+  {
+    month: 'Nov',
+    monthIndex: 10,
+    name: 'Deepavali (Diwali)',
+    destination: 'Nationwide / Little India areas',
+    slug: 'kuala-lumpur',
+    description: 'The Festival of Lights celebrated by Malaysia\'s Tamil Hindu community. Little India in Brickfields (KL) and Penang\'s Jalan Masjid Kapitan Keling area are lined with oil lamps and decorated with rangoli. A public holiday in Malaysia. The Sri Mahamariamman temples hold special ceremonies.',
+  },
+  {
+    month: 'Dec',
+    monthIndex: 11,
+    name: 'Hari Raya Aidiladha (Eid al-Adha)',
+    destination: 'Nationwide',
+    slug: 'kuala-lumpur',
+    description: 'The Festival of Sacrifice marks the pilgrimage season. Prayers at mosques nationwide, followed by the ritual slaughter of livestock and distribution of meat to the community. A public holiday. The date shifts annually — in 2026 it falls in late May/early June.',
+  },
+  {
+    month: 'Dec',
+    monthIndex: 11,
+    name: 'Christmas',
+    destination: 'Sabah, Sarawak, KL',
+    slug: 'kota-kinabalu',
+    description: 'Sabah and Sarawak have significant Christian populations — Christmas is celebrated publicly and with genuine cultural weight in KK and Kuching. KL\'s malls go full Christmas from November, and the international community marks it throughout the city.',
+  },
+];
+
+const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+const faqItems = [
+  {
+    question: 'What is the biggest festival in Malaysia?',
+    answer: 'Thaipusam at Batu Caves is Malaysia\'s most visually dramatic festival — hundreds of thousands of devotees carrying kavadi (body-piercing frameworks) up 272 steps to the main cave. Chinese New Year is the most widely celebrated — affecting the entire Chinese community (about 23% of Malaysia\'s population) with weeks of celebrations. Kaamatan in Sabah is the most culturally significant indigenous festival in Malaysian Borneo.',
+  },
+  {
+    question: 'When is Chinese New Year in Malaysia?',
+    answer: 'Chinese New Year falls on a different date each year based on the lunar calendar. In 2026, Chinese New Year falls on January 29. It is celebrated for 15 days, with the most dramatic celebrations in the first 3 days. Penang\'s George Town and KL\'s Chinatown have the best public celebrations. Most Chinese-owned businesses close for 1-5 days.',
+  },
+  {
+    question: 'What is Hari Raya in Malaysia?',
+    answer: 'Hari Raya Aidilfitri (also called Eid al-Fitr) marks the end of Ramadan — the Islamic month of fasting. It\'s the most important holiday for Malaysia\'s Malay Muslim majority. Families return to their hometowns, open houses are held for neighbors of all backgrounds to visit and eat, and the streets of Malay neighborhoods are festooned with lights. Date shifts annually based on the Islamic calendar.',
+  },
+  {
+    question: 'What festivals happen in Sabah and Sarawak?',
+    answer: 'Kaamatan (Kadazan-Dusun harvest festival, late May, Sabah) and Gawai Dayak (Iban/Dayak harvest festival, June 1-2, Sarawak) are the two major indigenous festivals of Malaysian Borneo. Both involve traditional music, communal rice wine, and cultural dances. The Rainforest World Music Festival (July, Sarawak Cultural Village near Kuching) is internationally recognized as one of the best music festivals in Asia.',
+  },
+  {
+    question: 'Is Malaysia good to visit during Ramadan?',
+    answer: 'Yes — Ramadan adds a distinctive character to Malaysia. Ramadan bazaars (pasar Ramadan) spring up in Malay neighborhoods across the country from late afternoon, selling an extraordinary range of traditional Malay food at non-tourist prices. Restaurants remain open throughout the day for non-Muslim visitors. The Ramadan night market scene is one of the best food experiences in Malaysia.',
+  },
+];
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  breadcrumbs={breadcrumbs}
+  faqItems={faqItems}
+>
+  <!-- Hero -->
+  <header class="fest-hero">
+    <div class="fest-hero-gradient"></div>
+    <div class="fest-hero-content">
+      <h1 class="fest-hero-title">Malaysia Festival Calendar 2026</h1>
+      <p class="fest-hero-subtitle">Thaipusam's kavadi processions, Kaamatan's harvest rice wine, and the Rainforest World Music Festival in the jungle — Malaysia's festival year spans every culture and every month.</p>
+      <div class="fest-hero-meta">
+        <div class="fest-hero-meta-item">
+          <span class="fest-hero-meta-label">Festivals</span>
+          <span class="fest-hero-meta-value">{festivals.length}</span>
+        </div>
+        <div class="fest-hero-meta-item">
+          <span class="fest-hero-meta-label">Cultures</span>
+          <span class="fest-hero-meta-value">Malay, Chinese, Indian, Dayak</span>
+        </div>
+        <div class="fest-hero-meta-item">
+          <span class="fest-hero-meta-label">Season</span>
+          <span class="fest-hero-meta-value">Year-Round</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="fest-personal">
+    <div class="container-content">
+      <blockquote class="fest-personal-quote">
+        <p>Malaysia's cultural diversity is most visible in its festivals. In a single year you'll cycle through Thaipusam (Hindu), Chinese New Year (Buddhist/Taoist), Kaamatan (Kadazan-Dusun indigenous), Gawai (Iban Dayak), and Hari Raya (Islamic) — four distinct religious and cultural traditions all celebrated publicly and all worth building a trip around. Time your visit right and you'll experience something genuinely unrepeatable.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Calendar Grid -->
+  <section class="fest-calendar">
+    <div class="container-content">
+      <h2 class="fest-section-heading">Festivals by Month</h2>
+
+      <div class="fest-month-grid">
+        {months.map((monthName, i) => {
+          const monthFestivals = festivals.filter(f => f.monthIndex === i);
+          return (
+            <div class="fest-month-card">
+              <div class="fest-month-header">
+                <span class="fest-month-name">{monthName}</span>
+                {monthFestivals.length > 0 && (
+                  <span class="fest-month-count">{monthFestivals.length}</span>
+                )}
+              </div>
+              {monthFestivals.length > 0 ? (
+                <ul class="fest-list">
+                  {monthFestivals.map(f => (
+                    <li class="fest-item">
+                      <a href={`/destinations/${f.slug}/`} class="fest-item-link">
+                        <span class="fest-item-name">{f.name}</span>
+                        <span class="fest-item-location">{f.destination}</span>
+                        <span class="fest-item-desc">{f.description}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p class="fest-empty">No major festivals — good time for quieter travel.</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlighted Festivals -->
+  <section class="fest-highlights">
+    <div class="container-content">
+      <h2 class="fest-section-heading">Don't Miss</h2>
+      <div class="fest-highlight-grid">
+        <div class="fest-highlight-card">
+          <div class="fest-highlight-icon">🪝</div>
+          <h3>Thaipusam at Batu Caves</h3>
+          <p>January or February. The most visually extraordinary Hindu festival in Southeast Asia — kavadi carriers on the 272-step climb to the cave temple at dawn. KL and Penang both hold major events.</p>
+          <a href="/destinations/kuala-lumpur/">KL guide →</a>
+        </div>
+        <div class="fest-highlight-card">
+          <div class="fest-highlight-icon">🎶</div>
+          <h3>Rainforest World Music Festival</h3>
+          <p>July. Three days of world music at Sarawak Cultural Village near Kuching. Regularly cited as one of the best music festivals in Asia. Extraordinary setting — traditional longhouses as the stage backdrop.</p>
+          <a href="/destinations/kuching/">Kuching guide →</a>
+        </div>
+        <div class="fest-highlight-card">
+          <div class="fest-highlight-icon">🌾</div>
+          <h3>Kaamatan Harvest Festival</h3>
+          <p>May. Sabah's most important indigenous cultural event — rice wine, kulintangan gong music, and the Unduk Ngadau harvest queen pageant at the KDCA in Penampang. May 30-31 is the grand finale.</p>
+          <a href="/destinations/kota-kinabalu/">KK guide →</a>
+        </div>
+        <div class="fest-highlight-card">
+          <div class="fest-highlight-icon">🎎</div>
+          <h3>Gawai Dayak</h3>
+          <p>June 1-2. Sarawak's Iban and Dayak harvest festival with longhouse celebrations, tuak rice wine, and traditional dance. Longhouses open for respectful visitors — the most authentic cultural experience in Borneo.</p>
+          <a href="/destinations/kuching/">Kuching guide →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-content section-padding">
+    <EmailCapture
+      leadMagnet="Get the Malaysia Festival Planning Guide"
+      description="Complete festival calendar with booking tips — when to go, where to stay, and how to experience each festival respectfully."
+      bullets={[
+        'Month-by-month festival planner with exact dates for 2026',
+        'Thaipusam guide — Batu Caves vs Penang, what to expect',
+        'Kaamatan and Gawai cultural guides — how to visit respectfully',
+        'Ramadan bazaar guide — best markets in KL and Penang',
+      ]}
+      guideTag="pillar-festivals"
+    />
+
+    <FAQ items={faqItems} />
+  </section>
+
+</BaseLayout>
+
+<style>
+  .fest-hero {
+    background: linear-gradient(135deg, #1B4332 0%, #2D6A4F 40%, #D4AC0D 100%);
+    color: white;
+    padding: 100px 24px 80px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .fest-hero-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 100%);
+    z-index: 0;
+  }
+  .fest-hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .fest-hero-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 20px;
+    line-height: 1.1;
+  }
+  .fest-hero-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  .fest-hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+  .fest-hero-meta-item { text-align: center; }
+  .fest-hero-meta-label { display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.65; margin-bottom: 4px; }
+  .fest-hero-meta-value { font-family: 'DM Serif Display', serif; font-size: 1.5rem; }
+
+  .fest-personal {
+    padding: 60px 24px 40px;
+    background: #F5F0E8;
+  }
+  .fest-personal-quote {
+    max-width: 720px;
+    margin: 0 auto;
+    border-left: 3px solid #1B4332;
+    padding-left: 28px;
+  }
+  .fest-personal-quote p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--color-deep-night);
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+  .fest-personal-quote cite { font-size: 0.85rem; color: #718096; font-style: normal; font-weight: 600; }
+
+  .fest-calendar { padding: 64px 24px; }
+  .fest-section-heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    margin-bottom: var(--space-8);
+    color: var(--color-deep-night);
+  }
+
+  .fest-month-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-5);
+  }
+  @media (max-width: 900px) { .fest-month-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .fest-month-grid { grid-template-columns: 1fr; } }
+
+  .fest-month-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid #EBE4D8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .fest-month-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .fest-month-name { font-weight: 700; color: var(--color-deep-night); font-size: 1rem; }
+  .fest-month-count {
+    background: #1B4332;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 9999px;
+  }
+  .fest-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .fest-item-link {
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    background: #F5F0E8;
+    transition: background 0.2s ease;
+  }
+  .fest-item-link:hover { background: #EBE4D8; }
+  .fest-item-name { display: block; font-weight: 700; font-size: 0.9rem; color: var(--color-deep-night); margin-bottom: 2px; }
+  .fest-item-location { display: block; font-size: 0.72rem; color: #1B4332; font-weight: 600; margin-bottom: 6px; }
+  .fest-item-desc { display: block; font-size: 0.78rem; color: #718096; line-height: 1.5; }
+  .fest-empty { font-size: 0.85rem; color: #A0AEC0; font-style: italic; }
+
+  .fest-highlights { padding: 64px 24px; background: #F5F0E8; }
+  .fest-highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-5);
+    margin-top: var(--space-6);
+  }
+  @media (max-width: 768px) { .fest-highlight-grid { grid-template-columns: 1fr; } }
+  .fest-highlight-card {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    border: 1px solid #EBE4D8;
+  }
+  .fest-highlight-icon { font-size: 2rem; margin-bottom: 12px; }
+  .fest-highlight-card h3 { font-family: 'DM Serif Display', serif; font-size: 1.2rem; color: var(--color-deep-night); margin-bottom: 10px; }
+  .fest-highlight-card p { font-size: 0.9rem; color: #718096; line-height: 1.6; margin-bottom: 14px; }
+  .fest-highlight-card a { font-size: 0.85rem; font-weight: 600; color: #1B4332; text-decoration: none; }
+  .fest-highlight-card a:hover { text-decoration: underline; }
+</style>

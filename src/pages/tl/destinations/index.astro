@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+
+const allDests = await getCollection('destinations', (entry) => {
+  return entry.id.startsWith('tl/');
+});
+
+// Group by region and sort alphabetically
+const regions: Record<string, typeof allDests> = { visayas: [], luzon: [], mindanao: [] };
+allDests.forEach(d => {
+  if (regions[d.data.region]) regions[d.data.region].push(d);
+});
+Object.values(regions).forEach(arr => arr.sort((a, b) => a.data.title.localeCompare(b.data.title)));
+
+const breadcrumbs = [
+  { name: 'Home', url: '/tl/' },
+  { name: 'Mga Destinasyon', url: '/tl/destinations/' },
+];
+
+const regionMeta: Record<string, { label: string; desc: string; gradient: string }> = {
+  visayas: {
+    label: 'Visayas',
+    desc: 'Ang sentro ng isla ng Pilipinas — mga maputing buhangin, kristal na tubig, at mundo sa ilalim ng dagat.',
+    gradient: 'var(--gradient-cebu)',
+  },
+  luzon: {
+    label: 'Luzon',
+    desc: 'Mula sa maingay na Maynila hanggang sa mga rice terraces ng Cordillera — kultura, kasaysayan, at kalikasan.',
+    gradient: 'var(--gradient-palawan)',
+  },
+  mindanao: {
+    label: 'Mindanao',
+    desc: 'Mga natatanging surf break, hindi pa natutuklas na mga isla, at mga karanasang wala sa mapa ng turista.',
+    gradient: 'var(--gradient-siargao)',
+  },
+};
+---
+<BaseLayout title="Mga Destinasyon sa Pilipinas" description="Mga gabay sa paglalakbay sa mga isla, lungsod, at nakatagong yaman ng Pilipinas." locale="tl">
+  <div class="container-content section-padding">
+    <Breadcrumb items={breadcrumbs} />
+
+    <h1 style="margin-bottom: var(--space-4);">Mga Destinasyon sa Pilipinas</h1>
+    <p style="color: var(--color-slate); margin-bottom: var(--space-10); max-width: var(--content-prose);">
+      Tuklasin ang aming mga gabay sa bawat destinasyon — mula sa mga sikat na isla hanggang sa mga hindi pa natutuklas na paraiso.
+    </p>
+
+    {Object.entries(regions).map(([key, dests]) => dests.length > 0 && (
+      <section style="margin-bottom: var(--space-12);">
+        <h2 style="margin-bottom: var(--space-4);">{regionMeta[key].label}</h2>
+        <p style="color: var(--color-slate); margin-bottom: var(--space-6);">{regionMeta[key].desc}</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4);">
+          {dests.map(d => (
+            <a
+              href={`/tl/destinations/${d.slug.replace(/^tl\//, '')}/`}
+              style="display: block; padding: var(--space-5); background: white; border-radius: 16px; text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: box-shadow 0.2s ease, transform 0.2s ease;"
+            >
+              <h3 style="color: var(--color-heading); margin-bottom: var(--space-2);">{d.data.title}</h3>
+              {d.data.tagline && <p style="color: var(--color-slate); font-size: var(--text-caption); margin: 0;">{d.data.tagline}</p>}
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    {allDests.length === 0 && (
+      <div style="text-align: center; padding: var(--space-16) 0; color: var(--color-slate);">
+        <p>Wala pang mga pagsasalin ng destinasyon. Malapit nang dumating!</p>
+        <a href="/destinations/" style="display: inline-block; margin-top: var(--space-4);">Tingnan ang mga gabay sa English</a>
+      </div>
+    )}
+  </div>
+</BaseLayout>

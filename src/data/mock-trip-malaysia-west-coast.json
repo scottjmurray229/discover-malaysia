@@ -1,0 +1,395 @@
+{
+  "name": "Malaysia West Coast Adventure",
+  "subtitle": "Kuala Lumpur → Penang → Langkawi",
+  "dates": "Dec 26, 2026 – Jan 2, 2027",
+  "days": [
+    {
+      "day": 1,
+      "date": "Sat, Dec 26",
+      "title": "Arrive Kuala Lumpur",
+      "location": "Kuala Lumpur",
+      "items": [
+        {
+          "id": "d1-1",
+          "time": "2:00 PM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Arrive KLIA",
+          "detail": "Kuala Lumpur International Airport (KUL). KLIA Ekspres train to KL Sentral takes 28 minutes — RM55 one-way.",
+          "directions": "KLIA Ekspres departs from KLIA Arrival Hall, Level 1. Buy tickets at the station or in advance online.",
+          "status": "confirmed",
+          "lat": 2.7456,
+          "lng": 101.7099
+        },
+        {
+          "id": "d1-2",
+          "time": "3:00 PM",
+          "icon": "🏨",
+          "type": "accommodation",
+          "title": "Check in — KLCC / Bukit Bintang area",
+          "detail": "Stay in the Golden Triangle area for walkability to Petronas Towers, Jalan Alor, and KLCC Park.",
+          "directions": "Most hotels in KLCC area are walking distance from KL Sentral via MRT or Monorail.",
+          "status": "confirmed",
+          "lat": 3.1579,
+          "lng": 101.7116
+        },
+        {
+          "id": "d1-3",
+          "time": "7:00 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Dinner: Jalan Alor Night Market",
+          "detail": "KL's most famous hawker street. Char kway teow, grilled seafood, satay — eat your way down the strip. Budget RM30-60/person.",
+          "directions": "Jalan Alor is off Jalan Bukit Bintang, a 10-minute walk from KLCC area hotels.",
+          "status": "confirmed",
+          "lat": 3.1448,
+          "lng": 101.7113
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "Sun, Dec 27",
+      "title": "Kuala Lumpur — Towers & Temples",
+      "location": "Kuala Lumpur",
+      "items": [
+        {
+          "id": "d2-1",
+          "time": "8:00 AM",
+          "icon": "☕",
+          "type": "food",
+          "title": "Breakfast: Nasi Lemak at Village Park",
+          "detail": "Village Park Restaurant in Damansara is the benchmark nasi lemak in KL. Worth the trip. RM10-15/person.",
+          "directions": "Grab/Taxi from KLCC area, about 15-20 minutes.",
+          "status": "confirmed",
+          "lat": 3.1436,
+          "lng": 101.6537
+        },
+        {
+          "id": "d2-2",
+          "time": "10:00 AM",
+          "icon": "🏛️",
+          "type": "activity",
+          "title": "Batu Caves",
+          "detail": "272 steps to the main cave temple. Free entry to the cave itself. Sri Subramaniar Swamy Temple at the base. The golden Lord Murugan statue is the tallest in Malaysia.",
+          "directions": "KTM Komuter train from KL Sentral to Batu Caves station, 30 minutes.",
+          "status": "confirmed",
+          "lat": 3.2379,
+          "lng": 101.6840
+        },
+        {
+          "id": "d2-3",
+          "time": "3:00 PM",
+          "icon": "🗼",
+          "type": "activity",
+          "title": "Petronas Towers Observation Deck",
+          "detail": "Tickets RM85/person. Skybridge on Level 41 and observation deck on Level 86. Book online in advance — sells out fast.",
+          "directions": "KLCC MRT station is directly connected to the Petronas Twin Towers via underground walkway.",
+          "status": "confirmed",
+          "lat": 3.1578,
+          "lng": 101.7120
+        },
+        {
+          "id": "d2-4",
+          "time": "8:00 PM",
+          "icon": "🍴",
+          "type": "food",
+          "title": "Dinner: Atmosphere 360 or Hakka Restaurant",
+          "detail": "Atmosphere 360 in KL Tower for a splurge (RM200+/person) or Hakka Restaurant in Jalan Kia Peng for excellent Chinese-Malaysian cuisine (RM60-100/person).",
+          "directions": "Both a short Grab ride from KLCC.",
+          "status": "confirmed",
+          "lat": 3.1528,
+          "lng": 101.7039
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "Mon, Dec 28",
+      "title": "Kuala Lumpur — Chinatown & Merdeka",
+      "location": "Kuala Lumpur",
+      "items": [
+        {
+          "id": "d3-1",
+          "time": "9:00 AM",
+          "icon": "🏙️",
+          "type": "activity",
+          "title": "Merdeka Square & Sultan Abdul Samad Building",
+          "detail": "The historic heart of KL where Malaysian independence was declared in 1957. The Sultan Abdul Samad Building with its copper domes is the photo-postcard of colonial KL.",
+          "directions": "Masjid Jamek MRT or LRT station, 5-minute walk.",
+          "status": "confirmed",
+          "lat": 3.1480,
+          "lng": 101.6953
+        },
+        {
+          "id": "d3-2",
+          "time": "11:00 AM",
+          "icon": "🛒",
+          "type": "activity",
+          "title": "Petaling Street (Chinatown)",
+          "detail": "KL's Chinatown market for souvenirs, street food, and atmosphere. Haggling expected. Best for char siu pau, chee cheong fun, and fresh fruit.",
+          "directions": "Pasar Seni MRT station, directly at Chinatown.",
+          "status": "confirmed",
+          "lat": 3.1430,
+          "lng": 101.6967
+        },
+        {
+          "id": "d3-3",
+          "time": "3:00 PM",
+          "icon": "🎨",
+          "type": "activity",
+          "title": "National Museum (Muzium Negara)",
+          "detail": "Best overview of Malaysian history and culture. Entrance RM5 for foreigners. Allow 2 hours.",
+          "directions": "Kuala Lumpur railway station area, walking distance from Pasar Seni.",
+          "status": "confirmed",
+          "lat": 3.1413,
+          "lng": 101.6860
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "Tue, Dec 29",
+      "title": "KL to Penang by Train",
+      "location": "Penang",
+      "items": [
+        {
+          "id": "d4-1",
+          "time": "8:00 AM",
+          "icon": "🚆",
+          "type": "transport",
+          "title": "KTM ETS Train: KL Sentral → Butterworth",
+          "detail": "ETS Gold service takes approximately 3.5 hours. Book in advance at KTM Berhad website. RM60-80 one-way.",
+          "directions": "KL Sentral station — ETS trains depart from the main platforms. Arrive 30 minutes early.",
+          "status": "confirmed",
+          "lat": 3.1341,
+          "lng": 101.6865
+        },
+        {
+          "id": "d4-2",
+          "time": "12:30 PM",
+          "icon": "⛴️",
+          "type": "transport",
+          "title": "Butterworth Ferry to Georgetown",
+          "detail": "Penang Ferry Service runs every 20-30 minutes. RM1.20 one-way (foot passenger). 10-minute crossing.",
+          "directions": "Butterworth Ferry Terminal is adjacent to the train station. Follow signs.",
+          "status": "confirmed",
+          "lat": 5.3990,
+          "lng": 100.3634
+        },
+        {
+          "id": "d4-3",
+          "time": "2:00 PM",
+          "icon": "🏨",
+          "type": "accommodation",
+          "title": "Check in — George Town Heritage Zone",
+          "detail": "Stay in or near the UNESCO heritage zone for walking access to street art, hawker centers, and colonial architecture.",
+          "directions": "George Town UNESCO zone is compact — most heritage hotels are walkable from the ferry terminal.",
+          "status": "confirmed",
+          "lat": 5.4141,
+          "lng": 100.3288
+        },
+        {
+          "id": "d4-4",
+          "time": "7:00 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Dinner: Gurney Drive Hawker Centre",
+          "detail": "Penang's most famous hawker stretch. Penang char kway teow, assam laksa, rojak, cendol. Budget RM25-40/person.",
+          "directions": "Grab ride from George Town heritage area, about 15 minutes.",
+          "status": "confirmed",
+          "lat": 5.4375,
+          "lng": 100.3113
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "Wed, Dec 30",
+      "title": "George Town — Heritage & Street Art",
+      "location": "Penang",
+      "items": [
+        {
+          "id": "d5-1",
+          "time": "8:00 AM",
+          "icon": "🍳",
+          "type": "food",
+          "title": "Breakfast: Penang Kopitiam",
+          "detail": "Traditional Penang-style kopitiam coffee shop. Kaya toast, half-boiled eggs, and the best local coffee in Malaysia. Try Sin Yin Lee or Toh Soon Cafe.",
+          "directions": "George Town heritage zone, walking distance from most hotels.",
+          "status": "confirmed",
+          "lat": 5.4169,
+          "lng": 100.3314
+        },
+        {
+          "id": "d5-2",
+          "time": "9:30 AM",
+          "icon": "🎨",
+          "type": "activity",
+          "title": "Ernest Zacharevic Street Art Walk",
+          "detail": "George Town's iconic iron rod and mural street art trail. Pick up a free art map from tourist info. The 'Children on Bicycle' mural is the most photographed in Malaysia.",
+          "directions": "Start at the Clan Jetties and work through the UNESCO zone. Wear walking shoes.",
+          "status": "confirmed",
+          "lat": 5.4141,
+          "lng": 100.3380
+        },
+        {
+          "id": "d5-3",
+          "time": "12:00 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Lunch: Penang Assam Laksa at Air Itam",
+          "detail": "Michelin Bib Gourmand-recognized. The original assam laksa at Ayer Itam market is considered the definitive version. RM6-8/bowl.",
+          "directions": "Grab ride to Ayer Itam market, about 20 minutes from George Town.",
+          "status": "confirmed",
+          "lat": 5.3985,
+          "lng": 100.2880
+        },
+        {
+          "id": "d5-4",
+          "time": "3:00 PM",
+          "icon": "🕌",
+          "type": "activity",
+          "title": "Khoo Kongsi Clan House",
+          "detail": "The most ornate Hokkien clan house in Malaysia. Intricate carvings, porcelain decorations, and a history going back to 1851. Entrance RM10.",
+          "directions": "Cannon Square, George Town heritage zone, walking distance from most hotels.",
+          "status": "confirmed",
+          "lat": 5.4169,
+          "lng": 100.3395
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "Thu, Dec 31",
+      "title": "Langkawi — New Year's Eve Island",
+      "location": "Langkawi",
+      "items": [
+        {
+          "id": "d6-1",
+          "time": "9:00 AM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Flight: Penang (PEN) → Langkawi (LGK)",
+          "detail": "AirAsia or FireFly. Flight time 35-45 minutes. Book in advance — prices rise fast for New Year's period. Alternatively, ferry from Penang takes 2.5 hours (RM80-100).",
+          "directions": "Penang International Airport is 15km south of George Town. Grab or taxi, about 30 minutes.",
+          "status": "confirmed",
+          "lat": 5.2967,
+          "lng": 100.2761
+        },
+        {
+          "id": "d6-2",
+          "time": "11:00 AM",
+          "icon": "🏨",
+          "type": "accommodation",
+          "title": "Check in — Pantai Cenang Beach Resort",
+          "detail": "Langkawi's main beach strip. Mid-range resorts from RM300-600/night. Budget guesthouses from RM80-150/night. Duty-free island so alcohol is cheap.",
+          "directions": "Langkawi airport is centrally located — most beach resorts 20-30 minutes by taxi.",
+          "status": "confirmed",
+          "lat": 6.2949,
+          "lng": 99.7283
+        },
+        {
+          "id": "d6-3",
+          "time": "3:00 PM",
+          "icon": "🚡",
+          "type": "activity",
+          "title": "Langkawi Cable Car & Sky Bridge",
+          "detail": "Cable car to the summit of Gunung Mat Cincang (708m). The Sky Bridge is a curved pedestrian bridge over a 100m drop. Cable car + Sky Bridge RM55/person.",
+          "directions": "Oriental Village, Burau Bay — Grab or rental car, about 20 minutes from Pantai Cenang.",
+          "status": "confirmed",
+          "lat": 6.3700,
+          "lng": 99.6644
+        },
+        {
+          "id": "d6-4",
+          "time": "10:00 PM",
+          "icon": "🎆",
+          "type": "activity",
+          "title": "New Year's Eve at Pantai Cenang",
+          "detail": "Langkawi beach parties run all night. Multiple beach bars and clubs along Pantai Cenang organize countdown parties. Entry fees vary RM50-200 depending on venue.",
+          "directions": "Pantai Cenang beach strip — walk between venues.",
+          "status": "confirmed",
+          "lat": 6.2949,
+          "lng": 99.7283
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "Fri, Jan 1",
+      "title": "Langkawi — Island Hopping",
+      "location": "Langkawi",
+      "items": [
+        {
+          "id": "d7-1",
+          "time": "10:00 AM",
+          "icon": "⛵",
+          "type": "activity",
+          "title": "Island Hopping Tour",
+          "detail": "Classic Langkawi island hopping: Pulau Dayang Bunting (freshwater lake), Pulau Beras Basah (white sand), eagle feeding at Singa Besar. Half day tour RM35-50/person.",
+          "directions": "Most resorts and hotels can arrange island hopping tours. Or book at Telaga Harbour or Kuah jetty.",
+          "status": "confirmed",
+          "lat": 6.2286,
+          "lng": 99.7672
+        },
+        {
+          "id": "d7-2",
+          "time": "3:00 PM",
+          "icon": "🛒",
+          "type": "activity",
+          "title": "Duty-Free Shopping at Kuah Town",
+          "detail": "Langkawi is a duty-free island — chocolate, cigarettes, liquor, and electronics are significantly cheaper. Kuah town has the main duty-free outlets.",
+          "directions": "Kuah is the main town, about 25-30 minutes from Pantai Cenang by taxi.",
+          "status": "confirmed",
+          "lat": 6.3179,
+          "lng": 99.8486
+        },
+        {
+          "id": "d7-3",
+          "time": "7:00 PM",
+          "icon": "🌅",
+          "type": "food",
+          "title": "Sunset Dinner: Scarborough Fish & Chips or Yellow Cafe",
+          "detail": "Scarborough Fish & Chips is an institution on Pantai Cenang — fresh catch, classic preparation. Yellow Cafe for excellent seafood pasta and sunset views. RM40-80/person.",
+          "directions": "Both on Pantai Cenang beach strip.",
+          "status": "confirmed",
+          "lat": 6.2949,
+          "lng": 99.7283
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "Sat, Jan 2",
+      "title": "Depart Langkawi",
+      "location": "Langkawi",
+      "items": [
+        {
+          "id": "d8-1",
+          "time": "10:00 AM",
+          "icon": "🏖️",
+          "type": "activity",
+          "title": "Final morning — Pantai Tengah or Tanjung Rhu",
+          "detail": "Tanjung Rhu in the north of Langkawi is the quietest and most beautiful beach on the island. Worth the 40-minute drive for a final morning swim.",
+          "directions": "Rental car or taxi to Tanjung Rhu, north coast of Langkawi.",
+          "status": "confirmed",
+          "lat": 6.4219,
+          "lng": 100.0023
+        },
+        {
+          "id": "d8-2",
+          "time": "3:00 PM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Depart Langkawi (LGK)",
+          "detail": "Langkawi to KL (KUL) direct flights run multiple times daily. Alternatively, fly to Penang and connect.",
+          "directions": "Langkawi International Airport, central location. Allow 90 minutes before departure.",
+          "status": "confirmed",
+          "lat": 6.3297,
+          "lng": 99.7286
+        }
+      ]
+    }
+  ]
+}

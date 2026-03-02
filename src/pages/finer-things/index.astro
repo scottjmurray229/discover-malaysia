@@ -1,0 +1,937 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'The Finer Things', url: '/finer-things/' },
+];
+
+const pageTitle = 'The Finer Things — Malaysia Beer, Spirits, Nightlife & Cigars Guide 2026';
+const pageDescription = 'Tiger beer buckets, Malaysian craft beer, KL rooftop bars, night markets, cigars, and what you can bring home from Malaysia.';
+
+interface TopicSection {
+  id: string;
+  icon: string;
+  title: string;
+  gradient: string;
+  items: { label: string; text: string; link?: string }[];
+}
+
+const topics: TopicSection[] = [
+  {
+    id: 'beer',
+    icon: '🍺',
+    title: 'Malaysian Beer',
+    gradient: 'linear-gradient(135deg, #78350F 0%, #D4A574 100%)',
+    items: [
+      { label: 'Tiger Beer', text: 'The most recognizable Malaysian lager, brewed in KL since 1932. Clean, light, and cold — exactly what you want in 35°C heat. RM8–12 ($1.70–2.55 USD) at a restaurant, RM5–7 at a convenience store. Order a tower on ice at any hawker centre or bar. Tiger is on tap at most rooftop bars in KL and Penang.' },
+      { label: 'Heineken Malaysia', text: 'Brewed locally under license, Heineken is everywhere and often the same price as Tiger. You\'ll find it at 7-Eleven, Giant, and every mamak stall that sells alcohol. The quality is consistently good. It\'s not the most exciting choice but it\'s reliable, cold, and gets the job done after a day at the Batu Caves or Penang Hill.' },
+      { label: 'Guinness Foreign Extra Stout', text: 'Malaysia is one of the few countries where Guinness FES outsells the regular draught. The Foreign Extra Stout is stronger (7.5% ABV), richer, and sweeter than Irish Guinness. Malaysians have been drinking it since the British colonial era. Order it in a Chinese kopitiam or any bar with a proper draught system. RM14–20 per pint.' },
+      { label: 'The Craft Beer Scene', text: 'KL has a growing craft beer scene. <strong>Taps Beer Bar</strong> (TREC Entertainment District) has the best tap selection in Malaysia — 50+ rotating craft beers. <strong>Botak Liquor</strong> in KLCC area carries local and imported craft cans. <strong>Penang Craft</strong> brews decent IPAs and wheat beers. Expect RM22–35 ($4.70–7.45 USD) per pint — 3–4x the price of Tiger, but the quality gap is real.' },
+      { label: 'Alcohol Laws & Muslim-Majority Context', text: 'Malaysia is a Muslim-majority country. Alcohol is legal for non-Muslims and widely available in non-halal restaurants, bars, hotels, and convenience stores. You will not find alcohol at mamak stalls (Muslim-operated), at halal restaurants, or in the rural east coast states. In bars and nightlife districts — KL\'s Changkat Bukit Bintang, Penang\'s Love Lane — there are no restrictions. Respect the context and drink responsibly.' },
+      { label: 'How Malaysians Drink', text: 'Chinese-Malaysian culture has a vibrant drinking scene. <strong>Yam seng</strong> ("bottoms up") at Chinese restaurants is the toast for birthdays and celebrations — the longer and louder the group shouts it, the better the luck. Beer towers (shared pitchers with ice compartments) are standard at hawker centres. Night markets and pasar malam don\'t sell alcohol but the food pairs perfectly with a beer from a nearby convenience store. Grab a Tiger, find a plastic chair, and settle in.' },
+    ],
+  },
+  {
+    id: 'spirits',
+    icon: '🥃',
+    title: 'Spirits & Cocktails',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #78350F 100%)',
+    items: [
+      { label: 'Whiskey & Scotch', text: 'Malaysia has one of Asia\'s best duty-free shopping situations — Langkawi is completely duty-free and you can buy premium scotch at 30–50% below retail. Johnny Walker Black, Glenfiddich, and Lagavulin are all available at Langkawi duty-free shops at genuinely good prices. Stock up when you visit. In KL, buy at Jaya Grocer or Village Grocer — better selection than bars, better prices than duty-free.' },
+      { label: 'Local Malaysian Spirits', text: 'Malaysia doesn\'t have a major distilling tradition due to its Muslim majority, but <strong>rice wine (tuak)</strong> from Sarawak\'s Iban and Bidayuh communities is the notable exception. It\'s fermented rice wine with a mild, slightly sweet flavor — offered at longhouse visits in Sarawak as a welcome drink. Accept a small cup with both hands as a gesture of respect. It\'s usually around 15–25% ABV.' },
+      { label: 'Cocktail Bars in KL', text: 'KL has become a serious cocktail city. <strong>Bar Trigona</strong> at the Four Seasons uses foraged Malaysian ingredients — honey, tropical botanicals, native citrus. <strong>Pahit</strong> (Petaling Street) focuses on gin with tropical twists. <strong>PS150</strong> (Petaling Street) is a speakeasy in a heritage shophouse with excellent rum cocktails. <strong>ZETA Bar</strong> (Hilton KL) has the best elevated rooftop scene. Expect RM40–80 ($8.50–17 USD) per cocktail.' },
+      { label: 'Non-Alcoholic Options', text: 'Malaysia excels at non-alcoholic drinks. <strong>Teh tarik</strong> (pulled milk tea) is the national social drink — watch it poured from height to create a frothy top. <strong>Bandung</strong> (rose-flavored milk) is a Ramadan staple. <strong>Cendol</strong> and <strong>Air limau</strong> (lime juice) are everywhere. <strong>Milo Ais</strong> (iced chocolate malt) is the coffee-shop staple. If you\'re not a drinker or are traveling during Ramadan, Malaysia offers some of the best non-alcoholic drink culture in Southeast Asia.' },
+    ],
+  },
+  {
+    id: 'nightlife',
+    icon: '🌃',
+    title: 'Nightlife Districts',
+    gradient: 'linear-gradient(135deg, #4C1D95 0%, #E8654A 100%)',
+    items: [
+      { label: 'KL: Changkat Bukit Bintang', link: '/destinations/kuala-lumpur/', text: 'The main nightlife strip in KL — a pedestrianized street lined with bars, rooftop terraces, and late-night restaurants. <strong>Taps Beer Bar</strong> for craft beer. <strong>Havana Bar</strong> for live Cuban music. <strong>Sky Bar</strong> at Traders Hotel for Petronas Tower views. The strip is walkable and safe — peak hours are 10 PM–2 AM on weekends. Grab a Tiger tower, find an outdoor table, and watch KL go by.' },
+      { label: 'KL: TREC Entertainment District', link: '/destinations/kuala-lumpur/', text: 'KL\'s purpose-built entertainment complex near Jalan Imbi. <strong>Zouk KL</strong> — the flagship club in a massive converted space with multiple rooms and international DJs. <strong>Taps Beer Bar</strong> is here too. More upscale and international crowd than Changkat, higher prices, stricter dress code. Best for a proper club night rather than a casual bar crawl.' },
+      { label: 'KL: Petaling Street & Chinatown', link: '/destinations/kuala-lumpur/', text: 'Heritage shophouse bars and craft cocktail spots tucked behind Petaling Street\'s day markets. <strong>PS150</strong> speakeasy through a hidden door. <strong>Pahit</strong> gin bar. <strong>LOKL Coffee</strong> goes late on weekends. The atmosphere is more cultured, less loud than Changkat — right for cocktail enthusiasts who want substance with their surroundings.' },
+      { label: 'Penang: Love Lane & Armenian Street', link: '/destinations/penang/', text: 'George Town\'s bar scene is intimate and quirky. <strong>Mish Mash</strong> rooftop bar with heritage shophouse views. <strong>The Narrow Marrow</strong> for craft cocktails. <strong>Mugshot Café</strong> does late-night food with drinks. Love Lane has backpacker-friendly bars and live acoustic music. Nothing is pretentious — Penang\'s nightlife is unpretentious, creative, and best ended with a midnight char kway teow from a hawker stall.' },
+      { label: 'Langkawi: Duty-Free & Beach Bars', link: '/destinations/langkawi/', text: 'Langkawi is the only place in Malaysia where alcohol is truly cheap — duty-free island rules mean beer and spirits cost 40–60% less than on the mainland. Cenang Beach has a strip of bars open late. <strong>Cliff Beach Bar</strong> and <strong>Temple Bar</strong> are the most established. The beach bar scene is relaxed, barefoot, and sunset-obsessed. Stock up at Langkawi duty-free shops before you leave the island.' },
+      { label: 'Kota Kinabalu: Waterfront Bars', link: '/destinations/kota-kinabalu/', text: 'KK\'s waterfront is lined with casual seafood restaurants and bars overlooking the South China Sea. <strong>Upperstar Bar</strong> on the waterfront does live music. <strong>El Centro</strong> is the most popular nightlife spot. The scene is low-key and friendly — KK shuts down earlier than KL, so aim to be out by midnight. Sunsets here are spectacular, and the foreground of water makes drinks taste better.' },
+    ],
+  },
+  {
+    id: 'nightmarket',
+    icon: '🌙',
+    title: 'Night Markets',
+    gradient: 'linear-gradient(135deg, #E8654A 0%, #FB923C 100%)',
+    items: [
+      { label: 'Jalan Alor, KL', link: '/destinations/kuala-lumpur/', text: 'The most famous food street in Kuala Lumpur — a long strip of hawker stalls and open-air restaurants that comes alive after dark. Every Malaysian classic is here: char kway teow, satay, seafood, BBQ corn, cendol. The street is loud, crowded, and perpetually smoky from woks. It\'s not fancy, it\'s not quiet, and it\'s completely essential. Open from around 5 PM to 3 AM.' },
+      { label: 'Gurney Drive Hawker Centre, Penang', text: 'Penang\'s most famous hawker centre right on the waterfront. The rows of stalls cover every Penang specialty — char kway teow, assam laksa, pasembur, rojak, ice kacang. Go after 7 PM when it\'s fully open. Come hungry. The sea breeze off the Strait of Malacca makes it one of the most pleasant places to eat in Malaysia.' },
+      { label: 'Pasar Malam (Night Markets)', text: 'Every neighbourhood in Malaysia has a weekly pasar malam — a rotating night market held on a different day each week. The food quality is excellent, prices are low (RM2–8 per item), and the variety is staggering. Ask your hotel or Airbnb host which day the local pasar malam happens. These aren\'t for tourists — they\'re for locals, and that\'s exactly why they\'re worth finding.' },
+      { label: 'Jonker Street Night Market, Malacca', link: '/destinations/malacca/', text: 'Friday and Saturday nights, the famous Jonker Street heritage quarter closes to traffic and transforms into a night market. Nyonya kuih, chicken rice balls, cendol, handmade crafts, antiques. The Dutch Stadthuys is lit up in the background. One of the most atmospheric night markets in Southeast Asia. Get there by 7 PM before the main street fills completely.' },
+    ],
+  },
+  {
+    id: 'cigars',
+    icon: '🪈',
+    title: 'Cigars',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #4A3728 50%, #D4A574 100%)',
+    items: [
+      { label: 'Cigars in Malaysia', text: 'Malaysia doesn\'t have a cigar tradition like the Philippines or Cuba, but the demand from expats and business travelers means you\'ll find a reasonable selection at upscale venues. KL\'s hotel cigar bars carry Cuban and Dominican brands at premium prices. <strong>Cigar Inn</strong> in KL has the best humidor selection in the city. Langkawi duty-free sells a small selection of Cuban cigars at better prices than anywhere else in Malaysia.' },
+      { label: 'Duty-Free in Langkawi', text: 'Langkawi is genuinely duty-free — the island is exempt from Malaysian taxes and customs duties. This means Cuban cigars here are closer to what you\'d pay in Cuba itself. The duty-free shops at the ferry terminal and in Cenang carry Romeo y Julieta, Cohiba, and Montecristo. If you\'re a cigar smoker visiting Langkawi, this is your moment. Stock up.' },
+      { label: 'Where to Smoke', text: '<strong>Cigar Inn KL</strong> — dedicated lounge with humidor and smoking room in the city centre. <strong>Bar Trigona</strong> (Four Seasons KL) — some outdoor seating allows cigars. <strong>Pangkor Laut Resort</strong> — island resort with outdoor bar perfect for a sunset cigar. Most KL rooftop bars allow cigars on the open-air sections. Always check before lighting up — Malaysia has strict indoor smoking laws.' },
+      { label: 'Bring the Right Gear', text: 'A <a href="https://www.amazon.com/dp/B089QFVWX6?tag=discovermy-20" target="_blank" rel="nofollow sponsored">travel humidor case</a> protects your sticks from Malaysia\'s extreme humidity. A <a href="https://www.amazon.com/dp/B07WFBC8X8?tag=discovermy-20" target="_blank" rel="nofollow sponsored">butane torch lighter</a> is essential on rooftops and open-air bars where wind kills a match. Don\'t forget a <a href="https://www.amazon.com/dp/B07D1FPQJF?tag=discovermy-20" target="_blank" rel="nofollow sponsored">cigar cutter</a> — the house cutters at most venues are dull.' },
+    ],
+  },
+  {
+    id: 'gear',
+    icon: '🎒',
+    title: 'Gear for Doing It Right',
+    gradient: 'linear-gradient(135deg, #0E4D5C 0%, #0D7377 100%)',
+    items: [
+      { label: 'DJI Mini 4 Pro (Drone)', text: 'Borneo\'s rainforest from 400 feet, the Petronas Towers at dawn, rice terraces in Cameron Highlands — Malaysia rewards aerial photography. The <a href="https://www.amazon.com/dp/B0CFF1SJ3P?tag=discovermy-20" target="_blank" rel="nofollow sponsored">DJI Mini 4 Pro</a> weighs under 250g, folds into a jacket pocket, and shoots 4K HDR. Register with CAAM (Civil Aviation Authority of Malaysia) and check drone rules for national parks and restricted airspace near military areas.' },
+      { label: 'Peak Design Travel Tripod', text: 'The <a href="https://www.amazon.com/dp/B085BQS6K4?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Peak Design Travel Tripod</a> collapses to water bottle size — essential for long-exposure shots at George Town\'s heritage streets, low-light temple photography, and night market scenes. Carbon fiber version is worth the upgrade if you\'re carrying it in a day bag all day.' },
+      { label: 'Sony WH-1000XM5', text: 'KL to Kota Kinabalu is two hours. Getting to Sandakan or Mulu adds more flights — Malaysia requires hopping multiple regional aircraft for a Borneo trip. <a href="https://www.amazon.com/dp/B09XS7JWHH?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Sony WH-1000XM5 headphones</a> have the best noise canceling on the market. The long-haul from North America — 19–22 hours with a connection — makes them non-negotiable.' },
+      { label: 'Anker 735 GaN Charger', text: 'One <a href="https://www.amazon.com/dp/B09C5RG6KV?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Anker 735 GaN 65W charger</a> handles laptop, phone, and camera simultaneously. Malaysia uses Type G (British 3-pin, 240V) — the charger is dual-voltage, so no adapter needed for the charger itself. Bring a UK-to-Type-G adapter for everything else.' },
+      { label: 'Apple AirTag 4-Pack', text: 'An <a href="https://www.amazon.com/dp/B0D54JZTHY?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Apple AirTag 4-pack</a> tracks your checked bag, camera bag, day bag, and drone case. Bags do get separated on KL-to-KK hops — with an AirTag in each one, you know where everything is before you leave the gate.' },
+      { label: 'Compression Socks', text: '<a href="https://www.amazon.com/dp/B089DRF9WM?tag=discovermy-20" target="_blank" rel="nofollow sponsored">Sockwell compression socks</a> are essential for the transpacific or transatlantic flight to KL. Also useful for Mount Kinabalu trekkers and anyone doing long jungle walks in Taman Negara — the graduated compression reduces fatigue on hiking days.' },
+    ],
+  },
+  {
+    id: 'customs',
+    icon: '🛃',
+    title: 'Customs & Duty-Free Rules',
+    gradient: 'linear-gradient(135deg, #1565C0 0%, #42A5F5 100%)',
+    items: [
+      { label: 'Bringing Alcohol INTO Malaysia', text: 'Non-Muslims may bring in <strong>1 liter of spirits and 1 liter of wine or beer</strong> duty-free. Anything over that is technically dutiable but small overages are rarely checked. Malaysian customs is generally relaxed with reasonable personal amounts. Note: bringing alcohol into Malaysia proper from Langkawi counts — the duty-free allowance resets on the island itself.' },
+      { label: 'Langkawi Duty-Free Limits', text: 'Langkawi is a duty-free island. When you leave the island (by ferry or plane), you can bring back to mainland Malaysia: <strong>1 liter of spirits, 1 liter of wine or beer, and 200 cigarettes</strong> duty-free. Beer and spirits on Langkawi are 40–60% cheaper than on the mainland — stock up before your ferry back.' },
+      { label: 'Bringing Alcohol BACK to the USA', text: '<strong>1 liter of alcohol duty-free</strong> per person aged 21+. You can bring more but you\'ll owe duty on anything over 1 liter — typically $2–5 per additional bottle. Malaysian whiskey (especially Langkawi-bought scotch) and tuak from Sarawak are good souvenirs at excellent prices compared to home.' },
+      { label: 'Cigars Back to the USA', text: 'You can bring back <strong>up to 100 cigars</strong> (non-Cuban origin) duty-free. If you bought Cuban cigars in Langkawi or Malaysia, technically US law still restricts Cuban cigars — though enforcement has loosened. Keep receipts and declare honestly at US customs.' },
+      { label: 'The Smart Strategy', text: 'Buy spirits and beer at <strong>Jaya Grocer, Village Grocer, or Giant hypermarket</strong> in KL — better prices than airport duty-free. For scotch and premium spirits, Langkawi duty-free beats everything else in Malaysia by 30–50%. Use a <a href="https://www.amazon.com/dp/B0BPQFWKXM?tag=discovermy-20" target="_blank" rel="nofollow sponsored">padded wine travel bag</a> for checked luggage — holds 4–6 bottles safely.' },
+      { label: 'What NOT to Bring Home', text: 'Don\'t try to bring back fresh tropical fruit without checking USDA rules first. Don\'t pack unmarked locally-distilled spirits (tuak in an unlabeled bottle will get flagged). If bringing back more than $800 worth of goods total, declare everything on your US customs form — it\'s just a fee, not a criminal offense.' },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="ft-hero">
+    <div class="ft-hero-gradient"></div>
+    <div class="ft-hero-noise"></div>
+    <div class="ft-hero-content">
+      <h1 class="ft-hero-title">The Finer Things</h1>
+      <p class="ft-hero-subtitle">Tiger beer towers at hawker centres, duty-free scotch in Langkawi, KL rooftop cocktails, Sarawak rice wine at a longhouse, and Malaysian cigars — plus exactly what you can bring through customs.</p>
+      <div class="ft-hero-meta">
+        <div class="ft-hero-meta-item">
+          <span class="ft-hero-meta-label">Topics</span>
+          <span class="ft-hero-meta-value">6</span>
+        </div>
+        <div class="ft-hero-meta-item">
+          <span class="ft-hero-meta-label">Nightlife Districts</span>
+          <span class="ft-hero-meta-value">6</span>
+        </div>
+        <div class="ft-hero-meta-item">
+          <span class="ft-hero-meta-label">Local Drinks</span>
+          <span class="ft-hero-meta-value">8+</span>
+        </div>
+      </div>
+    </div>
+    <div class="ft-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="ft-personal ft-reveal">
+    <div class="container-content">
+      <blockquote class="ft-personal-quote">
+        <p>My first Tiger beer in Malaysia was at a hawker centre in Penang at 8 PM — the air still warm, char kway teow smoke drifting over from the next stall. I've had Tiger in 30 countries and it always tastes better in Malaysia. But it's a Guinness Foreign Extra Stout with char siu pork in a Kuching kopitiam that stayed with me. Malaysian drinking culture isn't about the drink — it's about the table, the food, and the yam seng that goes on far longer than it should. I've made great friends over a beer tower in KL.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Quick Facts Strip -->
+  <section class="ft-quickfacts ft-reveal">
+    <div class="container-content">
+      <div class="ft-quickfacts-bar">
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Drinking Age</span>
+          <span class="ft-quickfact-value">18</span>
+        </div>
+        <div class="ft-quickfact-divider"></div>
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Beer (Store)</span>
+          <span class="ft-quickfact-value">RM5–7</span>
+        </div>
+        <div class="ft-quickfact-divider"></div>
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Cocktail (KL)</span>
+          <span class="ft-quickfact-value">RM40–80</span>
+        </div>
+        <div class="ft-quickfact-divider"></div>
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Duty-Free to US</span>
+          <span class="ft-quickfact-value">1 Liter</span>
+        </div>
+        <div class="ft-quickfact-divider"></div>
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Tipping</span>
+          <span class="ft-quickfact-value">10%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Nav -->
+  <section class="ft-quicknav ft-reveal">
+    <div class="container-content">
+      <div class="ft-quicknav-grid">
+        {topics.map((t) => (
+          <a href={`#${t.id}`} class="ft-quicknav-chip">
+            <span class="ft-quicknav-icon">{t.icon}</span>
+            <span class="ft-quicknav-label">{t.title.split(' ').slice(0, 2).join(' ')}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Topic Sections -->
+  {topics.map((topic) => (
+    <section class="ft-topic ft-reveal" id={topic.id}>
+      <div class="container-content">
+        <div class="ft-topic-header" style={`background: ${topic.gradient};`}>
+          <div class="ft-topic-header-inner">
+            <span class="ft-topic-icon">{topic.icon}</span>
+            <h2 class="ft-topic-title">{topic.title}</h2>
+            <span class="ft-topic-count">{topic.items.length} tips</span>
+          </div>
+        </div>
+
+        <div class="ft-tip-grid">
+          {topic.items.map((item) => (
+            <div class="ft-tip-card">
+              <h3 class="ft-tip-label">{item.label}</h3>
+              <p class="ft-tip-text" set:html={item.text} />
+              {item.link && (
+                <a href={item.link} class="ft-tip-link">Explore {item.label.split(':')[0]} &rarr;</a>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Scott's Pro Tips -->
+  <section class="ft-protips ft-reveal">
+    <div class="container-content">
+      <div class="ft-protips-card">
+        <h2 class="ft-protips-heading">Scott's Pro Tips</h2>
+        <div class="scott-tips">
+          <ul>
+            <li><strong>Happy Hours:</strong> Happy hours in KL and Penang are real and worth hunting. Changkat Bukit Bintang bars typically do 6–9 PM specials. Craft beers drop to RM18–22, cocktails to RM25–35. Langkawi beach bars run permanent happy hours because everything is duty-free anyway.</li>
+            <li><strong>Beer Towers:</strong> Order a beer tower at any hawker centre — 3 liters on ice, perfect for a group. Tiger or Heineken tower costs RM45–65 at most hawker venues. Know the markup before you sit down at a resort bar — the same Tiger that costs RM7 at 7-Eleven is RM25 at a pool bar.</li>
+            <li><strong>Safety at Night:</strong> KL and Penang are generally safe for nighttime walking in the bar districts. Use Grab to get home — never hail a street taxi. Changkat Bukit Bintang is well-lit and busy until 3 AM. Don't flash cash or expensive gear, and stick to the main bar streets rather than side alleys.</li>
+            <li><strong>Yam Seng Etiquette:</strong> At Chinese-Malaysian celebrations, "yam seng" is the communal toast — everyone raises their glass and the group sustains a long drawn-out "sengggggg" the louder and longer the better. Enthusiastic participation is always appreciated, even from guests.</li>
+            <li><strong>Stock Up in Langkawi:</strong> Langkawi duty-free prices on spirits are genuinely excellent — up to 50% below KL retail and even better vs. back home. You can bring back 1 liter duty-free to Malaysia mainland and 1 liter to the USA. Buy your best bottle at the ferry terminal before you leave the island.</li>
+            <li><strong>Best Value Night Out:</strong> Tiger beer tower + any hawker centre food spread at Jalan Alor or Gurney Drive. Total cost: RM80–120 ($17–26 USD) for a full group evening. That's the authentic Malaysian experience — no rooftop, no dress code, just great food, cold beer, and good company.</li>
+            <li><strong>Bringing Bottles Home:</strong> Pack your spirits in the center of your checked bag wrapped in clothes. Use a <a href="https://www.amazon.com/dp/B0BPQFWKXM?tag=discovermy-20" target="_blank" rel="nofollow sponsored">padded wine travel bag</a> for checked luggage — holds 4–6 bottles safely. I've brought home dozens of bottles this way with zero losses.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Affiliate Disclosure -->
+  <div class="container-content ft-reveal" style="padding-bottom: 0;">
+    <p class="ft-affiliate-disclosure">Some links on this page are affiliate links — I earn a small commission if you purchase through them, at no extra cost to you. I only recommend gear I personally use. <a href="/legal/affiliate-disclosure/">Full disclosure</a>.</p>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="ft-cta-section ft-reveal">
+    <div class="container-content">
+      <div class="ft-cta-card">
+        <h2 class="ft-cta-heading">Plan Your Night Out</h2>
+        <p class="ft-cta-text">Tell our AI planner your dates and interests — it'll build a custom itinerary with the best bars, nightlife districts, and local experiences.</p>
+        <a href="/plan/" class="ft-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <div class="container-content ft-reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get My Free Malaysia Nightlife Guide"
+      description="Bars, beer, spirits, and nightlife across Malaysia — from KL's rooftop cocktail bars to Langkawi's duty-free beach bars."
+      bullets={[
+        'Best bars in KL, Penang, Langkawi, and Kota Kinabalu',
+        'Complete guide to Malaysian beer, spirits, and cocktails',
+        'Customs rules — what you can bring home from Langkawi',
+        'Yam seng etiquette and local drinking culture',
+      ]}
+      guideTag="pillar-finer-things"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="ft-crosslinks ft-reveal">
+    <div class="container-content">
+      <h3 class="ft-crosslinks-heading">Explore More</h3>
+      <div class="ft-crosslinks-grid">
+        <a href="/cuisine/" class="ft-crosslink-card">
+          <span class="ft-crosslink-icon">&#127860;</span>
+          <span class="ft-crosslink-label">Food & Cuisine</span>
+          <span class="ft-crosslink-desc">17 essential Malaysian dishes across 2 regions</span>
+        </a>
+        <a href="/practical/" class="ft-crosslink-card">
+          <span class="ft-crosslink-icon">&#9992;&#65039;</span>
+          <span class="ft-crosslink-label">Travel Essentials</span>
+          <span class="ft-crosslink-desc">Visa, money, transport and everything you need to know</span>
+        </a>
+        <a href="/destinations/" class="ft-crosslink-card">
+          <span class="ft-crosslink-icon">&#127965;</span>
+          <span class="ft-crosslink-label">All Destinations</span>
+          <span class="ft-crosslink-desc">Every destination explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer (uses ft-reveal/ft-visible to avoid Tailwind .visible conflict) -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const ftRevealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('ft-visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.ft-reveal').forEach((el) => ftRevealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.ft-reveal').forEach((el) => el.classList.add('ft-visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Warm amber/whiskey gradient
+     ================================================================ */
+  .ft-hero {
+    position: relative;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .ft-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(135deg, #1A2332 0%, #78350F 40%, #D4A574 100%);
+  }
+
+  .ft-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .ft-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .ft-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .ft-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .ft-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .ft-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .ft-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .ft-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .ft-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: ftBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes ftBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     PERSONAL INTRO
+     ================================================================ */
+  .ft-personal {
+    padding-block: var(--space-8);
+  }
+
+  .ft-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid #D4A574;
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .ft-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .ft-personal-quote cite {
+    font-size: var(--text-caption);
+    color: #78350F;
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+
+  /* ================================================================
+     QUICK FACTS STRIP
+     ================================================================ */
+  .ft-quickfacts {
+    padding: 0 0 var(--space-4);
+  }
+
+  .ft-quickfacts-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-5);
+    background: var(--color-sky);
+    border-radius: 16px;
+    padding: var(--space-4) var(--space-6);
+    flex-wrap: wrap;
+  }
+
+  .ft-quickfact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-align: center;
+  }
+
+  .ft-quickfact-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-slate);
+  }
+
+  .ft-quickfact-value {
+    font-size: 1.05rem;
+    font-weight: var(--weight-extrabold);
+    color: var(--color-deep-night);
+  }
+
+  .ft-quickfact-divider {
+    width: 1px;
+    height: 28px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  /* ================================================================
+     QUICK NAV — Jump-to chips
+     ================================================================ */
+  .ft-quicknav {
+    padding: 0 0 var(--space-6);
+  }
+
+  .ft-quicknav-grid {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .ft-quicknav-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: var(--weight-medium);
+    color: #4A5568;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+
+  .ft-quicknav-chip:hover {
+    background: #FDF8F0;
+    color: #78350F;
+    transform: translateY(-2px);
+  }
+
+  .ft-quicknav-icon {
+    font-size: 1rem;
+  }
+
+  .ft-quicknav-label {
+    white-space: nowrap;
+  }
+
+  /* ================================================================
+     TOPIC SECTION
+     ================================================================ */
+  .ft-topic {
+    padding: var(--space-4) 0 var(--space-6);
+    scroll-margin-top: 80px;
+  }
+
+  .ft-topic-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-5) var(--space-6);
+    margin-bottom: var(--space-5);
+    overflow: hidden;
+  }
+
+  .ft-topic-header-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .ft-topic-icon {
+    font-size: 1.6rem;
+  }
+
+  .ft-topic-title {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0;
+    line-height: 1.2;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .ft-topic-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  /* ================================================================
+     TIP CARDS
+     ================================================================ */
+  .ft-tip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (max-width: 768px) {
+    .ft-tip-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ft-tip-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    padding: var(--space-5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ft-tip-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .ft-tip-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-2);
+    line-height: 1.3;
+  }
+
+  .ft-tip-text {
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .ft-tip-text :global(a) {
+    color: #78350F;
+    font-weight: var(--weight-semibold);
+    text-decoration: underline;
+    text-decoration-color: rgba(120, 53, 15, 0.3);
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+
+  .ft-tip-text :global(a:hover) {
+    text-decoration-color: #78350F;
+  }
+
+  .ft-tip-link {
+    display: inline-block;
+    margin-top: var(--space-3);
+    font-size: 0.8rem;
+    font-weight: var(--weight-semibold);
+    color: #78350F;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .ft-tip-link:hover {
+    color: #D4A574;
+  }
+
+  /* ================================================================
+     SCOTT'S PRO TIPS
+     ================================================================ */
+  .ft-protips {
+    padding: var(--space-4) 0 var(--space-6);
+  }
+
+  .ft-protips-card {
+    background: linear-gradient(135deg, #1A2332 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-6) var(--space-6);
+  }
+
+  .ft-protips-heading {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: var(--weight-bold);
+    color: #D4A574;
+    margin: 0 0 var(--space-4);
+  }
+
+  .ft-protips-card .scott-tips {
+    background: transparent;
+    border-left: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ft-protips-card .scott-tips ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--space-3);
+  }
+
+  .ft-protips-card .scott-tips li {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.65;
+    padding-left: var(--space-4);
+    position: relative;
+  }
+
+  .ft-protips-card .scott-tips li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #D4A574;
+  }
+
+  .ft-protips-card .scott-tips :global(strong) {
+    color: #D4A574;
+    font-weight: var(--weight-semibold);
+  }
+
+  .ft-protips-card .scott-tips :global(a) {
+    color: #FB923C;
+    font-weight: var(--weight-semibold);
+    text-decoration: underline;
+    text-decoration-color: rgba(251, 146, 60, 0.4);
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+
+  .ft-protips-card .scott-tips :global(a:hover) {
+    text-decoration-color: #FB923C;
+  }
+
+  /* ================================================================
+     AFFILIATE DISCLOSURE
+     ================================================================ */
+  .ft-affiliate-disclosure {
+    font-size: 0.75rem;
+    color: #4A5568;
+    line-height: 1.5;
+    text-align: center;
+    padding: var(--space-4) var(--space-6);
+    background: var(--color-sky);
+    border-radius: 10px;
+    margin-bottom: var(--space-4);
+  }
+
+  .ft-affiliate-disclosure a {
+    color: var(--color-ocean-teal);
+    text-decoration: underline;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .ft-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .ft-cta-card {
+    background: linear-gradient(135deg, #78350F 0%, #D4A574 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .ft-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .ft-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .ft-cta-button {
+    display: inline-block;
+    background: var(--color-deep-night);
+    color: #D4A574;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .ft-cta-button:hover {
+    background: #0D1117;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .ft-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .ft-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .ft-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .ft-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ft-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ft-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .ft-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .ft-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: #1A2332;
+  }
+
+  .ft-crosslink-desc {
+    font-size: 0.78rem;
+    color: #4A5568;
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     SCROLL REVEAL (page-specific, avoids Tailwind .visible conflict)
+     ================================================================ */
+  .ft-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .ft-reveal.ft-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @keyframes ftRevealFallback {
+    to { opacity: 1; transform: none; }
+  }
+
+  .ft-reveal {
+    animation: ftRevealFallback 0s 3s forwards;
+  }
+
+  /* ================================================================
+     RESPONSIVE
+     ================================================================ */
+  @media (max-width: 640px) {
+    .ft-hero {
+      min-height: 50vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .ft-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .ft-scroll-hint {
+      display: none;
+    }
+
+    .ft-topic-header {
+      padding: var(--space-4) var(--space-4);
+    }
+
+    .ft-quickfacts-bar {
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-4);
+    }
+
+    .ft-quickfact-divider {
+      display: none;
+    }
+
+    .ft-quickfact {
+      min-width: 80px;
+    }
+
+    .ft-personal-quote {
+      padding: var(--space-4) var(--space-5);
+    }
+
+    .ft-protips-card {
+      padding: var(--space-5) var(--space-4);
+    }
+  }
+</style>

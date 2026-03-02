@@ -1,0 +1,267 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const pageTitle = 'Malaysian Food Guide — Nasi Lemak, Char Kway Teow & the Best Hawker Centres';
+const pageDescription = 'The definitive guide to Malaysian cuisine — nasi lemak, char kway teow, assam laksa, roti canai, and where to eat them. From KL food courts to Penang hawker stalls.';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Malaysian Cuisine', url: '/malaysia-food/' },
+];
+
+const dishes = [
+  {
+    name: 'Nasi Lemak',
+    description: 'Malaysia\'s national dish — coconut rice cooked with pandan leaves, served with crispy fried anchovies, roasted peanuts, boiled egg, cucumber, and a fierce sambal chili. The best versions come wrapped in banana leaves from morning market stalls.',
+    whereBest: 'Kuala Lumpur (Village Park Restaurant in Damansara), morning markets everywhere',
+    price: 'RM3-8 at stalls, RM15-25 at sit-down restaurants',
+    icon: '🍚',
+  },
+  {
+    name: 'Char Kway Teow',
+    description: 'Flat rice noodles wok-fried over screaming high heat with cockles, prawns, bean sprouts, egg, and Chinese sausage (lap cheong). The breath of the wok — wok hei — defines the good from the great. Penang is the undisputed capital.',
+    whereBest: 'Penang (Lorong Selamat near Gurney Drive), Georgetown hawker centres',
+    price: 'RM6-12 per plate',
+    icon: '🍜',
+  },
+  {
+    name: 'Penang Assam Laksa',
+    description: 'A sharp, sour fish broth with thick rice noodles, fresh pineapple, cucumber, red onion, mint, and shrimp paste. Unlike the coconut milk laksa of Singapore, this is a tamarind and mackerel-based broth — punchy and addictive. Ranked among the world\'s 50 best foods by CNN.',
+    whereBest: 'Ayer Itam market in Penang (Michelin Bib Gourmand), Penang food courts',
+    price: 'RM5-8 per bowl',
+    icon: '🍲',
+  },
+  {
+    name: 'Roti Canai',
+    description: 'Malaysia\'s breakfast institution. A flaky, layered flatbread cooked on a hot griddle and served with dhal or curry for dipping. Mamak stalls (Indian-Muslim restaurants) serve it around the clock. The best versions are stretched and folded repeatedly for maximum layers.',
+    whereBest: 'Any mamak stall nationwide — open 24 hours in KL, Penang, and all major cities',
+    price: 'RM1.50-3 per roti',
+    icon: '🫓',
+  },
+  {
+    name: 'Hainanese Chicken Rice',
+    description: 'Poached chicken served over rice cooked in chicken broth, with a clear soup, sliced cucumber, and three dipping sauces (ginger, chili, soy). The dish is deceptively simple — the quality of the chicken and the subtlety of the rice define exceptional versions.',
+    whereBest: 'Ipoh (famous for its excellent chicken rice), KL Chinatown hawker stalls',
+    price: 'RM8-15 per plate',
+    icon: '🍗',
+  },
+  {
+    name: 'Satay',
+    description: 'Skewered and grilled meat (chicken, beef, or lamb) over charcoal, served with peanut sauce, ketupat rice cakes, cucumber, and red onion. The Malaysian version of satay emphasizes the turmeric marinade on the meat. Kajang, near KL, claims to be the satay capital.',
+    whereBest: 'Kajang Satay (25 min from KL), Sate Kajang Haji Samuri stalls throughout KL, Jalan Alor night market',
+    price: 'RM8-15 for a plate of 10 sticks',
+    icon: '🍢',
+  },
+  {
+    name: 'Cendol',
+    description: 'Malaysia\'s signature shaved ice dessert — pandan-flavored green rice flour jelly drops, coconut milk, palm sugar syrup, and red beans over shaved ice. On a hot afternoon in Penang, nothing else will do. The best versions use freshly-pressed coconut milk and Gula Melaka (palm sugar).',
+    whereBest: 'Penang (roadside stalls near Jalan Penang), Malacca (Jonker Street cendol vendors)',
+    price: 'RM3-6 per bowl',
+    icon: '🍧',
+  },
+  {
+    name: 'Kolo Mee',
+    description: 'Sarawak\'s signature noodle dish — thin egg noodles tossed in a light lard and soy sauce dressing, topped with minced pork, char siu (BBQ pork), and fried shallots. Unique to Kuching and not found elsewhere in Malaysia in authentic form.',
+    whereBest: 'Kuching, Sarawak — virtually every coffee shop serves it for breakfast',
+    price: 'RM5-8 per plate',
+    icon: '🍝',
+  },
+];
+
+const hawkerCentres = [
+  { name: 'Gurney Drive Hawker Centre', location: 'Penang', description: 'Penang\'s most famous hawker strip — char kway teow, assam laksa, oyster omelette, and Penang hokkien mee all at outdoor tables facing the sea.', slug: 'penang' },
+  { name: 'Jalan Alor', location: 'Kuala Lumpur', description: 'KL\'s premier night market hawker street in the heart of Bukit Bintang. Grilled seafood, satay, duck noodles, and Thai-influenced dishes from 5pm onwards.', slug: 'kuala-lumpur' },
+  { name: 'Old Town White Coffee Shops', location: 'Ipoh', description: 'Ipoh\'s kopitiam culture is the best in Malaysia — old-school coffee shops where dim sum, bean sprout chicken rice, and white coffee define morning ritual.', slug: 'ipoh' },
+  { name: 'Jonker Street Night Market', location: 'Malacca', description: 'Friday and Saturday night market in Malacca\'s Chinatown with satay celup (DIY hot pot on skewers), cendol, popiah, and Peranakan snacks.', slug: 'malacca' },
+];
+
+const faqItems = [
+  {
+    question: 'What is the best Malaysian food?',
+    answer: 'Malaysia\'s most celebrated dishes are nasi lemak (the national dish — coconut rice with sambal), Penang char kway teow (wok-fried flat noodles with cockles), Penang assam laksa (sour tamarind fish broth noodle soup), roti canai (flaky flatbread at mamak stalls), and Hainanese chicken rice. For dessert, cendol — shaved ice with pandan jelly and palm sugar syrup — is the definitive Malaysian sweet.',
+  },
+  {
+    question: 'Where is the best food in Malaysia?',
+    answer: 'Penang is consistently rated the best food city in Malaysia and one of the top hawker food destinations in the world. The combination of Hokkien Chinese, Malay, Indian, and Peranakan influences creates a unique hawker food culture found nowhere else. Ipoh is a strong second for its kopitiam breakfast culture, dim sum, and chicken rice. Kuala Lumpur offers the widest variety but Penang has the highest ceiling.',
+  },
+  {
+    question: 'Is Malaysian food spicy?',
+    answer: 'Malaysian food ranges from mild to very hot depending on the dish. Nasi lemak sambal can be fiery. Laksa broth has a building heat. Mamak food (roti canai, murtabak) can be served mild or spicy. When in doubt, ask "Pedas sikit?" (a little spicy) or "Tak pedas" (not spicy). Most hawker stalls will adjust heat levels on request.',
+  },
+  {
+    question: 'What is a mamak stall in Malaysia?',
+    answer: 'Mamak stalls are Indian-Muslim restaurants run by Tamil Muslim Malaysians. They are open 24 hours, serve teh tarik (frothy pulled milk tea), roti canai, murtabak, nasi kandar (rice with curries), and mee goreng. Every Malaysian city has dozens of them — they are the unofficial national meeting place at any hour of the day or night.',
+  },
+  {
+    question: 'What should I order at a Malaysian hawker centre?',
+    answer: 'At a typical Malaysian hawker centre, start with one main dish (char kway teow, nasi lemak, or rice with curries), add a fresh fruit juice or teh tarik, and finish with cendol or ice kacang. Each vendor specializes in one or two dishes — this is not a place to order from the same stall. Walk around first, identify what each vendor does, then order from the ones with the longest queues.',
+  },
+];
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="homepage"
+  breadcrumbs={breadcrumbs}
+  faqItems={faqItems}
+>
+  <section class="pillar-hero">
+    <div class="container-content pillar-hero-inner">
+      <p class="pillar-eyebrow">Food Guide</p>
+      <h1 class="pillar-title">Malaysian Cuisine</h1>
+      <p class="pillar-subtitle">Penang hawker stalls, KL night markets, Ipoh kopitiam culture, and Sarawak's one-of-a-kind kolo mee. This is the real reason to travel to Malaysia.</p>
+    </div>
+  </section>
+
+  <section class="container-content section-padding">
+    <div class="pillar-intro">
+      <p>Malaysia doesn't just have good food — it has a food culture that frames the entire day. Breakfast is roti canai at a mamak stall. Lunch is chicken rice or a bowl of laksa at a kopitiam. Dinner might be char kway teow at Penang's Gurney Drive hawker centre or grilled seafood along KL's Jalan Alor. Dessert is cendol under a ceiling fan.</p>
+      <p>What makes Malaysian food exceptional is the convergence: Malay, Chinese (Hokkien, Cantonese, Hakka, Teochew), Indian (Tamil and North Indian), and Peranakan (Straits Chinese) culinary traditions have been colliding and cross-pollinating in Penang, Malacca, and KL for 500 years. The result is a cuisine with extraordinary depth and variety at street-food prices.</p>
+    </div>
+
+    <h2 class="pillar-section-title">Essential Malaysian Dishes</h2>
+
+    <div class="dishes-grid">
+      {dishes.map((dish) => (
+        <div class="dish-card">
+          <div class="dish-header">
+            <span class="dish-icon">{dish.icon}</span>
+            <h3 class="dish-name">{dish.name}</h3>
+          </div>
+          <p class="dish-description">{dish.description}</p>
+          <div class="dish-meta">
+            <p class="dish-where"><strong>Where to eat it:</strong> {dish.whereBest}</p>
+            <p class="dish-price"><strong>What to pay:</strong> {dish.price}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <h2 class="pillar-section-title" style="margin-top: var(--space-12);">Best Hawker Centres & Food Markets</h2>
+
+    <div class="hawker-grid">
+      {hawkerCentres.map((hc) => (
+        <div class="hawker-card">
+          <h3 class="hawker-name">{hc.name}</h3>
+          <p class="hawker-location">{hc.location}</p>
+          <p class="hawker-desc">{hc.description}</p>
+          <a href={`/destinations/${hc.slug}/`} class="hawker-link">See full {hc.location} guide</a>
+        </div>
+      ))}
+    </div>
+
+    <EmailCapture
+      leadMagnet="Get the Free Malaysia Food Guide"
+      description="The definitive eat list for Malaysia — best dishes, must-visit hawker centres, and restaurant picks at every budget."
+      bullets={[
+        '30 essential Malaysian dishes with descriptions and where to find them',
+        'Best hawker centres in Penang, KL, Ipoh, and Malacca',
+        'How to order at a mamak stall, hawker centre, and kopitiam',
+        'Food tour itineraries for Penang, KL, and Borneo',
+      ]}
+      guideTag="pillar-malaysia-food"
+    />
+
+    <FAQ items={faqItems} />
+  </section>
+</BaseLayout>
+
+<style>
+  .pillar-hero {
+    background: linear-gradient(135deg, #7C2D12 0%, #C2410C 50%, #EA580C 100%);
+    color: white;
+    padding: 80px 0 60px;
+  }
+  .pillar-hero-inner { text-align: center; }
+  .pillar-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.75;
+    margin-bottom: 12px;
+  }
+  .pillar-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 20px;
+    line-height: 1.1;
+  }
+  .pillar-subtitle {
+    font-size: 1.125rem;
+    opacity: 0.9;
+    max-width: 65ch;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  .pillar-intro {
+    max-width: 75ch;
+    margin: 0 auto var(--space-12);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-slate);
+  }
+  .pillar-intro p { margin-bottom: 1em; }
+  .pillar-section-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.75rem;
+    margin-bottom: var(--space-8);
+    color: var(--color-deep-night);
+  }
+  .dishes-grid {
+    display: grid;
+    gap: var(--space-5);
+    grid-template-columns: 1fr;
+    margin-bottom: var(--space-8);
+  }
+  @media (min-width: 640px) {
+    .dishes-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .dish-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border: 1px solid #EBE4D8;
+  }
+  .dish-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .dish-icon { font-size: 1.75rem; }
+  .dish-name { font-size: 1rem; font-weight: 700; color: var(--color-deep-night); margin: 0; }
+  .dish-description {
+    font-size: 0.9rem;
+    color: var(--color-slate);
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  .dish-meta { font-size: 0.85rem; color: #64748B; }
+  .dish-meta p { margin-bottom: 4px; }
+  .hawker-grid {
+    display: grid;
+    gap: var(--space-5);
+    grid-template-columns: 1fr;
+    margin-bottom: var(--space-12);
+  }
+  @media (min-width: 768px) {
+    .hawker-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .hawker-card {
+    background: #FFF8F0;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #EBE4D8;
+  }
+  .hawker-name { font-size: 1rem; font-weight: 700; color: var(--color-deep-night); margin: 0 0 4px; }
+  .hawker-location { font-size: 13px; font-weight: 600; color: #C2410C; margin: 0 0 8px; }
+  .hawker-desc { font-size: 0.9rem; color: var(--color-slate); line-height: 1.6; margin-bottom: 12px; }
+  .hawker-link { font-size: 14px; font-weight: 600; color: #C2410C; text-decoration: none; }
+  .hawker-link:hover { text-decoration: underline; }
+</style>

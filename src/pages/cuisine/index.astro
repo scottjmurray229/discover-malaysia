@@ -1,0 +1,945 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Malaysian Cuisine Guide', url: '/cuisine/' },
+];
+
+const pageTitle = 'Malaysian Cuisine Guide — Eat Your Way Across Malaysia';
+const pageDescription = 'A region-by-region menu of the dishes that define Malaysian food culture — from Penang char kway teow to Sarawak laksa. Find where to eat the real thing.';
+
+interface Dish {
+  name: string;
+  image?: string;
+  destination: string;
+  slug: string;
+  price: string;
+  description: string;
+  tag?: string;
+}
+
+interface MenuSection {
+  region: string;
+  tagline: string;
+  gradient: string;
+  dishes: Dish[];
+}
+
+const menu: MenuSection[] = [
+  {
+    region: 'Peninsular Malaysia',
+    tagline: 'From Penang hawker stalls to KL rooftop restaurants',
+    gradient: 'linear-gradient(135deg, #1B4332 0%, #2D6A4F 100%)',
+    dishes: [
+      {
+        name: 'Char Kway Teow',
+        destination: 'Penang',
+        slug: 'penang',
+        price: 'RM8–12 / $1.70–2.55 USD',
+        description: 'Flat rice noodles stir-fried over high flame with prawns, cockles, bean sprouts, egg, and chili paste. The definitive Penang dish — each hawker stall has a secret formula.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Penang Laksa (Asam Laksa)',
+        destination: 'Penang',
+        slug: 'penang',
+        price: 'RM7–10 / $1.50–2.10 USD',
+        description: 'Thick rice noodles in a sour, fish-based broth with tamarind, lemongrass, and fresh mint. Voted one of the world\'s best dishes by CNN. Try it at Air Itam\'s famous stall.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Nasi Lemak',
+        destination: 'Kuala Lumpur',
+        slug: 'kuala-lumpur',
+        price: 'RM5–15 / $1–3 USD',
+        description: 'Malaysia\'s national breakfast — coconut rice with sambal, anchovies, peanuts, boiled egg, and cucumber. Simple at roadside stalls, elaborate at Nasi Lemak Wanjo.',
+        tag: 'National Dish',
+      },
+      {
+        name: 'Roti Canai',
+        destination: 'Kuala Lumpur',
+        slug: 'kuala-lumpur',
+        price: 'RM1.50–4 / $0.30–0.85 USD',
+        description: 'Flaky, layered flatbread slapped thin and cooked on a griddle, served with dal and curry dipping sauce. Malaysia\'s most democratic breakfast — every mamak stall has it at 6 AM.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Cendol',
+        destination: 'Penang',
+        slug: 'penang',
+        price: 'RM4–8 / $0.85–1.70 USD',
+        description: 'Shaved ice drizzled with palm sugar syrup and coconut milk over green pandan jelly worms. Penang Road Famous Cendol has been serving this since 1936.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Bak Kut Teh',
+        destination: 'Kuala Lumpur',
+        slug: 'kuala-lumpur',
+        price: 'RM15–25 / $3.20–5.30 USD',
+        description: 'Pork ribs slow-cooked in a herbal broth of garlic and white pepper — a Chinese-Malaysian morning ritual. Klang is the origin city, but every KL kopitiam has a version.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Satay',
+        destination: 'Kuala Lumpur',
+        slug: 'kuala-lumpur',
+        price: 'RM1–2 / $0.20–0.40 USD per stick',
+        description: 'Skewered chicken or beef marinated in turmeric and lemongrass, grilled over charcoal, served with peanut sauce and ketupat rice cakes. Jalan Tuanku Abdul Halim is the go-to spot.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Ipoh White Coffee',
+        destination: 'Ipoh',
+        slug: 'ipoh',
+        price: 'RM3–6 / $0.65–1.30 USD',
+        description: 'Roasted with margarine and served with sweetened condensed milk — Ipoh\'s coffee is famous nationwide. Old Town White Coffee started here. Sit in a kopitiam and have it with half-boiled eggs.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Durian',
+        destination: 'Cameron Highlands',
+        slug: 'cameron-highlands',
+        price: 'RM20–60 / $4–13 USD per kg',
+        description: 'Malaysia grows some of the world\'s best durian — Musang King and Black Thorn are the premium varieties. Love it or leave it, trying durian is mandatory.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Chicken Rice (Hainanese)',
+        destination: 'Malacca',
+        slug: 'malacca',
+        price: 'RM8–14 / $1.70–3 USD',
+        description: 'Poached or roasted chicken on fragrant rice cooked in chicken stock, served with chili-ginger dipping sauce. Malacca\'s rice-ball variation — shaped into small balls — is a regional twist.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Nyonya Laksa',
+        destination: 'Malacca',
+        slug: 'malacca',
+        price: 'RM8–14 / $1.70–3 USD',
+        description: 'Coconut-based laksa with thick rice noodles, prawn, tofu puffs, and cockles — the Peranakan version is richer and sweeter than the northern asam variety.',
+        tag: 'Heritage',
+      },
+    ],
+  },
+  {
+    region: 'Malaysian Borneo',
+    tagline: 'Wild jungle flavors, river fish, and Sarawak\'s legendary laksa',
+    gradient: 'linear-gradient(135deg, #3B1F0A 0%, #7B4019 50%, #D4AC0D 100%)',
+    dishes: [
+      {
+        name: 'Sarawak Laksa',
+        destination: 'Kuching',
+        slug: 'kuching',
+        price: 'RM8–15 / $1.70–3.20 USD',
+        description: 'A spiced coconut and prawn-paste broth ladled over vermicelli with prawns, shredded chicken, and omelette strips. Anthony Bourdain called it "breakfast of the gods" on his Sarawak visit.',
+        tag: 'Legendary',
+      },
+      {
+        name: 'Kolo Mee',
+        destination: 'Kuching',
+        slug: 'kuching',
+        price: 'RM7–12 / $1.50–2.55 USD',
+        description: 'Dry-tossed egg noodles with char siu pork, minced meat, and a savory-sweet sauce. A Kuching kopitiam staple you eat at 7 AM before exploring the waterfront.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Umai',
+        destination: 'Kuching',
+        slug: 'kuching',
+        price: 'RM12–20 / $2.55–4.25 USD',
+        description: 'Sarawak\'s version of ceviche — raw sago fish marinated in lime juice, shallots, chili, and salt. Eaten fresh by the Melanau people for centuries.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Hinava',
+        destination: 'Kota Kinabalu',
+        slug: 'kota-kinabalu',
+        price: 'RM15–25 / $3.20–5.30 USD',
+        description: 'Raw mackerel cured in lime juice with shallots, ginger, and bitter gourd seeds — the Kadazan-Dusun people\'s traditional dish. Best sampled at KK\'s Filipino Market.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Sabah Noodles',
+        destination: 'Kota Kinabalu',
+        slug: 'kota-kinabalu',
+        price: 'RM8–14 / $1.70–3 USD',
+        description: 'Springy yellow noodles in a dark soy and meat sauce, topped with pork slices and chili. KK\'s version of wonton mee, found at every kopitiam from 7 AM onwards.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Jungle Fern (Midin)',
+        destination: 'Kuching',
+        slug: 'kuching',
+        price: 'RM10–15 / $2.10–3.20 USD',
+        description: 'Wild jungle fern stir-fried with garlic and belacan (shrimp paste) — a Sarawak dining staple only found in Borneo. Simple, earthy, and completely addictive.',
+        tag: 'Rare',
+      },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  schemaData={{ title: pageTitle, description: pageDescription }}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="menu-hero">
+    <video class="menu-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/cuisine-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="menu-hero-gradient"></div>
+    <div class="menu-hero-noise"></div>
+    <div class="menu-hero-content">
+      <h1 class="menu-hero-title">The Malaysian Menu</h1>
+      <p class="menu-hero-subtitle">Char kway teow over blazing flames, Sarawak laksa at dawn, durian cracked open on the roadside — eat your way across two regions and discover the dishes that define Malaysia.</p>
+      <div class="menu-hero-meta">
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Dishes</span>
+          <span class="menu-hero-meta-value">17</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Regions</span>
+          <span class="menu-hero-meta-value">2</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Destinations</span>
+          <span class="menu-hero-meta-value">7</span>
+        </div>
+      </div>
+    </div>
+    <div class="menu-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="menu-personal reveal">
+    <div class="container-content">
+      <blockquote class="menu-personal-quote">
+        <p>I did not know what I was missing until my first plate of char kway teow at a Penang hawker stall. The wok hei smoke, the cockles, the heat — nothing I had eaten prepared me for it. Then Sarawak laksa in Kuching at 7 AM, and durian cracked open on the roadside outside Penang Hill. Malaysian food is what happens when Malay, Chinese, and Indian cooking traditions collide over centuries and refuse to stay separate. Every trip now, the food is half the reason I go back.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Menu Intro -->
+  <section class="menu-intro reveal">
+    <div class="container-content">
+      <div class="menu-intro-card">
+        <p class="menu-intro-text">Think of this as your tasting menu for Malaysia. I've organized the country's essential dishes by region — <strong>Peninsular Malaysia</strong> in the west and <strong>Malaysian Borneo</strong> in the east. Click any dish to explore the destination where it's famous.</p>
+        <div class="menu-intro-legend">
+          <span class="menu-tag menu-tag--heritage">Heritage</span>
+          <span class="menu-tag menu-tag--musttry">Must-Try</span>
+          <span class="menu-tag menu-tag--iconic">Iconic</span>
+          <span class="menu-tag menu-tag--fresh">Fresh Catch</span>
+          <span class="menu-tag menu-tag--rare">Rare</span>
+          <span class="menu-tag menu-tag--legendary">Legendary</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Sections by Region -->
+  {menu.map((section) => (
+    <section class="menu-region reveal">
+      <div class="container-content">
+        <div class="menu-region-header" style={`background: ${section.gradient};`}>
+          <div class="menu-region-header-inner">
+            <h2 class="menu-region-name">{section.region}</h2>
+            <p class="menu-region-tagline">{section.tagline}</p>
+            <span class="menu-region-count">{section.dishes.length} dishes</span>
+          </div>
+          <div class="menu-region-ornament">&#9733;</div>
+        </div>
+
+        <div class="menu-dish-grid">
+          {section.dishes.map((dish) => (
+            <a href={`/destinations/${dish.slug}/`} class="menu-dish-card">
+              <div class="menu-dish-media" style={`background: ${section.gradient};`}>
+                {dish.image && (
+                  <img src={dish.image} alt={`${dish.name} — ${dish.destination}`} class="menu-dish-img" loading="lazy" />
+                )}
+                {dish.tag && (
+                  <span class={`menu-tag menu-tag--${dish.tag.toLowerCase().replace(/[^a-z]/g, '')}`}>{dish.tag}</span>
+                )}
+              </div>
+              <div class="menu-dish-body">
+                <div class="menu-dish-top">
+                  <h3 class="menu-dish-name">{dish.name}</h3>
+                  <span class="menu-dish-price">{dish.price}</span>
+                </div>
+                <p class="menu-dish-destination">{dish.destination}</p>
+                <p class="menu-dish-desc">{dish.description}</p>
+                <span class="menu-dish-cta">Explore {dish.destination} &rarr;</span>
+              </div>
+              <div class="menu-dish-overlay">
+                <p class="menu-dish-overlay-desc">{dish.description}</p>
+                <span class="menu-dish-overlay-cta">Explore {dish.destination} &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Bottom CTA -->
+  <section class="menu-cta-section reveal">
+    <div class="container-content">
+      <div class="menu-cta-card">
+        <h2 class="menu-cta-heading">Plan Your Food Trip</h2>
+        <p class="menu-cta-text">Tell our AI planner which dishes you want to try and it will build a region-by-region itinerary — with the best restaurants, markets, and street food stops.</p>
+        <a href="/plan/" class="menu-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "What is the national dish of Malaysia?", answer: "Nasi lemak is Malaysia's national dish — coconut-infused rice served with sambal, anchovies, peanuts, a boiled egg, and cucumber. It's eaten at any time of day, from roadside stalls to five-star hotels. Satay (grilled skewered meat with peanut sauce) and roti canai (flaky flatbread with curry) are close runners-up for most beloved." },
+    { question: "Is Malaysian food spicy?", answer: "Malaysian food ranges from mildly spiced to fiery hot. Malay dishes like rendang and curry are often moderately spicy with coconut milk tempering the heat. Sambal (chili paste) is served with almost everything. Chinese-Malaysian dishes like char kway teow are generally milder. You can always ask for 'tidak pedas' (not spicy) at most stalls and restaurants." },
+    { question: "What is the best hawker food in Malaysia?", answer: "Penang is widely considered the hawker food capital. Must-try dishes: char kway teow, Penang laksa (asam laksa), cendol, and Hokkien mee. In KL, head to Jalan Alor for a concentrated strip of hawker stalls open from dusk until 3 AM. Kuching's Chong Choon Café is legendary for kolo mee. Hawker meals typically cost RM5–15 ($1–3)." },
+    { question: "How much does a meal cost in Malaysia?", answer: "Hawker stalls: RM5–15 ($1–3). Mid-range restaurants: RM25–60 ($5–13). Upscale dining: RM80–200 ($17–43). A daily food budget of RM80–150 ($17–32) covers three good meals including drinks. Mamak stalls (open 24 hours) offer the best value — roti canai starts at RM1.50 and a full meal rarely exceeds RM12." },
+    { question: "Is it safe to eat street food in Malaysia?", answer: "Street food in Malaysia is generally very safe. Hawker centers and mamak stalls are regulated, high-turnover, and locals eat from them daily. The standard rule applies: eat from busy stalls where food is cooked fresh. Avoid pre-made food that has been sitting out for hours. Penang and KL hawker centers are internationally famous and have excellent food safety reputations." },
+    { question: "What is the best Malaysian dessert?", answer: "Cendol is the iconic Malaysian dessert — shaved ice with pandan jelly, coconut milk, and palm sugar syrup. Ais kacang (ABC) is similar but loaded with sweet toppings like corn, red beans, and jelly. For something warm, try kuih (traditional Malay/Nyonya bite-sized sweets) or pengat pisang (banana in coconut milk). Durian ice cream is also a must if you can handle the king of fruits." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get My Free Malaysian Food Guide"
+      description="A region-by-region guide to Malaysian cuisine — with the best hawker stalls, restaurants, and dishes you can't miss in KL, Penang, and Borneo."
+      bullets={[
+        'All 17 essential dishes with where to find the best version',
+        'Price guide — from RM5 hawker stalls to RM150 restaurant meals',
+        'Halal vs non-halal guidance and dietary tips',
+        'Printable Malay food phrase card',
+      ]}
+      guideTag="pillar-cuisine"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="menu-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="menu-crosslinks-heading">Explore More</h3>
+      <div class="menu-crosslinks-grid">
+        <a href="/practical/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#9992;&#65039;</span>
+          <span class="menu-crosslink-label">Travel Essentials</span>
+          <span class="menu-crosslink-desc">Visa, money, transport and everything you need to know</span>
+        </a>
+        <a href="/packing-list/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127922;</span>
+          <span class="menu-crosslink-label">Packing List</span>
+          <span class="menu-crosslink-desc">What to bring for Malaysia's climate, temples, and jungles</span>
+        </a>
+        <a href="/destinations/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127965;</span>
+          <span class="menu-crosslink-label">All Destinations</span>
+          <span class="menu-crosslink-desc">Every destination I've explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Warm, food-inspired gradient
+     ================================================================ */
+  .menu-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .menu-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .menu-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .menu-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .menu-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .menu-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .menu-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .menu-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .menu-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .menu-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .menu-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: menuBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes menuBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     MENU INTRO
+     ================================================================ */
+  .menu-intro {
+    padding: var(--space-8) 0 var(--space-4);
+  }
+
+  .menu-intro-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: var(--space-5) var(--space-6);
+    text-align: center;
+  }
+
+  .menu-intro-text {
+    font-size: 1rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    max-width: 640px;
+    margin: 0 auto var(--space-4);
+  }
+
+  .menu-intro-legend {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  /* ================================================================
+     TAGS
+     ================================================================ */
+  .menu-tag {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 8px;
+    border-radius: 6px;
+    line-height: 1.4;
+  }
+
+  .menu-tag--heritage {
+    background: rgba(191, 54, 12, 0.1);
+    color: #BF360C;
+  }
+
+  .menu-tag--musttry, .menu-tag--mustry {
+    background: rgba(13, 115, 119, 0.1);
+    color: var(--color-ocean-teal);
+  }
+
+  .menu-tag--iconic {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  .menu-tag--freshcatch {
+    background: rgba(33, 150, 243, 0.1);
+    color: #1565C0;
+  }
+
+  .menu-tag--rare {
+    background: rgba(106, 27, 154, 0.1);
+    color: #6A1B9A;
+  }
+
+  .menu-tag--pasalubong {
+    background: rgba(232, 101, 74, 0.1);
+    color: var(--color-warm-coral);
+  }
+
+  .menu-tag--legendary {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  .menu-tag--nationaldish {
+    background: rgba(191, 54, 12, 0.1);
+    color: #BF360C;
+  }
+
+  /* ================================================================
+     REGION SECTION
+     ================================================================ */
+  .menu-region {
+    padding: var(--space-6) 0;
+  }
+
+  .menu-region-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-6) var(--space-6);
+    margin-bottom: var(--space-6);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-region-header-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .menu-region-name {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0 0 var(--space-1);
+    line-height: 1.1;
+  }
+
+  .menu-region-tagline {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 var(--space-3);
+    max-width: 480px;
+    line-height: 1.5;
+  }
+
+  .menu-region-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  .menu-region-ornament {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.08);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ================================================================
+     DISH GRID — Menu-style cards
+     ================================================================ */
+  .menu-dish-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 1024px) {
+    .menu-dish-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .menu-dish-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-dish-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-dish-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Media placeholder */
+  .menu-dish-media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--space-2);
+    overflow: hidden;
+  }
+
+  .menu-dish-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: transform 0.4s ease;
+  }
+
+  .menu-dish-card:hover .menu-dish-img {
+    transform: scale(1.06);
+  }
+
+  .menu-dish-media .menu-tag {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Card body */
+  .menu-dish-body {
+    padding: var(--space-3) var(--space-4) var(--space-4);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .menu-dish-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-bottom: 4px;
+  }
+
+  .menu-dish-name {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .menu-dish-price {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-warm-coral);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .menu-dish-destination {
+    font-size: 0.72rem;
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-medium);
+    margin: 0 0 var(--space-2);
+  }
+
+  .menu-dish-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.55;
+    margin: 0 0 var(--space-3);
+    flex: 1;
+  }
+
+  .menu-dish-cta {
+    font-size: 0.72rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-ocean-teal);
+    letter-spacing: 0.02em;
+  }
+
+  /* Hover overlay — visible on non-touch hover */
+  .menu-dish-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.93);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .menu-dish-card:hover .menu-dish-overlay {
+    opacity: 1;
+  }
+
+  .menu-dish-overlay-desc {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.6;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-dish-overlay-cta {
+    font-size: 0.75rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-warm-coral);
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .menu-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .menu-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .menu-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .menu-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .menu-cta-button {
+    display: inline-block;
+    background: var(--color-warm-coral);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .menu-cta-button:hover {
+    background: #d4553b;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .menu-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .menu-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .menu-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .menu-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .menu-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .menu-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .menu-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE — Hero & misc
+     ================================================================ */
+  @media (max-width: 640px) {
+    .menu-hero {
+      min-height: 55vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .menu-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .menu-scroll-hint {
+      display: none;
+    }
+
+    .menu-region-header {
+      padding: var(--space-5) var(--space-4);
+    }
+
+    .menu-region-ornament {
+      display: none;
+    }
+  }
+
+  /* Personal intro */
+  .menu-personal {
+    padding-block: var(--space-8);
+  }
+
+  .menu-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid var(--color-warm-coral);
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .menu-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .menu-personal-quote cite {
+    font-size: var(--text-caption);
+    color: var(--color-warm-coral);
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+</style>
