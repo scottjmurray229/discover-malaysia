@@ -27,9 +27,9 @@ const {
   breadcrumbs,
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://discovermalaysia.info');
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://discoveringmalaysia.info');
 
-const siteBase = Astro.site || 'https://discovermalaysia.info';
+const siteBase = Astro.site || 'https://discoveringmalaysia.info';
 
 // Ensure OG image is an absolute URL for social platforms
 const ogImageAbsolute = ogImage.startsWith('http') ? ogImage : new URL(ogImage, siteBase).href;

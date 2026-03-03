@@ -8,7 +8,7 @@ interface Props {
 
 const { pageType, data = {}, faqItems, breadcrumbs } = Astro.props;
 
-const baseUrl = (Astro.site || new URL('https://discovermalaysia.info')).toString().replace(/\/$/, '');
+const baseUrl = (Astro.site || new URL('https://discoveringmalaysia.info')).toString().replace(/\/$/, '');
 const currentPath = Astro.url.pathname;
 const currentUrl = `${baseUrl}${currentPath}`;
 

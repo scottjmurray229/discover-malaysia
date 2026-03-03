@@ -49,7 +49,7 @@ function buildWelcomeEmail(guideName: string): string {
           In the meantime, start exploring:
         </p>
         <div style="text-align:center;margin-bottom:24px;">
-          <a href="https://discovermalaysia.info/destinations/" style="display:inline-block;background:#0D7377;color:white;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;">Browse All Destinations</a>
+          <a href="https://discoveringmalaysia.info/destinations/" style="display:inline-block;background:#0D7377;color:white;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;">Browse All Destinations</a>
         </div>
         <p style="color:#94A3B8;font-size:13px;line-height:1.5;margin:0;text-align:center;">
           Real travel guides from real trips — Scott Murray
@@ -57,8 +57,8 @@ function buildWelcomeEmail(guideName: string): string {
       </div>
     </div>
     <p style="color:#94A3B8;font-size:11px;text-align:center;margin:20px 0 0;line-height:1.5;">
-      You're receiving this because you signed up at discovermalaysia.info.<br>
-      <a href="https://discovermalaysia.info/legal/privacy/" style="color:#94A3B8;">Privacy Policy</a>
+      You're receiving this because you signed up at discoveringmalaysia.info.<br>
+      <a href="https://discoveringmalaysia.info/legal/privacy/" style="color:#94A3B8;">Privacy Policy</a>
     </p>
   </div>
 </body>
@@ -73,7 +73,7 @@ async function sendWelcomeEmail(apiKey: string, to: string, guideName: string): 
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      from: 'Discover Malaysia <hello@discovermalaysia.info>',
+      from: 'Discover Malaysia <hello@discoveringmalaysia.info>',
       to: [to],
       subject: `Your ${guideName} — Welcome to Discover Malaysia`,
       html: buildWelcomeEmail(guideName),

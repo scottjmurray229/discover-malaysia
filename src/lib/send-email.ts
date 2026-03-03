@@ -12,7 +12,7 @@ export async function sendEmail(
         Authorization: `Bearer ${resendKey}`,
       },
       body: JSON.stringify({
-        from: 'Discover Malaysia <hello@discovermalaysia.info>',
+        from: 'Discover Malaysia <hello@discoveringmalaysia.info>',
         to,
         subject,
         html,

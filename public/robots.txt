@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://discovermalaysia.info/sitemap-index.xml
+Sitemap: https://discoveringmalaysia.info/sitemap-index.xml
