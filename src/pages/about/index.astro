@@ -69,6 +69,20 @@ import jeniceImg from '../../images/jenice-murray.jpg';
         </div>
       </div>
     </div>
+    <div class="profile-card reveal">
+      <div class="profile-banner jenice"><div class="profile-banner-bg"></div></div>
+      <Image src={jeniceImg} alt="Jenice Murray" class="profile-avatar jenice-av" width={96} height={96} format="webp" loading="lazy" />
+      <div class="profile-body">
+        <div class="profile-name">Jenice Murray</div>
+        <div class="profile-role">Co-author · Travel Photographer · The Local Perspective</div>
+        <p class="profile-bio">Filipina from Angeles City, Pampanga — grew up travelling within Southeast Asia, where the region feels like home. Malaysia's food diversity (Malay, Chinese, Indian, Peranakan — all in one hawker centre) is her definition of a perfect food destination. Has eaten at every famous hawker stall in Penang at least once and has strong opinions about char kway teow. The Peranakan culture of Penang and Malacca resonates with her — the mixing of Chinese and Malay cultures over generations mirrors aspects of Filipino cultural fusion. Borneo felt completely different from the peninsula; the orangutans at Sepilok were one of the most moving wildlife experiences of her life.</p>
+        <div class="profile-stats">
+          <div class="profile-stat"><div class="profile-stat-num">Penang</div><div class="profile-stat-label">Hawker expert</div></div>
+          <div class="profile-stat"><div class="profile-stat-num">Borneo</div><div class="profile-stat-label">Wildlife highlight</div></div>
+          <div class="profile-stat"><div class="profile-stat-num">Pampanga</div><div class="profile-stat-label">Hometown</div></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -267,8 +281,11 @@ import jeniceImg from '../../images/jenice-murray.jpg';
     background: white;
   }
   .profile-inner {
-    max-width: 560px;
+    max-width: 1120px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
   }
   .profile-card {
     background: white;
@@ -276,12 +293,20 @@ import jeniceImg from '../../images/jenice-murray.jpg';
     overflow: hidden;
     box-shadow: 0 4px 24px rgba(26,35,50,0.08);
     border: 1px solid #EBE4D8;
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.4s cubic-bezier(0.4,0,0.2,1);
+  }
+  .profile-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 48px rgba(26,35,50,0.14);
   }
   .profile-banner { height: 200px; position: relative; overflow: hidden; }
   .profile-banner-bg { position: absolute; inset: 0; transition: transform 0.8s ease; }
   .profile-card:hover .profile-banner-bg { transform: scale(1.08); }
   .profile-banner.scott {
     background: linear-gradient(135deg, #0D2818 0%, #1B4332 40%, #2D6A4F 70%, #40916C 100%);
+  }
+  .profile-banner.jenice {
+    background: linear-gradient(135deg, #78350F 0%, #D4A574 40%, #FBBF24 70%, #FDE68A 100%);
   }
   .profile-avatar {
     width: 96px;
@@ -294,7 +319,10 @@ import jeniceImg from '../../images/jenice-murray.jpg';
     object-fit: cover;
     box-shadow: 0 4px 20px rgba(0,0,0,0.12);
     display: block;
+    transition: transform 0.3s ease;
   }
+  .profile-card:hover .profile-avatar { transform: scale(1.08); }
+  .profile-avatar.jenice-av { background: linear-gradient(135deg, #D4A574, #FBBF24); }
   .profile-body { padding: 20px 32px 32px; text-align: center; }
   .profile-name { font-family: var(--font-serif); font-size: 1.5rem; color: var(--color-deep-night); margin-bottom: 4px; }
   .profile-role { font-size: 0.76rem; color: #718096; font-weight: 400; margin-bottom: 20px; }
@@ -393,6 +421,7 @@ import jeniceImg from '../../images/jenice-murray.jpg';
 
   @media (max-width: 900px) {
     .stats-inner { grid-template-columns: repeat(2, 1fr); }
+    .profile-inner { grid-template-columns: 1fr; max-width: 480px; }
     .vision-inner { grid-template-columns: 1fr; }
   }
   @media (max-width: 768px) {
