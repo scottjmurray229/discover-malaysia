@@ -3,6 +3,14 @@ title: Kota Kinabalu
 description: "Sabah's capital and the gateway to Borneo — base for Mount Kinabalu, island-hopping the Tunku Abdul Rahman Marine Park, and the best sunset seafood in Malaysia."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Mount Kinabalu granite summit above the clouds, Sabah, Malaysian Borneo"
 tagline: "Gateway to Borneo — Kinabalu, Islands, and Sunset Seafood"
 region: east-malaysia
@@ -134,7 +142,7 @@ I came through KK three times — once just passing through, once for Kinabalu P
 
 **Sabah Fest (May)** — Week-long cultural festival at KK's cultural complex featuring indigenous dances, handicraft exhibitions, and traditional boat racing.
 
-## Getting There
+## How Do I Get to Kota Kinabalu?
 
 KK International Airport (BKI) is Sabah's main hub with frequent connections from KL (2.5 hours, AirAsia and Malaysia Airlines). Direct flights from Singapore (Scoot, Jetstar), Manila, and several Chinese cities. No train access to Sabah — all inter-city travel within Sabah is by road or short-haul flights.
 

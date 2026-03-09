@@ -3,6 +3,14 @@ title: Sandakan
 description: "The wildlife capital of Borneo — base for Sepilok orangutans, the Kinabatangan River, proboscis monkeys, pygmy elephants, and the Sun Bear Conservation Centre."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Sepilok Orangutan Rehabilitation Centre boardwalk, Sabah, Malaysia"
 tagline: "Orangutans, Pygmy Elephants, and Borneo's Great Wildlife River"
 region: east-malaysia
@@ -133,7 +141,7 @@ I've done the Kinabatangan twice. The first time I saw proboscis monkeys at dusk
 
 **Kadazan-Dusun Harvest Festival (May)** — While primarily celebrated statewide, Sandakan's Kadazan community holds local harvest celebrations with traditional music, rice wine, and the Unduk Ngadau pageant.
 
-## Getting There
+## How Do I Get to Sandakan?
 
 MASWings flies from Kota Kinabalu to Sandakan in 55 minutes (RM80-120). AirAsia and Malaysia Airlines fly direct from KL (2.5 hours). The overland bus from KK takes 5-6 hours (RM35-50) — the road passes through the Crocker Range with dramatic scenery but it's a long day. Most wildlife visitors fly directly into Sandakan airport.
 

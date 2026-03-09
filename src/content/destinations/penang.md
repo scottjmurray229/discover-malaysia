@@ -3,6 +3,14 @@ title: Penang
 description: "Malaysia's food capital and a UNESCO World Heritage city — George Town's heritage streets, Penang Hill, and the world's best hawker food all on one island."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Penang Hill funicular and sea view over George Town, Penang, Malaysia"
 tagline: "UNESCO Streets, Clan Houses, and Malaysia's Best Food"
 region: west-malaysia
@@ -134,7 +142,7 @@ George Town is a UNESCO World Heritage Site because it's one of the finest survi
 
 **Chinese New Year in George Town (January/February)** — George Town's Chinatown comes fully alive with lion dances, lanterns, and heritage street celebrations. The Khoo Kongsi clan rituals are particularly special.
 
-## Getting There
+## How Do I Get to Penang?
 
 Penang International Airport (PEN) receives direct flights from KL (45 min), Singapore, Bangkok, and several Chinese cities. Alternatively, the KTM ETS train to Butterworth station (3.5 hours from KL, RM60-80) plus the 10-minute Penang ferry (RM1.20) is a scenic and comfortable option.
 

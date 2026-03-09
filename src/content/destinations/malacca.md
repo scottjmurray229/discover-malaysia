@@ -3,6 +3,14 @@ title: Malacca
 description: "Malaysia's most storied port city — 500 years of Portuguese, Dutch, and British colonial history packed into a UNESCO-listed riverside district you can walk in a day."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Baba Nyonya heritage houses on Heeren Street and Jonker Walk night market, Melaka, Malaysia"
 tagline: "500 Years of Colonial History on Malaysia's Heritage Coast"
 region: west-malaysia
@@ -136,7 +144,7 @@ I came to Malacca for a day trip from KL and stayed two nights because I couldn'
 
 **Chinese New Year (January/February)** — Jonker Street transforms with red lanterns, lion dances, and massive crowds for one of the most atmospheric CNY celebrations in Malaysia outside Penang and KL.
 
-## Getting There
+## How Do I Get to Malacca?
 
 Buses from KL Bandar Tasik Selatan (TBS) terminal run every 30 minutes throughout the day (RM10-15, 2 hours). The Aerobus service from KLIA connects directly to Malacca without going into KL first (2.5 hours, RM25) — useful for arrivals combining KL airport with a Malacca stopover. There is no train service to Malacca city.
 

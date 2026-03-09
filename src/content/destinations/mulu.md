@@ -3,6 +3,14 @@ title: Mulu
 description: "UNESCO World Heritage caves in the heart of Sarawak — the world's largest cave passage, the Pinnacles rock spires, and the nightly bat exodus of millions of wrinkle-lipped bats."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Sarawak Chamber cave entrance and deer cave bat exodus at dusk, Mulu, Malaysia"
 tagline: "The World's Greatest Caves and a Million-Bat Exodus"
 region: east-malaysia
@@ -132,7 +140,7 @@ Mulu has limited dining options — the park is remote and all food is flown in 
 
 **Hornbill Festival (October)** — Sarawak's major indigenous cultural festival is primarily in Kuching, but Mulu's Penan and Kenyah communities hold local harvest celebrations accessible through guided cultural tours during October.
 
-## Getting There
+## How Do I Get to Mulu?
 
 MASwings Twin Otter and ATR flights from Miri to Mulu (MZV) take 45 minutes and depart 1-2 times daily (RM100-150). From KK, the flight is 1 hour (RM150-200). Book 4-6 weeks ahead — the small aircraft fill quickly. From Miri, the flight takes you over a sea of intact primary rainforest and the view on descent into Mulu's small jungle airstrip is one of the best arrival experiences in Malaysia.
 

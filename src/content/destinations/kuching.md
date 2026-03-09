@@ -3,6 +3,14 @@ title: Kuching
 description: "Sarawak's charming capital — a walkable riverside city with the best museum in Borneo, semi-wild orangutans, and a food scene shaped by Iban, Chinese, and Malay influences."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Waterfront promenade and wooden sampan boats on the Sarawak River, Kuching, Malaysia"
 tagline: "Sarawak's River City — Orangutans, Museums, and Kolo Mee"
 region: east-malaysia
@@ -134,7 +142,7 @@ The food runs on kolo mee — thin egg noodles with char siu and minced pork tha
 
 **Gawai Dayak (June 1-2)** — Sarawak's most important festival — the Iban, Bidayuh, and other Dayak harvest festival celebrated statewide. Longhouses open for visitors, traditional music, dance, and the communal tuak (rice wine). The city celebrates with parades and cultural performances around the Padang Merdeka.
 
-## Getting There
+## How Do I Get to Kuching?
 
 Kuching International Airport (KCH) is 12 kilometres from the city centre (RM25-30 by Grab, 20 minutes). Malaysia Airlines and AirAsia fly from KL (1.5 hours). Direct flights from Singapore (Scoot), Johor Bahru, and KK. The airport has good ATMs and SIM card counters.
 

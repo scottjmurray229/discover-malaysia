@@ -3,6 +3,14 @@ title: Johor Bahru
 description: "Malaysia's southern gateway — cheap food, massive malls, LEGOLAND, and the most convenient launch point for a day trip across the causeway to Singapore."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Sultan Abu Bakar Mosque and Johor Bahru waterfront, Malaysia"
 tagline: "Southern Gateway — Singapore Day Trips and Cheap Malaysian Food"
 region: west-malaysia
@@ -134,7 +142,7 @@ The practical case for JB is clear: if you're doing Singapore and have any flexi
 
 **Royal Abu Bakar Birthday Celebrations (April)** — The Johor Sultan's birthday is marked by state ceremonies, illuminated parade floats along Jalan Ibrahim, and public celebrations. Johor has a distinctive royal culture — the Sultan Ibrahim is one of Malaysia's most visible royals.
 
-## Getting There
+## How Do I Get to Johor Bahru?
 
 KTM ETS trains from KL Sentral to JB Sentral run multiple times daily (4.5 hours, RM60-80). Buses from KL TBS take 5 hours (RM30-40). From Singapore, Causeway buses cross from Queen Street terminal (Woodlands) to JB Sentral — SGD3.30 or RM3-5, 30-90 minutes depending on immigration queues.
 

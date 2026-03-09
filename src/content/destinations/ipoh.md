@@ -3,6 +3,14 @@ title: Ipoh
 description: "Malaysia's most underrated food city — limestone cave temples, art deco colonial architecture, and the best white coffee, dim sum, and bean sprout chicken in the country."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Limestone cave temples and colonial railway station of Ipoh, Perak, Malaysia"
 tagline: "Malaysia's Sleepiest Food City and Its Best White Coffee"
 region: west-malaysia
@@ -132,7 +140,7 @@ The white coffee here is different from the Old Town White Coffee chain, and the
 
 **Thaipusam at Kallumalai Murugan Temple (January/February)** — Ipoh has a significant Tamil Indian community from the tin mining era. Thaipusam here involves kavadi processions through the Old Town streets — smaller than KL's Batu Caves event but more accessible and intimate.
 
-## Getting There
+## How Do I Get to Ipoh?
 
 The KTM ETS train from KL Sentral to Ipoh is one of the best rail journeys in Malaysia — 2 hours through limestone karst scenery, comfortable air-conditioned carriages, and affordable tickets (RM35-50). From Penang, the ETS train takes about 1 hour (RM25). Buses from KL TBS to Ipoh take 3 hours (RM15).
 

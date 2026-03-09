@@ -3,6 +3,14 @@ title: Taman Negara
 description: "The world's oldest rainforest at 130 million years old — canopy walks, wildlife night walks, river journeys into primary jungle, and the silence of a forest that predates the dinosaurs."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Ancient rainforest canopy walkway in Taman Negara National Park, Malaysia"
 tagline: "The World's Oldest Rainforest — 130 Million Years of Jungle"
 region: west-malaysia
@@ -131,7 +139,7 @@ The canopy walkway gives you the aerial perspective. The night walk shows you th
 
 The park has no regular tourist festivals. The Orang Asli communities celebrate their own seasonal festivals tied to forest and agricultural cycles — ask your guide if there are any community events during your visit. The National Park Day in May occasionally includes ranger-led events at the park headquarters.
 
-## Getting There
+## How Do I Get to Taman Negara?
 
 Direct tourist coaches from KL to Kuala Tahan run daily from several operators near Pudu Raya bus terminal (RM40-60/person, 4.5-5 hours). Alternatively: bus from Pekeliling to Jerantut (RM15-20, 3 hours), then local bus or taxi to Kuala Tembeling jetty (30 minutes), then river boat (RM35, 3 hours upstream to Kuala Tahan). The river boat route is significantly more memorable.
 

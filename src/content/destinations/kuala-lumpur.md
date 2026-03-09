@@ -3,6 +3,14 @@ title: Kuala Lumpur
 description: "KL delivers Petronas Towers, Batu Caves, and the world's best street food — a megacity that rewards every budget and travel style."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Petronas Twin Towers at night framed by KLCC Park fountains, Kuala Lumpur, Malaysia"
 tagline: "Towers, Temples, and the World's Best Street Food"
 region: west-malaysia
@@ -134,7 +142,7 @@ I first came to KL as a transit stop and ended up staying three days because I c
 
 **Chinese New Year (January/February)** — Chinatown transforms with red lanterns, lion dances, and firecrackers. Most Chinese restaurants and shops close for a few days but the street market doubles in size.
 
-## Getting There
+## How Do I Get to Kuala Lumpur?
 
 KLIA is Malaysia's main international hub with direct flights to most major Asian cities, London, Amsterdam, and codeshares to North America and Australia. The KLIA Ekspres train to KL Sentral (RM55, 28 minutes) is the fastest way in. Grab taxis from the airport to KLCC run RM75-120 depending on traffic.
 

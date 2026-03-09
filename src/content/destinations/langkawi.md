@@ -3,6 +3,14 @@ title: Langkawi
 description: "Duty-free island archipelago with a dramatic cable car, mangrove kayaking, and the best island hopping circuit on Malaysia's west coast."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Eagle Square and mangrove-fringed Datai Bay, Langkawi, Malaysia"
 tagline: "Duty-Free Islands, Cable Car, and West Coast Beaches"
 region: west-malaysia
@@ -134,7 +142,7 @@ I first came for a long weekend and spent most of my time on the cable car, watc
 
 **Pesta Laut Langkawi (October/November)** — Annual sea festival celebrating Langkawi's maritime culture with traditional fishing boat races, cultural performances, and seafood markets at the Kuah waterfront.
 
-## Getting There
+## How Do I Get to Langkawi?
 
 Langkawi International Airport (LGK) receives flights from KL (1 hour, AirAsia and Malaysia Airlines), Penang (35 min), Singapore, and Bangkok. The Penang to Langkawi high-speed ferry (2.5 hours, RM70 one-way) via Swettenham Pier is a popular route combining both destinations in one trip. A slower ferry also runs from Kuala Perlis on the mainland tip (RM18, 45 minutes) — useful if coming from Perlis or northern Kedah.
 

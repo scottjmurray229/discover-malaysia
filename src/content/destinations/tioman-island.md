@@ -3,6 +3,14 @@ title: Tioman Island
 description: "Jungle-covered volcanic island in the South China Sea — one of Asia's top dive destinations, with pristine coral, empty beaches between villages, and no resort sprawl."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Juara Beach jungle-backed bay and powder white sand, Tioman Island, Malaysia"
 tagline: "Borneo Coral and Jungle Trails on Malaysia's Wildest Island"
 region: west-malaysia
@@ -132,7 +140,7 @@ I came for three days and stayed a week. The diving on Tioman is genuinely diffe
 
 **No regular festivals** — Tioman's small permanent population means no large-scale festivals. The island observes Malaysian public holidays and Eid celebrations among the Malay community. The dive season from March to October is effectively the festival of Tioman itself.
 
-## Getting There
+## How Do I Get to Tioman Island?
 
 From KL, the most common route: bus from KL TBS to Mersing (3.5 hours, RM30-40), then ferry to Tioman (2 hours, RM35-70 one way). Mersing has limited accommodation for connections — aim to arrive Mersing early enough to catch afternoon ferries. AirAsia occasionally operates seasonal flights direct from Subang airport to Tioman Airport (TOD, 30 minutes) — check during peak season. From JB (Johor Bahru), bus to Mersing takes 2.5 hours (RM20).
 

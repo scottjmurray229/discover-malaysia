@@ -3,6 +3,14 @@ title: Perhentian Islands
 description: "The clearest water in Malaysia, Thailand-quality coral reefs, and sea turtles year-round — the Perhentian Islands are Malaysia's best-kept island secret."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Crystal-clear sea and jungle-hut bungalows at Perhentian Islands, Malaysia"
 tagline: "Crystal Water, Sea Turtles, and Malaysia's Best Snorkeling"
 region: west-malaysia
@@ -131,7 +139,7 @@ The Perhentians are less famous than the Thai islands and less developed than La
 
 **No regular festivals** — The Perhentians have a small permanent Malay fishing community. The island observes Eid celebrations and the dive season effectively marks the island's annual rhythm. The Marine Conservation Day (variable date, usually June) organized by dive operators includes coral clean-up dives and reef surveys — open to participation.
 
-## Getting There
+## How Do I Get to Perhentian Islands?
 
 The standard route from KL: bus from TBS to Kuala Besut (5-6 hours, RM35-50), then speedboat to the islands (30-40 minutes, RM70 return). The last speedboat from Kuala Besut leaves around 5pm — time your arrival accordingly. Alternatively, fly from KL to Kota Bharu (KBR) on AirAsia (1 hour, from RM80), then taxi to Kuala Besut (45 minutes, RM60-80). An overnight in Kota Bharu breaks up the journey and adds a visit to one of Malaysia's most conservative and interesting Malay cities.
 

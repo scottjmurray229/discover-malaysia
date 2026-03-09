@@ -3,6 +3,14 @@ title: Cameron Highlands
 description: "Malaysia's hill station escape at 1,500m — rolling tea plantations, strawberry farms, cool misty mornings, and mossy forest trails above the jungle canopy."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Boh tea plantation terraced rows of green tea bushes, Cameron Highlands, Malaysia"
 tagline: "Tea Plantations and Cool Air at 1,500 Metres"
 region: west-malaysia
@@ -134,7 +142,7 @@ I first came on a bus from Ipoh on a whim and spent two days doing nothing impor
 
 **Harvest Festival at the Strawberry Farms (March-April)** — Peak strawberry season in the Highlands. Several farms host picking events and local food stalls. The Kea Farm market area gets particularly lively during harvest months.
 
-## Getting There
+## How Do I Get to Cameron Highlands?
 
 Express buses from KL TBS run throughout the morning to Tanah Rata (RM20-30, 3.5-4 hours). Book in advance for Friday afternoons and weekend departures when KL residents flood out to the Highlands. From Penang, buses to Cameron Highlands take about 4 hours via Ipoh. From Ipoh, direct minibuses to Tanah Rata take 1.5 hours (RM10).
 

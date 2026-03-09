@@ -3,6 +3,14 @@ title: George Town
 description: "Penang's UNESCO World Heritage city in detail — the clan houses, the street art, the mosques and temples within walking distance, and the world-class hawker food of the heritage core."
 heroVideo: ""
 heroImage: ""
+aeoFacts:
+  currency: "MYR (Malaysian Ringgit)"
+  plugType: "G (Type G), 240V"
+  language: "Malay (English widely spoken)"
+  bestTime: "March to October (west coast dry)"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC+8 (MST)"
+  emergencyNumber: "999"
 heroAlt: "Street art murals and heritage shophouses of George Town, Penang, Malaysia"
 tagline: "UNESCO Heritage Walks, Clan Houses, and Penang's Street Art"
 region: west-malaysia
@@ -138,7 +146,7 @@ The street art by Ernest Zacharevic (the Lithuanian artist who has also worked i
 
 **Thaipusam (January/February)** — The kavadi procession from Sri Mahamariamman Temple to the Waterfall Hilltop Temple along Jalan Waterfall is a significant annual event — smaller than KL's Batu Caves but far more accessible and intimate.
 
-## Getting There
+## How Do I Get to George Town?
 
 Penang International Airport (PEN) is 15 kilometres from George Town. Grab to the heritage core takes 20-25 minutes (RM25-35). Alternatively, the KTM ETS train to Butterworth station (3.5 hours from KL, RM60) plus the Penang ferry (10 minutes, RM1.20) deposits you directly at the George Town ferry terminal, 10 minutes' walk from the heritage core.
 
