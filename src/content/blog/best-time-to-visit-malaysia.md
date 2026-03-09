@@ -2,6 +2,7 @@
 title: "Best Time to Visit Malaysia — Month-by-Month Weather and Festival Guide"
 description: "Malaysia has two monsoon seasons on opposite coasts. Here's exactly when to go based on where you're heading — peninsula, Borneo, east coast islands, or the highlands."
 pubDate: 2026-03-01
+dateModified: 2026-03-08
 category: practical
 author: Scott
 draft: false

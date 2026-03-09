@@ -2,6 +2,7 @@
 title: "Malaysian Borneo Wildlife Guide: Orangutans, Pygmy Elephants, and Proboscis Monkeys"
 description: "A practical guide to seeing Malaysian Borneo's iconic wildlife — where to find orangutans, pygmy elephants, proboscis monkeys, and sun bears, with logistics and costs."
 pubDate: 2026-03-08
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Wildlife"

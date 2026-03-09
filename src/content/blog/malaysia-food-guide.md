@@ -2,6 +2,7 @@
 title: "Malaysian Food Guide: What to Eat, Where to Eat It, and How to Order"
 description: "The essential guide to Malaysian cuisine — from nasi lemak to char kway teow, roti canai to asam laksa. What each dish is, where it comes from, and how to order it."
 pubDate: 2026-03-06
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Food"
