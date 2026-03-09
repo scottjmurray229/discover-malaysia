@@ -102,71 +102,108 @@ draft: false
 fmContentType: destination
 ---
 
-Johor Bahru is in an interesting moment. For years it was the city Singaporeans crossed into for cheap food and Malaysians passed through without stopping. The last few years have brought significant development, art districts, and a food scene that's genuinely its own thing rather than just a budget Singapore. The city hasn't arrived yet, but it's pointed in a good direction.
+Johor Bahru is Malaysia's most practical city — not the most beautiful, not the most historic, not the most dramatic, but the one that makes a certain kind of travel arithmetic work out. Across the Causeway is Singapore, with its extraordinary food, its polished infrastructure, and its hotel prices that eat through a travel budget at an alarming rate. On this side of the 1km crossing is JB, where the same bowl of char kway teow costs RM12 instead of SGD18 and a clean hotel room is RM120 instead of SGD250. Singaporeans cross in the other direction every weekend specifically for the food.
 
-The practical case for JB is clear: if you're doing Singapore and have any flexibility, basing for two or three nights in JB and day-tripping across the Causeway saves substantial money. A hotel room that costs SGD200-300 in Singapore costs RM120-200 in JB. The Causeway bus is three Malaysian ringgit. A hawker dinner costs RM12 instead of SGD25. The arithmetic is hard to argue with.
+The city itself is more interesting than its functional reputation suggests. Jalan Wong Ah Fook, the main Chinese heritage street, has the coffee-shop culture that Penang and Ipoh are famous for, without the tour groups. The Arulmigu Sri Rajakaliamman Temple — a Hindu temple covered in glass mosaic tiles from floor to roofline — is one of the most visually striking religious buildings in Malaysia. The Old Town waterfront, looking out across the Strait of Johor toward Singapore's Jurong industrial skyline, tells you something about the particular geography of this border.
 
-<ImmersiveBreak videoSrc="/videos/destinations/johor-bahru-hero.mp4" />
+The Johorean food case is real. Laksa Johor — thick spaghetti-like noodles in a rich coconut-and-fish broth, so different from Penang's tamarind version that they share only the name — is the state dish and is genuinely worth knowing. Hiap Joo Bakery's banana cake and curry puffs, baked in a wood-fired oven daily since the 1920s, sell out before noon. The Causeway-adjacent hawker stalls, running late into the night, serve a city that operates on two currencies and two time zones simultaneously.
 
-## What to Do in Johor Bahru
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E3A5F 0%, #1E40AF 35%, #60A5FA 65%, #1E3A5F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The ETS train deposits you at JB Sentral and the Causeway to Singapore is a 5-minute walk away — this is a city that faces in two directions at once.</p>
+  </div>
+</div>
 
-**Singapore Day Trip** — The main event for many JB visitors. Cross by Causeway bus to Woodlands, then take the MRT into the city (about 45 minutes total). Singapore in a day: Marina Bay Sands area, Gardens by the Bay (RM70-90 to enter the Flower Dome and Cloud Forest), Chinatown, Little India, and Hawker 338 for a proper Singapore hawker meal. Return to JB by evening. Total Causeway crossing cost: RM6-10 return.
+## Why Johor Bahru should be on your itinerary
 
-**LEGOLAND Malaysia, Medini** — Southeast Asia's only full LEGOLAND park. Best for families with young children — rides, the LEGO Miniland (miniature Southeast Asian cities built from LEGO), the LEGOLAND Water Park (separate ticket, RM75/person), and LEGO build workshops. Full day required. Entrance RM149-189/adult. The attached LEGOLAND Hotel (on site, RM350-600/night) has themed rooms.
+JB's strategic position is its most compelling argument. Singapore is one of Asia's great cities — and one of its most expensive. Using JB as a base for a Singapore visit is not a compromise; it's a budget optimization that gives you a genuinely Malaysian city alongside one of the world's great urban destinations. The Causeway bus is RM3-5 each way. The crossing takes 30 minutes on a good day. A hotel that would cost SGD200 in Singapore is RM120 in JB.
 
-**Arulmigu Sri Rajakaliamman Temple** — A working Hindu temple notable for its extraordinary exterior — the entire facade is covered in colored glass mosaic tiles. Entrance RM3. One of the most visually distinctive religious buildings in Malaysia. 10 minutes from JB Sentral by Grab.
+Beyond the Singapore calculation, JB rewards travelers with time. The Johor Bahru Old Town heritage district — centered on the Istana Besar palace, the Abu Bakar Mosque on the waterfront, and the colonial-era government buildings — tells the story of the Johor Sultanate, one of Malaysia's most powerful and independent royal houses. The Sultan of Johor is a distinct political and cultural presence in Malaysian life; this is not a decorative monarchy but an active institution. Walking the heritage district with this context makes it genuinely interesting.
 
-**JB City Square and Komtar JBCC** — JB's main shopping malls connected to the bus terminal. City Square connects directly to JB Sentral for Causeway crossing. Full range of Malaysian retail at prices lower than Singapore equivalents — electronics, clothing, and cosmetics all attract Singapore shoppers. The food courts on the upper floors have good hawker options.
+The food culture connects JB to the broader west Malaysian eating tradition while adding Johorean specifics: nasi ambeng (a communal Javanese-influenced rice dish), lontong (compressed rice cakes in coconut vegetable broth), and the Muar satay connection that puts some of Malaysia's best satay within 90 minutes of the city.
 
-**Sungai Skudai Fireflies** — Guided evening boat tours on the Skudai River to see bioluminescent fireflies in the riverside mangroves (30 minutes from JB by taxi). Similar to the famous Kuala Selangor firefly experience. Best from 8pm. RM30-50/person through tour operators.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E3A5F 0%, #1E40AF 35%, #60A5FA 65%, #1E3A5F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">A royal waterfront, a glass-mosaic Hindu temple, LEGOLAND for the children, and the world's busiest land crossing 5 minutes from the train station.</p>
+  </div>
+</div>
 
-**Old Market Square (Dataran Bandaraya)** — The historic core of old JB: the Sultan Ibrahim Building (art deco government complex, closed to public but photogenic exterior), the Clock Tower, and a row of heritage Chinese shophouses. Free to walk. 15 minutes from JB Sentral.
+## What should you do in Johor Bahru?
 
-## Where to Eat in Johor Bahru
+**Singapore Day Trip** — The main event for many JB visitors. Cross by Causeway bus to Woodlands, then MRT into Singapore (45 minutes total). Singapore in a day: Marina Bay Sands, Gardens by the Bay (RM70-90), Chinatown, Little India. Return by evening. Total crossing cost: RM6-10 return.
 
-- **Hiap Joo Banana Biscuit Bakery** — Famous for JB's best curry puffs and banana cake, baked daily in a traditional oven since the 1920s. RM2-4/piece. Queue most mornings; sell out by noon.
-- **Restoran Hua Mui, Jalan Trus** — 1950s-era kopitiam serving Johorean-style breakfast: kaya toast, half-boiled eggs, and the most authentic old-school coffee in JB. RM6-10 for a set. Opens 7am.
-- **Jalan Wong Ah Fook Hawker Area** — The main street market and hawker area in central JB. Char kway teow, wonton noodles, laksa Johor (the local version with thick coconut gravy), and late-night satay. RM10-20/person.
-- **Pasar Karat (Flea Market food stalls, Sunday)** — The Sunday flea market near the Causeway attracts food vendors selling Johorean specialties at excellent prices. Worth building a Sunday morning around.
-- **Any mamak stall near JB Sentral** — The 24-hour Indian-Muslim restaurants around the train station serve the cheapest full meals in JB. RM6-12/person. The Causeway crossing commuters keep them busy around the clock.
+**LEGOLAND Malaysia, Medini** — Southeast Asia's only full LEGOLAND park. Rides, the LEGO Miniland (miniature Southeast Asian cities), and the LEGOLAND Water Park (RM75 separate). Full day required. Entrance RM149-189/adult. 15 minutes from JB by Grab (RM20-25).
 
-## Where to Stay in Johor Bahru
+**Arulmigu Sri Rajakaliamman Temple** — A working Hindu temple whose entire facade is covered in colored glass mosaic tiles in an extraordinary continuous decorative program. Entrance RM3. One of the most visually distinctive religious buildings in Malaysia. Allow 30-45 minutes.
 
-- **Budget (RM60-130/night, $13-28)** — Guesthouses and budget hotels near JB Sentral. The most important factor is proximity to the Causeway bus stop — within 5 minutes walk.
-- **Mid-Range (RM150-350/night, $32-74)** — [DoubleTree by Hilton Johor Bahru](https://www.booking.com/searchresults.html?ss=DoubleTree+Hilton+Johor+Bahru&aid=2778866) and [Grand Paragon Hotel](https://www.booking.com/searchresults.html?ss=Grand+Paragon+Hotel+Johor+Bahru&aid=2778866) offer reliable mid-range quality in the city centre.
-- **Luxury (RM400-1,000+/night, $85-212+)** — [Berjaya Waterfront Hotel](https://www.booking.com/searchresults.html?ss=Berjaya+Waterfront+Hotel+Johor+Bahru&aid=2778866) facing the Straits of Johor. [LEGOLAND Hotel](https://www.booking.com/searchresults.html?ss=LEGOLAND+Hotel+Johor+Bahru&aid=2778866) for families (LEGO-themed rooms, on-site park access).
+**JB Old Town and Waterfront** — The Sultan Ibrahim Building (art deco, exterior photogenic), the Abu Bakar Mosque overlooking the Strait, and the Johor Heritage Museum (RM10, inside the Istana Besar palace). Free to walk the waterfront. Best in the early morning before the heat builds.
 
-## Festivals in Johor Bahru
+**Sungai Skudai Fireflies** — Evening guided boat tours to see bioluminescent fireflies in riverside mangroves 30 minutes from JB by taxi. RM30-50/person through operators. Best after 8pm.
 
-**Pesta Tanglung (Lantern Festival, September/October)** — Johor's version of the Mid-Autumn Festival (Mooncake Festival) with public lantern displays, lion dances, and mooncake stalls throughout the Chinese districts of JB.
-
-**Royal Abu Bakar Birthday Celebrations (April)** — The Johor Sultan's birthday is marked by state ceremonies, illuminated parade floats along Jalan Ibrahim, and public celebrations. Johor has a distinctive royal culture — the Sultan Ibrahim is one of Malaysia's most visible royals.
-
-## How Do I Get to Johor Bahru?
-
-KTM ETS trains from KL Sentral to JB Sentral run multiple times daily (4.5 hours, RM60-80). Buses from KL TBS take 5 hours (RM30-40). From Singapore, Causeway buses cross from Queen Street terminal (Woodlands) to JB Sentral — SGD3.30 or RM3-5, 30-90 minutes depending on immigration queues.
+**Jalan Wong Ah Fook** — JB's main Chinese heritage street with 1950s-era kopitiams, hawker stalls, and the city's genuine food culture operating alongside the tourist infrastructure. Evening is the best time — the stalls open from 5pm.
 
 <div class="scott-tips">
-  <div class="scott-tips-header">&#127890; Scott's Pro Tips</div>
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Johor Bahru Tips</div>
   <ul>
-    <li><strong>Getting There:</strong> ETS train from KL is more comfortable than the bus (RM60-80 vs RM30-40). From Singapore, the Causeway bus is the standard option — cross on a weekday morning to avoid the weekend immigration queues that can add 90 minutes to the crossing.</li>
-    <li><strong>Best Time to Visit:</strong> Any time. JB has no strong seasonal variation. Avoid Causeway crossings on Friday evenings, Sunday evenings, and Malaysian public holidays — immigration queues in both directions are severe.</li>
-    <li><strong>Getting Around:</strong> Grab is reliable and cheap within JB (RM10-20 for most city trips). For LEGOLAND: Grab to Medini (RM20-25). For the Causeway: walk to the bus terminal at JB Sentral (2 minutes) and take any Causeway bus.</li>
-    <li><strong>Money & ATMs:</strong> ATMs throughout JB city centre. Singaporeans withdraw Malaysian cash before crossing — your Singapore card works fine at Malaysian Maybank ATMs (standard exchange rate, check your bank's foreign fees). SGD and MYR both accepted at many Causeway-adjacent shops.</li>
-    <li><strong>Safety & Health:</strong> JB has an unfair reputation for crime that doesn't match the current reality. Normal urban precautions apply: don't flash expensive gear on the street at night, use Grab rather than street taxis. Sultan Ismail Hospital for emergencies; KPJ Johor Specialist Hospital for private care.</li>
-    <li><strong>Packing Essentials:</strong> Passport and documents easily accessible for the Causeway crossing (immigration stops both entering and leaving Malaysia). Cash in both RM and SGD is useful for the day trip. A light day bag for the Singapore visit.</li>
-    <li><strong>Local Culture & Etiquette:</strong> Johor has a strong Malay royal culture — the Sultan of Johor is prominent and respected. The Chinese community has deep roots in JB going back to the tin and rubber era. The mix of Malay, Chinese, and Indian communities in JB makes it a genuine Malaysian city rather than just a Singapore satellite.</li>
+    <li><strong>Getting There:</strong> ETS train from KL Sentral is the most comfortable option (RM60-80, 4.5 hours). From Singapore, Causeway bus from Queen Street terminal or Woodlands to JB Sentral (RM3-5 each way, 30-90 min depending on immigration queues). Cross weekday mornings to avoid peak queue times.</li>
+    <li><strong>Best Time:</strong> JB has no strong seasonality. Avoid the Causeway on Friday evenings and Sunday evenings when Malaysian workers return from Singapore — queues in both directions can add 90 minutes. Public holidays are the worst times to cross.</li>
+    <li><strong>Money:</strong> MYR — JB's main value proposition is the price gap vs Singapore. Budget RM60-100/day for food and activities. Most attractions are RM3-30. ATMs throughout the city centre — both RM and SGD are accepted at many Causeway-adjacent businesses.</li>
+    <li><strong>Don't Miss:</strong> Hiap Joo Banana Biscuit Bakery on Jalan Tan Hiok Nee — wood-fired banana cake and curry puffs sold daily until they run out (usually by noon). The queue starts at 8am. RM2-4/piece. Worth organizing a morning around.</li>
+    <li><strong>Food Order:</strong> Kopitiam breakfast at Restoran Hua Mui (kaya toast + half-boiled eggs + old-school coffee, RM6-10), Laksa Johor for lunch at a hawker stall on Jalan Wong Ah Fook (RM8-12), then satay at a night market stall for dinner (RM10-20). That's the correct JB food sequence.</li>
+    <li><strong>Local Phrase:</strong> "Johor dulu, Johor dahulu, Johor selamanya" — Johor first, Johor before, Johor forever. The Johor royal motto that locals know well. The strong Johor identity and royal culture makes this city distinct from the rest of Malaysia. Acknowledging the unique character of JB — rather than treating it purely as a Singapore satellite — is well received.</li>
   </ul>
 </div>
 
-<EmailCapture
-  leadMagnet="Get Our Free Johor Bahru Travel Guide"
-  description="Complete JB guide — Singapore day trips, LEGOLAND, Johorean food, and how to make the most of Malaysia's southern gateway."
-  bullets={[
-    'Singapore day trip guide — the Causeway crossing, what to see, and how to avoid the queues',
-    'JB food guide — curry puffs, laksa Johor, and where Singaporeans really eat when they cross',
-    'LEGOLAND planning guide — tickets, timing, and whether it\'s worth the trip',
-    'Budget Singapore strategy — using JB accommodation to cut your Singapore trip costs',
-  ]}
-  guideTag="destination-johor-bahru"
-/>
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Laksa Johor with coconut milk broth, banana cake from a wood-fired oven, and hawker stalls that Singaporeans cross the Causeway specifically to eat at.</p>
+  </div>
+</div>
+
+## Where should you eat in Johor Bahru?
+
+- **Hiap Joo Banana Biscuit Bakery** — Famous for wood-fired banana cake and curry puffs baked daily since the 1920s. RM2-4/piece. Queue before 10am; sells out by noon.
+- **Restoran Hua Mui, Jalan Trus** — 1950s kopitiam serving Johorean-style breakfast: kaya toast, half-boiled eggs, old-school coffee at marble-top tables. RM6-10 for a set. Opens 7am.
+- **Jalan Wong Ah Fook Hawker Area** — Char kway teow, wonton noodles, Laksa Johor (coconut gravy with thick noodles), and late-night satay. RM10-20/person.
+- **Pasar Karat Flea Market Food Stalls (Sunday)** — Sunday morning flea market near the Causeway with Johorean specialty food vendors at excellent prices. Build a Sunday morning around it.
+- **Any mamak stall near JB Sentral** — 24-hour Indian-Muslim restaurants around the train station serve the cheapest full meals in JB. RM6-12/person. Active around the clock due to Causeway commuter traffic.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E3A5F 0%, #1E40AF 35%, #60A5FA 65%, #1E3A5F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Stay near JB Sentral for instant Causeway access — the whole value proposition of JB as a Singapore base depends on that 5-minute walk to the bus.</p>
+  </div>
+</div>
+
+## Where should you stay in Johor Bahru?
+
+**Budget (RM60-130/night, $13-28):** Guesthouses and budget hotels near JB Sentral, within 5 minutes of the Causeway bus stop. The most important location factor for Singapore day-trippers.
+
+**Mid-Range (RM150-350/night, $32-74):** DoubleTree by Hilton Johor Bahru and Grand Paragon Hotel offer reliable mid-range quality in the city centre at RM200-350/night — significantly cheaper than Singapore equivalents.
+
+**Luxury (RM400-1,000+/night, $85-212+):** Berjaya Waterfront Hotel faces the Straits of Johor. LEGOLAND Hotel in Medini for families with young children (LEGO-themed rooms, on-site park access, RM500-900/night).
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E3A5F 0%, #1E40AF 35%, #60A5FA 65%, #1E3A5F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Passport easily accessible for the Causeway immigration crossings — you'll be stamping in and out of two countries in the same day.</p>
+  </div>
+</div>
+
+## When is the best time to visit Johor Bahru?
+
+**Year-round:** JB has no significant seasonal variation. The Causeway crossing and city activities operate identically throughout the year.
+
+**Avoid:** Friday evenings, Sunday evenings, and Malaysian public holidays — Causeway immigration queues in both directions can add 90 minutes to the crossing. Plan Causeway crossings for weekday mornings (8-11am) when queues are shortest.
+
+**Chinese New Year (January-February):** JB's Chinese community celebrates with lion dances and lantern displays in the Old Town. The Causeway is extremely busy for several days around the new year as Malaysian workers return home.
+
+JB is the Malaysian city that makes Southeast Asia's most expensive destination accessible on a budget — and it turns out to be a more interesting city than its reputation as Singapore's anteroom suggests. The Johorean food culture, the royal heritage, and the genuine Malaysian city life operating at RM prices are worth a night regardless of the Singapore plan. Explore the southern Malaysia circuit at our [Malaysia travel guide](/plan/) or find more at the [destinations page](/destinations/).

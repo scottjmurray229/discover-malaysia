@@ -102,70 +102,107 @@ draft: false
 fmContentType: destination
 ---
 
-Sandakan is where you come to understand what Borneo actually means. The city itself is functional rather than beautiful — a working port town with a complicated history (it was the wartime capital of British North Borneo and the site of the Sandakan death marches). But 25 kilometres from the city, at Sepilok, semi-wild orangutans swing down to the feeding platform every morning, and 2.5 hours east along the river, the Kinabatangan basin holds more large mammals per square kilometre than almost anywhere on earth.
+Sandakan is where you come when Borneo wildlife is the primary purpose of the trip, and the concentration of accessible wildlife around this city is genuinely unprecedented. Within 25 kilometres of the town centre: Sepilok Orangutan Rehabilitation Centre, where semi-wild Bornean orangutans return to the feeding platform twice daily; the Bornean Sun Bear Conservation Centre, the world's first sun bear sanctuary, a five-minute walk from Sepilok. And 2.5 hours east by road along the Sabah highway: the Kinabatangan River, where the most accessible wildlife corridor in Borneo channels proboscis monkeys, pygmy elephants, saltwater crocodiles, hornbills, and wild orangutans through a narrow protected strip of riverside forest.
 
-I've done the Kinabatangan twice. The first time I saw proboscis monkeys at dusk, a crested serpent eagle hunting in the riverside palms, and a saltwater crocodile sliding off a bank at dawn. The second time, on the final morning cruise, a family of Bornean pygmy elephants crossed a river bend 50 metres ahead of the boat. No other wildlife experience I've had in Malaysia comes close.
+I've done the Kinabatangan twice. The first time: proboscis monkeys at dusk in the riverside trees, a crested serpent eagle hunting in the palms, a saltwater crocodile sliding off a bank at dawn. The second time, on the final morning cruise — the one when you've stopped expecting surprises — a family of Bornean pygmy elephants crossed a river bend 50 metres ahead of the boat. Four adults and two juveniles, the calves barely visible above the waterline. The boat cut the engine and we drifted. They ignored us completely.
 
-<ImmersiveBreak videoSrc="/videos/destinations/sandakan-hero.mp4" />
+No other wildlife experience I've had in Malaysia comes close to that morning. The Kinabatangan delivers the kind of encounter that makes wildlife tourism worth the logistics: genuinely wild animals in a functioning ecosystem, with a naturalist guide who knows the river well enough to put you in the right place at the right time.
 
-## What to Do in Sandakan
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The flight from KK to Sandakan passes over the interior Sabah highlands and lands in a city where the Kinabatangan wildlife corridor begins 2.5 hours to the east.</p>
+  </div>
+</div>
 
-**Sepilok Orangutan Rehabilitation Centre** — Malaysia's most visited wildlife attraction outside the peninsula. Semi-wild orangutans (mostly juveniles and young adults being prepared for forest release) come to the feeding platform twice daily at 10am and 3pm. The boardwalk through the forest to the feeding area takes 15 minutes. Entrance RM30 (includes the Rainforest Discovery Centre boardwalk). Allow 2-3 hours including the RDC walk.
+## Why Sandakan should be on your itinerary
 
-**Bornean Sun Bear Conservation Centre** — 5 minutes' walk from Sepilok. Raised boardwalk overlooking a natural forest enclosure where sun bears forage, climb, and rest. Informative exhibits about sun bear ecology and the threats to their survival (illegal logging and the pet trade). Entrance RM30. 1-1.5 hours.
+Sandakan has the highest density of accessible Borneo wildlife experiences in Malaysia. The Sepilok-Sun Bear-Kinabatangan triangle is the most complete wildlife circuit available to independent travelers in Southeast Asia — two internationally significant conservation centres within 5 minutes of each other, and one of the world's finest wildlife rivers 2.5 hours away.
 
-**Kinabatangan River (2-night minimum)** — The wildlife river cruise experience that makes Sandakan genuinely world-class. Dawn cruises (6am) catch proboscis monkeys moving to feeding trees at the river edge and the morning bird activity. Dusk cruises (5:30pm) see the proboscis monkey return to riverside sleeping trees in large social groups. Night cruises (extra, RM30-50/person) spotlight crocodiles, sleeping birds, and occasionally civets on the banks. Pygmy elephants appear most commonly in the dry season (March-October) when they concentrate near the river.
+Sepilok Orangutan Rehabilitation Centre is the most visited wildlife attraction in Malaysian Borneo, and its reputation is earned. Semi-wild orangutans — mostly juveniles and young adults being prepared for forest release — come to the feeding platform at 10am and 3pm via the boardwalk through the rehabilitation forest. The encounters are more intimate than most zoo experiences because these animals have agency: they choose when to come down from the trees, how long to stay, and whether to pay attention to the assembled humans below.
 
-**Gomantong Caves** — Two massive limestone cave systems 30 minutes from the Kinabatangan area. The Simud Hitam cave holds one of Sabah's largest swiftlet populations — millions of birds whose nests are harvested twice annually for bird's nest soup. At dusk, the bat exodus (hundreds of thousands of wrinkle-lipped bats) spirals out to feed. Entrance RM30. Combine with Kinabatangan for a full day.
+The Kinabatangan is the elevation of this experience from good to extraordinary. Dawn river cruises on the Kinabatangan, in a wooden longboat with a naturalist guide who has been reading this river for decades, deliver encounters that no zoo or wildlife park can replicate: a proboscis monkey troop returning to riverside sleeping trees at dusk, a crocodile surfacing in the boat's wake, a pair of rhinoceros hornbills crossing the river at first light. Two nights at a river lodge — four cruises, dawn and dusk — is the minimum for the wildlife density to work in your favor.
 
-**Turtle Islands Park, Pulau Selingan** — 40 kilometres offshore, this archipelago of islands is one of the most important green turtle nesting sites in the world. Overnight packages include watching turtles lay eggs at night and the hatchling release at dawn. Must be booked in advance through Crystal Quest or the Sabah Parks office. RM180-250/person including boat and accommodation. June to September peak season.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Orangutans at Sepilok, sun bears in the forest enclosure, proboscis monkeys at riverside dusk, and the possibility of a pygmy elephant family at the river bend.</p>
+  </div>
+</div>
 
-**Sandakan War Memorial** — The Sandakan Memorial Park marks the site of the Australian and British POW camps from WWII. The Sandakan death marches (1945) are one of the most tragic episodes in Australian military history. A sombre and important site. Free entry. Allow 1 hour.
+## What should you do in Sandakan?
 
-## Where to Eat in Sandakan
+**Sepilok Orangutan Rehabilitation Centre** — Semi-wild orangutans come to the feeding platform at 10am and 3pm. Entrance RM30. Allow 2-3 hours including the Rainforest Discovery Centre boardwalk. 25 minutes from Sandakan Airport by taxi (RM25-30).
 
-- **English Tea House & Restaurant** — Heritage colonial building overlooking the bay, serving a proper British afternoon tea set alongside Malaysian dishes. The cream scones and sandwiches on the colonial terrace are surreal in the Borneo context. RM40-80/person.
-- **Sim Sim Seafood Restaurants, Water Village** — The stilted water village of Sim Sim (a Bajau sea-dwelling community) has excellent fresh seafood restaurants under the houses. Grilled whole fish, butter prawns, steamed crabs. RM40-70/person. Grab to Sim Sim from town (RM10).
-- **Madam Kiu's Noodles (Kedai Kiu)** — Famous for Sandakan-style prawn noodle soup — a deep, dark prawn broth with rice noodles and fresh prawns. A distinctly Sandakan breakfast. RM7-10/bowl. Open mornings only.
-- **Hawker stalls along the waterfront** — The night market along the Sandakan esplanade has the usual Malaysian hawker spread plus Sabahan specialties: tuaran mee, hinava, and fresh grilled seafood. RM10-20/person.
+**Bornean Sun Bear Conservation Centre** — 5 minutes from Sepilok. Raised boardwalk overlooking a natural forest enclosure where sun bears forage. The world's first sun bear sanctuary. Entrance RM30. 1-1.5 hours. Combine with Sepilok for a half-day wildlife morning.
 
-## Where to Stay in Sandakan
+**Kinabatangan River (2-night minimum)** — The core experience. Dawn cruises (6am) catch proboscis monkeys moving to feeding trees. Dusk cruises (5:30pm) see them returning to sleeping trees in large groups. Night cruises (extra, RM30-50/person) spotlight crocodiles. Pygmy elephants most common in dry season (March-October). All-inclusive river lodge packages: RM200-600/person/night.
 
-- **In Town (Budget, RM80-150/night, $17-32)** — For Sepilok access, guesthouses near the bus terminal. Sandakan town is your base for the Sun Bear centre and Sepilok.
-- **Kinabatangan River Lodges (All-inclusive, RM200-600/night/person)** — The experience requires a river lodge: [Bilit Adventure Lodge](https://www.booking.com/searchresults.html?ss=Bilit+Adventure+Lodge+Kinabatangan&aid=2778866) (budget-friendly, RM200-300/night), [Sukau Rainforest Lodge](https://www.booking.com/searchresults.html?ss=Sukau+Rainforest+Lodge+Kinabatangan&aid=2778866) (mid-range, the best mid-range option), [Borneo Nature Lodge](https://www.booking.com/searchresults.html?ss=Borneo+Nature+Lodge+Kinabatangan&aid=2778866) (solid mid-range at Bilit).
-- **Luxury (RM800+/night, $170+)** — [Kinabatangan Riverside Lodge](https://www.booking.com/searchresults.html?ss=Kinabatangan+Riverside+Lodge&aid=2778866) and similar premium eco-lodges with naturalist guides.
+**Gomantong Caves** — Two limestone cave systems 30 minutes from the Kinabatangan area. Millions of swiftlets nest here — the nests are harvested for bird's nest soup. Dusk bat exodus: hundreds of thousands of wrinkle-lipped bats. Entrance RM30.
 
-## Festivals in Sandakan
+**Turtle Islands Park (Pulau Selingan)** — 40 kilometres offshore, the most important green turtle nesting site accessible to visitors. Overnight packages include watching nesting turtles and hatchling release at dawn. RM180-250/person. Book months ahead.
 
-**Pesta Regatta Lepa (April)** — Colorful Bajau sea gypsies' boat festival held in late April at Semporna (3 hours south of Sandakan). Decorated Lepa (traditional houseboats) parade in a sea procession. One of the most visually distinctive festivals in Borneo.
-
-**Kadazan-Dusun Harvest Festival (May)** — While primarily celebrated statewide, Sandakan's Kadazan community holds local harvest celebrations with traditional music, rice wine, and the Unduk Ngadau pageant.
-
-## How Do I Get to Sandakan?
-
-MASWings flies from Kota Kinabalu to Sandakan in 55 minutes (RM80-120). AirAsia and Malaysia Airlines fly direct from KL (2.5 hours). The overland bus from KK takes 5-6 hours (RM35-50) — the road passes through the Crocker Range with dramatic scenery but it's a long day. Most wildlife visitors fly directly into Sandakan airport.
+**Sandakan War Memorial** — The site of the wartime POW camp and the starting point of the Sandakan death marches (1945). A sombre and important memorial in a city that carries this history seriously. Free entry.
 
 <div class="scott-tips">
-  <div class="scott-tips-header">&#127890; Scott's Pro Tips</div>
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Sandakan Tips</div>
   <ul>
-    <li><strong>Getting There:</strong> Fly directly to Sandakan (SDK) rather than going through KK if Borneo wildlife is your main purpose. Saves 1 day of backtracking. MASWings from KK is the connector flight if you're starting at KK.</li>
-    <li><strong>Best Time to Visit:</strong> March-October is the drier season and wildlife is more concentrated near the river. Pygmy elephant sightings peak in dry months. July-August can be slightly busier with international visitors. Sepilok and the Sun Bear centre operate year-round.</li>
-    <li><strong>Getting Around:</strong> Book lodge-to-lodge transfers through your accommodation. The Kinabatangan lodges all offer Sandakan airport pick-up (RM60-80/person each way). A Grab from Sandakan to Sepilok costs RM30; minivans also run from the bus terminal.</li>
-    <li><strong>Money & ATMs:</strong> ATMs in Sandakan town centre. The Kinabatangan lodges are cash-based for tips and extras — bring RM200-300 cash. Wildlife tourism here costs more than peninsula Malaysia; budget RM500-800 for a 2-night Kinabatangan package.</li>
-    <li><strong>Safety & Health:</strong> Very safe wildlife tourism area. Stay on boardwalks at Sepilok and never feed or approach orangutans. Kinabatangan river swimming is inadvisable (saltwater crocodiles). Queen Elizabeth Hospital is in KK; Duchess of Kent Hospital serves Sandakan.</li>
-    <li><strong>Packing Essentials:</strong> DEET insect repellent (non-negotiable on the river), long-sleeve shirts and trousers for dawn/dusk cruises (mosquitoes and cool river air), good binoculars (10x42 minimum), and a dry bag for river boat gear. Leech socks for jungle trail walking.</li>
-    <li><strong>Local Culture & Etiquette:</strong> Sepilok orangutans are recovering animals — observe the no-feeding, no-flash, keep-distance rules strictly. On the Kinabatangan, follow your naturalist guide's instructions. Tipping guides RM20-50/day is standard and genuinely appreciated.</li>
+    <li><strong>Getting There:</strong> Fly directly to Sandakan (SDK) rather than going through KK if Borneo wildlife is your main purpose — saves a day of backtracking. MASWings from KK (45 min, RM60-100) is the connector if you're starting at KK. Book Kinabatangan lodges before booking flights — peak dates sell out first.</li>
+    <li><strong>Best Time:</strong> March-October for the drier season and best wildlife viewing on the river. Pygmy elephant sightings peak in dry months. Sepilok and the Sun Bear Centre operate year-round. Turtle Island permits for June-October peak season should be applied for months ahead.</li>
+    <li><strong>Money:</strong> ATMs in Sandakan town centre. The Kinabatangan lodges are cash-based for tips and extras — bring RM200-300 cash. Wildlife tourism in Borneo costs more than the peninsula; budget RM500-800 for a 2-night Kinabatangan package plus Sepilok and Sun Bear.</li>
+    <li><strong>Don't Miss:</strong> The final dawn cruise on the Kinabatangan — by the third or fourth cruise, your guide knows where to position the boat and your eyes have adjusted to reading the riverbank. The animals don't change; you do. It's the last morning when the elephant family or the wild orangutan in the fig tree tends to appear.</li>
+    <li><strong>Food Order:</strong> Sandakan-style prawn noodle soup at Madam Kiu's for breakfast (RM7-10), grilled whole fish at the Sim Sim Water Village seafood restaurants for lunch (RM40-70/2 people), and the English Tea House colonial afternoon tea for the surreal Borneo experience (RM40-80/person). That's the correct Sandakan food sequence.</li>
+    <li><strong>Local Phrase:</strong> "Bekantan" (beh-kan-tan) — proboscis monkey in Malay. The proboscis monkey is Borneo's most recognizable endemic primate — found nowhere else on earth — and the Kinabatangan is one of the best places to see it. Asking your guide about "bekantan" feeding behavior will generate a conversation that lasts the length of the river cruise.</li>
   </ul>
 </div>
 
-<EmailCapture
-  leadMagnet="Get Our Free Sandakan & Kinabatangan Wildlife Guide"
-  description="Complete planning guide for Borneo's best wildlife — orangutans, proboscis monkeys, pygmy elephants, and the Kinabatangan River."
-  bullets={[
-    'Kinabatangan River lodge comparison — which lodges to book at each budget level',
-    'Sepilok and Sun Bear Centre planning — timing, what to expect, and photography tips',
-    'Pygmy elephant encounter guide — when and where to maximize sightings',
-    'Sample 3-day and 5-day Sandakan wildlife itineraries with prices',
-  ]}
-  guideTag="destination-sandakan"
-/>
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Sandakan prawn noodle soup with dark prawn broth, fresh seafood at the Sim Sim water village, and the Kinabatangan lodge meals that keep you fueled for 6am river cruises.</p>
+  </div>
+</div>
+
+## Where should you eat in Sandakan?
+
+- **Madam Kiu's Noodles** — Famous for Sandakan-style prawn noodle soup: dark, deep prawn broth with fresh prawns over rice noodles. Distinctly Sandakan breakfast. RM7-10/bowl. Mornings only.
+- **Sim Sim Water Village Seafood** — Seafood restaurants under stilted houses in the Bajau water village. Grilled whole fish, butter prawns, steamed crabs. RM40-70/person.
+- **English Tea House & Restaurant** — Heritage colonial building with terrace views and proper British afternoon tea (cream scones, sandwiches). RM40-80/person. The surreal colonial Borneo experience.
+- **Waterfront night market stalls** — The night market along the Sandakan esplanade: Malaysian hawker staples plus Sabahan specialties (tuaran mee, hinava, grilled seafood). RM10-20/person.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">A river lodge on the Kinabatangan is the accommodation that defines the Sandakan experience — book at least 2 nights for the wildlife density to work in your favor.</p>
+  </div>
+</div>
+
+## Where should you stay in Sandakan?
+
+**In Town (Budget, RM80-150/night, $17-32):** Guesthouses near the bus terminal for Sepilok access. Sandakan town is a functional base — the accommodation here serves the logistics rather than the experience.
+
+**Kinabatangan River Lodges (All-inclusive, RM200-600/person/night):** The experience requires a river lodge: Bilit Adventure Lodge (budget-friendly, RM200-300/person/night), Sukau Rainforest Lodge (mid-range, the best overall option), Borneo Nature Lodge (solid mid-range at Bilit). All include meals and river cruises.
+
+**Luxury (RM800+/person/night, $170+):** Kinabatangan Riverside Lodge and similar premium eco-lodges with naturalist guides. Sipadan Water Village Resort for those combining with the Semporna dive area.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">DEET insect repellent (non-negotiable on the river), good binoculars (10x42 minimum), long sleeves for dawn cruises, and leech socks for the jungle boardwalks at Sepilok.</p>
+  </div>
+</div>
+
+## When is the best time to visit Sandakan?
+
+**March-October (Best):** Drier season and wildlife is more concentrated near the river as water levels drop. Pygmy elephant sightings increase significantly in the dry months. Sepilok operates year-round.
+
+**July-August:** Slightly busier with international visitors but wildlife activity is at its peak. Book Kinabatangan lodges 6-8 weeks ahead for these months.
+
+**November-February:** Wetter season with higher river levels — wildlife disperses further into the forest. Sepilok and the Sun Bear Centre operate normally. Some river lodge trails may be temporarily inaccessible during flood events.
+
+Sandakan is where the Borneo wildlife experience becomes real and worth every ringgit of the budget it requires. The orangutans, the sun bears, the proboscis monkeys, and the possibility of a pygmy elephant family on the final dawn cruise make it the most rewarding wildlife destination in Malaysia. Explore the Borneo circuit at our [Malaysia travel guide](/plan/) or find more at the [destinations page](/destinations/).

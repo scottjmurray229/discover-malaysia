@@ -38,135 +38,133 @@ essentials:
     value: "Budget: RM60-100 ($13-21). Mid-range: RM150-280 ($32-60). The food is cheap — RM5-8 for a hawker meal. Accommodation is the main variable."
   - icon: "🌡️"
     label: "Climate"
-    value: "Tropical year-round (27-34°C). Wetter from August to October. March to June and January to February are the driest periods."
-  - icon: "🏛️"
-    label: "Heritage"
-    value: "UNESCO World Heritage Site since 2008. Over 12,000 pre-war heritage buildings in George Town's core. Free to walk — most attractions charge RM5-15 to enter."
+    value: "Tropical, warm year-round (27-33°C). Northeast monsoon affects east coast Nov-Feb; Penang's west coast is drier Dec-Feb."
 highlights:
-  - title: "George Town Street Art"
-    icon: "🎨"
-    image: ""
-  - title: "Gurney Drive Hawker Centre"
-    icon: "🍜"
-    image: ""
-  - title: "Penang Hill Cable Car"
-    icon: "🚡"
-    image: ""
-  - title: "Kek Lok Si Temple"
-    icon: "🕌"
-    image: ""
-  - title: "Khoo Kongsi Clan House"
-    icon: "🏛️"
-    image: ""
-  - title: "Penang Assam Laksa"
-    icon: "🍲"
-    image: ""
-gradientColors: "from-amber-900 via-orange-700 to-yellow-600"
+  - "George Town UNESCO World Heritage streets"
+  - "Penang Hill — funicular railway, colonial bungalows, forest trails"
+  - "Kek Lok Si Temple — Southeast Asia's largest Buddhist temple"
+  - "Clan Jetties — water village communities still living on the sea"
+  - "Assam Laksa at Air Itam Market — the dish Penang is famous for"
+  - "Street art trail — iron rod sculptures and wall murals"
+gradientColors: "from-orange-900 via-amber-800 to-yellow-700"
 relatedDestinations:
-  - slug: kuala-lumpur
-    videoSrc: ""
-    hook: "Malaysia's capital — 3.5 hours south by train, the full city contrast."
-  - slug: langkawi
-    videoSrc: ""
-    hook: "Duty-free island paradise — 2.5 hours by ferry from Penang."
+  - slug: george-town
+    hook: "Deep dive into the UNESCO heritage core"
   - slug: ipoh
-    videoSrc: ""
-    hook: "Malaysia's sleepy food city — just 1 hour south by train from Penang."
-affiliatePicks:
-  - name: "George Town Heritage Hotels"
-    type: hotel
-    price: "RM80-800/night ($17-170)"
-    personalNote: "Stay in the UNESCO heritage zone for walking access to everything. Shophouse boutique hotels fill the RM250-500 range with character that chain hotels can't touch. Budget guesthouses from RM80/night."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=George+Town+Penang+Heritage+Hotel&aid=2778866"
-    badge: "Book on Booking.com"
-faqItems:
-  - question: "Why is Penang food so famous?"
-    answer: "Penang's food reputation comes from its unique history as a Straits Settlement where Hokkien Chinese, Malay, Indian (Tamil and Chettiars), and Peranakan (Straits Chinese) culinary traditions converged and cross-pollinated for 500 years. The result is a hawker food culture unlike anywhere else — char kway teow, assam laksa, Penang hokkien mee, and cendol all at their definitive best."
-  - question: "How many days do you need in Penang?"
-    answer: "Two days covers George Town's highlights — the street art trail, Khoo Kongsi, a morning at the hawker centres, and an afternoon on Penang Hill. Three or four days lets you move beyond the heritage core to Ayer Itam for the definitive assam laksa, Gurney Drive for evening hawker, Batu Ferringhi beach, and the less-visited north of the island."
-  - question: "Is George Town walkable?"
-    answer: "Yes — the UNESCO heritage core is one of the most walkable districts in Southeast Asia. The complete street art trail (Ernest Zacharevic murals + iron rod sculptures) takes about 3-4 hours on foot with stops. Carry water and start early before 9am to beat the heat and tour groups."
-  - question: "What is the best hawker food in Penang?"
-    answer: "Penang char kway teow (Lorong Selamat near Gurney Drive), assam laksa (Ayer Itam market), Penang hokkien mee (prawn noodle soup), cendol (roadside stalls near Jalan Penang), and nasi kandar (Nasi Kandar Pelita in Batu Ferringhi). For a full day eating guide, budget RM50-80 and work through hawker centres methodically."
-  - question: "What is Penang assam laksa and why is it unique?"
-    answer: "Penang assam laksa is a sour, tamarind-based noodle soup with mackerel fish flakes, pineapple, cucumber, torch ginger flower, and prawn paste — a Peranakan flavour profile completely unlike the coconut milk laksa found elsewhere in Malaysia. CNN ranked it among the world's 50 best foods. The benchmark version is at Ayer Itam market near Kek Lok Si Temple. RM5-8/bowl."
-  - question: "How do I get from Kuala Lumpur to Penang?"
-    answer: "ETS Gold train from KL Sentral to Butterworth takes 3.5-4 hours (from RM85), then a 10-minute pedestrian ferry to George Town Jetty (RM1.20). Flight: KL to Penang Airport (PEN) is 1 hour from RM60 on AirAsia. Bus: direct express coaches KL to Georgetown 4-5 hours (RM35-50). The train-ferry combination is the most enjoyable option."
-  - question: "What is the Penang Hill funicular and is it worth visiting?"
-    answer: "The Penang Hill Funicular climbs 833 meters in 4 minutes at a steep gradient, with views over Georgetown, the Penang Strait, and mainland Malaysia. At the top: cooler temperatures (typically 5°C below sea level), walking trails, a small mosque, and the Penang Hill Observatory. Return ticket RM30/adult. Book online or arrive early — weekend queues can be 30-45 minutes."
-  - question: "What is the Peranakan (Nyonya) culture in Penang?"
-    answer: "Peranakan culture emerged from the intermarriage of early Chinese traders with local Malay women, producing a unique cultural synthesis — Nyonya cuisine (mixing Chinese and Malay flavors), distinctive beaded slippers and embroidered clothing, and elaborate wedding traditions. The Pinang Peranakan Mansion (RM25 entry) shows a complete recreation of a wealthy 19th-century Peranakan household. Penang has the largest and most vibrant surviving Peranakan community in Malaysia."
-lastVerified: 2026-03-01
+    hook: "Malaysia's food city — 1 hour south by train"
+  - slug: cameron-highlands
+    hook: "Cool hill station — 3 hours by bus"
 contentStatus: published
 draft: false
-fmContentType: destination
 ---
 
-Penang rewards the traveler who comes for the food and stays for everything else. The food is the entry point — Penang char kway teow is legitimately different here, the assam laksa at Ayer Itam sets a benchmark that every other version in Malaysia is measured against, and the cendol under a roadside awning on a hot afternoon is one of the small perfect things in travel. But once you start walking the heritage streets of George Town, you realize you're in one of the most layered and interesting cities in Southeast Asia.
+Penang grabbed me on the first morning and has not let go since. I came off the ferry from Butterworth with no particular plan, walked into the first kopitiam I found on Chulia Street, ordered a Penang-style kopi-o (strong, slightly bitter black coffee with condensed milk) and a roti bakar with kaya jam, and sat for an hour watching the street begin its day. The shop had been there since before Malaysian independence. The coffee recipe had not changed.
 
-George Town is a UNESCO World Heritage Site because it's one of the finest surviving examples of a British Straits Settlement city — pre-war shophouses, clan temples, mosques, Hindu temples, and colonial administrative buildings all within walking distance, all still functioning, none of it a theme park replica. The Ernest Zacharevic street art murals are what got Penang on the Instagram radar, and they're genuinely good, but they're the surface of something deeper.
+George Town is the UNESCO-listed heritage core — a web of shophouses and clan association buildings, mosques and temples and clan jetties, where the architecture of 150 years of migration is remarkably intact. The iron rod sculpture installations that have become famous on social media are the latest layer on a city that has been adding layers since the British established a trading post here in 1786. Walking the heritage core on foot takes the better part of a day and reveals itself gradually: a hidden courtyard, a clan association performing a ceremony, a produce market that has been in the same spot since the 1920s.
 
-<ImmersiveBreak videoSrc="/videos/destinations/penang-hero.mp4" />
+The food is the other reason Penang has an almost evangelical following among Asian travellers. This is where char kway teow was refined to its definitive form: flat rice noodles in a hot wok with lard, soy, eggs, bean sprouts, chives, and cockles, the wok hei (breath of the wok, that particular smoky caramelized flavor only achieved over extremely high heat) so pronounced that you can smell the stalls before you see them. Assam laksa — a sour, intensely savory fish broth with rice noodles, pineapple, and shrimp paste — has been named one of the world's fifty best foods by CNN. Penang nasi kandar (rice with various curries) is the definitive version of a dish found across peninsular Malaysia.
 
-## What to Do in Penang
+Penang Hill at dusk, when the funicular has brought you to 820m above sea level and the entire island is visible below you with the Strait of Malacca stretching toward the horizon, is one of those views that resolves itself into a complete picture of why this island matters.
 
-**George Town Street Art Trail** — Pick up a free art map from the Penang Tourism Centre on Lebuh Pantai. The iron rod and mural installations by Ernest Zacharevic are scattered through the heritage district. The "Children on Bicycle" mural on Armenian Street is the most famous but "Boy on a Chair" on Ah Quee Street is better. Allow 3-4 hours walking the full trail.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The ferry from Butterworth takes 10 minutes and George Town materializes across the water — shophouses, minarets, and the smell of char kway teow from the jetty food stalls.</p>
+  </div>
+</div>
 
-**Khoo Kongsi** — Malaysia's most ornate Hokkien clan house. The main hall is extraordinary: carved timber beams, porcelain tile roofs, gilded altars, and ancestor halls that go back to 1851. Entrance RM10. Allow one hour minimum. Cannon Square, easy walking distance from the ferry terminal.
+## Why Penang should be on your itinerary
 
-**Penang Hill Cable Car** — The funicular railway to the summit (735m) takes 5 minutes and delivers cool air and panoramic views over the island. RM30/return ticket for adults. Combined with the Kek Lok Si temple complex (largest Buddhist temple in Southeast Asia, free entry to the lower terraces) makes a full day excursion. Grab to Ayer Itam for the cable car.
+Penang sits at a unique intersection: it is simultaneously Malaysia's most historically preserved city, its undisputed food capital, and a living example of what multicultural Southeast Asian urban life looked like before the homogenization of the 20th century. The UNESCO World Heritage designation (2008) recognized George Town's "outstanding universal value" — but the city was extraordinary before the designation and remains extraordinary because of the people who live and work in it, not because of the plaques on the walls.
 
-**Gurney Drive Hawker Centre** — Open from late afternoon. The most famous hawker strip in Penang, facing the sea. Oyster omelette, char kway teow, assam laksa, Penang hokkien mee all at outdoor tables. RM25-40/person for a full spread.
+The food is the most accessible dimension. Penang's hawker culture has been operating continuously for generations, and the best practitioners are not restaurants — they are mobile stalls, market hawkers, and kopitiam cooks who have been making the same dish in the same spot for decades. The hawker who makes the char kway teow on Lorong Selamat has been doing it since the 1970s. The assam laksa at Air Itam Market is a recipe handed down through a family. The cendol dessert (shaved ice with palm sugar syrup, coconut milk, and green jelly noodles) at Penang Road Famous Teochew Cendol is the same dessert that has made this stall famous for 60 years.
 
-**Ayer Itam Market Assam Laksa** — The Michelin Bib Gourmand-recognized stall at Ayer Itam market serves the definitive version of Penang's sour tamarind fish broth laksa. RM6-8 per bowl. Grab ride from George Town, about 20 minutes.
+The street art is more recent but has become integral. Artist Ernest Zacharevic's iron rod installations and wall murals (commissioned in 2012 for the George Town Festival) are the ones most photographed; the broader street art scene has expanded to cover hundreds of walls across the heritage core with work by Malaysian and international artists. The art hunt — following a map from mural to mural through the heritage streets — takes a full morning and shows you parts of George Town you would not find on a standard tourist walk.
 
-## Where to Eat in Penang
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Heritage shophouses, a funicular railway to a hill station, clan jetties over the sea, and the Southeast Asian Buddhist temple complex that took 100 years to complete.</p>
+  </div>
+</div>
 
-- **Penang Char Kway Teow, Lorong Selamat** — The most famous char kway teow stall in Penang, operated by an elderly woman who fries each plate individually. Queue of 30+ people is normal. RM8-10/plate. Worth every minute of the wait.
-- **Ayer Itam Assam Laksa** — The definitive Penang assam laksa at the Ayer Itam market. RM6-8/bowl. Go before noon.
-- **Sin Yin Lee Kopitiam** — Old-school Penang kopitiam serving the traditional soft-boiled egg, kaya toast, and local coffee set that Penangites eat every morning. RM8-12 for a full set.
-- **Line Clear Nasi Kandar** — 24-hour nasi kandar institution in Penang. Rice with curries chosen from a dozen options. RM15-25/person.
-- **Hameediyah Restaurant** — Penang's oldest and most famous nasi kandar restaurant, operating since 1907. Mutton kurma, fish curry, and the legendary Penang biryani. RM20-35/person.
+## What should you do in Penang?
 
-## Where to Stay in Penang
+**George Town Heritage Walk** — The UNESCO World Heritage core is fully walkable and requires no particular plan — get lost. The concentration of Hokkien clan houses, Chinese temples, Indian mosques, British colonial buildings, and Peranakan shophouses within 2km is unmatched anywhere in Southeast Asia. Grab a heritage map from the Penang Museum or any guesthouse. Allow half a day minimum.
 
-- **Budget (RM80-150/night, $17-32)** — Chinatown backpacker guesthouses and heritage shophouse hostels.
-- **Mid-Range (RM200-450/night, $43-95)** — Boutique shophouse hotels in the UNESCO core. [Muntri Grove](https://www.booking.com/searchresults.html?ss=Muntri+Grove+Penang&aid=2778866) and [Straits Collection](https://www.booking.com/searchresults.html?ss=Straits+Collection+Penang&aid=2778866) are consistently excellent.
-- **Luxury (RM600-2,000+/night, $128-425+)** — The [Eastern & Oriental Hotel](https://www.booking.com/searchresults.html?ss=Eastern+Oriental+Hotel+Penang&aid=2778866) is the grand colonial dame of Penang — Sarkies Brothers, Raffles-era, facing the straits.
+**Penang Hill (Bukit Bendera)** — Malaysia's oldest hill station, accessible by funicular railway from Air Itam (RM30 return, every 30 minutes). At 820m the temperature drops 5-8 degrees below sea level. Colonial bungalows, a small mosque and Hindu temple, and 270-degree views over the Strait of Malacca. Best at dusk. Take the Owl Museum trail at the summit for forest walking.
 
-## Festivals in Penang
+**Kek Lok Si Temple** — The largest Buddhist temple in Southeast Asia, built in stages over 100 years from 1890. Multiple levels of pagodas, shrines, and halls climb a hillside in Air Itam. The enormous bronze Kuan Yin goddess statue (36m) at the summit is visible for miles. Free to visit most areas; donations welcomed.
 
-**Penang International Food Festival (November)** — Month-long festival celebrating Penang's food culture with cooking demonstrations, street food competitions, and heritage restaurant pop-ups. The best time to eat obsessively in Penang.
+**Clan Jetties** — Six Chinese clan communities still living on stilted wooden houses over the sea at Weld Quay. The Chew Clan Jetty is the most intact and most visited. Families have lived here for generations — it is a residential community, not a museum. Respectful visiting during daylight hours. Free.
 
-**Thaipusam at Waterfall Hilltop Temple (January/February)** — Penang's Thaipusam is smaller than KL's but more accessible. Kavadi carriers along Jalan Waterfall in the evening.
+**Street Art Trail** — Start at the famous "Children on Bicycle" mural on Armenian Street and follow the map (available at Penang Heritage Trust) to the iron rod sculptures and wall paintings throughout the heritage core. Ernest Zacharevic's originals are the most famous; the broader scene adds dozens more. 2-3 hours.
 
-**Chinese New Year in George Town (January/February)** — George Town's Chinatown comes fully alive with lion dances, lanterns, and heritage street celebrations. The Khoo Kongsi clan rituals are particularly special.
-
-## How Do I Get to Penang?
-
-Penang International Airport (PEN) receives direct flights from KL (45 min), Singapore, Bangkok, and several Chinese cities. Alternatively, the KTM ETS train to Butterworth station (3.5 hours from KL, RM60-80) plus the 10-minute Penang ferry (RM1.20) is a scenic and comfortable option.
+**Assam Laksa at Air Itam Market** — Make the specific trip to Air Itam Market for the definitive bowl of Penang assam laksa: sour fish broth with mackerel, tamarind, torch ginger flower, and shrimp paste. RM5-8/bowl. The stall that has been there longest is the one to choose.
 
 <div class="scott-tips">
-  <div class="scott-tips-header">&#127890; Scott's Pro Tips</div>
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Penang Tips</div>
   <ul>
-    <li><strong>Getting There:</strong> Fly into Penang International (PEN) for speed. Train to Butterworth + ferry is more scenic and less stressful if you're not in a hurry — ferry terminals to George Town is 5 minutes walk.</li>
-    <li><strong>Best Time to Visit:</strong> January-March and July-September are the driest months. October is wet but the food festival runs all of November. Avoid Chinese New Year if you hate crowds (but go if you love festivals).</li>
-    <li><strong>Getting Around:</strong> George Town core is fully walkable — don't bother with Grab for heritage zone exploration. Take Grab to Ayer Itam for assam laksa and to Penang Hill for the cable car. Bicycle rental from RM15/day for covering more ground.</li>
-    <li><strong>Money & ATMs:</strong> ATMs everywhere in George Town — CIMB and Maybank most reliable. The heritage zone is very affordable: RM40-60/day eating at hawker stalls. Card payment accepted at most mid-range restaurants and hotels.</li>
-    <li><strong>Safety & Health:</strong> Very safe by any measure. Watch for motorcycle purse snatching near Chinatown — don't carry bags on your outer shoulder while walking the streets. Penang General Hospital for emergencies; Penang Adventist Hospital for private care.</li>
-    <li><strong>Packing Essentials:</strong> Comfortable walking shoes for the cobblestoned heritage streets, a compact rain jacket (afternoon showers), and modest clothing for mosque and temple visits (Kapitan Keling Mosque, Khoo Kongsi).</li>
-    <li><strong>Local Culture & Etiquette:</strong> George Town is a multicultural city — you'll encounter Malay, Chinese, and Indian communities in close proximity. Remove shoes at temples and mosques. "Sedap" (delicious) said to a hawker vendor earns a genuine smile. Tipping not expected but RM2-5 appreciated at sit-down restaurants.</li>
+    <li><strong>Getting There:</strong> Fly into Penang International (PEN) — 45 min from KL (RM80-150). Or KTM ETS train to Butterworth (3.5 hrs from KL, RM85) + 10-min ferry to George Town (RM1.20). The ferry arrival is more atmospheric than the airport.</li>
+    <li><strong>Best Time:</strong> January-March (cool, dry, Chinese New Year in Jan-Feb turns George Town extraordinary). July-September (second dry window, fewer crowds). April-June is also good. Avoid November-December when northeast monsoon brings heavy rain to the east coast (Penang west coast is less affected but can be grey).</li>
+    <li><strong>Money:</strong> MYR — RM20-25/day budget eating. Hawker meals RM5-8. Penang Hill funicular RM30 return. Museum entries RM5-15. Accommodation the main daily variable. Very affordable food city.</li>
+    <li><strong>Don't Miss:</strong> Assam laksa at Air Itam Market — take a Grab (RM8-12), eat the bowl standing at the stall (RM5-8), and understand why CNN listed this as one of the world's fifty best foods. Then take the funicular up Penang Hill from Air Itam, which is right next door.</li>
+    <li><strong>Food Order:</strong> Nasi lemak or roti canai at a kopitiam for breakfast (RM5-8), char kway teow at Lorong Selamat or a trusted hawker centre for lunch (RM10-14), cendol from Penang Road Famous Teochew for dessert (RM5-7), assam laksa at Air Itam for dinner (RM5-8). That is the correct Penang food sequence.</li>
+    <li><strong>Local Phrase:</strong> "Shiok" (shee-ok) — delicious/amazing/wonderful. A Penang Hokkien-influenced expression adopted into Malaysian English. Say it after the char kway teow and the hawker will grin. High-praise vocabulary in Penang food culture.</li>
   </ul>
 </div>
 
-<EmailCapture
-  leadMagnet="Get Our Free Penang Travel Guide"
-  description="The definitive Penang food and heritage guide — everything you need to eat and explore."
-  bullets={[
-    'Complete Penang hawker food map — 20 must-eat dishes and where to find them',
-    'George Town street art trail self-guided walk with GPS waypoints',
-    'Two-day and three-day Penang itineraries with prices',
-    'Day trip guide to Ayer Itam, Penang Hill, and Batu Ferringhi beach',
-  ]}
-  guideTag="destination-penang"
-/>
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Penang's hawker stalls have been making char kway teow, assam laksa, and cendol for generations — and Malaysians from KL fly here specifically to eat them.</p>
+  </div>
+</div>
+
+## Where should you eat in Penang?
+
+- **Char kway teow at Lorong Selamat** — The most famous char kway teow in Penang, made by a family who has been frying the same recipe since the 1970s. Flat rice noodles with cockles, egg, bean sprouts, and that essential wok hei smokiness. RM12-16/plate. Expect a queue.
+- **Assam laksa at Air Itam Market** — Sour tamarind fish broth with mackerel, pineapple, mint, and shrimp paste. One of the most complex and distinctive flavors in Malaysian food. RM5-8/bowl. Non-negotiable Penang experience.
+- **Cendol at Penang Road Famous Teochew** — Shaved ice with palm sugar syrup, coconut milk, green rice noodles, and red beans. The definitive version of a dessert sold across Southeast Asia. RM5-7/bowl. Line moves quickly.
+- **Nasi kandar at Line Clear Restaurant** — Penang-style rice with a selection of curries poured over the top (the more curries, the richer the combination). One of the best nasi kandar operations in the city, open 24 hours. RM10-18/person.
+- **Penang Hill hawker stalls** — At the summit, several stalls serve typical Penang hawker food with the bonus of cool air and views. RM8-15/person. Good for a meal after the funicular ride.
+- **Kopitiam breakfast on Chulia Street** — Traditional coffee shops with kopi (local coffee with condensed milk), roti bakar with kaya jam, half-boiled eggs, and milo. RM5-10/person. The authentic Penang morning start.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Stay inside the George Town heritage core — walk to the hawker centres, the clan houses, and the ferry terminal from the same guesthouse.</p>
+  </div>
+</div>
+
+## Where should you stay in Penang?
+
+**Budget (RM60-120/night, $13-26):** George Town has excellent budget guesthouses and heritage boutique hostels at RM60-120/night. Chulia Street and Love Lane have the highest concentration. Staying inside the heritage zone eliminates transport costs and puts you in walking distance of the best food.
+
+**Mid-Range (RM150-350/night, $32-74):** Several boutique heritage hotels occupy converted shophouses at RM150-280/night — the most characterful accommodation in Malaysia at this price point. The Muntri Grove at RM200-280/night and 23 Love Lane at RM180-240/night are consistently well-reviewed.
+
+**Luxury (RM400-1,500+/night, $85-320+):** The Eastern and Oriental Hotel (E&O) on the seafront at RM700-1,200/night is the grande dame of Penang hotels, opened in 1885 and recently restored. The Prestige Hotel George Town at RM500-800/night occupies a heritage shophouse complex with extraordinary interior design.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Three nights minimum: one for the heritage walk and street art, one for Penang Hill and Kek Lok Si, one for Air Itam and the clan jetties.</p>
+  </div>
+</div>
+
+## When is the best time to visit Penang?
+
+**January-March:** Chinese New Year (January-February) transforms George Town with red lanterns, lion dances, and clan temple ceremonies. The most culturally rich time to visit. Dry season on the west coast. Comfortable temperatures. Book accommodation weeks ahead for Chinese New Year week.
+
+**July-September:** Second dry window with comfortable temperatures and manageable crowd levels. The George Town Festival (August) brings international arts programming to heritage venues throughout the city.
+
+**April-June:** Shoulder season with good weather, lower prices, and fewer tourists. The heritage walking experience is at its most relaxed.
+
+**November-December:** The northeast monsoon affects the east coast of Malaysia significantly; Penang's west coast is more sheltered but can get heavy rain spells. Accommodation prices are lowest. The George Town food scene is fully operational regardless.
+
+Penang is Malaysia's most rewarding destination for travellers who care about food, history, and architecture in equal measure. The hawker stalls that have been there for decades, the clan houses that survived the 20th century intact, and the hill station above the heritage city — together these make an argument for Penang as one of Southeast Asia's most complete travel destinations. Plan the Malaysia food circuit at our [Malaysia travel guide](/plan/) or explore more at the [destinations page](/destinations/).

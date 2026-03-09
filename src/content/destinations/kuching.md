@@ -102,71 +102,106 @@ draft: false
 fmContentType: destination
 ---
 
-Kuching is the most immediately charming city in Malaysian Borneo. It's compact enough to walk, sophisticated enough to eat well every meal, and surrounded by some of the most accessible wildlife in all of Sarawak. The waterfront promenade along the Sarawak River, with the white Astana (the Rajah's palace) gleaming across the water and the old Chinese shophouses behind you, is one of the nicest urban settings in Borneo.
+Kuching works on you gradually. The first morning you eat kolo mee at a Carpenter Street kopitiam — thin egg noodles tossed in pork lard and soy, topped with char siu — and you understand the claim that Kuching's breakfast is worth the trip from KL. The second morning you're at Semenggoh at 8:30am watching semi-wild orangutans swing down from the jungle canopy to the feeding platform, their movements unhurried, their faces expressing something that reads unmistakably as intelligence. By the third morning, when you're taking a boat across the Sarawak River to the Astana (the white palace that the Rajah Brooke lived in) and a pair of white-bellied sea eagles drift over the water, you've stopped looking for the main event because you've understood that Kuching is continuously delivering it.
 
-The food runs on kolo mee — thin egg noodles with char siu and minced pork that are breakfast in every kopitiam from 7am. By the time you've had your third bowl at different coffee shops in different neighborhoods, you understand that this simple dish has as much variation as ramen. After the Semenggoh orangutans in the morning and Bako in the afternoon, the city draws you back in for dinner. That's the rhythm of Kuching.
+Sarawak laksa — what Anthony Bourdain called the breakfast of the gods — is the food event. A coconut-and-tamarind broth so layered in complexity that it takes several seconds to identify everything happening in the bowl: prawns, chicken, bean sprouts, rice vermicelli, fresh lime, sambal, and the specific depth of flavor that comes from a recipe refined over generations. The laksa here is different from any version found anywhere else in Malaysia. It's not a regional variation; it's a different dish.
 
-<ImmersiveBreak videoSrc="/videos/destinations/kuching-hero.mp4" />
+The museum makes the case that Kuching is also one of the great cultural capitals of Borneo. The new Sarawak Museum, opened in 2022, contains collections covering the 27 indigenous ethnic groups of Sarawak, Bornean natural history, and the extraordinary Brooke Rajah era — when an English adventurer named James Brooke was ceded Sarawak by the Sultan of Brunei and established a private kingdom that lasted 100 years. Three or four hours in this museum reframes everything else you see in Sarawak.
 
-## What to Do in Kuching
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The Grab from the airport follows the Sarawak River into town and the white Astana palace appears across the water — this is where James Brooke's private kingdom began.</p>
+  </div>
+</div>
 
-**Semenggoh Wildlife Centre** — Sarawak's orangutan rehabilitation centre 25 minutes from the city. Semi-wild Bornean orangutans return from the jungle for supplementary feeding — the encounters here are often more intimate than Sepilok because the numbers are smaller and the forest denser. Entrance RM10. Morning feeding session at 9am is best. Arrive 30 minutes before to get position at the viewing area.
+## Why Kuching should be on your itinerary
 
-**Bako National Park** — Take a Grab to Bako jetty (45 minutes from central Kuching, RM35-40), then a 20-minute boat to the park headquarters (RM25-30 return). The most biodiverse park in Malaysia by density: proboscis monkeys reliably seen near the park buildings at dawn and dusk, bearded pigs wandering the beach, long-tailed macaques raiding bin bags, carnivorous Nepenthes pitcher plants along every trail. RM20 entrance + RM2 camera fee.
+Kuching is the most immediately liveable city in Malaysian Borneo. It is compact — the waterfront, Old Town, and the main restaurant areas are all within comfortable walking distance. It is sophisticated enough to eat well at every meal, from kolo mee at 7am to Sarawakian laksa at 9am to Top Spot seafood at night. And it sits within easy reach of experiences that are not available anywhere else in the world: the semi-wild orangutans at Semenggoh, the extraordinary Bornean biodiversity of Bako National Park, and the Iban longhouse communities on the Skrang and Lemanak rivers.
 
-**Sarawak Museum (New Sarawak Museum)** — Opened in 2022, the new complex is among the finest natural history and ethnographic museums in Southeast Asia. Exhibits cover the 27 indigenous ethnic groups of Sarawak, pre-colonial Borneo kingdoms, the Brooke Rajah era, and natural history with mounted specimens and diorama quality that surprises. Entrance RM30. Allow 3-4 hours minimum.
+The Brooke Rajah history gives the city a particular character. James Brooke and his descendants ruled Sarawak as a private kingdom from 1841 until World War II — the longest-surviving English colonial private state. Their legacy is visible in the waterfront's colonial buildings (the old courthouse, the Square Tower, the Brooke Memorial), in the Astana palace across the river, and in the extraordinary ethnographic collections that the Brookes assembled and that now form the core of the Sarawak Museum. This is a history that is not taught in standard Southeast Asian travel narratives but makes Kuching genuinely distinct.
 
-**Kuching Waterfront and Old Town** — The riverside promenade stretches 1km along Jalan Main Bazaar, past the Brooke Memorial, the Square Tower (1879), and the old courthouse. The Chinese History Museum (RM5) in a Teochew Chinese temple compound is excellent. Carpenter Street is Kuching's temple street — three major Chinese temples in 200 metres. The ghost of the Brooke Rajah era is everywhere.
+The Bako National Park is the practical argument for staying at least three nights. A day visit (boat from Bako jetty, 20 minutes) gives you proboscis monkeys, pitcher plants, and the coastal cliff forest with its extraordinary geological formations. An overnight stay gives you the park at dawn and dusk — when the proboscis monkeys are most active and when the wildlife encounters become the kind that stay with you for years.
 
-**Cat Museum** — Kuching means "cat" in Malay. The museum (RM5, in the DBKU building 10 minutes by Grab from the centre) documents the city's relationship with cats — taxidermy specimens, historical accounts, and a room entirely dedicated to Hello Kitty. Worth 45 minutes.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Orangutans descending from the jungle canopy at Semenggoh, proboscis monkeys at Bako's dawn riverbank, and a museum that makes Borneo's history legible.</p>
+  </div>
+</div>
 
-**Iban Longhouse Visit (Skrang or Lemanak River)** — Day or overnight trips to Iban longhouse communities 2-3 hours from Kuching on the Skrang or Lemanak rivers. Traditional longhouses with 20-40 family "doors" (individual family apartments under one roof), demonstrations of traditional weaving, beadwork, and blowpipe use, and sometimes traditional tuak (rice wine) hospitality. Book through a licensed tour operator in Kuching (RM120-250/person for day trips). Ethical operators give significant revenue share to the community.
+## What should you do in Kuching?
 
-## Where to Eat in Kuching
+**Semenggoh Wildlife Centre** — Semi-wild Bornean orangutans return from the jungle for supplementary feeding. Encounters here are often more intimate than Sepilok — smaller numbers, denser forest, less infrastructure. Entrance RM10. Morning feeding session 9-10am. Allow 2-3 hours including the approach walk.
 
-- **Kopitiams along Jalan Carpenter and Jalan India** — The best kolo mee in Kuching is at neighborhood kopitiams near the old market area. No single one is "the best" — the variety within the dish is the experience. Look for the stalls with the biggest turnover. RM5-8/plate.
-- **Open Air Market (Pasar Tani)** — The city's largest wet market and hawker area near the Kuching waterfront. Midin fern (a Sarawakian jungle vegetable unique to Borneo), paku fern salad, ambuyat (sago paste), and the full Sarawakian hawker spread. RM8-15/person.
-- **Top Spot Food Court** — Rooftop hawker centre with excellent seafood: pansuh (meat cooked in bamboo — a traditional Iban method), chilli crab, grilled patin fish. RM30-60/person. The most visited food court in Kuching, and for good reason.
-- **Chong Choon Café** — 1970s-era kopitiam that hasn't changed. White coffee, kaya toast, half-boiled eggs, and a room full of regulars who've been coming since it opened. RM8-12 for a full set.
-- **James Brooke Bistro & Café, Waterfront** — Atmospheric colonial building with river views. The best sit-down restaurant option in central Kuching: Western and Sarawakian fusion dishes, good cocktails. RM50-80/person.
+**Bako National Park** — Grab to Bako jetty (45 minutes, RM35-40), then a 20-minute boat to the park (RM25-30 return). The most biodiverse park in Malaysia by density: proboscis monkeys, bearded pigs, long-tailed macaques, silver leaf monkeys, and dozens of carnivorous Nepenthes pitcher plant species. RM20 entrance.
 
-## Where to Stay in Kuching
+**Sarawak Museum (New Complex)** — Opened in 2022, this is among the finest natural history and ethnographic museums in Southeast Asia. Exhibits on 27 indigenous ethnic groups, the Brooke Rajah era, and Bornean natural history with specimen quality that surprises. Entrance RM30. Allow 3-4 hours minimum.
 
-- **Budget (RM80-150/night, $17-32)** — Guesthouses in the Old Town area. The [Batik Boutique Hotel](https://www.booking.com/searchresults.html?ss=Batik+Boutique+Hotel+Kuching&aid=2778866) is a converted shophouse with genuine character.
-- **Mid-Range (RM200-400/night, $43-85)** — Boutique waterfront hotels. [Ranee Boutique Suites](https://www.booking.com/searchresults.html?ss=Ranee+Boutique+Suites+Kuching&aid=2778866) in a restored 1930s shophouse on the waterfront is the best mid-range option. [Meritin Hotel](https://www.booking.com/searchresults.html?ss=Meritin+Hotel+Kuching&aid=2778866) for comfortable modern rooms.
-- **Luxury (RM400-1,000+/night, $85-212+)** — [Pullman Kuching](https://www.booking.com/searchresults.html?ss=Pullman+Kuching&aid=2778866) is the top business hotel. For a more character-driven option, [The Waterfront Hotel](https://www.booking.com/searchresults.html?ss=Waterfront+Hotel+Kuching&aid=2778866) faces the river directly.
+**Kuching Waterfront and Old Town** — The riverside promenade past the Brooke Memorial, Square Tower, old courthouse, and the Chinese History Museum (RM5). Carpenter Street has three major Chinese temples in 200 metres. The ghost of the Rajah era is everywhere.
 
-## Festivals in Kuching
+**Iban Longhouse Visit (Skrang or Lemanak River)** — Day or overnight trips to Iban longhouse communities 2-3 hours from Kuching. Traditional communal longhouses, demonstrations of weaving and blowpipe use, and the extraordinary social architecture of a multi-family building under one roof. RM120-250/person through licensed operators.
 
-**Rainforest World Music Festival (July)** — One of the best music festivals in Asia. Held at the Sarawak Cultural Village (45 minutes from Kuching), three days of world music featuring traditional Bornean instruments alongside global acts. Day and weekend passes available (RM60-180). Book well in advance.
-
-**Gawai Dayak (June 1-2)** — Sarawak's most important festival — the Iban, Bidayuh, and other Dayak harvest festival celebrated statewide. Longhouses open for visitors, traditional music, dance, and the communal tuak (rice wine). The city celebrates with parades and cultural performances around the Padang Merdeka.
-
-## How Do I Get to Kuching?
-
-Kuching International Airport (KCH) is 12 kilometres from the city centre (RM25-30 by Grab, 20 minutes). Malaysia Airlines and AirAsia fly from KL (1.5 hours). Direct flights from Singapore (Scoot), Johor Bahru, and KK. The airport has good ATMs and SIM card counters.
+**Cat Museum** — Kuching means "cat" in Malay. The museum (RM5) documents this — taxidermy specimens, historical accounts of cats in Sarawakian culture, and a room devoted entirely to Hello Kitty. Worth 45 minutes for the strangeness alone.
 
 <div class="scott-tips">
-  <div class="scott-tips-header">&#127890; Scott's Pro Tips</div>
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Kuching Tips</div>
   <ul>
-    <li><strong>Getting There:</strong> Direct flights from KL are frequent and cheap on AirAsia. If combining with Mulu caves, fly Kuching → Miri → Mulu (Mulu has its own small airport) rather than backtracking to KL.</li>
-    <li><strong>Best Time to Visit:</strong> March-October is the drier period. Rainforest World Music Festival in July is the best time for cultural immersion. Gawai Dayak in early June offers longhouse access. Sarawak never fully dries out — pack a rain jacket regardless of month.</li>
-    <li><strong>Getting Around:</strong> Grab is reliable and cheap throughout Kuching. For Bako NP: Grab to the jetty (RM35-40) + boat (RM25-30 return). For Semenggoh: Grab (RM25-30 one way) or the bus. Rent a car only for multi-day Sarawak road trips.</li>
-    <li><strong>Money & ATMs:</strong> Good ATM coverage citywide. Bako park fees, boat fees, and longhouse visits need cash. Bring RM300-400 for a 3-night stay including Bako. Most restaurants accept card; markets and hawker stalls are cash-only.</li>
-    <li><strong>Safety & Health:</strong> Very safe city. Bako jungle trails require proper footwear — the terrain is rocky and steep in places. Monitor lizards in Bako can be aggressive near food — don't eat near them. Sarawak General Hospital for emergencies.</li>
-    <li><strong>Packing Essentials:</strong> Insect repellent (essential for Bako jungle), waterproof sandals or shoes for the boat to Bako, a dry bag, and leech socks for jungle trails. Rain jacket is non-negotiable in Sarawak.</li>
-    <li><strong>Local Culture & Etiquette:</strong> Kuching is multi-ethnic: Iban, Bidayuh, Melanau, Chinese, and Malay communities in proximity. Longhouse visits require respectful behavior — remove footwear at the entry, don't photograph without asking, and participate in offered hospitality. Gawai is a sacred harvest festival — celebrate it as a guest, not as a photo opportunity.</li>
+    <li><strong>Getting There:</strong> AirAsia from KL is frequent and cheap (RM80-150, 1.5 hours). If combining Kuching with Mulu caves, fly Kuching to Miri, then Miri to Mulu — avoids backtracking to KL. Direct from Singapore (Scoot, 1.5 hours) also works well.</li>
+    <li><strong>Best Time:</strong> March-October is drier. Rainforest World Music Festival in July is the best cultural event in Sarawak. Gawai Dayak in early June gives longhouse access during the harvest festival. Sarawak never fully dries — pack a rain jacket regardless of month.</li>
+    <li><strong>Money:</strong> MYR — Kuching is cheaper than KK. Budget RM80-130/day. Kolo mee RM5-8. Bako National Park entrance + boat RM45-50. Semenggoh RM10. The Sarawak Museum RM30 — worth every ringgit. Bring cash for Bako and longhouse operators.</li>
+    <li><strong>Don't Miss:</strong> Sarawak laksa at a proper kopitiam — Choon Hui Cafe near the waterfront or any neighborhood coffee shop serving it from 7am. This is Anthony Bourdain's "breakfast of the gods" and the description is not hyperbole. One bowl is RM7-9 and it will adjust your understanding of what a noodle broth can be.</li>
+    <li><strong>Food Order:</strong> Kolo mee at a Carpenter Street kopitiam for breakfast (RM5-8), Sarawak laksa at Choon Hui or similar for second breakfast/brunch (RM7-9), midin jungle fern with garlic and sambal at Top Spot Food Court for dinner (RM15-20). That's the Kuching food sequence.</li>
+    <li><strong>Local Phrase:</strong> "Gawai!" (gah-why) — the greeting and exclamation used during the Gawai Dayak harvest festival. If you arrive in Sarawak in early June, Iban communities throughout the state will use this word in celebration. Responding with the same word and raising a glass of tuak (rice wine) is the correct social move and will get you invited to continue celebrating.</li>
   </ul>
 </div>
 
-<EmailCapture
-  leadMagnet="Get Our Free Kuching Travel Guide"
-  description="The complete Kuching guide — orangutans, Bako, the Sarawak Museum, and Sarawak's best food."
-  bullets={[
-    'Bako National Park planning guide — how to get there, what to bring, and where to stay',
-    'Semenggoh tips — best time to visit and what to do if the orangutans don\'t show',
-    'Kuching kolo mee trail — the best kopitiams and what to order',
-    'Iban longhouse visit guide — ethical operators and what to expect',
-  ]}
-  guideTag="destination-kuching"
-/>
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Sarawak laksa — coconut-tamarind broth that Anthony Bourdain called the breakfast of the gods — and kolo mee at a kopitiam that hasn't changed since the Brooke era.</p>
+  </div>
+</div>
+
+## Where should you eat in Kuching?
+
+- **Choon Hui Cafe (Sarawak Laksa)** — One of the benchmark laksa spots in Kuching. The coconut-tamarind prawn broth with chicken, bean sprouts, and fresh lime. RM7-9/bowl. Opens 6am; sells out by noon.
+- **Kopitiams along Jalan Carpenter** — Every neighborhood kopitiam in Kuching serves kolo mee. No single one is definitively "the best" — seek the stall with the highest turnover. RM5-8/plate.
+- **Top Spot Food Court (Rooftop)** — Excellent seafood: pansuh (meat cooked in bamboo — an Iban method), chilli crab, grilled patin fish. RM30-60/person. The most visited food court in Kuching.
+- **Open Air Market (Pasar Tani)** — Wet market and hawker area near the waterfront. Midin jungle fern, paku fern salad, and the full Sarawakian hawker spread. RM8-15/person.
+- **James Brooke Bistro, Waterfront** — Atmospheric colonial building with river views and the best sit-down restaurant option in central Kuching. RM50-80/person.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Stay on the waterfront for the morning river view and walking access to the kopitiams, the Chinese temples, and the museum complex.</p>
+  </div>
+</div>
+
+## Where should you stay in Kuching?
+
+**Budget (RM80-150/night, $17-32):** Guesthouses in the Old Town area. The Batik Boutique Hotel is a converted shophouse with genuine character at RM100-150/night and excellent Old Town location.
+
+**Mid-Range (RM200-400/night, $43-85):** Ranee Boutique Suites in a restored 1930s shophouse on the waterfront is the best mid-range option (RM250-350/night). Meritin Hotel for comfortable modern rooms.
+
+**Luxury (RM400-1,000+/night, $85-212+):** Pullman Kuching is the top business hotel. The Waterfront Hotel faces the river directly with views to the Astana. Both RM500-800+/night.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Insect repellent, leech socks, waterproof sandals for Bako, and a rain jacket — Sarawak receives more rainfall than any other Malaysian state.</p>
+  </div>
+</div>
+
+## When is the best time to visit Kuching?
+
+**March-October (Recommended):** Drier period with better trail conditions at Bako. The Rainforest World Music Festival in July is one of the best festivals in Southeast Asia — three days of world music at the Sarawak Cultural Village. Gawai Dayak in early June opens longhouses and cultural celebrations across the state.
+
+**November-February:** Wetter, with more persistent rainfall. Bako trails can be muddy and some hides temporarily closed. Kuching city activities and the museum are unaffected. Accommodation prices are lower.
+
+Kuching is Borneo made accessible — wild enough to feel genuinely remote, comfortable enough to eat and sleep well, and rich enough in culture and wildlife to reward five full days without effort. The combination of the orangutans, the museum, the laksa, and Bako makes it one of the most complete destinations in Malaysia. Explore the Borneo circuit at our [Malaysia travel guide](/plan/) or find more at the [destinations page](/destinations/).

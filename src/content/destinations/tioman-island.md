@@ -102,69 +102,107 @@ draft: false
 fmContentType: destination
 ---
 
-Tioman looks like the kind of island that exists in the imagination before you've visited Malaysia — steep jungle-covered volcanic peaks plunging into a South China Sea that runs from turquoise near shore to deep blue beyond the reef. Time Magazine called it one of the world's most beautiful islands in 1970. The tourism hasn't overdeveloped it since. Five main villages, connected by water taxis and one jungle trail, with coral that drops away from shore in water clear enough to see the bottom at 15 metres without a mask.
+Tioman looks like the island that exists in your imagination before you've been to Malaysia — steep volcanic peaks cloaked in primary jungle dropping into South China Sea water that runs from turquoise near shore to deep blue beyond the reef. Time Magazine called it one of the world's most beautiful islands in 1970. The development that followed was real but never became resort sprawl: five main beach villages connected by water taxis and one jungle trail, the interior jungle still intact, and the coral that drops off the beach in water clear enough to see the bottom at 15 metres without a mask.
 
-I came for three days and stayed a week. The diving on Tioman is genuinely different from most Southeast Asian dive sites — the hard coral coverage is exceptional for a dive site accessible by day-trippers, and the Salang reef has a diversity of reef fish that I kept stopping to check against the ID card. The jungle trail from Tekek to Juara over the mountains is one of the best half-day island hikes in Malaysia. And Juara beach, when I arrived over the ridge, was almost empty.
+I came for three days and stayed a week. The diving on Tioman is different from most Southeast Asian dive sites I've seen — the hard coral coverage at Salang reef is exceptional for a site accessible by day-trippers, and the variety of reef fish at the Salang gardens kept stopping me to identify species against the ID card. The Tekek-to-Juara jungle trek over the central mountains is one of the best half-day island hikes in Malaysia: two hours of primary rainforest, hornbills overhead, monitor lizards on the trail, and then the ridge view over Juara Bay before the descent. And Juara beach, when I came over the ridge, was almost empty.
 
-<ImmersiveBreak videoSrc="/videos/destinations/tioman-island-hero.mp4" />
+The bioluminescence at night closes the day. Stir the water at the beach after dark and the plankton glows in the turbulence of your movement. Night dives here with bioluminescence active — every fin stroke lighting up, your bubbles trailing upward in blue sparks — are among the most physically extraordinary experiences available in Malaysian waters.
 
-## What to Do in Tioman Island
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0D7377 35%, #14B8A6 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The ferry from Mersing crosses 2 hours of open South China Sea and Tioman's volcanic peaks appear — dark green, steep, impossible-looking above water that is already turning turquoise.</p>
+  </div>
+</div>
 
-**Scuba Diving** — Multiple professional dive operators in ABC, Salang, and Tekek. Best sites: Salang (coral gardens from 5m depth, good for beginners and snorkelers), Renggis Island (off Berjaya resort, current-fed pinnacle with schooling fish), Labas Island (reef sharks and larger pelagics, 15-30m, intermediate), and Tiger Reef (current-dependent, advanced). Day dive with equipment RM130-180 per person. PADI Open Water course RM850-1,200.
+## Why Tioman Island should be on your itinerary
 
-**Jungle Trek, Tekek to Juara (7km)** — The main island cross over the central mountains. The trail is signed and maintained — a 3-4 hour hike through primary lowland rainforest with hornbills overhead and lizards on the trail. Juara beach on the east coast is the reward: a 2km curve of sand with no development visible from the waterline. Return by water taxi (RM30-40) or walk back. Take water, start before 9am.
+Tioman is Malaysia's most complete island: it has world-class diving, excellent snorkeling, a real jungle interior with a cross-island trek, five distinct beach villages with different characters, and a scale large enough that you can spend a week without seeing the same beach twice. In a country with excellent island options, Tioman distinguishes itself by the quality of its underwater environment and the intact character of its terrestrial one.
 
-**Monkey Bay Snorkeling** — 30-minute walk north from Tekek along the jungle coastal path leads to Monkey Bay — a sheltered cove with live coral close to shore and a resident colony of long-tailed macaques. No entrance fee, bring your own snorkel gear. Best in the morning before the tour boats from Mersing arrive.
+The diving case is straightforward. Visibility peaks at 15-20 metres in May-September. The coral at Salang reef starts at 2 metres depth and supports a variety of reef fish that most Southeast Asian dive sites cannot match. The dive sites range from beginner (Salang reef, Coral Island) to advanced (Tiger Reef with current, Labas Island pelagics). The PADI operators in ABC, Salang, and Tekek are well-established and well-reviewed. For diving, Tioman represents the best value accessible dive destination in Malaysia.
 
-**Salang Trust Coral Restoration** — The Salang Bay area has an active coral restoration project run by Dive Tioman and the Salang Trust. Visitors can participate in coral transplanting activities (RM150/person) — planting coral fragments on artificial reef structures. A meaningful activity beyond recreational diving.
+The Tekek-to-Juara cross-island trek is the inland argument. The 7km trail through primary lowland rainforest takes 3-4 hours one way and delivers you to Juara Bay on the east coast — Tioman's longest beach, backed by jungle, with a sea turtle nesting project running in season. The isolation of Juara from the west coast villages is such that staying there for two nights, reachable by water taxi or jungle trek, feels like a different island from ABC and Salang.
 
-**Juara Turtle Project** — Juara is a green and hawksbill turtle nesting site. The Juara Turtle Project protects nests and manages hatchling releases (June-September, when nesting peaks). Volunteers welcome during the season — contact the project through the accommodation options in Juara.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #7DD3FC 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Hard coral at 2 metres depth off Salang, a jungle cross-island trek to an almost-empty east coast beach, reef sharks in the shallows, and bioluminescent water after dark.</p>
+  </div>
+</div>
 
-**Water Taxi Island Hop** — Charter a water taxi (RM120-180/half day for the boat) between villages, stopping at Coral Island (Pulau Tulai, 20 min from Salang) for the best intact coral and crystal-clear water. Monkey Bay, Nipah bay, and the southern beaches of Mukut are all accessible by water taxi.
+## What should you do in Tioman Island?
 
-## Where to Eat in Tioman
+**Scuba Diving** — Multiple PADI operators in ABC, Salang, and Tekek. Best sites: Salang (coral gardens from 5m, excellent for beginners and snorkelers), Renggis Island (current-fed pinnacle with schooling fish), Labas Island (reef sharks and pelagics, 15-30m, intermediate), Tiger Reef (advanced, current-dependent). Day dive with equipment RM130-180/person. PADI Open Water course RM850-1,200.
 
-- **Salang Sayang Restaurant, Salang** — The most reliable sit-down restaurant in Salang. Grilled fish, butter prawns, Malay curries. RM25-45/person. The dive operators all recommend it.
-- **Simple Life Restaurant, ABC** — Run out of a long-standing guesthouse in ABC beach. Western and Malay fusion at honest prices. RM20-35/person. Good pancake breakfast.
-- **Beach BBQ stalls (evening, Salang and ABC)** — Fresh fish and prawns grilled on charcoal by the water's edge. RM20-35/person. The correct Tioman dinner.
-- **Warung stalls in Tekek** — Local Malay food at mainland prices: nasi lemak, fried noodles, and fresh juice. RM8-15/person. The cheapest eating on the island.
-- **Most accommodation includes breakfast** — Especially at the cheaper guesthouses — check when booking. Most serve simple Malay or Western breakfasts included in the room rate.
+**Jungle Trek, Tekek to Juara (7km)** — 3-4 hours through primary rainforest over the central mountains. Hornbills overhead, monitor lizards on the trail. Juara Bay on the east coast is the reward — a 2km curve of empty sand. Return by water taxi (RM30-40) or walk back. Start before 9am, take water.
 
-## Where to Stay in Tioman Island
+**Monkey Bay Snorkeling** — 30-minute walk north from Tekek along the jungle coastal path to a sheltered cove with live coral and a resident macaque colony. No entrance fee, bring your own gear. Best in the morning before tour boats arrive.
 
-- **Budget (RM60-150/night, $13-32)** — Simple wooden chalets at ABC and Salang. [Bamboo Hill Chalets (ABC)](https://www.booking.com/searchresults.html?ss=Bamboo+Hill+Chalets+Tioman&aid=2778866) is popular and well-located. Salang Indah Resort for basic dive chalet packages.
-- **Mid-Range (RM200-450/night, $43-95)** — Dive resort packages including accommodation and daily dives. [Japamala Resort](https://www.booking.com/searchresults.html?ss=Japamala+Resort+Tioman&aid=2778866) in a private jungle bay is the standout boutique option.
-- **Luxury (RM500-1,500+/night, $106-320+)** — [Berjaya Tioman Resort](https://www.booking.com/searchresults.html?ss=Berjaya+Tioman+Resort&aid=2778866) is the main full-service resort with golf, pools, and an in-house dive centre.
+**Salang Trust Coral Restoration** — Active coral restoration project at Salang Bay. Visitors can participate in coral transplanting (RM150/person) — planting coral fragments on artificial reef structures. Meaningful beyond recreational diving.
 
-## Festivals in Tioman Island
+**Juara Turtle Project** — Juara is a green and hawksbill turtle nesting site. The Juara Turtle Project protects nests and manages hatchling releases June-September. Volunteers welcome during nesting season.
 
-**No regular festivals** — Tioman's small permanent population means no large-scale festivals. The island observes Malaysian public holidays and Eid celebrations among the Malay community. The dive season from March to October is effectively the festival of Tioman itself.
-
-## How Do I Get to Tioman Island?
-
-From KL, the most common route: bus from KL TBS to Mersing (3.5 hours, RM30-40), then ferry to Tioman (2 hours, RM35-70 one way). Mersing has limited accommodation for connections — aim to arrive Mersing early enough to catch afternoon ferries. AirAsia occasionally operates seasonal flights direct from Subang airport to Tioman Airport (TOD, 30 minutes) — check during peak season. From JB (Johor Bahru), bus to Mersing takes 2.5 hours (RM20).
+**Water Taxi Island Hop** — Charter a water taxi (RM120-180/half day for the boat) to Coral Island (Pulau Tulai, 20 min from Salang) for the most pristine snorkeling and crystal-clear water. Monkey Bay, Nipah Bay, and Mukut village at the south are all accessible.
 
 <div class="scott-tips">
-  <div class="scott-tips-header">&#127890; Scott's Pro Tips</div>
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Tioman Island Tips</div>
   <ul>
-    <li><strong>Getting There:</strong> Check the ferry schedule before making bus bookings — ferries stop in the early afternoon, and missing the last ferry means a night in Mersing. The 9am KL bus gets you to Mersing by 1pm for the afternoon ferry. Avoid the Ramadan period when ferry schedules can change.</li>
-    <li><strong>Best Time to Visit:</strong> May-September is peak dive season — clearest water, calmest seas. July-August is peak tourist season; book accommodation 4-6 weeks ahead. Don't attempt to visit November-February — the island literally closes.</li>
-    <li><strong>Getting Around:</strong> Water taxis are the main transport between villages. Negotiate the price before boarding — standard fares are RM10-20 between adjacent villages. Charter rates for the full boat are RM120-200 half day for exploring coves.</li>
-    <li><strong>Money & ATMs:</strong> There is one ATM on Tioman (in Tekek) that frequently runs out of cash. Bring all the cash you'll need from the mainland. Budget an extra RM300 cash buffer for dive fees and water taxis.</li>
-    <li><strong>Safety & Health:</strong> Currents around Tioman can be strong — dive with a reputable operator and follow guide instructions. Jellyfish in some months — ask locally before swimming at unfamiliar beaches. No hospital on Tioman; medical evacuation to Mersing for serious cases. Travel insurance is non-negotiable here.</li>
-    <li><strong>Packing Essentials:</strong> Reef-safe sunscreen, snorkel gear if you have your own (cheaper than renting over multiple days), dry bags for water taxi crossings, insect repellent for the jungle trail, and a headlamp for evening beach walks. Pack light — there are no facilities beyond basics.</li>
-    <li><strong>Local Culture & Etiquette:</strong> Tioman is a Malay Muslim island. Dress modestly in the villages (bikinis and board shorts are appropriate at the beach, cover up when walking through village areas). Don't take coral — reef protection is taken seriously and rangers patrol the marine park. Respect turtle nesting areas at Juara.</li>
+    <li><strong>Getting There:</strong> Check the ferry schedule before making bus bookings — ferries stop in the early afternoon and missing the last ferry means a night in Mersing. The 9am bus from KL TBS gets you to Mersing by 1pm for the afternoon ferry. From JB, the 2.5-hour bus to Mersing is convenient if combining JB and Singapore with Tioman.</li>
+    <li><strong>Best Time:</strong> May-September for peak dive conditions — clearest water, calmest seas. July-August is peak tourist season; book accommodation 4-6 weeks ahead. Don't attempt to visit November-February — the island literally closes, ferries stop, and accommodation shuts.</li>
+    <li><strong>Money:</strong> There is one ATM on Tioman (in Tekek) that frequently runs out of cash. Bring all cash from the mainland. Budget RM300 minimum per person for 3 nights (accommodation + food + snorkeling), plus RM130-180 per dive.</li>
+    <li><strong>Don't Miss:</strong> The Tekek-to-Juara jungle trek — not for the wildlife (though hornbills and macaques are reliable) but for the moment you come over the final ridge and Juara Bay appears below. A long, narrow bay with jungle to the waterline, almost no buildings visible, and water the color of the poster. This is the image of Tioman that you carry back to KL.</li>
+    <li><strong>Food Order:</strong> Simple breakfast at your guesthouse or a morning warung (RM8-15), snorkeling during the day, grilled fish at the Salang Sayang Restaurant or Simple Life in ABC for dinner (RM25-45/person). The food on Tioman is honest rather than remarkable. Eat big on the mainland before crossing.</li>
+    <li><strong>Local Phrase:</strong> "Bioluminesen" (bio-loo-min-eh-sen) — bioluminescence in Malay. The bioluminescent plankton in Tioman's waters is one of the island's least-advertised features and one of the most memorable. Ask your dive operator or guesthouse whether conditions are good for a night swim or night dive. The answer in season is almost always yes.</li>
   </ul>
 </div>
 
-<EmailCapture
-  leadMagnet="Get Our Free Tioman Island Travel Guide"
-  description="Complete Tioman Island guide — diving, snorkeling, jungle trekking, and which village to base yourself in."
-  bullets={[
-    'Dive site guide — best spots for beginners, intermediate, and advanced divers',
-    'Village comparison — ABC vs Salang vs Juara and which suits your travel style',
-    'Jungle trek to Juara — what to bring, the route, and where to stay on the east coast',
-    'Ferry and accommodation booking tips for Tioman\'s peak season',
-  ]}
-  guideTag="destination-tioman-island"
-/>
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Grilled fish and prawns on charcoal at a beach warung, fresh coconut from the village stalls, and the Mersing seafood dinner you eat before or after the crossing.</p>
+  </div>
+</div>
+
+## Where should you eat in Tioman Island?
+
+- **Salang Sayang Restaurant, Salang** — The most reliable sit-down restaurant in Salang. Grilled fish, butter prawns, Malay curries. RM25-45/person. All the dive operators recommend it.
+- **Simple Life Restaurant, ABC** — Long-standing guesthouse restaurant in ABC. Western and Malay fusion at honest prices. RM20-35/person. Good pancake breakfast.
+- **Beach BBQ stalls (evening, Salang and ABC)** — Fresh fish and prawns grilled on charcoal at the water's edge. RM20-35/person. The correct Tioman dinner.
+- **Warung stalls in Tekek** — Local Malay food at mainland prices: nasi lemak, fried noodles, fresh juice. RM8-15/person. The cheapest eating on the island.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0D7377 35%, #14B8A6 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">ABC for the social scene and best range of guesthouses, Salang for the dive site access, Juara for the empty beach and sea turtles.</p>
+  </div>
+</div>
+
+## Where should you stay in Tioman Island?
+
+**Budget (RM60-150/night, $13-32):** Simple wooden chalets at ABC and Salang from RM60-100/night. Bamboo Hill Chalets (ABC) is popular and well-located.
+
+**Mid-Range (RM200-450/night, $43-95):** Dive resort packages including accommodation and daily dives. Japamala Resort in a private jungle bay is the standout boutique option at RM350-500/night.
+
+**Luxury (RM500-1,500+/night, $106-320+):** Berjaya Tioman Resort is the main full-service resort with golf, pools, and an in-house dive centre at RM600-1,200+/night.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #7DD3FC 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Reef-safe sunscreen, all cash you need from the mainland, insect repellent for the jungle trek, and a dry bag for every water taxi crossing.</p>
+  </div>
+</div>
+
+## When is the best time to visit Tioman Island?
+
+**May-September (Best):** Peak dive season with the clearest water and calmest seas. July-August is the busiest period — book accommodation 4-6 weeks ahead. May and June offer excellent conditions with fewer crowds.
+
+**March-April and September-October:** Shoulder season with good conditions and lower prices. Seas can be slightly rougher at the margins but snorkeling and diving are still excellent.
+
+**November-February (Closed):** The northeast monsoon makes the ferry crossing too dangerous. The island empties completely — accommodation closes, the jetty stops operating. There is no way to visit Tioman in this window.
+
+Tioman is the Malaysian island that rewards staying longer than planned — the jungle trek that delivers Juara, the night dive that shows you bioluminescence, and the morning at Coral Island in water clear enough to count the individual coral heads are all things that require time to find. Plan the east coast island circuit at our [Malaysia travel guide](/plan/) or find more at the [destinations page](/destinations/).
