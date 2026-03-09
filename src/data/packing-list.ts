@@ -123,7 +123,7 @@ export const MALAYSIA_CONFIG: PackingConfig = {
   currency: 'MYR',
   plugType: 'Type G (British)',
   plugVoltage: '240V',
-  affiliateTag: 'discovermalaysia-20',
+  affiliateTag: 'discoverphili-20',
   destinationEssentials: MALAYSIA_ESSENTIALS,
   gearRecommendations: MALAYSIA_GEAR_RECOMMENDATIONS,
 };
