@@ -68,6 +68,7 @@ const pillarLinks = [
   { icon: '🗺️', label: 'AI Trip Planner', desc: 'Build your itinerary', url: '/plan/' },
 ];
 ---
+import NetworkCrossLinks from '../components/NetworkCrossLinks.astro';
 <BaseLayout
   title="Discover Malaysia — Travel Guides by Scott Murray"
   description="Your immersive guide to Malaysia — from Petronas Towers to Borneo's rainforests. Real prices, honest opinions, and first-person experience."
@@ -397,6 +398,7 @@ const pillarLinks = [
   <div class="container-content">
     <FTCDisclosure placement="inline" />
   </div>
+<NetworkCrossLinks currentSite="Malaysia" cluster="southeast-asia" />
 </BaseLayout>
 
 <!-- Scroll Reveal Observer -->
