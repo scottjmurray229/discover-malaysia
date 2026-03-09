@@ -19,12 +19,21 @@
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 25, "midRange": 70, "luxury": 200 },
       "gettingThere": "Fly into KLIA (KUL). KLIA Ekspres train to KL Sentral takes 28 minutes (RM55). Grab taxis widely available.",
-      "highlights": ["Petronas Twin Towers & KLCC Park", "Batu Caves Hindu temple complex", "Jalan Alor night market hawker street", "Petaling Street Chinatown", "Bukit Bintang shopping district", "National Museum", "Merdeka Square"],
+      "highlights": [
+        "Petronas Twin Towers & KLCC Park — 452m twin icons, free park and lake below",
+        "Batu Caves — 272-step climb to a Hindu temple inside a limestone cavern (free)",
+        "Jalan Alor night market hawker street — the best open-air eating street in KL",
+        "Petaling Street Chinatown — bargain market under red lanterns, 24-hour activity",
+        "Bukit Bintang shopping district — Pavilion KL, Lot 10, and dozens of malls",
+        "National Museum (Muzium Negara) — Malaysia's history from prehistoric to independence (RM5)",
+        "Merdeka Square — colonial heart of KL, Selangor Club and giant flagpole",
+        "Central Market (Pasar Seni) — heritage building for batik, pewter, and Malaysian crafts"
+      ],
       "essentials": {
         "gettingAround": "MRT, LRT, Monorail, and KTM Komuter cover most attractions. Grab for point-to-point rides RM8-25.",
         "airport": "Kuala Lumpur International Airport (KUL/KLIA)",
-        "connections": ["Penang by train 3.5 hrs", "Malacca by bus 2 hrs", "Cameron Highlands by bus 3.5 hrs"],
-        "language": "Malay, English widely spoken, Cantonese in Chinatown"
+        "language": "Malay, English widely spoken, Cantonese in Chinatown",
+        "currency": "MYR — RM"
       }
     },
     "penang": {
@@ -34,12 +43,21 @@
       "bestMonths": ["Jan", "Feb", "Mar", "Jul", "Aug", "Sep"],
       "budgetPerDay": { "backpacker": 20, "midRange": 55, "luxury": 150 },
       "gettingThere": "Fly into Penang International (PEN) — daily flights from KL (45 min), Singapore, Bangkok. Alternatively, KTM train to Butterworth then 10-min ferry to George Town.",
-      "highlights": ["George Town UNESCO World Heritage Site", "Penang street art by Ernest Zacharevic", "Penang Hill cable car", "Kek Lok Si temple complex", "Gurney Drive hawker centre", "Clan Jetties", "Penang char kway teow and assam laksa"],
+      "highlights": [
+        "George Town UNESCO World Heritage Site — largest collection of pre-war buildings in Southeast Asia",
+        "Penang street art by Ernest Zacharevic — life-size murals integrated with real street objects",
+        "Penang Hill cable car — 833m above sea level, cooler temperature and panoramic views (RM30)",
+        "Kek Lok Si temple complex — Southeast Asia's largest Buddhist temple, ornate seven-tier pagoda",
+        "Gurney Drive hawker centre — the best evening hawker spread in northern Malaysia",
+        "Clan Jetties — Chinese clan villages built on stilts over Penang Harbour since the 1800s",
+        "Penang char kway teow and assam laksa — two dishes that put Penang on the world food map",
+        "Penang National Park — 25km2 of rainforest with Monkey Beach and a turtle sanctuary"
+      ],
       "essentials": {
         "gettingAround": "George Town is walkable. Grab for cross-island trips. Rental car or bicycle for the island.",
         "airport": "Penang International Airport (PEN)",
-        "connections": ["KL by flight 45 min or train 3.5 hrs", "Langkawi by ferry 2.5 hrs"],
-        "language": "Malay, English, Hokkien Chinese widely spoken"
+        "language": "Malay, English, Hokkien Chinese widely spoken",
+        "currency": "MYR — RM"
       }
     },
     "langkawi": {
@@ -49,12 +67,21 @@
       "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar", "Apr"],
       "budgetPerDay": { "backpacker": 35, "midRange": 90, "luxury": 250 },
       "gettingThere": "Fly into Langkawi International (LGK) — 45-min flight from KL or Penang. Ferry from Penang takes 2.5 hours (RM80-100).",
-      "highlights": ["Langkawi Cable Car & Sky Bridge", "Pantai Cenang beach strip", "Island hopping: Pulau Dayang Bunting, Pulau Beras Basah", "Eagle feeding at Dataran Lang", "Duty-free shopping at Kuah town", "Tanjung Rhu secluded beach"],
+      "highlights": [
+        "Langkawi Cable Car and Sky Bridge — 2170m gondola to 708m peak, curved pedestrian bridge (RM55)",
+        "Pantai Cenang beach strip — Langkawi's liveliest beach with watersports and beach bars",
+        "Island hopping — Pulau Dayang Bunting lake, Pulau Beras Basah snorkeling, eagle feeding (RM45pp)",
+        "Eagle Square (Dataran Lang) — 12m bronze eagle statue, Langkawi's iconic landmark at the jetty",
+        "Duty-free shopping at Kuah town — chocolate, alcohol, and electronics at Singapore-beating prices",
+        "Tanjung Rhu secluded beach — mangrove-fringed bay on the remote north, Langkawi's most beautiful",
+        "Temurun Waterfall — 200m three-tier waterfall in the forest interior, short jungle walk from road",
+        "Kilim Karst Geoforest Park — UNESCO mangrove boat tour through limestone sea caves (RM120pp)"
+      ],
       "essentials": {
         "gettingAround": "Rental car (RM70-120/day) or motorbike essential. Grab available but limited. Taxis for beach strips.",
         "airport": "Langkawi International Airport (LGK)",
-        "connections": ["Penang by ferry 2.5 hrs", "KL by flight 45 min"],
-        "language": "Malay, English widely spoken"
+        "language": "Malay, English widely spoken",
+        "currency": "MYR — RM"
       }
     },
     "malacca": {
@@ -63,13 +90,22 @@
       "region": "west-malaysia",
       "bestMonths": ["Jan", "Feb", "Mar", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 18, "midRange": 45, "luxury": 120 },
-      "gettingThere": "Bus from KL TBS terminal takes 2 hours (RM12-15). No train or flight — bus is the only option.",
-      "highlights": ["A Famosa Portuguese fortress ruins", "St. Paul's Hill and church ruins", "Jonker Street night market (Fri-Sun)", "Baba Nyonya Heritage Museum", "Stadthuys Dutch colonial square", "Peranakan cuisine"],
+      "gettingThere": "Bus from KL TBS terminal takes 2 hours (RM12-15). No train or flight — bus is the only option. Also direct buses from Singapore (4 hrs, RM35).",
+      "highlights": [
+        "A Famosa — the last remaining gatehouse of the 1511 Portuguese fortress that shaped Southeast Asian history",
+        "St. Paul's Hill and church ruins — Dutch and Portuguese era hilltop with panoramic harbour views",
+        "Jonker Street night market — Friday and Saturday nights, antiques and Nyonya food stalls (free entry)",
+        "Baba Nyonya Heritage Museum — Peranakan Chinese townhouse preserved exactly as it was in 1896 (RM16)",
+        "Stadthuys — Dutch colonial administrative building from 1650, now Malacca History Museum (RM15)",
+        "Peranakan cuisine — chicken rice balls, Nyonya laksa, and cendol along Jonker Street",
+        "Cheng Ho Cultural Museum — tribute to the 15th-century Muslim Chinese admiral who visited 7 times",
+        "Christ Church — Dutch Protestant church built 1753, still the most photographed building in Malacca"
+      ],
       "essentials": {
         "gettingAround": "Historic city is walkable. Trishaw rides RM30-50. Grab for outer areas.",
         "airport": "Nearest is KL (2 hrs by bus)",
-        "connections": ["KL by bus 2 hrs", "Johor Bahru by bus 2 hrs"],
-        "language": "Malay, English, Hokkien Chinese"
+        "language": "Malay, English, Hokkien Chinese",
+        "currency": "MYR — RM"
       }
     },
     "cameron-highlands": {
@@ -78,13 +114,22 @@
       "region": "west-malaysia",
       "bestMonths": ["Jan", "Feb", "Mar", "Jul", "Aug", "Dec"],
       "budgetPerDay": { "backpacker": 20, "midRange": 50, "luxury": 130 },
-      "gettingThere": "Bus from KL TBS takes 3.5-4 hours (RM25-35). No train or flight.",
-      "highlights": ["BOH Tea Plantation and factory tour", "Mossy forest trekking at Gunung Brinchang", "Strawberry farms — pick your own", "Bharat Tea Estate", "Local night market at Brinchang"],
+      "gettingThere": "Bus from KL TBS takes 3.5-4 hours (RM25-35). Or bus from Ipoh (1.5 hrs, RM12). No train or flight. Cool mountain air at 1500m elevation — bring a light jacket.",
+      "highlights": [
+        "BOH Tea Plantation and factory tour — Malaysia's most famous tea brand, free factory tour with panoramic views",
+        "Mossy forest trekking at Gunung Brinchang — 2032m peak, cloud forest dripping with moss and pitcher plants",
+        "Strawberry farms — pick your own strawberries at several farms along the main road (RM18/basket)",
+        "Bharat Tea Estate — 1000 acres of manicured tea rows, stunning for photography",
+        "Local night market at Brinchang — Tuesday and Wednesday evenings, corn, steamboat, and fresh produce",
+        "Sam Poh Buddhist Temple — elaborate hilltop temple complex with peacocks and fish ponds (free)",
+        "Butterfly Farm and Cactus Valley — popular tourist attraction complex near Kea Farm (RM12)",
+        "Rose Centre — 400 varieties of roses in highland gardens at Robinson Falls trailhead"
+      ],
       "essentials": {
         "gettingAround": "Local buses connect main towns. Grab limited. Taxi or rental car for plantation visits.",
         "airport": "Nearest is Ipoh (Sultan Azlan Shah Airport, IPH) 1.5 hrs",
-        "connections": ["KL by bus 3.5 hrs", "Ipoh by bus 1.5 hrs"],
-        "language": "Malay, English, Tamil"
+        "language": "Malay, English, Tamil",
+        "currency": "MYR — RM"
       }
     },
     "kota-kinabalu": {
@@ -93,13 +138,22 @@
       "region": "east-malaysia",
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 30, "midRange": 75, "luxury": 200 },
-      "gettingThere": "Fly into Kota Kinabalu International (BKI) — direct flights from KL (2 hrs), Singapore, Manila, and several Chinese cities.",
-      "highlights": ["Mount Kinabalu (4,095m) — highest peak in Southeast Asia", "Tunku Abdul Rahman Marine Park — 5 islands, excellent snorkeling", "Kinabatangan River wildlife cruise (orangutans, proboscis monkeys)", "Nexus Karambunai beach resort strip", "Filipino Market for sunset seafood", "Sabah State Museum"],
+      "gettingThere": "Fly into Kota Kinabalu International (BKI) — direct flights from KL (2 hrs), Singapore, Manila, and several Chinese cities. AirAsia, Malaysia Airlines, and Scoot all serve the route.",
+      "highlights": [
+        "Mount Kinabalu — 4,095m, highest peak in Southeast Asia, 2-day climb requires permit (RM300-800 guide fee)",
+        "Tunku Abdul Rahman Marine Park — 5 islands by 15-min boat, snorkeling among coral gardens (RM23 park fee)",
+        "Kinabatangan River wildlife cruise — best place in Borneo to see wild orangutans, proboscis monkeys, and pygmy elephants",
+        "Nexus Karambunai and Shangri-La Tanjung Aru beach resort strip — KK's finest beach hotels",
+        "Filipino Market sunset seafood — waterfront market with fresh grilled fish from RM15",
+        "Sabah State Museum — excellent collection of Sabah tribal artefacts and natural history (RM20)",
+        "Poring Hot Springs — Kinabalu Park annexe with jungle canopy walkway and sulphur pools (RM15)",
+        "Mantanani Island — remote pristine reef, dugong sightings possible, 2-hour boat from KK"
+      ],
       "essentials": {
         "gettingAround": "Grab in city. Minibuses for day trips. Day tours for Mt Kinabalu and marine park.",
         "airport": "Kota Kinabalu International Airport (BKI)",
-        "connections": ["Sandakan by flight 40 min or 5 hrs bus", "Kuching by flight 1.5 hrs"],
-        "language": "Malay, English, Kadazan-Dusun in highlands"
+        "language": "Malay, English, Kadazan-Dusun in highlands",
+        "currency": "MYR — RM"
       }
     },
     "sandakan": {
@@ -108,13 +162,22 @@
       "region": "east-malaysia",
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 35, "midRange": 80, "luxury": 200 },
-      "gettingThere": "Fly into Sandakan Airport (SDK) from Kota Kinabalu (40 min) or KL (2.5 hrs with connection). Or 5-hour bus from KK.",
-      "highlights": ["Sepilok Orangutan Rehabilitation Centre", "Kinabatangan River — one of the best wildlife corridors in Borneo", "Proboscis monkeys, pygmy elephants, crocodiles on the river", "Labuk Bay Proboscis Monkey Sanctuary", "Turtle Islands Park (endangered hawksbill turtles)", "WWII Memorial Sandakan Death March"],
+      "gettingThere": "Fly into Sandakan Airport (SDK) from Kota Kinabalu (40 min, RM80-150) or KL (2.5 hrs with connection). Or 5-hour bus from KK along the coastal highway (RM35).",
+      "highlights": [
+        "Sepilok Orangutan Rehabilitation Centre — rescued orangutans fed at 10am and 3pm daily (RM30)",
+        "Kinabatangan River wildlife corridor — 560km river, one of the densest concentrations of wildlife in Borneo",
+        "Proboscis monkeys, pygmy elephants, crocodiles, and hornbills on Kinabatangan river cruises",
+        "Labuk Bay Proboscis Monkey Sanctuary — private sanctuary with multiple feeding platforms (RM60)",
+        "Turtle Islands Park — Pulau Selingan, witness sea turtle egg-laying on a permit-only overnight stay",
+        "Sandakan Death March Memorial — sobering tribute to WWII POWs who perished on the march to Ranau",
+        "Rainforest Discovery Centre at Sepilok — 280m canopy walkway and bird-rich forest (RM30)",
+        "Gomantong Caves — massive limestone cavern harvested for edible birds' nests (RM30)"
+      ],
       "essentials": {
         "gettingAround": "Grab in town. Day tours and river cruises for wildlife areas.",
         "airport": "Sandakan Airport (SDK)",
-        "connections": ["Kota Kinabalu by flight 40 min or bus 5 hrs"],
-        "language": "Malay, English, Bahasa Sug (Tausug)"
+        "language": "Malay, English, Bahasa Sug (Tausug)",
+        "currency": "MYR — RM"
       }
     },
     "kuching": {
@@ -123,13 +186,22 @@
       "region": "east-malaysia",
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 25, "midRange": 60, "luxury": 160 },
-      "gettingThere": "Fly into Kuching International (KCH) — daily flights from KL (1.5 hrs), Singapore, Johor Bahru.",
-      "highlights": ["Sarawak Cultural Village — living museum of Borneo tribes", "Semenggoh Wildlife Centre — wild orangutans", "Bako National Park — proboscis monkeys and sea stacks", "Kuching Waterfront with colonial architecture", "Sarawak Museum — best ethnographic museum in Malaysia", "Sarawak laksa and kolo mee"],
+      "gettingThere": "Fly into Kuching International (KCH) — daily flights from KL (1.5 hrs, RM80-200), Singapore (1.5 hrs), and Johor Bahru. Malaysia Airlines and AirAsia both serve this route.",
+      "highlights": [
+        "Sarawak Cultural Village — 17-acre living museum of Borneo's indigenous tribes with dance performances (RM85)",
+        "Semenggoh Wildlife Centre — wild semi-habituated orangutans return to feeding platforms (RM10)",
+        "Bako National Park — 27km2 of rainforest, best place to see wild proboscis monkeys (RM20 entry + boat RM50)",
+        "Kuching Waterfront — colonial warehouses converted to restaurants and bars along the Sarawak River",
+        "Sarawak Museum — two buildings, one of the finest ethnographic museums in Asia (free)",
+        "Sarawak laksa and kolo mee — Kuching's two signature dishes, eaten for breakfast by locals",
+        "Sunday Market at Jalan Satok — Sarawak's wildest produce market, jungle ferns and exotic fruits from 6am",
+        "Cat Museum — Kuching means 'cat' in Malay; 4000 cat-related exhibits in the city hall annex (free)"
+      ],
       "essentials": {
         "gettingAround": "Grab in city. Boat taxis across the river. Tour operator for national parks.",
         "airport": "Kuching International Airport (KCH)",
-        "connections": ["KL by flight 1.5 hrs", "Mulu by flight via Miri 1 hr"],
-        "language": "Malay, English, Iban, Chinese dialects"
+        "language": "Malay, English, Iban, Chinese dialects",
+        "currency": "MYR — RM"
       }
     },
     "mulu": {
@@ -138,13 +210,22 @@
       "region": "east-malaysia",
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 80, "midRange": 130, "luxury": 300 },
-      "gettingThere": "Fly into Mulu Airport (MZV) via Miri (MYY) — MASwings flights from Kota Kinabalu or Kuching. No road access to the park.",
-      "highlights": ["Deer Cave — world's largest cave passage", "Bat exodus at dusk — millions of wrinkle-lipped bats", "Clearwater Cave — world's longest cave in Asia", "Lang Cave with stunning formations", "Pinnacles trekking (3-day expedition)", "Headhunter's Trail by longboat"],
+      "gettingThere": "Fly into Mulu Airport (MZV) via Miri (MYY) — MASwings flights from Kota Kinabalu or Kuching. No road access to the park. Plan at least 2 nights minimum.",
+      "highlights": [
+        "Deer Cave — world's largest cave passage, 174m wide and 122m high, cathedral of stone",
+        "Bat exodus at dusk — millions of wrinkle-lipped bats spiral out of Deer Cave in a black tornado",
+        "Clearwater Cave — Southeast Asia's longest cave system at 227km, crystal-clear underground river",
+        "Lang Cave with stunning formations — stalactites, stalagmites, and flowstone in perfect condition",
+        "The Pinnacles trekking — 3-day expedition to see 45m limestone needles on Gunung Api (guide required RM700+)",
+        "Headhunter's Trail — 4-day jungle trek to Limbang by longboat through primary rainforest",
+        "Wind Cave — impressive passage with stalactites and resident cave fish in the underground river",
+        "Canopy skywalk — 480m of aerial walkways 25m above the forest floor near the park HQ (RM30)"
+      ],
       "essentials": {
         "gettingAround": "Everything walkable within the park. Guided cave tours required (RM30-100/cave).",
         "airport": "Mulu Airport (MZV) — small MASwings prop planes only",
-        "connections": ["Miri by flight 30 min", "Kuching via Miri by flight 1 hr"],
-        "language": "Malay, English, Penan"
+        "language": "Malay, English, Penan",
+        "currency": "MYR — RM"
       }
     },
     "tioman-island": {
@@ -153,13 +234,20 @@
       "region": "west-malaysia",
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 30, "midRange": 70, "luxury": 180 },
-      "gettingThere": "Ferry from Mersing on mainland (1.5-2.5 hrs, RM35-45). Or ferry from Singapore via Tanah Merah (4.5 hrs). Note: no ferries during monsoon season (Nov-Feb).",
-      "highlights": ["Juara Beach — tranquil east coast village", "Salang Beach — backpacker hub with good reefs", "Tekek Village — main settlement", "Berjaya Tioman Resort for accommodation", "Snorkeling and diving among coral gardens", "Jungle treks to the island interior"],
+      "gettingThere": "Ferry from Mersing on mainland (1.5-2.5 hrs, RM35-45). Or ferry from Singapore via Tanah Merah (4.5 hrs). Note: no ferries during monsoon season (Nov-Feb). Book accommodation and ferry in advance for weekends.",
+      "highlights": [
+        "Juara Beach — tranquil east coast village accessible only by jungle trail or water taxi",
+        "Salang Beach — most popular backpacker base with the best reef right off the beach",
+        "Tekek to Juara jungle trek — 7km cross-island trail through primary rainforest (2-3 hrs)",
+        "PADI diving from RM300/dive — Tioman is on Time magazine's list of world's best islands for diving",
+        "Berjaya Tioman Resort — the island's only resort-scale hotel with tennis courts and golf (RM300+/night)",
+        "Renggis Island snorkeling — tiny island opposite Berjaya with guaranteed turtle sightings"
+      ],
       "essentials": {
         "gettingAround": "Water taxis between villages RM5-20. Sea-crossing road connects some villages. Motorbike rental on the island.",
         "airport": "Closest is Mersing jetty on mainland",
-        "connections": ["Mersing by ferry 1.5-2.5 hrs"],
-        "language": "Malay, some English at resorts"
+        "language": "Malay, some English at resorts",
+        "currency": "MYR — RM"
       }
     },
     "perhentian-islands": {
@@ -168,13 +256,20 @@
       "region": "west-malaysia",
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 35, "midRange": 80, "luxury": 200 },
-      "gettingThere": "Take a bus to Kuala Besut jetty (from KL ~5-6 hrs), then speedboat to the islands (30-40 min, RM70 return). Islands closed to tourists Nov-Feb (monsoon).",
-      "highlights": ["Long Beach — Perhentian Kecil's main backpacker strip", "Coral Bay — calm snorkeling waters", "Turtles, blacktip sharks, and reef fish year-round", "Diving courses from RM850 (PADI Open Water)", "Turtle watching beaches", "Island hopping by boat RM30-50"],
+      "gettingThere": "Take a bus to Kuala Besut jetty (from KL ~5-6 hrs, RM40-60), then speedboat to the islands (30-40 min, RM70 return). Islands closed to tourists Nov-Feb (monsoon). Fly to Kota Bharu and taxi to Kuala Besut to save 3 hours from KL.",
+      "highlights": [
+        "Long Beach on Perhentian Kecil — main backpacker strip with beach bars and dive shops",
+        "Coral Bay — calm sheltered bay on the west side of Kecil, perfect for beginner snorkeling",
+        "Green turtles and blacktip reef sharks — spotted on virtually every snorkel trip (RM30-50/trip)",
+        "PADI Open Water diving course from RM850 — some of Malaysia's best value dive instruction",
+        "Perhentian Besar — quieter large island with upmarket chalets and excellent house reef",
+        "Island hopping by speedboat — full loop of both islands RM50, guide included"
+      ],
       "essentials": {
         "gettingAround": "Water taxis between beaches RM10-25. Most accommodation and snorkeling within walking distance.",
         "airport": "Closest is Kota Bharu (BKM) or fly to Kuala Terengganu (TGG)",
-        "connections": ["KL by bus 5-6 hrs then boat 30 min"],
-        "language": "Malay, basic English at resorts"
+        "language": "Malay, basic English at resorts",
+        "currency": "MYR — RM"
       }
     },
     "taman-negara": {
@@ -183,13 +278,22 @@
       "region": "west-malaysia",
       "bestMonths": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 40, "midRange": 90, "luxury": 220 },
-      "gettingThere": "Bus from KL Pekeliling station to Jerantut, then local bus/boat to Kuala Tahan village (total 3-4 hrs from KL). Or direct tour bus from KL.",
-      "highlights": ["World's longest canopy walk (530m)", "Night jungle walk — civets, nightjars, flying squirrels", "Rapid shooting by boat on Sungai Tahan", "Bukit Teresek trekking with valley views", "Orang Asli cultural visits", "Fishing on the Tembeling River"],
+      "gettingThere": "Bus from KL Pekeliling station to Jerantut (2.5 hrs, RM18), then local bus or taxi to Kuala Tahan jetty (1 hr), then boat across the river (RM1). Or book direct tour bus from KL guesthouses (4-5 hrs, RM65-80 including boat).",
+      "highlights": [
+        "World's longest canopy walk — 530m of swaying suspension bridges 40m above the forest floor (RM5)",
+        "Night jungle walk — spot civets, nightjars, flying squirrels, and insects on a guided 2-hour walk (RM35)",
+        "Rapid shooting by boat on Sungai Tahan — exhilarating 2-hour downriver boat ride (RM50pp)",
+        "Bukit Teresek — 344m hill, 2-hour trek, panoramic views over the Tahan river valley (free)",
+        "Orang Asli cultural village visit — meet the indigenous Batek people, blowpipe demonstration (RM10)",
+        "Fishing on the Tembeling River — guided freshwater fishing for kerai and kelah (RM60 half-day)",
+        "Gua Telinga bat cave — 30-minute forest walk, 80m cave passage through roosting bats (free)",
+        "Multi-day jungle treks to Gunung Tahan — 9-day expedition to Peninsular Malaysia's highest peak (1939m)"
+      ],
       "essentials": {
         "gettingAround": "Boat taxis on the river. Walking trails from Kuala Tahan village. Night hikes with guides.",
         "airport": "Nearest is KL (3-4 hrs by bus+boat)",
-        "connections": ["KL by bus and boat 3-4 hrs"],
-        "language": "Malay, English at most guesthouses"
+        "language": "Malay, English at most guesthouses",
+        "currency": "MYR — RM"
       }
     },
     "ipoh": {
@@ -198,43 +302,70 @@
       "region": "west-malaysia",
       "bestMonths": ["Jan", "Feb", "Mar", "Jul", "Aug", "Dec"],
       "budgetPerDay": { "backpacker": 18, "midRange": 45, "luxury": 120 },
-      "gettingThere": "KTM ETS train from KL takes 2 hours (RM28-35). Or bus from KL TBS (2.5 hrs). Easy day trip or overnight from KL.",
-      "highlights": ["Ipoh Old Town murals and street art", "Sam Poh Tong cave temple", "Kinta Valley limestone karst landscape", "White coffee at Nam Heong or Sin Yoon Loong", "Dim sum at Foh San or Ming Court", "Concubine Lane shophouses"],
+      "gettingThere": "KTM ETS train from KL takes 2 hours (RM28-35) — the fastest and most comfortable option. Or bus from KL TBS (2.5 hrs, RM15). Easy day trip or overnight from KL, also a natural stop on the KL-Penang corridor.",
+      "highlights": [
+        "Ipoh Old Town murals and street art — iron rod sculptures and painted murals throughout the heritage quarter",
+        "Sam Poh Tong cave temple — 50 temple shrines inside a limestone cavern with turtle pond (free)",
+        "Kinta Valley limestone karst landscape — dramatic grey limestone towers rising from flat valley floor",
+        "White coffee at Nam Heong or Sin Yoon Loong — Ipoh invented this style, try it at the original shops (RM3)",
+        "Dim sum at Foh San or Ming Court — some of the best dim sum in Malaysia, arrive by 8am (RM30pp)",
+        "Concubine Lane and Panglima Lane — pedestrian shophouse lanes full of heritage cafes and boutiques",
+        "Kellie's Castle — unfinished Scottish planter's Indo-Moorish mansion from 1915, jungle-clad ruin (RM10)",
+        "Lost World of Tambun hot springs — waterpark with natural hot springs and tiger valley (RM66)"
+      ],
       "essentials": {
         "gettingAround": "Old town walkable. Grab for outer areas. Bicycle rentals available.",
         "airport": "Sultan Azlan Shah Airport (IPH) — limited domestic flights",
-        "connections": ["KL by train 2 hrs", "Penang by train 1 hr"],
-        "language": "Malay, Cantonese Chinese widely spoken, English"
+        "language": "Malay, Cantonese Chinese widely spoken, English",
+        "currency": "MYR — RM"
       }
     },
     "george-town": {
       "title": "George Town",
-      "tagline": "Penang's UNESCO core — the best preserved colonial streetscape in Asia",
+      "tagline": "Penang's UNESCO core — the best-preserved colonial streetscape in Asia",
       "region": "west-malaysia",
       "bestMonths": ["Jan", "Feb", "Mar", "Jul", "Aug", "Sep"],
       "budgetPerDay": { "backpacker": 18, "midRange": 50, "luxury": 140 },
-      "gettingThere": "Same as Penang — fly into Penang International (PEN) or arrive by train to Butterworth then ferry. George Town is the main urban area of Penang Island.",
-      "highlights": ["Ernest Zacharevic's iron rod street art murals", "Khoo Kongsi — Malaysia's finest Hokkien clan house", "Little India around Masjid Kapitan Keling", "Georgetown hawker food: char kway teow, Penang laksa", "Chowrasta Market", "Pinang Peranakan Mansion"],
+      "gettingThere": "Fly into Penang International (PEN) then 30-min Grab (RM25) to George Town. Or arrive by KTM train to Butterworth then 10-min Rapid Penang ferry (RM1.20) to the Pengkalan Weld jetty, right in the heritage zone.",
+      "highlights": [
+        "Ernest Zacharevic's iron rod street art murals — 'Boy on Bike' and 'Children on Bicycle' are must-finds",
+        "Khoo Kongsi — Malaysia's finest Hokkien clan house with extravagant carved pavilions (RM10)",
+        "Little India around Masjid Kapitan Keling — sari shops, jasmine garlands, and roti canai for RM2",
+        "Penang hawker food: char kway teow, assam laksa, rojak — the streets that launched a thousand food blogs",
+        "Chowrasta Market — bustling wet market and Penang nutmeg preserves on the edge of the heritage zone",
+        "Pinang Peranakan Mansion — museum of Straits-born Chinese opulence, 1000 antiques (RM25)",
+        "Fort Cornwallis — star-shaped 1786 British fort at the northeastern tip, free to walk around outside (RM20 inside)",
+        "Blue Mansion (Cheong Fatt Tze) — indigo-washed Hakka merchant mansion, guided tours daily (RM16)"
+      ],
       "essentials": {
         "gettingAround": "The heritage core is fully walkable (30-min walk across). Free CAT bus along main streets.",
         "airport": "Penang International Airport (PEN)",
-        "connections": ["Langkawi by ferry 2.5 hrs", "Ipoh by train 1 hr"],
-        "language": "Malay, English, Hokkien Chinese"
+        "language": "Malay, English, Hokkien Chinese",
+        "currency": "MYR — RM"
       }
     },
     "johor-bahru": {
       "title": "Johor Bahru",
-      "tagline": "Malaysia's southern gateway — shopping, food, and quick escapes",
+      "tagline": "Malaysia's southern gateway — shopping, food, and quick escapes from Singapore",
       "region": "west-malaysia",
       "bestMonths": ["Jan", "Feb", "Mar", "Jul", "Aug"],
       "budgetPerDay": { "backpacker": 20, "midRange": 50, "luxury": 140 },
-      "gettingThere": "Direct flights from KL (50 min), Singapore, and Jakarta. Or KTM Komuter from Singapore (Woodlands CIQ to JB Sentral). 1-hour bus from Singapore.",
-      "highlights": ["LEGOLAND Malaysia — largest LEGOLAND in Asia", "Sultan Abu Bakar State Mosque", "Johor Bahru City Square shopping mall", "Danga Bay waterfront park", "Arulmigu Sri Rajamariamman Devasthanam temple (tallest in Malaysia)", "Central Market for local handicrafts"],
+      "gettingThere": "Direct flights from KL (50 min, RM60-120), Singapore, and Jakarta. Or KTM Komuter from Singapore Woodlands CIQ to JB Sentral (RM5, 5 min). 1-hour bus from Singapore Queen Street Terminal (RM5). The Causeway sees 300,000 crossings daily.",
+      "highlights": [
+        "LEGOLAND Malaysia — the largest LEGOLAND in Asia, 40+ rides and LEGO-themed zones (RM185 adults)",
+        "Sultan Abu Bakar State Mosque — 1900 Victorian Moorish mosque on a hill above the Johor Strait (free, dress modestly)",
+        "Johor Bahru City Square and Komtar JBCC — back-to-back malls connected to JB Sentral, duty-free goods",
+        "Danga Bay waterfront park and Stulang Laut — sunset waterfront with seafood restaurants",
+        "Arulmigu Sri Rajamariamman Devasthanam — tallest Hindu temple gate (gopuram) in Malaysia (free)",
+        "Central Market (Pasar Besar Kota Raya) — three-storey market for local produce, textiles, and street food",
+        "Muar — 45-min drive north, the birthplace of Mee Bandung and Malaysia's best otak-otak fish cake",
+        "Kota Tinggi Waterfall — 37m falls and jungle pools 1 hour northeast of JB (RM5 entry)"
+      ],
       "essentials": {
         "gettingAround": "Grab widely used. City is spread out — car or taxi needed for most attractions.",
         "airport": "Senai International Airport (JHB)",
-        "connections": ["Singapore by bus 1 hr", "Malacca by bus 2 hrs", "KL by bus 4 hrs or flight 50 min"],
-        "language": "Malay, English, Chinese"
+        "language": "Malay, English, Chinese",
+        "currency": "MYR — RM"
       }
     }
   }
