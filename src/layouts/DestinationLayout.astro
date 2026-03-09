@@ -249,6 +249,19 @@ const gradientVar = `var(--gradient-${gradientKey}, var(--gradient-homepage))`;
     <slot />
   </article>
 
+  {frontmatter.aeoFacts && (
+    <AEOQuickFacts
+      destinationName={frontmatter.title}
+      currency={frontmatter.aeoFacts.currency}
+      plugType={frontmatter.aeoFacts.plugType}
+      language={frontmatter.aeoFacts.language}
+      bestTime={frontmatter.aeoFacts.bestTime}
+      visaInfo={frontmatter.aeoFacts.visaInfo}
+      timeZone={frontmatter.aeoFacts.timeZone}
+      emergencyNumber={frontmatter.aeoFacts.emergencyNumber}
+    />
+  )}
+
   <!-- Gear Recommendations (replaces static "Packing Essentials" bullet) -->
   <div class="container-content container-prose">
     <GearRecommendations destination={frontmatter.title} />
