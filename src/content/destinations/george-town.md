@@ -79,6 +79,14 @@ faqItems:
     answer: "Khoo Kongsi is Malaysia's most elaborate Hokkien clan house — a temple-cum-ancestral hall built by the Khoo clan from Fujian province who settled in Penang in the 18th century. The main hall (built 1906, rebuilt after a fire) features hand-carved timber beams, gold-leaf ornamentation, porcelain tile roofs with dragon ridge decorations, and dozens of ancestor tablets. The surrounding Cannon Square enclave of clan buildings is one of the finest surviving examples of overseas Chinese architecture in Southeast Asia. Entrance RM10. Allow 1 hour."
   - question: "Is George Town walkable?"
     answer: "Extremely. The UNESCO heritage core is one of the most walkable districts in Southeast Asia. The main sites — Khoo Kongsi, the clan jetties, Armenian Street murals, the three principal temples (Sri Mahamariamman, Kapitan Keling Mosque, Sri Penang Peranakan Mansion) — are all within a 30-minute walking circle. The full street art trail takes 3-4 hours on foot. Wear comfortable shoes (cobblestoned heritage streets), start before 9am to beat the heat, and carry water."
+  - question: "What are the clan jetties and why are they significant?"
+    answer: "The clan jetties of George Town are a unique urban settlement — six wooden villages built on stilts over the water by specific Chinese clan groups in the 19th century. The Chew Jetty is the largest and most visited, with a living community of descendants still residing in wooden houses over Penang Harbour. These settlements are UNESCO protected and represent one of the last examples of traditional Chinese waterfront communities in existence. Sunrise visits are the most photogenic and the community is quiet before the day-trippers arrive."
+  - question: "What is Penang Peranakan food and where do I eat it?"
+    answer: "Peranakan (Nyonya) cuisine blends Chinese cooking techniques with Malay spices and aromatics — the result is complex, multi-layered dishes that are unlike either parent cuisine. Key dishes: ayam pongteh (chicken and potato in fermented soybean sauce), beef rendang (spiced with lemongrass and galangal), laksa lemak (coconut version), and kuih (sweet bite-sized cakes). Sri Bahari Road (Penang Road Teochew Chendul) is famous for cendol. Nyonya Breeze and Ivy's Nyonya Cuisine near Penang Hill are the most reliable Peranakan restaurants."
+  - question: "What is the difference between George Town and Penang?"
+    answer: "Penang is the island (and the state); George Town is the main city on the island's northeast tip and the UNESCO heritage district. When travelers say they're visiting 'Penang,' they typically mean George Town specifically. The rest of the island — Batu Ferringhi beach (20km northwest), Penang Hill (southwest), Ayer Itam (central), and Balik Pulau (rural southwest) — are worth exploring but require transport from the heritage core."
+  - question: "Are there good day trips from George Town?"
+    answer: "Yes — Penang National Park at Pantai Kerachut (accessible by boat or 1-hour jungle walk, free entry to the park) offers a secluded beach with nesting sea turtles (seasonal). Penang Botanic Gardens (15 minutes by Grab, free entry) has morning macaque populations and botanical collections. The Kek Lok Si Temple complex at Ayer Itam (20 minutes, the largest Buddhist temple in Malaysia) combines well with the definitive assam laksa at the nearby market."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 George Town is the reason Penang is on the map for anyone who isn't already a convert to Southeast Asian hawker food. The UNESCO listing is the frame, but the experience is walking through a living city where the Chinese clan houses, the Indian temples, the Malay mosques, and the British colonial buildings exist not as museum pieces but as working institutions — the Khoo Kongsi still holds ancestral rites, Kapitan Keling Mosque still fills for Friday prayers, and the clan jetties at the waterfront have families who've lived in the same stilted houses for five generations.
 
 The street art by Ernest Zacharevic (the Lithuanian artist who has also worked in Ipoh) is what put George Town on the Instagram circuit, and the murals are genuinely excellent. But the murals are the entry point to a much richer city. Spend an afternoon with no agenda on the back lanes south of Chulia Street and you'll understand why people who come for the art stay for the heritage.
+
+<ImmersiveBreak videoSrc="/videos/destinations/george-town-hero.mp4" />
 
 ## What to Do in George Town
 

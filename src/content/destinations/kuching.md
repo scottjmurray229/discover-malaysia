@@ -79,6 +79,14 @@ faqItems:
     answer: "Semenggoh Wildlife Centre is 25 minutes from Kuching by Grab (RM25-30 one way) or the Sarawak Transport Corporation bus. Entrance RM10. Feeding sessions are in the morning (9-10am) and afternoon (3-3:30pm) — check current schedules as they vary by season and fruit availability. When the fruit is plentiful in the jungle, the orangutans may not come to the feeding area at all. Combine with a Grab to the Kubah National Park (30 minutes further) for the same day if the orangutans don't show."
   - question: "How many days do you need in Kuching?"
     answer: "Minimum 3 days: Day 1 for Semenggoh orangutans + Sarawak Museum + waterfront walk. Day 2 for a full day at Bako National Park. Day 3 for the Old Town heritage trail, Carpenter Street kopitiams, and the Kuching markets. A 4th day can go to a Iban longhouse visit on the Skrang or Lemanak rivers — a cultural experience unlike anything on Peninsula Malaysia."
+  - question: "What is an Iban longhouse visit and how do I arrange one?"
+    answer: "Iban longhouses are multi-family communal dwellings where traditional Iban communities live — some still actively following traditional customs including the gawai festival and ritual weaving. Authentic overnight visits (RM150-250/person including transport, meals, and accommodation) can be arranged through operators like CPH Travel or Sarawak-based licensed guides. The Skrang and Lemanak rivers (3-4 hours from Kuching) have the most accessible communities. Avoid 'cultural show' longhouse visits where the authenticity is staged — a proper overnight homestay with a real community is a completely different and extraordinary experience."
+  - question: "What is Sarawak famous for in terms of food?"
+    answer: "Sarawak laksa is the state dish — a rich coconut and tamarind broth with rice vermicelli, prawns, chicken, bean sprouts, and fresh lime. Anthony Bourdain called it 'the breakfast of the gods.' Bumbu restaurant and Choon Hui kopitiam near the waterfront are the most recommended venues. Sarawak layer cake (kek lapis Sarawak) — elaborately patterned layered cookies — makes an excellent edible souvenir. Jungle fern (midin), wild boar, and freshwater fish are other distinctive Sarawakian ingredients."
+  - question: "How do I get to Kuching from Kuala Lumpur?"
+    answer: "Fly — AirAsia runs multiple daily flights from KL to Kuching (KCH) in 1.5-2 hours from RM80-150. Malaysia Airlines and Firefly also serve the route. There is no practical land or sea connection from Peninsular Malaysia to Sarawak — flying is the only realistic option. Kuching Airport is 12km from the city; Grab (RM25-30) or Rapid Kuching bus (RM3) to the center."
+  - question: "Is Kuching safe for solo travellers?"
+    answer: "Very safe — Kuching consistently ranks among Malaysia's safest cities. The historic waterfront and Old Town are well-lit and populated until late. The Sarawakian culture is notably relaxed and welcoming to independent travelers. Solo women travelers report feeling comfortable in the city. Standard urban precautions apply at night in quieter areas."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Kuching is the most immediately charming city in Malaysian Borneo. It's compact enough to walk, sophisticated enough to eat well every meal, and surrounded by some of the most accessible wildlife in all of Sarawak. The waterfront promenade along the Sarawak River, with the white Astana (the Rajah's palace) gleaming across the water and the old Chinese shophouses behind you, is one of the nicest urban settings in Borneo.
 
 The food runs on kolo mee — thin egg noodles with char siu and minced pork that are breakfast in every kopitiam from 7am. By the time you've had your third bowl at different coffee shops in different neighborhoods, you understand that this simple dish has as much variation as ramen. After the Semenggoh orangutans in the morning and Bako in the afternoon, the city draws you back in for dinner. That's the rhythm of Kuching.
+
+<ImmersiveBreak videoSrc="/videos/destinations/kuching-hero.mp4" />
 
 ## What to Do in Kuching
 

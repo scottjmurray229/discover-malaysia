@@ -79,6 +79,14 @@ faqItems:
     answer: "The Bornean Sun Bear Conservation Centre at Sepilok is the world's first sun bear sanctuary — caring for orphaned and rescued sun bears (the smallest bear species, endemic to Borneo). A raised boardwalk overlooks the natural forest enclosure where sun bears are being rehabilitated for release. Entrance RM30. Combine with Sepilok orangutans (5 minutes apart) for a half-day wildlife morning."
   - question: "How much does a Kinabatangan River package cost?"
     answer: "A 2-night Kinabatangan lodge package including accommodation, all meals, and 4 river cruises (dawn and dusk each day) costs RM400-1,200/person depending on lodge standard. Budget lodges (Bilit area) from RM200/person/night. Mid-range eco-lodges (Sukau) from RM350/person/night. The river cruise experience is included in all packages — the main variable is accommodation comfort and guide quality."
+  - question: "Can I see Bornean pygmy elephants at Sandakan?"
+    answer: "The Kinabatangan River corridor provides the highest probability of pygmy elephant encounters — the world's smallest elephant subspecies lives in the floodplain forest in groups of 10-80 individuals. Dawn river cruises give the best viewing as elephants come to the river to drink and bathe. Sightings are not guaranteed (these are genuinely wild animals in a large territory) but are frequent enough that most 2-night Kinabatangan packages have some elephant interaction. Go between August and November when elephants congregate near the river."
+  - question: "What is the Turtle Islands National Park near Sandakan?"
+    answer: "Selingan Island (Turtle Island) is a protected sanctuary 45km north of Sandakan where green and hawksbill turtles nest year-round, peaking June-October. Access is strictly controlled — a single chalet on the island accommodates 20-25 visitors per night. An evening program watches females come ashore to nest (8pm-midnight), followed by hatchling release. Permits are RM100+/person and must be applied for months in advance through Sabah Parks. An extraordinary wildlife experience if you can secure a permit."
+  - question: "How do I get to Sandakan from Kota Kinabalu?"
+    answer: "By air: MASwings and AirAsia fly KK to Sandakan (SDK) in 45 minutes, from RM60-100. Several departures daily. By road: express buses from KK to Sandakan take 5-6 hours (RM35-45) on a sealed highway through interior Sabah — scenic but long. Most wildlife-focused travelers fly to save time. Sepilok is 25 minutes from Sandakan airport — arrange accommodation near Sepilok to minimize transport."
+  - question: "Is Sandakan appropriate for independent travelers?"
+    answer: "Yes, but wildlife activities require organized tours or pre-booked lodges. Sepilok (orangutans + sun bears) can be visited independently by taxi. The Kinabatangan River requires booking a lodge and their river guides. Turtle Island requires advance permits. Independent travelers have full access to everything — the wildlife lodges are set up to receive individual travelers, not just tour groups. Pre-booking 4-8 weeks ahead is essential for July-August."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Sandakan is where you come to understand what Borneo actually means. The city itself is functional rather than beautiful — a working port town with a complicated history (it was the wartime capital of British North Borneo and the site of the Sandakan death marches). But 25 kilometres from the city, at Sepilok, semi-wild orangutans swing down to the feeding platform every morning, and 2.5 hours east along the river, the Kinabatangan basin holds more large mammals per square kilometre than almost anywhere on earth.
 
 I've done the Kinabatangan twice. The first time I saw proboscis monkeys at dusk, a crested serpent eagle hunting in the riverside palms, and a saltwater crocodile sliding off a bank at dawn. The second time, on the final morning cruise, a family of Bornean pygmy elephants crossed a river bend 50 metres ahead of the boat. No other wildlife experience I've had in Malaysia comes close.
+
+<ImmersiveBreak videoSrc="/videos/destinations/sandakan-hero.mp4" />
 
 ## What to Do in Sandakan
 

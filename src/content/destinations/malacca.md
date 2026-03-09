@@ -79,6 +79,14 @@ faqItems:
     answer: "Peranakan (also called Straits Chinese or Baba-Nyonya) refers to the descendants of early Chinese settlers who intermarried with local Malay communities from the 15th century onwards. The resulting culture is a unique fusion of Chinese and Malay traditions — Peranakan cuisine blends Chinese cooking techniques with Malay spices, and their distinctive ornate shophouses (the pastel-painted terrace houses throughout Jonker Street) are one of Malacca's defining visual elements."
   - question: "When is the Jonker Street Night Market?"
     answer: "Every Friday and Saturday evening, from around 6pm to midnight. Jonker Street (Jalan Hang Jebat) is closed to traffic and lined with stalls selling cendol, satay celup, popiah, grilled corn, fruit juices, and local crafts. It's the best atmosphere Malacca offers and the main reason to plan your visit around a weekend night."
+  - question: "What is satay celup and where should I eat it in Malacca?"
+    answer: "Satay celup is a Malacca-specific variation of hotpot — raw skewers of meat, seafood, tofu, and vegetables dipped into a communal pot of simmering peanut sauce at your table. Ban Lee Siang near Jonker Street is the most famous location (expect a 20-30 minute queue from 6pm). Capitol Satay in the old town is the other classic. Budget RM25-40/person for a full meal."
+  - question: "What is A Famosa and why is it significant?"
+    answer: "A Famosa (the famous) is the remains of a Portuguese fortress built in 1511 — once the largest Portuguese fortification in Asia, most of it was demolished by the British in 1807. The Porta de Santiago gatehouse that survived is one of the oldest European architectural remains in Southeast Asia. Combined with St Paul's Hill (ruined Dutch church above) and the Stadthuys (Dutch administrative building, 1650), the UNESCO-listed heritage zone tells 500 years of colonial history in one walkable area."
+  - question: "How do I get from Malacca to Singapore?"
+    answer: "Express buses run from Malacca Sentral to Singapore's Queen Street Terminal and Golden Mile Complex (3-4 hours, RM25-40). Several departures daily. Alternatively, take a bus to Johor Bahru (2 hours, RM10) and then the causeway crossing by bus or taxi to Singapore. The direct bus to Singapore is the simpler option if you're going city-to-city."
+  - question: "Is Malacca good for history enthusiasts?"
+    answer: "Exceptional — Malacca has more UNESCO-listed historical significance per square kilometer than almost anywhere in Southeast Asia. The Sultanate Museum explains the 15th-century Malacca Sultanate that made the city one of the world's great trading ports. The Maritime Museum (in a replica Portuguese ship) covers the colonial era. The Baba-Nyonya Heritage Museum (RM16 entry, guided tour only) gives the most immersive insight into Peranakan domestic life."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Malacca is where Malaysian history is most legible. Walk from the river up through the Dutch Square's red-painted Christ Church, past the ruins of A Famosa's Portuguese fort on the hill, through the Baba-Nyonya shophouses of Jonker Street, and you've just traced 500 years of trade, conquest, and cultural fusion in about 20 minutes. Few cities in Southeast Asia pack that much layered history into such a compact and walkable area.
 
 I came to Malacca for a day trip from KL and stayed two nights because I couldn't leave the Peranakan food. The nyonya restaurants along Jonker Street serve a cuisine that's genuinely distinct — Chinese techniques with Malay spices producing dishes like ayam pongteh (braised chicken with fermented soybean paste) and babi pongteh (pork with tamarind) that you won't find anywhere else in quite the same form.
+
+<ImmersiveBreak videoSrc="/videos/destinations/malacca-hero.mp4" />
 
 ## What to Do in Malacca
 

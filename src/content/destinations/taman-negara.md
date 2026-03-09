@@ -79,6 +79,14 @@ faqItems:
     answer: "Minimum 2 nights: enough for the canopy walkway, a guided night walk, and a half-day jungle trek. Three nights is better — adds a wildlife hide overnight or a boat trip to Lata Berkoh rapids. Four or five nights for serious jungle immersion including the multi-day Gunung Tahan climb (9 days summit round trip, extreme). The park rewards time — the jungle takes at least a day to properly absorb."
   - question: "Is Taman Negara safe?"
     answer: "Yes, with standard jungle precautions. The trails near Kuala Tahan are marked and frequently walked. Night walks require a guide — always join an organized walk rather than wandering alone. Leeches are present in the jungle — wear leech socks and check yourself after trail walks. River swimming is possible at Lata Berkoh rapids but ask locals about conditions first. The main risks are getting lost on unmarked trails (don't go off-trail without a guide) and dehydration."
+  - question: "What is the Taman Negara canopy walkway?"
+    answer: "The canopy walkway at Taman Negara is one of the world's longest — 530 metres of suspension bridges connecting platforms up to 45 metres above the forest floor. It gives direct access to the mid-canopy level where most of the bird and small mammal activity occurs. Open 9am-3pm (weekdays) and 9am-noon (weekends). Entry RM5. Arrive at opening time for the best chance of animal activity before the forest heats up and quietens."
+  - question: "What is an Orang Asli blowpipe demonstration?"
+    answer: "Several guesthouses in Kuala Tahan organize Orang Asli (indigenous people) village visits that include blowpipe demonstrations. The Batek are the main Orang Asli group in this region — traditionally semi-nomadic forest foragers whose territory overlaps with the park. The blowpipe (sumpit) uses curare-tipped darts for hunting small birds and squirrels. These visits are organized through accredited guides who have relationships with participating communities — the quality and authenticity varies significantly, so ask your guesthouse for their specific recommendation."
+  - question: "What is the best way to experience the Taman Negara jungle at night?"
+    answer: "The guided night walk (2-3 hours, RM40-60/person from park operators) along the lit forest trail to the canopy walkway area is the most accessible experience. Guides carry powerful torches and know where to find invertebrates, frogs, civets, and porcupines. Wildlife hides overnight (book through PERHILITAN, the park authority — from RM120/person) give the best chance of large mammal sightings at salt licks. Night river spotlighting by boat (RM30-40/person) regularly finds crocodiles, river otters, and waterfowl on the river banks."
+  - question: "Is Taman Negara suitable for families with children?"
+    answer: "Yes, with appropriate planning. The canopy walkway and river boat journeys are child-friendly. Guided jungle walks are suitable for children aged 8+ who can walk 2-3 hours. Night walks are fascinating for older children (10+). The Orang Asli blowpipe experience is a highlight for kids. The park accommodation ranges from basic dorms to comfortable chalets — the Mutiara Taman Negara Resort has the most family-appropriate facilities. Avoid leech-prone wet-season months (November-February) for family visits."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Taman Negara doesn't look like anything you'd encounter in a conservation brochure. There are no orange-and-white warning signs, no helpful infographics. The forest is simply too old and too layered for that kind of framing. Walk into the primary jungle on the trail toward Bumbun Tahan (the main wildlife hide) at 6am, and the forest asserts itself immediately — the insect chorus, the humidity rising off the soil, a hornbill's mechanical wingbeat somewhere in the canopy. This is a forest that was old when dinosaurs were new.
 
 The canopy walkway gives you the aerial perspective. The night walk shows you the forest's nocturnal half. The river boat journey into the park — a 3-hour slide upstream through jungle-hemmed water — sets the context for everything else. I've been twice and both times I didn't see a tiger. I heard things in the forest at night that I couldn't identify. That's still worth it.
+
+<ImmersiveBreak videoSrc="/videos/destinations/taman-negara-hero.mp4" />
 
 ## What to Do in Taman Negara
 

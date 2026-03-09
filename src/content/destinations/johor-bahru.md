@@ -79,6 +79,14 @@ faqItems:
     answer: "For families with children aged 3-12, yes. LEGOLAND Malaysia is the only full LEGOLAND park in Southeast Asia — rides, the LEGO Miniland replica of Southeast Asian cities, and the Water Park (separate ticket). Entrance RM149-189/adult, RM129-159/child. Allow a full day. Located in Medini, 15 minutes from JB city by taxi (RM20-25). Book tickets online for discounts."
   - question: "What is the best food in Johor Bahru?"
     answer: "JB has a distinctive Johorean food culture — Muar-style satay (the satay town of Muar is 1.5 hours west), Laksa Johor (coconut milk laksa with spaghetti-like noodles — distinctive from Penang or KL versions), curry puff from Hiap Joo Bakery, and the full Chinese coffeeshop culture along Jalan Wong Ah Fook. Singaporeans cross the Causeway specifically to eat in JB — the food quality at the price point is genuinely superior to Singapore's equivalent."
+  - question: "Is the new Johor-Singapore Rapid Transit System (RTS) running?"
+    answer: "The Johor Bahru-Singapore Rapid Transit System (RTS Link) connecting JB Sentral to Singapore's Woodlands North MRT is scheduled to open in 2026. When operational, it will provide a 5-minute cross-border journey compared to the current 30-90 minute Causeway bus crossing. Check current status before your visit — opening dates have been revised several times. Once running, it will significantly change the calculus of JB as an accommodation base for Singapore visitors."
+  - question: "What is the JB Old Town and is it worth visiting?"
+    answer: "Johor Bahru's Old Town around Jalan Wong Ah Fook and the waterfront has a small heritage district — the Johor Royal Abu Bakar Museum (RM10 entry, inside the restored Victorian Istana Besar palace), the Grand Palace Mosque at the waterfront, and some preserved 19th-century shophouses. It's modest compared to Penang or Malacca but pleasant for a half-day walk. The view across the Strait to Singapore from the waterfront is interesting for the contrast."
+  - question: "What is Medini in Iskandar Malaysia and why does it matter?"
+    answer: "Medini is a master-planned economic zone 15 minutes from JB city center, home to LEGOLAND Malaysia, Hello Kitty Town, and the Pinewood Iskandar Malaysia Studios. It's part of the larger Iskandar Malaysia development zone where Malaysia has invested heavily to attract Singapore businesses and residents. For travelers, Medini is relevant mainly for the LEGOLAND day trip. Accommodation here can be cheaper than in JB proper and is convenient for an early LEGOLAND start."
+  - question: "Can I easily visit Universal Studios Singapore from Johor Bahru?"
+    answer: "Yes — the Causeway crossing puts you in Woodlands, from which the MRT reaches Resorts World Sentosa (Harbourfront station) in about 45 minutes. Add 30-90 minutes for the Causeway crossing depending on queues. Total transit time: 1.5-2.5 hours each way. The cost difference between staying in JB and Singapore can justify this commute for families — a mid-range hotel in JB costs 40-60% less than a comparable Singapore hotel."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Johor Bahru is in an interesting moment. For years it was the city Singaporeans crossed into for cheap food and Malaysians passed through without stopping. The last few years have brought significant development, art districts, and a food scene that's genuinely its own thing rather than just a budget Singapore. The city hasn't arrived yet, but it's pointed in a good direction.
 
 The practical case for JB is clear: if you're doing Singapore and have any flexibility, basing for two or three nights in JB and day-tripping across the Causeway saves substantial money. A hotel room that costs SGD200-300 in Singapore costs RM120-200 in JB. The Causeway bus is three Malaysian ringgit. A hawker dinner costs RM12 instead of SGD25. The arithmetic is hard to argue with.
+
+<ImmersiveBreak videoSrc="/videos/destinations/johor-bahru-hero.mp4" />
 
 ## What to Do in Johor Bahru
 

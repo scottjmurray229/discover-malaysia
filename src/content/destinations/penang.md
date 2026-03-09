@@ -79,6 +79,14 @@ faqItems:
     answer: "Yes — the UNESCO heritage core is one of the most walkable districts in Southeast Asia. The complete street art trail (Ernest Zacharevic murals + iron rod sculptures) takes about 3-4 hours on foot with stops. Carry water and start early before 9am to beat the heat and tour groups."
   - question: "What is the best hawker food in Penang?"
     answer: "Penang char kway teow (Lorong Selamat near Gurney Drive), assam laksa (Ayer Itam market), Penang hokkien mee (prawn noodle soup), cendol (roadside stalls near Jalan Penang), and nasi kandar (Nasi Kandar Pelita in Batu Ferringhi). For a full day eating guide, budget RM50-80 and work through hawker centres methodically."
+  - question: "What is Penang assam laksa and why is it unique?"
+    answer: "Penang assam laksa is a sour, tamarind-based noodle soup with mackerel fish flakes, pineapple, cucumber, torch ginger flower, and prawn paste — a Peranakan flavour profile completely unlike the coconut milk laksa found elsewhere in Malaysia. CNN ranked it among the world's 50 best foods. The benchmark version is at Ayer Itam market near Kek Lok Si Temple. RM5-8/bowl."
+  - question: "How do I get from Kuala Lumpur to Penang?"
+    answer: "ETS Gold train from KL Sentral to Butterworth takes 3.5-4 hours (from RM85), then a 10-minute pedestrian ferry to George Town Jetty (RM1.20). Flight: KL to Penang Airport (PEN) is 1 hour from RM60 on AirAsia. Bus: direct express coaches KL to Georgetown 4-5 hours (RM35-50). The train-ferry combination is the most enjoyable option."
+  - question: "What is the Penang Hill funicular and is it worth visiting?"
+    answer: "The Penang Hill Funicular climbs 833 meters in 4 minutes at a steep gradient, with views over Georgetown, the Penang Strait, and mainland Malaysia. At the top: cooler temperatures (typically 5°C below sea level), walking trails, a small mosque, and the Penang Hill Observatory. Return ticket RM30/adult. Book online or arrive early — weekend queues can be 30-45 minutes."
+  - question: "What is the Peranakan (Nyonya) culture in Penang?"
+    answer: "Peranakan culture emerged from the intermarriage of early Chinese traders with local Malay women, producing a unique cultural synthesis — Nyonya cuisine (mixing Chinese and Malay flavors), distinctive beaded slippers and embroidered clothing, and elaborate wedding traditions. The Pinang Peranakan Mansion (RM25 entry) shows a complete recreation of a wealthy 19th-century Peranakan household. Penang has the largest and most vibrant surviving Peranakan community in Malaysia."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Penang rewards the traveler who comes for the food and stays for everything else. The food is the entry point — Penang char kway teow is legitimately different here, the assam laksa at Ayer Itam sets a benchmark that every other version in Malaysia is measured against, and the cendol under a roadside awning on a hot afternoon is one of the small perfect things in travel. But once you start walking the heritage streets of George Town, you realize you're in one of the most layered and interesting cities in Southeast Asia.
 
 George Town is a UNESCO World Heritage Site because it's one of the finest surviving examples of a British Straits Settlement city — pre-war shophouses, clan temples, mosques, Hindu temples, and colonial administrative buildings all within walking distance, all still functioning, none of it a theme park replica. The Ernest Zacharevic street art murals are what got Penang on the Instagram radar, and they're genuinely good, but they're the surface of something deeper.
+
+<ImmersiveBreak videoSrc="/videos/destinations/penang-hero.mp4" />
 
 ## What to Do in Penang
 

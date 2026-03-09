@@ -79,6 +79,14 @@ faqItems:
     answer: "The Show Caves circuit (Deer Cave + Lang Cave: RM30/person, guided) and Wind Cave + Clearwater Cave (RM30/person, guided, includes longboat) are the standard tours. Both are half-day experiences. The Sarawak Chamber (world's largest cave) requires a separate permit (RM300-500/person) due to its difficulty and limited access. The Pinnacles (RM250-300/person, 2 days) involves a longboat and steep jungle climb to limestone spires. Headhunters Trail (3-day jungle trek, RM400+/person) is the most challenging option."
   - question: "What is the bat exodus at Mulu?"
     answer: "Every evening at dusk (usually 5:30-7pm), an estimated 2-3 million wrinkle-lipped free-tailed bats pour out of Deer Cave in a continuous spiraling column that can extend for hundreds of metres. A Peregrine falcon or Bat Hawk often hunts at the cave mouth, diving through the column. The spiral formation (bats circling to gain altitude and disorient predators) is the defining image of Mulu. The viewing platform at the Deer Cave exit is the standard vantage point — free once inside the park. Allow 1-1.5 hours of waiting as the colony emerges gradually."
+  - question: "How many days do you need at Mulu National Park?"
+    answer: "Minimum 3 days: Day 1 for Show Caves (Deer Cave + Lang Cave in the afternoon plus the bat exodus). Day 2 for the Wind Cave + Clearwater Cave river longboat tour. Day 3 for the rainforest canopy walkway and surrounding trails. Add a 4th day for the Pinnacles or Headhunters Trail if you're a serious trekker. The park accommodation fills during peak season (July-August) — book 3-6 months ahead."
+  - question: "Where do I stay at Mulu National Park?"
+    answer: "The Mulu Marriott Resort (park-boundary location, RM500-1,000/night) is the most comfortable option and has a swimming pool — practical given the humidity. The Park Authority's own chalets and hostel-style accommodation run RM60-200/night and are adequate. Book through the Mulu National Park website (mulupark.com) regardless of accommodation type — everything goes through the official booking system and cave permits sell out."
+  - question: "Is Mulu suitable for non-cavers and non-trekkers?"
+    answer: "Yes — the Show Caves (Deer Cave, Lang Cave, Wind Cave, Clearwater Cave) are all accessible on paved walkways with no climbing required. The bat exodus is the single most spectacular wildlife event in Malaysia and requires nothing more than sitting at a viewing platform. The canopy walkway is a gentle forest walk. Mulu's extraordinary natural spectacles are accessible to most fitness levels — the Pinnacles and Headhunters Trail are genuinely challenging but optional."
+  - question: "What wildlife can I see in Mulu beyond the bats?"
+    answer: "Mulu is a Borneo rainforest park — expect hornbills (eight species, including the helmeted hornbill), 270 bird species total, long-tailed macaques along the river trails, monitor lizards, bearded pigs, and several deer species. Rare endemic species include the cave racer snake (which hunts bats at cave entrances), cave swiftlets, and over 200 cave-specific invertebrate species. Night walks on the park trails regularly produce flying squirrels, owls, and tree frogs."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Mulu resets your sense of scale. Walk into the Deer Cave — the world's largest cave passage accessible to tourists — and the limestone ceiling disappears somewhere above in the darkness, 120 metres overhead. At the far end, the cave opens onto a jungle amphitheatre and a bat-watching platform. At dusk, 3 million bats pour out in a spiraling column that takes 45 minutes to fully emerge, with a Bat Hawk cutting passes through the colony at the cave mouth. It's one of the most remarkable wildlife spectacles on earth, and it happens every single evening.
 
 The rest of the park is commensurate — the Sarawak Chamber (world's largest natural cave chamber), the Clearwater Cave system (the longest cave system in Asia), and the Pinnacles (a field of 45-metre limestone spires rising from the jungle) are each extraordinary in their own right. Mulu is expensive, remote, and difficult to get to. It's also unmissable.
+
+<ImmersiveBreak videoSrc="/videos/destinations/mulu-hero.mp4" />
 
 ## What to Do in Mulu
 

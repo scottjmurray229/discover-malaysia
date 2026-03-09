@@ -79,6 +79,14 @@ faqItems:
     answer: "Two days covers KK city (waterfront market, Gaya Street Sunday market, Signal Hill, state museum) plus a day trip to one marine park island. Three to four days if combining with a Kinabalu Park day trip (non-summit hike through the park, botanically extraordinary). Five to seven days for the full Kinabalu summit experience including the overnight climb."
   - question: "What should I eat in Kota Kinabalu?"
     answer: "The Filipino Market night seafood is the unmissable KK experience — fresh seafood displayed on ice, chosen by you, grilled or steamed to order. Hinava (raw fish marinated in lime and rice wine) is Sabah's signature dish. Ngiu Chap (Sabanese beef noodle soup) and Tuaran Mee (fried noodles with egg and meat from Tuaran town, 30 minutes north) are the local breakfast favorites."
+  - question: "What is the best sunset viewpoint in Kota Kinabalu?"
+    answer: "KK has arguably the best urban sunset in Southeast Asia — watching the sun drop into the South China Sea from the waterfront esplanade, with Tunku Abdul Rahman islands as silhouettes in the foreground. Signal Hill Observatory Park (15 minutes walk uphill from the city center) gives an elevated view over the islands at sunset for free. The floating mosque (Masjid Bandaraya, 5 minutes from center) reflects the sunset light on the water."
+  - question: "What is the Gaya Street Sunday Market in Kota Kinabalu?"
+    answer: "The Gaya Street Sunday Market runs every Sunday morning from about 6am until noon — a sprawling street market selling tribal crafts (beaded Murut and Kadazan-Dusun jewelry, woven baskets), local produce (wild boar, jungle vegetables, local honey), street food, and antiques. It's the most authentic market experience in KK and worth organizing a Sunday arrival around. Arrive before 9am for the best variety and atmosphere."
+  - question: "Can I see proboscis monkeys near Kota Kinabalu?"
+    answer: "Yes — Klias Wetlands (2 hours south of KK) is the most accessible location for proboscis monkey sightings. Evening river cruises at around 5-7pm reliably encounter proboscis monkeys feeding in the riverside trees at sunset, plus firefly displays after dark. Tours from KK run RM120-180/person including transport and a river guide. Alternatively, Labuk Bay Proboscis Monkey Sanctuary near Sandakan offers more reliable sightings at an eco-feeding station."
+  - question: "What is Sabah and how is it different from Peninsular Malaysia?"
+    answer: "Sabah is the northernmost state of Malaysian Borneo — a different world from Peninsular Malaysia geographically and culturally. The capital is Kota Kinabalu. Sabah has 30+ indigenous ethnic groups (the Kadazan-Dusun are the largest), Borneo rainforest with pygmy elephants and orangutans, and a distinct Bornean cultural identity. The food, the languages, the wildlife, and the landscape are all fundamentally different from mainland Malaysia."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Kota Kinabalu operates as Borneo's most liveable city — compact enough to walk, open enough to breathe, and surrounded by things that make it a genuinely exceptional base. The marine park islands are 20 minutes by speedboat from the city waterfront. The most dramatic mountain in Southeast Asia is two hours by minivan. The sunsets here are reliably spectacular, and the best place to watch them is from a plastic chair at the Filipino Market with fresh prawns on the grill and a cold Sabah Anchor beer.
 
 I came through KK three times — once just passing through, once for Kinabalu Park, and once properly, with two nights in the city and a proper go at the Sunday market, the waterfront, and the state museum. The third time was the one that made the place stick. KK rewards a slower pace than most Borneo travelers give it.
+
+<ImmersiveBreak videoSrc="/videos/destinations/kota-kinabalu-hero.mp4" />
 
 ## What to Do in Kota Kinabalu
 

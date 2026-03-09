@@ -79,6 +79,14 @@ faqItems:
     answer: "The BOH Tea Plantation tour and café (free entry, tea and scones from RM15) is the unmissable experience. The Mossy Forest on Gunung Brinchang summit (accessed by road, 2,032m) is genuinely otherworldly — trees draped in moss and cloud forest plants. Strawberry farm visits (pick your own RM25-40/punnet) are popular. The night market in Brinchang on Saturdays has excellent local food."
   - question: "Is Cameron Highlands cold?"
     answer: "By Malaysian standards, yes. Daytime temperatures range from 15-25°C — you'll want a light jacket. Nights especially December and January can drop to 10-13°C. Early morning mist is common throughout the year. Pack layers — it's a shock after the lowland heat and the relief is immediate."
+  - question: "What is the BOH Tea Plantation and can I visit it?"
+    answer: "BOH (Best Of Highlands) is Malaysia's largest tea producer, founded in 1929. The Sungai Palas estate near Brinchang is open to visitors (Tuesday-Sunday, 9am-4:30pm, free entry). A self-guided walkway through the terraced tea rows with mountain views takes 45 minutes; the hilltop café serves fresh-brewed BOH tea with scones (RM12-18). It's the definitive Cameron Highlands experience and genuinely beautiful in morning light."
+  - question: "Is Cameron Highlands suitable for hiking?"
+    answer: "Yes — several forest trails are accessible from Tanah Rata and Brinchang. Trail 9A (Parit Falls, 2 hours return) and Trail 10 (Robinson Falls, 1 hour return) are the most popular and clearly marked. The Gunung Brinchang summit road reaches 2,032m through cloud forest — the mossy forest at the top is extraordinary. Wear proper shoes; trails can be muddy. The old colonial bungalow route through the tea estates is a gentler alternative."
+  - question: "What food is Cameron Highlands known for?"
+    answer: "Steamboat (Chinese hotpot) with fresh highland vegetables is the local specialty — restaurants throughout Tanah Rata run steamboat sets for RM25-40/person. Strawberries (eaten fresh, in smoothies, or as ice cream) are the tourist trademark. Local honey from native bees, sold at roadside stalls, is genuinely excellent and worth bringing home. The night market in Brinchang on Saturdays has excellent corn, sweet potatoes, and highland vegetable dishes."
+  - question: "What is the best base for Cameron Highlands — Tanah Rata or Brinchang?"
+    answer: "Tanah Rata is the main town — restaurants, bus terminal, guesthouses, and the most activity. It's the default base for most visitors and has easy access to the main trails. Brinchang (15 minutes north) is quieter and closer to the BOH plantation and Gunung Brinchang. Staying in Tanah Rata and day-tripping to Brinchang makes the most practical sense unless you specifically want a more resort-like atmosphere."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Cameron Highlands is where Malaysia goes to remember what cold feels like. At 1,500 metres, the air drops ten degrees from the coastal lowlands, the mornings arrive in mist, and the rolling contours of BOH tea estates stretch to the ridge line in every direction. After a week on hot beaches or the heat-soaked streets of KL, the Highlands hit differently.
 
 I first came on a bus from Ipoh on a whim and spent two days doing nothing important — a long walk through the mossy forest on Gunung Brinchang, afternoon tea and scones at the BOH hilltop café, and a proper night's sleep under a blanket for the first time in three weeks. The strawberry farms are a bit of a tourist routine but the jam-making workshop was genuinely fun. The Highlands are for decompression.
+
+<ImmersiveBreak videoSrc="/videos/destinations/cameron-highlands-hero.mp4" />
 
 ## What to Do in Cameron Highlands
 

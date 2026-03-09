@@ -79,6 +79,14 @@ faqItems:
     answer: "Bukit Bintang and KLCC are the prime areas for first-time visitors — walkable to Petronas Towers, excellent transport links, and surrounded by the best food. Chow Kit suits budget travelers wanting local character over convenience. Bangsar is the upscale residential option popular with expats."
   - question: "Is Kuala Lumpur safe?"
     answer: "Generally safe for tourists. Petty theft (phone snatching, bag grabs) is the main risk — be aware in Chinatown and Bukit Bintang. Don't carry expensive cameras carelessly. The main tourist areas are well-patrolled and safe at night. Grab is safer than flagging street taxis."
+  - question: "What is the best way to get from Kuala Lumpur to Penang or Malacca?"
+    answer: "To Penang: ETS Gold train from KL Sentral to Butterworth takes 3.5-4 hours (from RM85), then a 10-minute ferry to George Town. To Malacca: express bus from KL TBS (Bandar Tasik Selatan) to Malacca Sentral takes 2 hours (RM10-15). Both are easy day trips or overnight options. Book trains in advance on the KTM website — popular weekend trains sell out."
+  - question: "What is nasi lemak and where should I eat it in KL?"
+    answer: "Nasi lemak is Malaysia's national dish — coconut rice cooked in pandan leaf, served with sambal (spicy chili paste), fried crispy anchovies, peanuts, cucumber, and half a hard-boiled egg. Village Park in Damansara Uptown is widely considered the best in KL and worth the queue (RM10-15/plate). Breakfast food at any mamak stall is also excellent and costs RM3-6."
+  - question: "What is the Batu Caves experience like and how do I get there?"
+    answer: "Batu Caves is a limestone hill temple complex 13km north of KL — 272 steep steps to the main cave shrine, with a 42-metre golden Lord Murugan statue at the base. The main cave interior has natural light shafts, Hindu shrines, and nesting swifts. Free entry to the cave; RM1 to climb the stairs. Take the KTM Komuter from KL Sentral to Batu Caves station (30 minutes, RM2.60). Go before 11am on weekdays."
+  - question: "Is the KLIA Ekspres train worth taking from the airport?"
+    answer: "Yes — at RM55 for 28 minutes to KL Sentral, it's the fastest and most reliable option. The alternative KLIA Transit stops at more stations (55 minutes, RM35) and is cheaper but slower. Grab from the airport costs RM65-90 to KLCC but takes 45-90 minutes depending on traffic. For groups of 3-4, Grab can be competitive. The Express is the default recommendation for solo and couple travelers."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Kuala Lumpur doesn't ease you in gently. The Petronas Towers appear before you've even cleared the expressway — two silver rockets punching into a sky that's always somewhere between blue and grey. The city is big, loud, and full of ambition, and it makes sense immediately in a way that many Southeast Asian capitals don't. The MRT works. The food is extraordinary. The distances are manageable with Grab. And the landmarks are genuinely spectacular.
 
 I first came to KL as a transit stop and ended up staying three days because I couldn't leave the food. That was the education. KL is one of the world's great eating cities — not in the Michelin-star way but in the hawker-centre, mamak-stall, kopitiam way that actually matters when you're travelling every day and eating every meal out.
+
+<ImmersiveBreak videoSrc="/videos/destinations/kuala-lumpur-hero.mp4" />
 
 ## What to Do in Kuala Lumpur
 

@@ -79,6 +79,14 @@ faqItems:
     answer: "Yes — sea turtles (green and hawksbill) are sighted regularly around both islands year-round. Turtle Beach on Besar (accessible by water taxi from Kecil, RM15 one way) is the most reliable snorkeling spot. Turtles often surface near the coral gardens around Kecil as well. The rule is observe from 3 metres distance — no touching, no chasing. Most turtle encounters while snorkeling are spontaneous rather than arranged."
   - question: "Is diving good at the Perhentian Islands?"
     answer: "Excellent. The Perhentians have some of the best diving in Malaysia outside of Sipadan in Sabah. Top sites: Shark Point (white-tip and black-tip reef sharks in the shallows), Sugar Wreck (a steel wreck at 20m covered in coral), Tiga Ruang (coral walls with schooling barracuda). Visibility peaks at 15-20m in June-August. PADI Open Water course from RM850-1,100. Day dives from RM130-180/person."
+  - question: "How do I get to the Perhentian Islands?"
+    answer: "Fly or take the train to Kota Bharu (the nearest major city), then bus or taxi to Kuala Besut jetty (1 hour from KB). Speedboats depart Kuala Besut to both islands (30-45 minutes, RM35-45 each way). Alternatively, bus from KL (7-8 hours, RM40-50) directly to Kuala Besut. The most convenient routing from KL is the direct tourist coach to Kuala Besut (from RM60-80 including the boat). Book early for July-August departures."
+  - question: "Is there WiFi or phone signal on the Perhentian Islands?"
+    answer: "Limited and unreliable. Kecil has better connectivity than Besar, but neither island has strong signal. Some resorts offer WiFi of varying quality. Come prepared to disconnect — bring downloaded content (books, movies, music) and tell family members contact will be intermittent. The disconnection is, for most visitors, the point. Bring enough cash in MYR for the full stay as ATMs don't exist on the islands."
+  - question: "What should I pack for the Perhentian Islands?"
+    answer: "Reef-safe sunscreen (chemical sunscreen is harmful to the coral and some resorts and tour operators enforce this), rash guard for snorkeling, fins (rentals available but having your own is preferable), cash in MYR for the entire stay, a dry bag for boat transfers, light clothing, and insect repellent for evenings. Electricity can be intermittent on some resorts — bring a power bank. Medicines and specific brands are not available; bring everything you might need."
+  - question: "Are the Perhentian Islands worth it compared to Redang or Tioman?"
+    answer: "The Perhentians have better snorkeling and marine wildlife than Tioman and a younger backpacker social scene. Redang has more spectacular clear water but less marine life diversity and is pricier. Tioman is larger with more interior jungle but the dive sites are more spread out. For first-time island visitors who want combination of social life, snorkeling, and diving at a backpacker price point, the Perhentians are the best choice in Malaysia."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 The water at the Perhentian Islands is the colour people describe Thailand islands looking like but often don't quite live up to — an improbable turquoise-to-deep-blue transition over coral that starts in knee-deep water and drops to 20 metres of visibility. I put my snorkel mask in and there was a green turtle feeding three metres below me, not bothered by the shadow I cast.
 
 The Perhentians are less famous than the Thai islands and less developed than Langkawi, which is most of their appeal. Long Beach on Kecil has a proper backpacker scene — cheap chalets, dive schools operating out of every second building, and a beach bar serving cold Tigers to people comparing dive logs. Besar across the channel is calmer, with the more reliable turtle snorkeling and more space. They're 15 minutes apart by speedboat.
+
+<ImmersiveBreak videoSrc="/videos/destinations/perhentian-islands-hero.mp4" />
 
 ## What to Do in Perhentian Islands
 

@@ -79,6 +79,14 @@ faqItems:
     answer: "Air Batang (ABC) is the most social — the widest choice of guesthouses, several good dive operators, and a beach bar atmosphere. Salang is the dedicated diver's village with the Salang Trust coral restoration project and the best reef access. Juara (east coast) is the quiet escape — accessed by jungle trek or water taxi, with the island's longest empty beach and a sea turtle nesting site. Tekek is the main transport hub but not the most scenic."
   - question: "Can I snorkel at Tioman without diving?"
     answer: "Yes — the snorkeling is excellent, particularly off Salang and Monkey Bay (a 30-minute walk north of Tekek along the jungle path). Snorkel gear rental RM15-20/day from most guesthouses. Coral starts very close to shore at Salang. Coral Island (Pulau Tulai) 20 minutes by water taxi (RM15-20 each way) from Salang has the most pristine snorkeling."
+  - question: "How do I get to Tioman Island?"
+    answer: "Ferry from Mersing, Johor (2.5-3 hours, RM50-70 each way) or from Tanjung Gemok, Pahang (1.5-2 hours, RM50-70). The Mersing ferry is more frequent with multiple departures daily in season. Bus connections to Mersing from KL TBS take 3.5-4 hours (RM35-45). Flights from Subang Airport (SZB) to Tioman Airport (TOD) are no longer operating as of 2023 — all access is by ferry. The ferry schedule is tide-dependent — confirm times with your accommodation."
+  - question: "What wildlife is on Tioman Island?"
+    answer: "Tioman's jungle interior is home to long-tailed macaques (abundant everywhere — don't feed them), monitor lizards, wild boar, mouse deer, and flying foxes. The beach areas have monitor lizards and sea monitor lizards. Juara Beach is a sea turtle nesting site — green turtles nest June to September, and Juara Turtle Project runs nesting monitoring programs that visitors can join. Offshore: black-tip reef sharks in the shallows around Coral Island, sea turtles near Salang reef, and Napoleon wrasse at dive sites."
+  - question: "Is Tioman Island good for hiking?"
+    answer: "Good for short hikes — the jungle trail between Tekek and Air Batang (45 minutes, requires guide or map), the Tekek-Juara cross-island trek (2 hours one way through primary rainforest), and the viewpoint walk above ABC village. The interior forest is dense primary jungle with waterfalls accessible from Kampung Juara. Hire a guide for anything beyond the Tekek-ABC path — the interior trails are not marked and mobile signal is absent."
+  - question: "What does Tioman Island cost per day?"
+    answer: "Budget: RM100-150/day (basic chalet accommodation, local meals, snorkel rental). Mid-range: RM200-350/day (better beach resort, restaurant meals, a dive). Diving adds RM130-180/dive or RM850-1,200 for a full Open Water course. The island is good value by Malaysian standards — food at the beach warungs runs RM15-30 for a meal. Bring sufficient cash from the mainland; ATMs do not exist on the island and some guesthouses are cash only."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Tioman looks like the kind of island that exists in the imagination before you've visited Malaysia — steep jungle-covered volcanic peaks plunging into a South China Sea that runs from turquoise near shore to deep blue beyond the reef. Time Magazine called it one of the world's most beautiful islands in 1970. The tourism hasn't overdeveloped it since. Five main villages, connected by water taxis and one jungle trail, with coral that drops away from shore in water clear enough to see the bottom at 15 metres without a mask.
 
 I came for three days and stayed a week. The diving on Tioman is genuinely different from most Southeast Asian dive sites — the hard coral coverage is exceptional for a dive site accessible by day-trippers, and the Salang reef has a diversity of reef fish that I kept stopping to check against the ID card. The jungle trail from Tekek to Juara over the mountains is one of the best half-day island hikes in Malaysia. And Juara beach, when I arrived over the ridge, was almost empty.
+
+<ImmersiveBreak videoSrc="/videos/destinations/tioman-island-hero.mp4" />
 
 ## What to Do in Tioman Island
 

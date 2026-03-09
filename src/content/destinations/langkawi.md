@@ -79,6 +79,14 @@ faqItems:
     answer: "Excellent for families. Pantai Cenang beach is calm and family-friendly. The cable car and Sky Bridge are genuinely exciting for children. Island hopping tours to Pulau Dayang Bunting (freshwater lake island) and the eagle feeding at Singa Besar are memorable. Water parks and the Underwater World aquarium (RM45/adult) provide fallback options on rainy days."
   - question: "How do I get from Penang to Langkawi?"
     answer: "High-speed ferry from Penang Swettenham Pier takes 2.5 hours (RM70 one-way, RM120 return). Ferries run twice daily in each direction — book in advance during peak season. Alternatively, fly from Penang International to Langkawi (35 minutes, from RM80 one-way on AirAsia)."
+  - question: "What is the Langkawi Cable Car and is it worth it?"
+    answer: "The Langkawi Cable Car (Skycab) climbs Mat Cincang mountain — Malaysia's steepest gondola at 42 degrees — to 708 meters elevation. The Sky Bridge at the top is a curved pedestrian bridge with views over the island and Thailand in the distance on clear days. Entry RM55/adult for cable car + Sky Bridge. Worth it on clear mornings; the mountain frequently clouds over by early afternoon. Book online to skip queues."
+  - question: "Is Langkawi safe for swimming?"
+    answer: "Yes — Pantai Cenang and Pantai Tengah have calm, safe waters year-round during dry season (November to April). Some beaches on the north coast have jellyfish seasonally (March-April). Check with your hotel before entering lesser-known beaches. The east side of the island faces the Strait of Malacca — generally calm and safe."
+  - question: "What is island hopping in Langkawi like?"
+    answer: "The standard 4-island hopping tour (RM40-60/person) covers Pulau Dayang Bunting (freshwater lake in a limestone cave formation), Pulau Singa Besar (Malaysian eagle feeding performance), and a snorkeling stop at the coral gardens around Pulau Beras Basah. Boats depart Kuah Jetty from 9am. The snorkeling is modest but the limestone karst scenery is excellent. Private boat charters (RM200-400/day) allow more flexibility."
+  - question: "Can I do a day trip to Thailand from Langkawi?"
+    answer: "Yes — Langkawi's position near the Thai border makes Satun (Thai border town) and the Tarutao National Park islands accessible by boat. Some operators run day trips to Koh Lipe from Langkawi (1 hour each way). Check visa requirements for your nationality — some nationalities cannot enter Thailand at unofficial crossings. Seasonal — services typically available November to April only."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Langkawi works differently from most Malaysian island destinations. Where the Perhentians and Tioman reward the effort with world-class snorkeling and diving, Langkawi rewards the traveler who wants everything in one place — dramatic cable cars over jungle-covered mountains, island hopping through limestone karst formations, white sand beaches, duty-free prices, and the kind of resort infrastructure that makes things easy. It's Malaysia's most accessible island, and for families and first-timers, that's the point.
 
 I first came for a long weekend and spent most of my time on the cable car, watching eagles circle the limestone outcrops, and eating grilled seafood on Cenang Beach as the sun went down. The duty-free thing is real — a decent bottle of whisky costs less than a hawker meal on the mainland, which tells you something about the economics here.
+
+<ImmersiveBreak videoSrc="/videos/destinations/langkawi-hero.mp4" />
 
 ## What to Do in Langkawi
 

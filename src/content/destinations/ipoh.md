@@ -79,6 +79,14 @@ faqItems:
     answer: "One day covers the highlights — a kopitiam breakfast in Old Town, the cave temples in the afternoon, and a walk through the heritage shophouse district and murals. Two days allows a full eat-your-way-through experience: morning dim sum, beansprout chicken rice for lunch, the cave temples, evening at a second kopitiam for white coffee and kaya toast, and the Old Town street art without rushing. Ipoh makes an excellent overnight stop between KL and Penang."
   - question: "Is Ipoh worth visiting?"
     answer: "Absolutely. Ipoh is consistently rated one of the most underrated cities in Southeast Asia — a smaller, quieter, and more authentic version of Penang's heritage city experience, with food that rivals Penang's for quality (different dishes, not the same food). The train journey from KL is quick and scenic. Most visitors regret not staying longer."
+  - question: "What are Ipoh's cave temples and which should I visit?"
+    answer: "Ipoh's cave temples are built into dramatic limestone formations surrounding the city. Perak Tong (5km north) is a large Buddhist temple complex with a 40-metre-high golden Buddha inside a limestone cave — 385 steps up the hillside give city views. Sam Poh Tong (3km south) has a tortoise pond and a serene central cave garden. Both are free to enter. A bicycle or Grab ride is necessary — they're spread across different sides of the city."
+  - question: "What is the Ipoh Old Town street art scene like?"
+    answer: "Following Penang's success, Ipoh commissioned its own street art installation — Louis Gan's interpretations of Old Ipoh life on the heritage shophouse walls of Old Town. The most celebrated piece is 'Childhood in a Town' on Jalan Leech. Unlike Penang's international artist murals, Ipoh's art is locally produced and more narrative in style. The full trail takes 1.5-2 hours on foot and is genuinely good."
+  - question: "How do I get to Ipoh from Kuala Lumpur?"
+    answer: "ETS Platinum or Gold train from KL Sentral to Ipoh takes 2-2.5 hours (from RM53). Multiple departures daily from early morning. Bus services also run from KL TBS (3-3.5 hours, RM20-25) but the train is faster and more comfortable. Ipoh station (the old colonial building from 1935) is itself worth photographing — referred to by locals as the 'Taj Mahal of Ipoh.'"
+  - question: "What other food should I try in Ipoh besides white coffee and beansprout chicken?"
+    answer: "Dim sum at Foh San or Ming Court (queue from 7am, gone by 10am) is exceptional. Kaya toast at any kopitiam — thick local bread with coconut egg jam. Curry mee (yellow noodle soup with coconut milk broth, cockles, pork, and chili). Tau fu fah (silken tofu pudding with palm sugar syrup from street carts). Ipoh is the only Malaysian city where you can legitimately spend 4 meals a day eating at peak quality."
 lastVerified: 2026-03-01
 contentStatus: published
 draft: false
@@ -88,6 +96,8 @@ fmContentType: destination
 Ipoh is the Malaysian city that most visitors pass through on the way to Penang and then immediately wish they'd stopped at. It has the bones of a great heritage city — tin-boom-era shophouses, colonial buildings of genuine grandeur, limestone hills studded with cave temples — and a food culture that Penang Malaysians grudgingly acknowledge is excellent, even if they'd never say so out loud.
 
 The white coffee here is different from the Old Town White Coffee chain, and the difference is the same as the difference between a real kopitiam and a Starbucks. I sat at a marble-topped table at Sin Yoon Loong at 8am with a coffee that cost RM2.50 and soft-boiled eggs with kaya toast, watching the shophouse ceiling fans turn and thinking this was exactly right.
+
+<ImmersiveBreak videoSrc="/videos/destinations/ipoh-hero.mp4" />
 
 ## What to Do in Ipoh
 
