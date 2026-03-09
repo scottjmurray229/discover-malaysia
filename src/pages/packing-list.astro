@@ -66,19 +66,6 @@ const itemListSchema = {
   })),
 };
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: MALAYSIA_PACKING_FAQS.map(faq => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.answer,
-    },
-  })),
-};
-
 const breadcrumbs = [
   { name: 'Home', url: '/' },
   { name: 'Packing List', url: '/packing-list/' },
@@ -93,7 +80,6 @@ const breadcrumbs = [
   <!-- Inline schema (HowTo + ItemList + FAQPage) -->
   <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
-  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
   <!-- BreadcrumbList schema -->
   <script type="application/ld+json" set:html={JSON.stringify({
