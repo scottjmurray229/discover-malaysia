@@ -3,6 +3,7 @@ title: Tioman Island
 description: "Jungle-covered volcanic island in the South China Sea — one of Asia's top dive destinations, with pristine coral, empty beaches between villages, and no resort sprawl."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Juara Beach jungle-backed bay and powder white sand, Tioman Island, Malaysia"
 tagline: "Borneo Coral and Jungle Trails on Malaysia's Wildest Island"
 region: west-malaysia
 bestMonths:

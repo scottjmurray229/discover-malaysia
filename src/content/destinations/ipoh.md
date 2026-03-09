@@ -3,6 +3,7 @@ title: Ipoh
 description: "Malaysia's most underrated food city — limestone cave temples, art deco colonial architecture, and the best white coffee, dim sum, and bean sprout chicken in the country."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Limestone cave temples and colonial railway station of Ipoh, Perak, Malaysia"
 tagline: "Malaysia's Sleepiest Food City and Its Best White Coffee"
 region: west-malaysia
 bestMonths:

@@ -3,6 +3,7 @@ title: Sandakan
 description: "The wildlife capital of Borneo — base for Sepilok orangutans, the Kinabatangan River, proboscis monkeys, pygmy elephants, and the Sun Bear Conservation Centre."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Sepilok Orangutan Rehabilitation Centre boardwalk, Sabah, Malaysia"
 tagline: "Orangutans, Pygmy Elephants, and Borneo's Great Wildlife River"
 region: east-malaysia
 bestMonths:

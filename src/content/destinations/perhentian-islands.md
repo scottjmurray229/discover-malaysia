@@ -3,6 +3,7 @@ title: Perhentian Islands
 description: "The clearest water in Malaysia, Thailand-quality coral reefs, and sea turtles year-round — the Perhentian Islands are Malaysia's best-kept island secret."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Crystal-clear sea and jungle-hut bungalows at Perhentian Islands, Malaysia"
 tagline: "Crystal Water, Sea Turtles, and Malaysia's Best Snorkeling"
 region: west-malaysia
 bestMonths:

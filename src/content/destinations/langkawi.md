@@ -3,6 +3,7 @@ title: Langkawi
 description: "Duty-free island archipelago with a dramatic cable car, mangrove kayaking, and the best island hopping circuit on Malaysia's west coast."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Eagle Square and mangrove-fringed Datai Bay, Langkawi, Malaysia"
 tagline: "Duty-Free Islands, Cable Car, and West Coast Beaches"
 region: west-malaysia
 bestMonths:

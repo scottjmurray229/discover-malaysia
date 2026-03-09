@@ -3,6 +3,7 @@ title: Malacca
 description: "Malaysia's most storied port city — 500 years of Portuguese, Dutch, and British colonial history packed into a UNESCO-listed riverside district you can walk in a day."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Baba Nyonya heritage houses on Heeren Street and Jonker Walk night market, Melaka, Malaysia"
 tagline: "500 Years of Colonial History on Malaysia's Heritage Coast"
 region: west-malaysia
 bestMonths:

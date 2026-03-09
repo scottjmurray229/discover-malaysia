@@ -3,6 +3,7 @@ title: Kota Kinabalu
 description: "Sabah's capital and the gateway to Borneo — base for Mount Kinabalu, island-hopping the Tunku Abdul Rahman Marine Park, and the best sunset seafood in Malaysia."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Mount Kinabalu granite summit above the clouds, Sabah, Malaysian Borneo"
 tagline: "Gateway to Borneo — Kinabalu, Islands, and Sunset Seafood"
 region: east-malaysia
 bestMonths:

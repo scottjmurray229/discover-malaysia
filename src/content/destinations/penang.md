@@ -3,6 +3,7 @@ title: Penang
 description: "Malaysia's food capital and a UNESCO World Heritage city — George Town's heritage streets, Penang Hill, and the world's best hawker food all on one island."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Penang Hill funicular and sea view over George Town, Penang, Malaysia"
 tagline: "UNESCO Streets, Clan Houses, and Malaysia's Best Food"
 region: west-malaysia
 bestMonths:

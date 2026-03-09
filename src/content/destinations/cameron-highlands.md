@@ -3,6 +3,7 @@ title: Cameron Highlands
 description: "Malaysia's hill station escape at 1,500m — rolling tea plantations, strawberry farms, cool misty mornings, and mossy forest trails above the jungle canopy."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Boh tea plantation terraced rows of green tea bushes, Cameron Highlands, Malaysia"
 tagline: "Tea Plantations and Cool Air at 1,500 Metres"
 region: west-malaysia
 bestMonths:

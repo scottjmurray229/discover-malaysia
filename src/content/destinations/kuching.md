@@ -3,6 +3,7 @@ title: Kuching
 description: "Sarawak's charming capital — a walkable riverside city with the best museum in Borneo, semi-wild orangutans, and a food scene shaped by Iban, Chinese, and Malay influences."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Waterfront promenade and wooden sampan boats on the Sarawak River, Kuching, Malaysia"
 tagline: "Sarawak's River City — Orangutans, Museums, and Kolo Mee"
 region: east-malaysia
 bestMonths:

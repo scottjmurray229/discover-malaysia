@@ -3,6 +3,7 @@ title: George Town
 description: "Penang's UNESCO World Heritage city in detail — the clan houses, the street art, the mosques and temples within walking distance, and the world-class hawker food of the heritage core."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Street art murals and heritage shophouses of George Town, Penang, Malaysia"
 tagline: "UNESCO Heritage Walks, Clan Houses, and Penang's Street Art"
 region: west-malaysia
 bestMonths:

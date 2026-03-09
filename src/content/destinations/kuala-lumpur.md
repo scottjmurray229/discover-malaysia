@@ -3,6 +3,7 @@ title: Kuala Lumpur
 description: "KL delivers Petronas Towers, Batu Caves, and the world's best street food — a megacity that rewards every budget and travel style."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Petronas Twin Towers at night framed by KLCC Park fountains, Kuala Lumpur, Malaysia"
 tagline: "Towers, Temples, and the World's Best Street Food"
 region: west-malaysia
 bestMonths:

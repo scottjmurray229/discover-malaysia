@@ -3,6 +3,7 @@ title: Taman Negara
 description: "The world's oldest rainforest at 130 million years old — canopy walks, wildlife night walks, river journeys into primary jungle, and the silence of a forest that predates the dinosaurs."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Ancient rainforest canopy walkway in Taman Negara National Park, Malaysia"
 tagline: "The World's Oldest Rainforest — 130 Million Years of Jungle"
 region: west-malaysia
 bestMonths:

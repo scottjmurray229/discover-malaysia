@@ -3,6 +3,7 @@ title: Johor Bahru
 description: "Malaysia's southern gateway — cheap food, massive malls, LEGOLAND, and the most convenient launch point for a day trip across the causeway to Singapore."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Sultan Abu Bakar Mosque and Johor Bahru waterfront, Malaysia"
 tagline: "Southern Gateway — Singapore Day Trips and Cheap Malaysian Food"
 region: west-malaysia
 bestMonths:

@@ -3,6 +3,7 @@ title: Mulu
 description: "UNESCO World Heritage caves in the heart of Sarawak — the world's largest cave passage, the Pinnacles rock spires, and the nightly bat exodus of millions of wrinkle-lipped bats."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Sarawak Chamber cave entrance and deer cave bat exodus at dusk, Mulu, Malaysia"
 tagline: "The World's Greatest Caves and a Million-Bat Exodus"
 region: east-malaysia
 bestMonths:
