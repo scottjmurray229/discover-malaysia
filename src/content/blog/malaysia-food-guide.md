@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
-category: "Food"
+category: "food"
 tags:
   - "malaysia food"
   - "hawker food"

@@ -3,7 +3,7 @@ title: "10-Day Malaysia Itinerary — KL, Penang, Langkawi, and the Best of the 
 description: "The definitive 10-day Malaysia trip: Kuala Lumpur's towers and street food, Penang's UNESCO heritage and hawker culture, and Langkawi's island hopping and cable car. Prices, logistics, and daily plans included."
 pubDate: 2026-03-01
 dateModified: 2026-03-08
-category: destination
+category: "destination"
 author: Scott
 draft: false
 fmContentType: blog

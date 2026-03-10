@@ -5,7 +5,7 @@ pubDate: 2026-03-08
 dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
-category: "Wildlife"
+category: "wildlife"
 tags:
   - "borneo wildlife"
   - "orangutans"

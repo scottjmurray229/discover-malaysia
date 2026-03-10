@@ -3,7 +3,7 @@ title: "Malaysia Packing List — What to Bring for Beaches, Cities, Jungle, and
 description: "The definitive Malaysia packing list for every travel style — what to pack for KL and Penang, east coast island diving, Taman Negara jungle trekking, and Borneo wildlife."
 pubDate: 2026-03-01
 dateModified: 2026-03-08
-category: practical
+category: "practical"
 author: Scott
 draft: false
 fmContentType: blog
