@@ -2,7 +2,6 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
 import scottImg from '../../images/scott-murray.jpg';
-import jeniceImg from '../../images/jenice-murray.jpg';
 ---
 
 <BaseLayout
@@ -66,20 +65,6 @@ import jeniceImg from '../../images/jenice-murray.jpg';
           <div class="profile-stat"><div class="profile-stat-num">15</div><div class="profile-stat-label">Destinations</div></div>
           <div class="profile-stat"><div class="profile-stat-num">Both</div><div class="profile-stat-label">Coasts covered</div></div>
           <div class="profile-stat"><div class="profile-stat-num">40+</div><div class="profile-stat-label">Countries</div></div>
-        </div>
-      </div>
-    </div>
-    <div class="profile-card reveal">
-      <div class="profile-banner jenice"><div class="profile-banner-bg"></div></div>
-      <Image src={jeniceImg} alt="Jenice Murray" class="profile-avatar jenice-av" width={96} height={96} format="webp" loading="lazy" />
-      <div class="profile-body">
-        <div class="profile-name">Jenice Murray</div>
-        <div class="profile-role">Co-author · Travel Photographer · The Local Perspective</div>
-        <p class="profile-bio">Filipina from Angeles City, Pampanga — grew up travelling within Southeast Asia, where the region feels like home. Malaysia's food diversity (Malay, Chinese, Indian, Peranakan — all in one hawker centre) is her definition of a perfect food destination. Has eaten at every famous hawker stall in Penang at least once and has strong opinions about char kway teow. The Peranakan culture of Penang and Malacca resonates with her — the mixing of Chinese and Malay cultures over generations mirrors aspects of Filipino cultural fusion. Borneo felt completely different from the peninsula; the orangutans at Sepilok were one of the most moving wildlife experiences of her life.</p>
-        <div class="profile-stats">
-          <div class="profile-stat"><div class="profile-stat-num">Penang</div><div class="profile-stat-label">Hawker expert</div></div>
-          <div class="profile-stat"><div class="profile-stat-num">Borneo</div><div class="profile-stat-label">Wildlife highlight</div></div>
-          <div class="profile-stat"><div class="profile-stat-num">Pampanga</div><div class="profile-stat-label">Hometown</div></div>
         </div>
       </div>
     </div>
@@ -281,10 +266,10 @@ import jeniceImg from '../../images/jenice-murray.jpg';
     background: white;
   }
   .profile-inner {
-    max-width: 1120px;
+    max-width: 560px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
   }
   .profile-card {
