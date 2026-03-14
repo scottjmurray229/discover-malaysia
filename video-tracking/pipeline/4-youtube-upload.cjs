@@ -7,7 +7,7 @@
  *
  * SETUP REQUIRED:
  *   1. Go to https://console.cloud.google.com
- *   2. Create project "Discover Philippines"
+ *   2. Create project "Discover Malaysia"
  *   3. Enable "YouTube Data API v3"
  *   4. Create OAuth 2.0 credentials (type: Desktop app)
  *   5. Download the JSON, save as video-tracking/pipeline/client_secret.json
@@ -71,20 +71,20 @@ function generateMetadata(filename) {
 
   if (type === 'dest') {
     return {
-      title: `${title} Philippines Travel Guide ${year} | Real Prices & Honest Tips`,
+      title: `${title} Malaysia Travel Guide ${year} | Real Prices & Local Tips`,
       description: generateDestDescription(slug, title, year),
       tags: generateDestTags(slug, title, dest),
       categoryId: '19', // Travel & Events
       privacyStatus: 'private', // Set to private first, review before publishing
-      playlist: `${dest?.region || 'philippines'}-destinations`,
+      playlist: `${dest?.region || 'malaysia'}-destinations`,
     };
   }
 
   if (type === 'pillar') {
     return {
-      title: `${title} — Philippines ${year}`,
-      description: `${title}\n\nFull guide: https://discoverphilippines.com/${slug}/`,
-      tags: [`Philippines ${slug}`, 'Philippines travel', `Philippines ${year}`],
+      title: `${title} — Malaysia ${year}`,
+      description: `${title}\n\nFull guide: https://discoveringmalaysia.info/${slug}/`,
+      tags: [`Malaysia ${slug}`, 'Malaysia travel', `Malaysia ${year}`],
       categoryId: '19',
       privacyStatus: 'private',
       playlist: 'travel-tips',
@@ -93,9 +93,9 @@ function generateMetadata(filename) {
 
   if (type === 'short') {
     return {
-      title: `${title} Philippines 🇵🇭 #shorts`,
-      description: `${title} — Full guide: https://discoverphilippines.com/destinations/${slug}/`,
-      tags: [`${title} Philippines`, 'Philippines travel', 'shorts'],
+      title: `${title} Malaysia ✈️ #shorts`,
+      description: `${title} — Full guide: https://discoveringmalaysia.info/destinations/${slug}/`,
+      tags: [`${title} Malaysia`, 'Malaysia travel', 'shorts'],
       categoryId: '19',
       privacyStatus: 'private',
       playlist: 'shorts',
@@ -105,37 +105,36 @@ function generateMetadata(filename) {
   return {
     title: filename.replace('.mp4', ''),
     description: '',
-    tags: ['Philippines travel'],
+    tags: ['Malaysia travel'],
     categoryId: '19',
     privacyStatus: 'private',
   };
 }
 
 function generateDestDescription(slug, title, year) {
-  return `Complete travel guide to ${title}, Philippines — with real prices, how to get there, where to eat, where to stay, and what most tourists miss.
+  return `Complete travel guide to ${title}, Malaysia — with real prices, how to get there, where to eat, where to stay, and what most tourists miss.
 
-We've been traveling to the Philippines for 20+ years. Jenice is Filipina, Scott handles logistics. No sponsored content.
+I've been exploring Malaysia for years with deep local knowledge. No sponsored content.
 
-📖 FULL WRITTEN GUIDE: https://discoverphilippines.com/destinations/${slug}/
-📱 TRIP COMPANION (works offline): https://discoverphilippines.com/companion/
-🆓 FREE BETA ACCESS: https://discoverphilippines.com/founding-explorer/
+📖 FULL WRITTEN GUIDE: https://discoveringmalaysia.info/destinations/${slug}/
+📱 TRIP COMPANION (works offline): https://discoveringmalaysia.info/companion/
 
-#Philippines #${title.replace(/\s+/g, '')} #PhilippinesTravel #TravelGuide${year}`;
+#Malaysia #${title.replace(/\s+/g, '')} #MalaysiaTravel #TravelGuide${year}`;
 }
 
 function generateDestTags(slug, title, dest) {
   const tags = [
-    `${title} Philippines`,
+    `${title} Malaysia`,
     `${title} travel guide`,
-    `Philippines ${new Date().getFullYear()}`,
+    `Malaysia ${new Date().getFullYear()}`,
     `${title} things to do`,
     `where to stay ${title}`,
-    'Philippines travel',
-    'Philippines food',
-    'Philippines budget travel',
-    'Philippines tips',
+    'Malaysia travel',
+    'Malaysia food',
+    'Malaysia budget travel',
+    'Malaysia tips',
   ];
-  if (dest?.region) tags.push(`${dest.region} Philippines`);
+  if (dest?.region) tags.push(`${dest.region} Malaysia`);
   return tags.slice(0, 15); // YouTube max 15 tags
 }
 
@@ -314,7 +313,7 @@ async function uploadThumbnail(videoId, thumbPath, token) {
 // Main
 async function main() {
   console.log('╔══════════════════════════════════════════════════════════╗');
-  console.log('║   YOUTUBE UPLOAD — DISCOVER PHILIPPINES                   ║');
+  console.log('║   YOUTUBE UPLOAD — DISCOVER MALAYSIA               ║');
   console.log('╚══════════════════════════════════════════════════════════╝\n');
 
   if (!fs.existsSync(EDITED_DIR)) {
