@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 80
   midRange: 180
   luxury: 400
-gettingThere: "Fly into Mulu Airport (MZV) — 45-minute flight from Miri, or 1-hour from Kota Kinabalu. No road access to Mulu. All access is by air or longboat from Limbang."
+gettingThere: "Fly into Mulu Airport (MZV) — 45-minute flight from Miri, or 1-hour from Kota Kinabalu. No road access to Mulu. All access is by air or longboat from Limbang. <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "✈️"
     label: "Getting There"
@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM80-800/night ($17-170)"
     personalNote: "The Royal Mulu Resort (park-adjacent, RM500-800/night) is the main upscale option. Several locally-owned guesthouses near the park entrance offer basic but comfortable accommodation from RM80-150/night. Book well in advance — Mulu has limited beds and fills fast."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Mulu+Sarawak+National+Park+Hotel&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Mulu%20Sarawak%20National%20Park%20Hotel"
     badge: "Book on Booking.com"
 faqItems:
   - question: "What makes Mulu National Park special?"

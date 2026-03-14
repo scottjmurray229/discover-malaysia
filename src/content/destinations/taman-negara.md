@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM30-800/night ($6-170)"
     personalNote: "Most accommodation is in Kuala Tahan, the village across the river from the park entrance. Mutiara Taman Negara Resort (inside the park, RM350-800/night) is the only option within park boundaries. Budget chalets and guesthouses in Kuala Tahan from RM30-120/night. The Mutiara is worth it for one night if the budget allows — waking up to the river and jungle is extraordinary."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Taman+Negara+Resort+Kuala+Tahan&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Taman%20Negara%20Resort%20Kuala%20Tahan"
     badge: "Book on Booking.com"
 faqItems:
   - question: "What wildlife can I see in Taman Negara?"

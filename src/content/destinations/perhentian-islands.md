@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 35
   midRange: 100
   luxury: 220
-gettingThere: "Bus from KL to Kuala Besut jetty (5-6 hours), then speedboat to the islands (30-40 minutes, RM70 return). Nearest airport is in Kota Bharu (45 min by taxi from Kuala Besut)."
+gettingThere: "Bus from KL to Kuala Besut jetty (5-6 hours), then speedboat to the islands (30-40 minutes, RM70 return). Nearest airport is in Kota Bharu (45 min by taxi from Kuala Besut). <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "⛴️"
     label: "Getting There"
@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM40-600/night ($9-128)"
     personalNote: "Perhentian Kecil (the smaller island) suits backpackers and budget travelers — Long Beach is the main strip with the lowest prices and most social atmosphere. Perhentian Besar (the bigger island) has more mid-range resort accommodation and quieter beaches. Both islands have good dive operators."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Perhentian+Islands+Resort&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Perhentian%20Islands%20Resort"
     badge: "Book on Booking.com"
 faqItems:
   - question: "When can I visit the Perhentian Islands?"

@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 25
   midRange: 80
   luxury: 250
-gettingThere: "Fly into Langkawi International (LGK) — 1-hour flight from KL. Or take the 2.5-hour high-speed ferry from Penang (RM70 one-way)."
+gettingThere: "Fly into Langkawi International (LGK) — 1-hour flight from KL. Or take the 2.5-hour high-speed ferry from Penang (RM70 one-way). <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "✈️"
     label: "Getting There"
@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM80-1,200/night ($17-255)"
     personalNote: "Pantai Cenang is the main beach strip — most mid-range resorts and guesthouses are here. Pantai Tengah is quieter and slightly more upscale. The Four Seasons Resort sits on its own private bay at the north of the island if you're going luxury."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Langkawi+Beach+Resort&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Langkawi%20Beach%20Resort"
     badge: "Book on Booking.com"
 faqItems:
   - question: "What is the best time to visit Langkawi?"

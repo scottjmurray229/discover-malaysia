@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 25
   midRange: 70
   luxury: 180
-gettingThere: "Fly into Kuching International (KCH) — 1.5-hour flight from KL. Direct flights from Singapore, Johor Bahru, and Kota Kinabalu."
+gettingThere: "Fly into Kuching International (KCH) — 1.5-hour flight from KL. Direct flights from Singapore, Johor Bahru, and Kota Kinabalu. <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "✈️"
     label: "Getting There"
@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM80-600/night ($17-128)"
     personalNote: "The waterfront area (Jalan Main Bazaar and surroundings) puts you in walking distance of the old courthouse, Chinese temples, and the ferry to the Astana. For easy Bako NP access, staying near the Civic Centre area helps. Boutique hotels in old shophouses are the best mid-range option."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Kuching+Waterfront+Hotel&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Kuching%20Waterfront%20Hotel"
     badge: "Book on Booking.com"
 faqItems:
   - question: "What is kolo mee and where do I eat it in Kuching?"

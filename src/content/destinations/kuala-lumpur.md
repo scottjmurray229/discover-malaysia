@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 25
   midRange: 70
   luxury: 200
-gettingThere: "Fly into KLIA (KUL) — the KLIA Ekspres train reaches KL Sentral in 28 minutes for RM55."
+gettingThere: "Fly into KLIA (KUL) — the KLIA Ekspres train reaches KL Sentral in 28 minutes for RM55. <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "✈️"
     label: "Getting There"

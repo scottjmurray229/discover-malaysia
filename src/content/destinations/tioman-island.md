@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM60-600/night ($13-128)"
     personalNote: "Air Batang (ABC) is the best overall village — good mix of guesthouses and dive operators, a walkable beach, and the most social atmosphere. Salang is the dive-obsessed village with the best dive sites nearby. Juara on the east coast is the quiet escape with the best beach."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Tioman+Island+Chalet+Resort&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Tioman%20Island%20Chalet%20Resort"
     badge: "Book on Booking.com"
 faqItems:
   - question: "When is Tioman Island open?"

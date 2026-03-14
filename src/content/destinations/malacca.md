@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 20
   midRange: 55
   luxury: 140
-gettingThere: "Bus from KL TBS terminal takes 2 hours (RM10-15). No train — buses are the main way in. Day trip from KL is very doable."
+gettingThere: "Bus from KL TBS terminal takes 2 hours (RM10-15). No train — buses are the main way in. Day trip from KL is very doable. <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "🚌"
     label: "Getting There"
@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM80-600/night ($17-128)"
     personalNote: "Stay inside the UNESCO heritage zone — Jonker Street area shophouse hotels give you walking access to everything. The best boutique options convert 1920s Straits Chinese shophouses with internal courtyard gardens. Budget guesthouses from RM80/night."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Malacca+Heritage+Hotel+Jonker&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Malacca%20Heritage%20Hotel%20Jonker"
     badge: "Book on Booking.com"
 faqItems:
   - question: "Is Malacca worth visiting from Kuala Lumpur?"

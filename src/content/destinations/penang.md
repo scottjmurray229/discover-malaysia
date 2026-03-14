@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 20
   midRange: 55
   luxury: 150
-gettingThere: "Fly into Penang International (PEN) — 45-minute flight from KL. Or take the KTM train to Butterworth and the 10-minute ferry across to George Town (RM1.20)."
+gettingThere: "Fly into Penang International (PEN) — 45-minute flight from KL. Or take the KTM train to Butterworth and the 10-minute ferry across to George Town (RM1.20). <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "✈️"
     label: "Getting There"

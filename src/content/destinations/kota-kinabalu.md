@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 25
   midRange: 70
   luxury: 200
-gettingThere: "Fly into Kota Kinabalu International (BKI) — direct flights from KL (2.5 hours), Singapore, Manila, and several Chinese cities. No train to Sabah."
+gettingThere: "Fly into Kota Kinabalu International (BKI) — direct flights from KL (2.5 hours), Singapore, Manila, and several Chinese cities. No train to Sabah. <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "✈️"
     label: "Getting There"
@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM80-800/night ($17-170)"
     personalNote: "Stay in the city centre for walkability to the waterfront market and the ferry to the marine park islands. Mid-range options cluster around Gaya Street and the waterfront. Budget guesthouses from RM80/night near Padang Merdeka."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Kota+Kinabalu+City+Hotel&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Kota%20Kinabalu%20City%20Hotel"
     badge: "Book on Booking.com"
 faqItems:
   - question: "How do I climb Mount Kinabalu?"

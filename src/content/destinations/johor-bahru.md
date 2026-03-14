@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM60-500/night ($13-106)"
     personalNote: "Stay near JB Sentral (the train and bus terminal) for easiest connections to the Causeway and central JB. The Medini area near LEGOLAND suits families visiting the theme parks. City centre budget hotels from RM60/night — significantly cheaper than Singapore equivalents."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Johor+Bahru+City+Hotel+JB+Sentral&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Johor%20Bahru%20City%20Hotel%20JB%20Sentral"
     badge: "Book on Booking.com"
 faqItems:
   - question: "Is it worth staying in Johor Bahru instead of Singapore?"

@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 30
   midRange: 100
   luxury: 280
-gettingThere: "Fly into Sandakan Airport (SDK) — 1-hour flight from KL or Kota Kinabalu. Or a scenic 5-hour bus from KK along the Sabah highway."
+gettingThere: "Fly into Sandakan Airport (SDK) — 1-hour flight from KL or Kota Kinabalu. Or a scenic 5-hour bus from KK along the Sabah highway. <a href='https://airasia.prf.hn/click/camref:1101l5F4ob'>AirAsia</a> flies extensive routes from Kuala Lumpur — fares from RM50 (~$11)."
 essentials:
   - icon: "✈️"
     label: "Getting There"
@@ -77,7 +77,7 @@ affiliatePicks:
     type: hotel
     price: "RM200-600/night ($43-128) including meals and river cruises"
     personalNote: "Staying at a river lodge on the Kinabatangan is the core Sandakan experience — dawn and dusk river cruises with a naturalist guide, proboscis monkeys in the riverside trees, and the chance of pygmy elephant encounters. Book at least 2 nights for wildlife. Bilit and Sukau are the main lodge villages."
-    affiliateUrl: "https://www.booking.com/searchresults.html?ss=Kinabatangan+River+Lodge+Sukau&aid=2778866"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=Kinabatangan%20River%20Lodge%20Sukau"
     badge: "Book on Booking.com"
 faqItems:
   - question: "How do I see orangutans in Sandakan?"
