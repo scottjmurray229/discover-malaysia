@@ -76,7 +76,7 @@ export const MALAYSIA_ESSENTIALS: PackingItem[] = [
     category: 'electronics',
     description: 'Secure your data on public WiFi — essential for hotel, airport, and cafe networks abroad.',
     essential: false,
-    affiliateUrl: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=XXXXX&url_id=902',
+    affiliateUrl: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=142311&url_id=902',
     affiliatePrice: '~$3/month',
     affiliatePartner: 'NordVPN',
   },
